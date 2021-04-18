@@ -1,0 +1,131 @@
+.intro{
+    color:var(--light-grey);
+    font-family:OCRAExtended,monospace;
+}
+
+.intro__top{
+    width: 100%;
+    height:300px;
+}
+.greyRectangle{
+    width: 117px;
+    height: 153px;
+    margin: 19px 10px 17px 22px;
+    border-radius: 15px;
+    background-color: #2b2f32;
+}
+.intro__name{
+    display:flex;
+    text-align:center;
+    justify-content:center;
+}
+
+.intro__name .pyramid{
+    display:flex;
+    align-items:center;
+}
+.intro__name .clickMe{
+    width: 117px;
+    /* height: 153px; */
+    margin: 19px 10px 17px 22px;
+    padding: 81px 8px 10px;
+    border-radius: 15px;
+    background-color: #ffca60;
+    display:flex;
+    align-items:flex-end;
+}
+
+.intro__name .clickMe h6{
+    width: 101px;
+    height: 62px;
+    font-family: OCRAExtended;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.03;
+    letter-spacing: -1.5px;
+    text-align: left;
+    color: var(--dark-grey);
+    
+}
+.intro__developers{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.intro__developers .developers{
+    display:flex;
+    justify-content:center;
+    width: 434.5px;
+    height: 66.4px;
+    margin: 29.1px 20.9px 95.5px 116.7px;
+}
+.intro__bottom{
+    display:flex;
+    /* flex-direction:row-reverse;    */
+    justify-content: space-around;
+}
+.intro__bottom .phrase{
+    background-color:var(--dark-grey);
+    font-size:20px;
+    width: 455px;
+    height: 153px;
+    margin: 19px 21px 30px;
+    padding: 30px 57px 30px 30px;
+    border-radius: 15px;
+    text-align:center;
+}
+
+.intro__bottom .phrase h3{
+    width: 512px;
+    height: 82px;
+    /* margin: 55px 4px 20px 20px; */
+    font-size: 40px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.03;
+    letter-spacing: -2px;
+    text-align: left;
+    color: #adadad;
+}
+.intro__bottom .link{
+    background-color:#2b2f32;
+    font-size:20px;
+    width: 255px;
+    height: 100px;
+    margin: 19px 21px 30px;
+    padding: 30px 57px 30px 30px;
+    border-radius: 15px;
+    text-align:center;   
+}
+
+.intro__bottom .link .giveUs{
+    width: 151px;
+    height: 93px;
+    font-family: OCRAExtended;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.03;
+    letter-spacing: -1.5px;
+    text-align: left;
+    color: #adadad;
+}
+
+.intro__bottom .link .join{
+    margin: 0 0;
+    width: 168px;
+    height: 93px;
+    font-family: OCRAExtended;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.03;
+    letter-spacing: -1.5px;
+    text-align: left;
+    color: #adadad;
+}

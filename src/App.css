@@ -1,0 +1,10 @@
+:root{
+    --dark-grey: #222629;
+    --light-grey: #adadad;
+}
+
+.app{
+    background-color: var(--dark-grey);
+    width:100%;
+    height:100%;
+}
