@@ -1,8 +1,8 @@
-import Intro from './Components/Intro';
 import './App.css';
-import About from './Components/About';
-import What from './Components/What';
-import Show from './Components/Show';
+import Intro from './Components/Intro/Intro';
+import About from './Components/About/About';
+import What from './Components/What/What';
+import Show from './Components/Show/Show';
 
 function App() {
   return (
