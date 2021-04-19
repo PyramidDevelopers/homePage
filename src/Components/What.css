@@ -1,0 +1,125 @@
+.what {
+    display: flex;
+}
+
+.what__leftContent {
+    display: flex;
+    flex: 0.6;
+}
+
+.what__left {
+    margin-right: 20px;
+}
+
+.what__leftTop {
+    margin-top: 200px;
+    width: 175px;
+    height: 125px;
+    background-color: #2b2f32;
+    border-radius: 15px;
+}
+
+.what__leftBottom {
+    background-color: #2b2f32;
+    margin-top: 120px;
+    width: 75px;
+    height: 100px;
+    margin-left: 100px;
+    border-radius: 15px;
+}
+
+.what__middle {
+    margin-top: 85px;
+    margin-right: 20px;
+}
+
+.what__middleTop {
+    background-color: #2b2f32;
+    width: 80px;
+    height: 100px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    margin-left: 90px;
+}
+
+.what__middleImage > img {
+    height: 344px;
+    border-radius: 15px;
+}
+
+.what__rightTop {
+    display: flex;
+    margin-top: 85px;
+    margin-bottom: 15px;
+}
+
+.what__rightTopImage > img {
+    width: 150px;
+    border-radius: 15px;
+}
+
+.what__rightTopRight {
+    background-color: #2b2f32;
+    width: 80px;
+    height: 100px;
+    border-radius: 15px;
+    margin-top: 125px;
+    margin-left: 15px;
+}
+
+.what__rightBottomImage > img {
+    height: 215px;
+    width: 245px;
+    border-radius: 15px;
+}
+
+.what__rightBottomRight {
+    margin-top: 15px;
+    margin-left: 150px;
+    border-radius: 15px;
+    background-color: #2b2f32;
+    width: 200px;
+    height: 100px;
+}
+
+.what__rightContent {
+    margin-top: 70px;
+    /* margin-left: calc(100% - 1300px); */
+    margin-left: 5vw;
+}
+
+.what__rightContentTop > h1 {
+    color: #60ffba;
+    font-size: 60px;
+}
+
+.what__rightContentTop {
+    margin-top: 60px;
+    color: #60ffba;
+}
+
+p {
+    margin-top: 50px;
+    color: #adadad;
+}
+
+.what__rightContentBottom {
+    display: flex;
+    margin-top: 77px;
+    margin-left: 290px;
+}
+
+.what__rightContentBottomLeft {
+    background-color: #2b2f32;
+    width: 75px;
+    height: 100px;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.what__rightContentBottomRight {
+    border-radius: 15px;
+    background-color: #2b2f32;
+    width: 75px;
+    height: 100px;
+}
