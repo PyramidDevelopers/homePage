@@ -1,0 +1,25 @@
+.ourTeam{
+    display:flex;
+}
+
+.ourTeam__top{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.ourTeam__top .title p{
+    width: 331px;
+    height: 83px;
+    margin: 125px 4px 96px 5px;;
+    font-family: OCRAExtended;
+    font-size: 80px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.04;
+    letter-spacing: -8px;
+    /* text-align: left; */
+    color: #adadad;
+}
+

@@ -3,6 +3,8 @@ import Intro from './Components/Intro/Intro';
 import About from './Components/About/About';
 import What from './Components/What/What';
 import Show from './Components/Show/Show';
+import Choose from './Components/Choose/Choose';
+import OurTeam from './Components/OurTeam/OurTeam';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <About />
       <What />
       <Show />
+      <Choose />
+      <OurTeam />
     </div>
   );
 }
