@@ -2,6 +2,15 @@ import React from 'react';
 import './Intro.css';
 
 const Intro = () => {
+    var colors = ['red','blue','green'];
+    var counter = 0;
+
+    const onClick = (e) =>{
+        e.preventDefault();
+        document.documentElement.style.setProperty('--general-color', colors[counter]);
+        counter = (counter+1)%3;
+    }
+    
     return (
         <div className="intro">
             <div className="intro__top">
@@ -20,6 +29,7 @@ const Intro = () => {
                 </div>
 
                 <div className="clickMe">
+                    {/* <button onClick={onClick}>CLICK ME&gt;</button> */}
                     <h6>CLICK ME&gt;</h6>
                 </div>
   

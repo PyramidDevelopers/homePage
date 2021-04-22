@@ -1,0 +1,69 @@
+.footer {
+    background-color: #60ffba;
+    padding: 40px;
+    display: flex;
+}
+
+.footer__left {
+    display: flex;
+    flex-direction: row;
+    flex: 0.4;
+}
+
+.footer__left > button {
+    color: #60ffba;
+    background-color: #222629;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.footer__leftContent > h1 {
+    font-weight: 500;
+}
+
+.footer__leftContent > p {
+    margin-top: 5%;
+    color: black;
+}
+
+.footer__middle {
+    display: flex;
+    flex-direction: column;
+    flex: 0.23;
+    margin: 0px 20px;
+}
+
+.footer__middle > h1 {
+    font-weight: 500;
+}
+
+.footer__middle > p {
+    color: black;
+    margin-top: 5%;
+}
+
+.footer__right {
+    display: flex;
+    flex-direction: column;
+    flex: 0.37;
+}
+
+.footer__right > h1 {
+    font-weight: 500;
+}
+
+.footer__right > p {
+    color: black;
+    margin-top: 5%;
+}
+
+.footer__rightIcons {
+    margin-top: 5%;
+}
+
+.footer__rightIcons > .MuiSvgIcon-root {
+    font-size: 35px;
+    margin-right: 20px;
+}

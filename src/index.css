@@ -4,7 +4,7 @@
   
 }
 body{
-  background-color: var(--dark-grey);
+  background-color: var(--general-color);
 }
 @font-face {
     font-family: 'OCRAExtended';

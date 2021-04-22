@@ -1,0 +1,182 @@
+.reachUs {
+    margin-bottom: 100px;
+}
+
+.reachUs__header {
+    text-align: center;
+    color: #adadad;
+}
+
+.reachUs__bodyLeftP {
+    color: #60ffba;
+}
+
+.reachUs__body {
+    display: flex;
+}
+
+.reachUs__bodyLeft {
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    align-items: center;
+}
+
+.reachUs__bodyRight {
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    align-items: center;
+}
+
+.reachUs__form {
+    display: flex;
+    margin-top: 25px;
+}
+
+.reachUs__formInput {
+    width: 35vw;
+    margin-top: 10px;
+    height: 50px;
+    border-radius: 15px;
+    padding: 5px 10px 50px;
+    background-color: #2b2f32;
+    border: none;
+    outline: none;
+    color: #60ffba;
+}
+
+.reachUs__textarea {
+    resize: none;
+    height: 150px;
+}
+
+.reachUs__formLeft {
+    display: flex;
+    flex-direction: column;
+}
+
+::placeholder {
+    color: #60ffba;
+}
+
+.reachUs__formRight {
+    margin-left: 10px;
+    margin-top: 125px;
+}
+
+.reachUs__formRightBox {
+    width: 4vw;
+    height: 105px;
+    background-color: #2b2f32;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.reachUs__formButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 4vw;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    background-color: #60ffba;
+    color: black;
+    padding: 150px 0 15px 0;
+    font-size: 15px;
+    font-weight: none;
+}
+
+.reachUs__bodyRightTop {
+    align-items: center;
+    display: flex;
+}
+
+.reachUs__bodyRightTopHeader {
+    padding: 15px;
+    background-color: #2b2f32;
+    border-radius: 15px;
+    width: 25vw;
+}
+
+.reachUs__bodyRightTopHeaderP {
+    font-size: 18px;
+    color: #60ffba;
+    margin-top: 0px;
+}
+
+.reachUs__bodyRightTopHeaderp {
+    margin-top: 70px;
+    color: #adadad;
+}
+
+.reachUs__bodyRightTopBlocks {
+    margin-left: 10px;
+}
+
+.reachUs__bodyRightTopBlockLeft {
+    width: 85px;
+    height: 100px;
+    background-color: #2b2f32;
+    border-radius: 15px;
+}
+
+.reachUs__bodyRightTopBlockRight {
+    border-radius: 15px;
+    width: 85px;
+    height: 100px;
+    background-color: #2b2f32;
+    margin-left: 95px;
+}
+
+.reachUs__bodyRightBottomTop {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.reachUs__bodyRightBottom {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.reachUs__bodyRightBottomTopIcon {
+    background-color: #60ffba;
+    border-radius: 15px;
+    width: 3vw;
+    text-align: center;
+    padding: 20px;
+}
+
+.reachUs__bodyRightBottomTopIcon > p {
+    margin-top: 5px;
+    color: black;
+}
+
+.reachUs__bodyRightBottomTopText {
+    background-color: #2b2f32;
+    border-radius: 15px;
+    margin-left: 10px;
+    padding: 30px 20px;
+    width: 20vw;
+}
+
+.reachUs__bodyRightBottomTopText > p {
+    text-align: center;
+    color: #60ffba;
+    font-weight: bold;
+    margin-top: 0px;
+    font-size: 25px;
+}
+
+.reachUs__bodyRightBottomBlockRight {
+    border-radius: 15px;
+    width: 85px;
+    height: 100px;
+    background-color: #222629;
+    margin-left: 95px;
+}
