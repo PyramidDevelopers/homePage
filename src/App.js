@@ -1,18 +1,22 @@
-import './App.css';
-import Intro from './Components/Intro/Intro';
-import About from './Components/About/About';
-import What from './Components/What/What';
-import Show from './Components/Show/Show';
+import "./App.css";
+import Intro from "./Components/Intro/Intro";
+import About from "./Components/About/About";
+import What from "./Components/What/What";
+import Show from "./Components/Show/Show";
+import ReachUs from "./Components/ReachUs/ReachUs";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
-    <div className='app'>
+    <div className="app">
       {/* <h1>Pyramid Developers</h1>
       <h2>This is a trial</h2> */}
       <Intro />
       <About />
       <What />
       <Show />
+      <ReachUs />
+      <Footer />
     </div>
   );
 }
