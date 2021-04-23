@@ -1,5 +1,6 @@
 import React from 'react';
 import './Intro.css';
+import { Link } from "react-scroll";
 
 const Intro = () => {
     var colors = ['red','blue','green'];
@@ -49,11 +50,29 @@ const Intro = () => {
 
                 <div className="greyRectangle"></div>
                 <div className="link">
+                <Link
+                    activeClass="active"
+                    to="reachUs"
+                    spy={true}
+                    smooth={true}
+                    offset={-160}
+                    duration={1000}
+                >
                     <h3 className="giveUs">Give Us<br /> A Project<br />&gt;&gt;&gt;</h3>
+                </Link>
                 </div>
 
                 <div className="link">
+                <Link
+                    activeClass="active"
+                    to="reachUs"
+                    spy={true}
+                    smooth={true}
+                    offset={-160}
+                    duration={1000}
+                >
                     <h3 className = "join">Become A<br /> Part Of Us<br />&gt;&gt;&gt;</h3>
+                </Link>
                 </div>
             </div>
 

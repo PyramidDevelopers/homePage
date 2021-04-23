@@ -99,7 +99,9 @@
     padding: 30px 57px 30px 30px;
     border-radius: 15px;
     text-align:center;   
+    cursor:pointer;
 }
+
 
 .intro__bottom .link .giveUs{
     width: 151px;

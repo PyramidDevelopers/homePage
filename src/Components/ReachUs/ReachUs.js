@@ -20,7 +20,7 @@ const ReachUs = () => {
   };
 
   return (
-    <div className="reachUs">
+    <div className="reachUs" id="reachUs">
       <h1 className="reachUs__header">REACH US</h1>
       <div className="reachUs__body">
         <div className="reachUs__bodyLeft">

@@ -19,7 +19,6 @@ function App() {
       <About />
       <What />
       <Show />
-
       <Choose />
       <OurTeam />
       <ReachUs />
