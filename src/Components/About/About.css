@@ -1,9 +1,9 @@
-.greyRectangle{
+.yellowRectangle{
     width: 117px;
     height: 153px;
     margin: 19px 10px 17px 22px;
     border-radius: 15px;
-    background-color: #2b2f32;
+    background-color:var(--general-color);
 }
 
 .about__top{
@@ -14,6 +14,7 @@
 .about__bottom{
     display:flex;
     justify-content:center;
+    margin-block:20px;
 }
 .about__bottom .whoAreWe{
     display:flex;
@@ -22,6 +23,12 @@
 .about__left{
     display:flex;
     justify-content:center;
+}
+/* 
+
+.about__left .text{
+    display:flex;
+    flex-flow:column;
 }
 .about__bottom .whoAreWe__text p{
     width: 412px;
@@ -45,7 +52,7 @@
     width: 69px;
     height: 90px;
     margin: 30px 15px 33px 3px;
-    /* padding: 15px 16px 14px 17px; */
+
     border-radius: 15px;
     background-color: #ffca60;
 }
@@ -64,14 +71,10 @@
     color: var(--dark-grey);
 }
 
-.about__bottom .space{
-    display:flex;
-    align-items:flex-end;
-}
 
 .about__bottom .text .para1{
     width: 584px;
-    /* height: 254px; */
+
     margin: 106px 10px 23px 7px;
     font-family: ISOCPEUR;
     font-size: 27px;
@@ -86,7 +89,7 @@
 
 .about__bottom .text .para2{
     width: 584px;
-    /* height: 223px; */
+
     margin: 68px 10px 84px 7px;
     font-family: ISOCPEUR;
     font-size: 27px;
@@ -97,8 +100,12 @@
     letter-spacing: normal;
     text-align: left;
     color: #adadad;
-}
+} */
 
+.about__bottom .space{
+    display:flex;
+    align-items:flex-end;
+}
 .about__right{
     display:flex;
     flex-flow:row;
@@ -125,26 +132,14 @@
     flex-flow:column;
 }
 
-.greyLongRectangle{
-    width: 262px;
-    height: 153px;
-    margin: 20px 17px 20px 14px;
-    border-radius: 15px;
-    background-color: #2b2f32;
-}
+
 
 .about__right .images__innerRight{
     display:flex;
     align-items:center;
 }
 
-.yellowRectangle{
-    width: 117px;
-    height: 153px;
-    margin: 19px 10px 17px 22px;
-    border-radius: 15px;
-    background-color: #ffca60;
-}
+
 
 .about__right .images__upper img{
     width: 396px;

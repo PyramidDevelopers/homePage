@@ -2,7 +2,88 @@
     display: flex;
 }
 
-.what__leftContent {
+.what__left{
+    display:flex;
+    flex-flow:column;
+}
+
+.what__left .top{
+    display:flex;
+}
+
+.what__left .top__left{
+    display:flex;
+    flex-flow:column;
+}
+
+.what__left .top__left .upper{
+    display:flex;
+    justify-content:flex-end;
+}
+
+.what__left .top__left .lower{
+    display:flex;
+}
+
+.what__left .top__left .lower__left{
+    display:flex;
+    flex-flow:column;
+    align-items:flex-end;
+}
+
+.what__left .top__left .lower__left .row1{
+    display:flex;
+}
+.what__left .top__left .lower__right img{
+    width: 255px;
+    height: 511px;
+    margin: 4px 0 23px 21px;
+    object-fit: fill;
+    border-radius: 15px;
+}
+
+.what__left .top__right{
+    display:flex;
+    flex-flow:column;
+}
+
+.what__left .top__right .upper{
+    display:flex;
+    justify-content:flex-end;
+}
+
+.what__left .top__right .upper__left img{
+    width: 262px;
+    height: 335px;
+    margin: 20px 2px 17px 0px;
+    object-fit: fill;
+    border-radius: 15px;
+}
+
+.what__left .top__right .upper__right{
+    display:flex;
+    flex-flow:column;
+    justify-content:flex-end;
+}
+
+.what__left .top__right .lower img{
+    width: 401px;
+    height: 331px;
+    margin: 0px 25px 25px 21px;
+    object-fit: fill;
+    border-radius: 15px;
+}
+.what__left .bottom{
+    display:flex;
+    flex-flow:row;
+    justify-content:flex-end;
+}
+
+.what__rightContentBottom{
+    display:flex;
+    justify-content:flex-end;
+}
+/* .what__leftContent {
     display: flex;
     flex: 0.6;
 }
@@ -26,8 +107,8 @@
     height: 100px;
     margin-left: 100px;
     border-radius: 15px;
-}
-
+} */
+/* 
 .what__middle {
     margin-top: 85px;
     margin-right: 20px;
@@ -83,22 +164,20 @@
 }
 
 .what__rightContent {
-    margin-top: 70px;
-    /* margin-left: calc(100% - 1300px); */
-    margin-left: 5vw;
-}
+    display:flex;
+    flex-flow:column;
+} */
 
-.what__rightContentTop > h1 {
+/* .what__rightContentTop > h1 {
     color: #60ffba;
     font-size: 60px;
 }
 
-.what__rightContentTop {
-    margin-top: 60px;
-    color: #60ffba;
-}
+.what__rightContent {
+    
+} */
 
-.what__rightContentTop p{
+/* .what__rightContentTop p{
     margin-top: 50px;
     color: #adadad;
 }
@@ -122,4 +201,4 @@
     background-color: #2b2f32;
     width: 75px;
     height: 100px;
-}
+} */

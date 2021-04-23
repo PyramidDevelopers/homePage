@@ -10,7 +10,7 @@ const Member = ({image,name,role}) => {
             </div>
             <div className="member__info">
                 <h5>{name}</h5>
-                <h6>Business Analyst & Core Developer</h6>
+                <h6>{role}</h6>
             </div>
         </div>
     )

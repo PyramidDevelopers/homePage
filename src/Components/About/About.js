@@ -3,6 +3,7 @@ import './About.css';
 import UpperImage from '../../assets/DnD.png';
 import LowerImage from '../../assets/Map.jpg';
 import RightImage from '../../assets/Emergency.jpg';
+import InfoBlock from '../InfoBlock/InfoBlock';
 
 const About = () => {
   return (
@@ -13,30 +14,11 @@ const About = () => {
       </div>
       <div className='about__bottom'>
         <div className='about__left'>
-          <div className='text'>
-            <div className='whoAreWe'>
-              <div className='whoAreWe__text'>
-                <p>WHO ARE WE</p>
-              </div>
-              <div className='whoAreWe__qmark'>
-                <p>?</p>
-              </div>
-            </div>
-            <div className='para1'>
-              <p>
-                Simply put, college students looking to make it big.We develop
-                apps, make website, design interfaces, create backend
-                architecture and much more.
-              </p>
-            </div>
-            <div className='para2'>
-              <p>
-                We may still be in college but we bring a vast skillset to the
-                table.We have made comprehensive and quality digital products
-                from numerous clients.
-              </p>
-            </div>
-          </div>
+          <InfoBlock 
+            title={"WHO ARE WE"} 
+            p1={"Simply put, college students looking to make it big.We develop apps, make website, design interfaces, create backend architecture and much more."} 
+            p2={"We may still be in college but we bring a vast skillset to the table.We have made comprehensive and quality digital products from numerous clients."}
+            />
 
           <div className='space'>
             <div className='greyRectangle'></div>
@@ -70,7 +52,7 @@ const About = () => {
                   />
                 </div>
                 <div className='images__innerBox'>
-                  <div className='greyLongRectangle'></div>
+                  <div className='greyFatRectangle'></div>
                 </div>
               </div>
               <div className='images__innerRight'>
