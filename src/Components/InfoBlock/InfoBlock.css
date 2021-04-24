@@ -38,8 +38,6 @@
     align-items:center;
     width: 69px;
     height: 90px;
-    /* margin: 30px 15px 33px 3px; */
-    /* padding: 15px 16px 14px 17px; */
     border-radius: 15px;
     background-color: #ffca60;
 }
@@ -53,7 +51,7 @@
     font-stretch: normal;
     font-style: normal;
     line-height: 1.03;
-    letter-spacing: -5.9px;
+    /* letter-spacing: -4.9px; */
     text-align: center;
     color: var(--dark-grey);
 }
@@ -98,5 +96,5 @@
     line-height: 1.22;
     letter-spacing: normal;
     text-align: left;
-    color: #adadad;
+    color: var(--light-grey);
 }

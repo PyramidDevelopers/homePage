@@ -1,6 +1,7 @@
 .ourTeam{
     display:flex;
     flex-flow:column;
+    /* margin-bottom:100px; */
 }
 
 .ourTeam__top{
@@ -21,7 +22,7 @@
     line-height: 1.04;
     letter-spacing: -8px;
     /* text-align: left; */
-    color: #adadad;
+    color: var(--light-grey);
 }
 
 .ourTeam__bottom .bottom__upper,.ourTeam__bottom .bottom__lower{

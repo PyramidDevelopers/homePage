@@ -1,9 +1,5 @@
-.yellowRectangle{
-    width: 117px;
-    height: 153px;
-    margin: 19px 10px 17px 22px;
-    border-radius: 15px;
-    background-color:var(--general-color);
+.yellow{
+    background-color:var(--general-color) !important;
 }
 
 .about__top{
@@ -24,83 +20,7 @@
     display:flex;
     justify-content:center;
 }
-/* 
 
-.about__left .text{
-    display:flex;
-    flex-flow:column;
-}
-.about__bottom .whoAreWe__text p{
-    width: 412px;
-    height: 83px;
-    margin: 30px 14px 36px 7px;
-    font-family: OCRAExtended;
-    font-size: 80px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.04;
-    letter-spacing: -8px;
-    text-align: center;
-    color: #ffca60;
-}
-
-.about__bottom .whoAreWe__qmark{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    width: 69px;
-    height: 90px;
-    margin: 30px 15px 33px 3px;
-
-    border-radius: 15px;
-    background-color: #ffca60;
-}
-
-.about__bottom .whoAreWe__qmark p{
-    width: 36px;
-    height: 61px;
-    font-family: OCRAExtended;
-    font-size: 59px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.03;
-    letter-spacing: -5.9px;
-    text-align: center;
-    color: var(--dark-grey);
-}
-
-
-.about__bottom .text .para1{
-    width: 584px;
-
-    margin: 106px 10px 23px 7px;
-    font-family: ISOCPEUR;
-    font-size: 27px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.22;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffca60;
-}
-
-.about__bottom .text .para2{
-    width: 584px;
-
-    margin: 68px 10px 84px 7px;
-    font-family: ISOCPEUR;
-    font-size: 27px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.22;
-    letter-spacing: normal;
-    text-align: left;
-    color: #adadad;
-} */
 
 .about__bottom .space{
     display:flex;
@@ -115,6 +35,11 @@
     display:flex;
 }
 
+.about__right .images__right .socialMedia .greyRectangle{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
 .about__right .images__innerInnerLeftInside{
     width: 262px;
     height: 335px;
@@ -157,11 +82,4 @@
     border-radius: 15px;
 }
 
-/* .images__innerInnerLeftInside{
-    width: 262px;
-    height: 335px;
-    margin: 28px 17px 20px 14px;
-    object-fit: fill;
-    border-radius: 15px;
-} */
 

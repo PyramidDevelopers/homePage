@@ -1,9 +1,12 @@
 import React from 'react';
 import './About.css';
-import UpperImage from '../../assets/DnD.png';
-import LowerImage from '../../assets/Map.jpg';
-import RightImage from '../../assets/Emergency.jpg';
+import UpperImage from '../../assets/who-upper.png';
+import LowerImage from '../../assets/who-lower.png';
+import RightImage from '../../assets/who-right.png';
 import InfoBlock from '../InfoBlock/InfoBlock';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import FacebookIcon from '@material-ui/icons/Facebook';
 
 const About = () => {
   return (
@@ -38,9 +41,9 @@ const About = () => {
           </div>
           <div className='images__right'>
             <div className='socialMedia'>
-              <div className='yellowRectangle'></div>
-              <div className='yellowRectangle'></div>
-              <div className='yellowRectangle'></div>
+              <div className='greyRectangle yellow'><LinkedInIcon style={{fontSize: 75}}/></div>
+              <div className='greyRectangle yellow'><InstagramIcon style={{fontSize: 75}}/></div>
+              <div className='greyRectangle yellow'><FacebookIcon style={{fontSize: 75}}/></div>
             </div>
             <div className='images__inner'>
               <div className='images__innerLeft'>

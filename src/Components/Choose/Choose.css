@@ -88,7 +88,7 @@
     line-height: 1.22;
     letter-spacing: normal;
     text-align: left;
-    color: #adadad;
+    color: var(--light-grey);
 } */
 
 .choose__right{

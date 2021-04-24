@@ -1,7 +1,7 @@
 import React from 'react'
 import './Choose.css';
-import LeftImage from '../../assets/Map.jpg';
-import RightImage from '../../assets/DnD.png';
+import LeftImage from '../../assets/choose-left.png';
+import RightImage from '../../assets/choose-right.png';
 import InfoBlock from '../InfoBlock/InfoBlock';
 
 const Choose = () => {

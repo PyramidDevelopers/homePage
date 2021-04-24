@@ -7,13 +7,13 @@
     width: 100%;
     height:300px;
 }
-.greyRectangle{
+/* .greyRectangle{
     width: 117px;
     height: 153px;
     margin: 19px 10px 17px 22px;
     border-radius: 15px;
-    background-color: #2b2f32;
-}
+    background-color: var(--grey);
+} */
 .intro__name{
     display:flex;
     text-align:center;
@@ -88,10 +88,10 @@
     line-height: 1.03;
     letter-spacing: -2px;
     text-align: left;
-    color: #adadad;
+    color: var(--light-grey);
 }
 .intro__bottom .link{
-    background-color:#2b2f32;
+    background-color:var(--grey);
     font-size:20px;
     width: 255px;
     height: 100px;
@@ -114,7 +114,7 @@
     line-height: 1.03;
     letter-spacing: -1.5px;
     text-align: left;
-    color: #adadad;
+    color: var(--light-grey);
 }
 
 .intro__bottom .link .join{
@@ -129,5 +129,5 @@
     line-height: 1.03;
     letter-spacing: -1.5px;
     text-align: left;
-    color: #adadad;
+    color: var(--light-grey);
 }

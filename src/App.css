@@ -1,5 +1,6 @@
 :root{
     --dark-grey: #222629;
+    --grey: #2b2f32;
     --light-grey: #adadad;
     --general-color: #ffca60;
 }
@@ -7,20 +8,21 @@
 .app{
     width:100%;
     height:100%;
+    overflow:hidden;
 }
 .darkRectangle{
     width: 120px;
     height: 153px;
-    margin: 20px 0;
+    /* margin: 20px 10px; */
     border-radius: 15px;
-    background-color: #222629;
+    background-color:var(--dark-grey);
 }
 .greyRectangle{
     width: 117px;
     height: 153px;
-    margin: 20px 0;
+    margin: 20px 20px;
     border-radius: 15px;
-    background-color: #2b2f32;
+    background-color: var(--grey);
 }
 
 .greyFatRectangle{
@@ -28,7 +30,7 @@
     height: 153px;
     margin: 20px 17px 20px 14px;
     border-radius: 15px;
-    background-color: #2b2f32;
+    background-color: var(--grey);
 }
 
 .greyLongRectangle{
@@ -36,7 +38,7 @@
     height: 326px;
     margin: 20px 20px;
     border-radius: 15px;
-    background-color: #2b2f32;
+    background-color: var(--grey);
 }
 .no-border{
     border-radius:0px !important;

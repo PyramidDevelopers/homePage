@@ -1,8 +1,8 @@
 import React from 'react';
 import './What.css';
-import UpperImage from '../../assets/DnD.png';
-import LowerImage from '../../assets/Map.jpg';
-import LeftImage from '../../assets/Emergency.jpg';
+import UpperImage from '../../assets/what-upper.png';
+import LowerImage from '../../assets/what-lower.png';
+import LeftImage from '../../assets/what-left.png';
 import InfoBlock from '../InfoBlock/InfoBlock';
 
 const What = () => {
