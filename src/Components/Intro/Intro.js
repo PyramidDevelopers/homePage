@@ -3,7 +3,7 @@ import './Intro.css';
 import { Link } from "react-scroll";
 
 const Intro = () => {
-    var colors = ['#ffca60','#EB67BA','#D5EC5F','#ED5C84','#73EFBA','#B878FD','#61EFFC','#F1735F'];
+    var colors = ['#ffca60','#FF60BB','#DBFF60','#FF6085','#60FFBA','#B460FF','#60EFFF','#FF7660'];
     var counter = 0;
 
     const onClick = (e) =>{
