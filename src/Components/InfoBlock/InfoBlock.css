@@ -39,7 +39,7 @@
     width: 69px;
     height: 90px;
     border-radius: 15px;
-    background-color: #ffca60;
+    background-color: var(--general-color);
 }
 
 .infoblock .title__qmark p{
@@ -74,7 +74,7 @@
     line-height: 1.22;
     letter-spacing: normal;
     text-align: left;
-    color: #ffca60;
+    color: var(--general-color);
 }
 
 .infoblock .text .para2{

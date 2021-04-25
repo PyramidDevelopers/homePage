@@ -5,59 +5,67 @@ import FacebookIcon from "@material-ui/icons/Facebook";
 import "./Footer.css";
 
 const Footer = () => {
-return (
-	<div className="footer">
-		<div className="leftButton">
-		<button className="leftButton__clickMe">
-			<p>CLICK ME &gt;</p>
-		</button>
+	var colors = ['#ffca60','#EB67BA','#D5EC5F','#ED5C84','#73EFBA','#B878FD','#61EFFC','#F1735F'];
+    var counter = 0;
+
+    const onClick = (e) =>{
+        e.preventDefault();
+        document.documentElement.style.setProperty('--general-color', colors[counter]);
+        counter = (counter+1)%8;
+    }
+	return (
+		<div className="footer">
+			<div className="leftButton">
+			<button onClick={onClick}className="leftButton__clickMe">
+				<p>CLICK ME&gt;</p>
+			</button>
+			</div>
+		<div className="footer__left">
+			{/* <div className="footer__leftContent"> */}
+			<h1>ABOUT US</h1>
+			<p>
+				Pyramid Developers are a student <br />
+				based community of problem <br />
+				solvers, specializing in providing <br />
+				end-to-end solutions. Our <br />
+				team can help you fulfill your <br />
+				digital requirements such as <br />
+				Android and iOS applications and <br />
+				websites.
+			</p>
+			{/* </div> */}
 		</div>
-	<div className="footer__left">
-		{/* <div className="footer__leftContent"> */}
-		<h1>ABOUT US</h1>
-		<p>
-			Pyramid Developers are a student <br />
-			based community of problem <br />
-			solvers, specializing in providing <br />
-			end-to-end solutions. Our <br />
-			team can help you fulfill your <br />
-			digital requirements such as <br />
-			Android and iOS applications and <br />
-			websites.
-		</p>
-		{/* </div> */}
-	</div>
 
-	<div className="footer__middle">
-		<h1>USEFUL LINKS</h1>
-		<p>Who are we?</p>
-		<p>What do we do?</p>
-		<p>Show me what you got</p>
-		<p>Why choose us</p>
-		<p>Our Team</p>
-		<p>Reach Us</p>
-		<p>Looking to work?</p>
-	</div>
-
-	<div className="footer__right">
-		<h1>STAY CONNECTED</h1>
-		<p>
-			Address: No.1, Vibha, Bhadrappa Layout <br />
-			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Nagashettihalli, Bangalore - 560094 <br />
-		</p>
-		<p>
-			Phone: 9845309776 <br />
-			Email: developpyramid@gmail.com
-		</p>
-
-		<div className="footer__rightIcons">
-			<LinkedInIcon style={{fontSize:60}}/>
-			<InstagramIcon style={{fontSize:60}}/>
-			<FacebookIcon style={{fontSize:60}}/>
+		<div className="footer__middle">
+			<h1>USEFUL LINKS</h1>
+			<p>Who are we?</p>
+			<p>What do we do?</p>
+			<p>Show me what you got</p>
+			<p>Why choose us</p>
+			<p>Our Team</p>
+			<p>Reach Us</p>
+			<p>Looking to work?</p>
 		</div>
-	</div>
-	</div>
-);
+
+		<div className="footer__right">
+			<h1>STAY CONNECTED</h1>
+			<p>
+				Address: No.1, Vibha, Bhadrappa Layout <br />
+				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Nagashettihalli, Bangalore - 560094 <br />
+			</p>
+			<p>
+				Phone: 9845309776 <br />
+				Email: developpyramid@gmail.com
+			</p>
+
+			<div className="footer__rightIcons">
+				<LinkedInIcon style={{fontSize:60}}/>
+				<InstagramIcon style={{fontSize:60}}/>
+				<FacebookIcon style={{fontSize:60}}/>
+			</div>
+		</div>
+		</div>
+	);
 };
 
 export default Footer;

@@ -31,7 +31,7 @@
     line-height: 1.03;
     letter-spacing: -3.3px;
     text-align: left;
-    color: #ffca60;
+    color: var(--general-color);
 }
 
 .member .member__info h6{
@@ -46,5 +46,5 @@
     line-height: 1;
     letter-spacing: -1.8px;
     text-align: center;
-    color: #ffca60;
+    color: var(--general-color);
 }

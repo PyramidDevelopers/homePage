@@ -7,13 +7,6 @@
     width: 100%;
     height:300px;
 }
-/* .greyRectangle{
-    width: 117px;
-    height: 153px;
-    margin: 19px 10px 17px 22px;
-    border-radius: 15px;
-    background-color: var(--grey);
-} */
 .intro__name{
     display:flex;
     text-align:center;
@@ -30,7 +23,7 @@
     margin: 19px 10px 17px 22px;
     padding: 81px 8px 10px;
     border-radius: 15px;
-    background-color: #ffca60;
+    background-color:var(--general-color);
     display:flex;
     align-items:flex-end;
 }
@@ -49,6 +42,26 @@
     color: var(--dark-grey);
     
 }
+
+.intro__name .clickMe button{
+    width: 101px;
+    height: 62px;
+    font-family: OCRAExtended;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.03;
+    letter-spacing: -1.5px;
+    text-align: left;
+    background-color:var(--general-color);
+    border:none;
+    outline:none;
+    cursor:pointer;
+    color: var(--dark-grey);
+    
+}
+
 .intro__developers{
     display:flex;
     justify-content:center;

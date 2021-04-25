@@ -3,13 +3,13 @@ import './Intro.css';
 import { Link } from "react-scroll";
 
 const Intro = () => {
-    var colors = ['red','blue','green'];
+    var colors = ['#ffca60','#EB67BA','#D5EC5F','#ED5C84','#73EFBA','#B878FD','#61EFFC','#F1735F'];
     var counter = 0;
 
     const onClick = (e) =>{
         e.preventDefault();
         document.documentElement.style.setProperty('--general-color', colors[counter]);
-        counter = (counter+1)%3;
+        counter = (counter+1)%8;
     }
     
     return (
@@ -30,8 +30,8 @@ const Intro = () => {
                 </div>
 
                 <div className="clickMe">
-                    {/* <button onClick={onClick}>CLICK ME&gt;</button> */}
-                    <h6>CLICK ME&gt;</h6>
+                    <button onClick={onClick}>CLICK ME&gt;</button>
+                    {/* <h6>CLICK ME&gt;</h6> */}
                 </div>
   
             </div>
