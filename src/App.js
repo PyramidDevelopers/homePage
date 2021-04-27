@@ -1,4 +1,5 @@
 import "./App.css";
+import NewIntro from './Components/NewIntro/Intro'
 import Intro from "./Components/Intro/Intro";
 import About from "./Components/About/About";
 import What from "./Components/What/What";
@@ -15,6 +16,7 @@ function App() {
     <div className="app">
       {/* <h1>Pyramid Developers</h1>
       <h2>This is a trial</h2> */}
+	<NewIntro />
       <Intro />
       <About />
       <What />
