@@ -114,7 +114,7 @@ const Show = () => {
                                 </div> */}
                             </div>
                             <div className="rightMid__image">
-                                <img src={nearVibe} alt=""/>
+                                <img src={vitalMinds} alt=""/>
                             </div>
                         </div>
                         <div className="center__rightMid">
