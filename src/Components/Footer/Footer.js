@@ -5,7 +5,7 @@ import FacebookIcon from "@material-ui/icons/Facebook";
 import "./Footer.css";
 
 const Footer = () => {
-	var colors = ['#ffca60','#FF60BB','#DBFF60','#FF6085','#60FFBA','#B460FF','#60EFFF','#FF7660'];
+	var colors = ['#FF60BB','#DBFF60','#FF6085','#60FFBA','#B460FF','#60EFFF','#FF7660','#ffca60'];
     var counter = 0;
 
     const onClick = (e) =>{

@@ -30,6 +30,7 @@ const Intro = () => {
                 </div>
 
                 <div className="clickMe">
+                    {/* pull just the button */}
                     <button onClick={onClick}>CLICK ME&gt;</button>
                     {/* <h6>CLICK ME&gt;</h6> */}
                 </div>

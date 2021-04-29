@@ -17,6 +17,10 @@
     border-radius: 15px;
     background-color:var(--dark-grey);
 }
+
+.darkChange{
+    background-color:var(--dark-grey) !important;
+}
 .greyRectangle{
     width: 117px;
     height: 153px;

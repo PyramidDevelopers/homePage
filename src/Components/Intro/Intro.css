@@ -1,6 +1,6 @@
 .intro{
     color:var(--light-grey);
-    font-family:OCRAExtended,monospace;
+    font-family:Scared,monospace;
 }
 
 .intro__top{
@@ -11,6 +11,13 @@
     display:flex;
     text-align:center;
     justify-content:center;
+}
+
+.intro__name .greyRectangle{
+    display:flex;
+    /* flex-direction:column; */
+    justify-content:center;
+    align-items:center;
 }
 
 .intro__name .pyramid{
@@ -28,7 +35,11 @@
     align-items:flex-end;
 }
 
-.intro__name .clickMe h6{
+.smaller{
+    width:75px !important;
+    height:75px !important;
+}
+/* .intro__name .clickMe h6{
     width: 101px;
     height: 62px;
     font-family: OCRAExtended;
@@ -41,8 +52,9 @@
     text-align: left;
     color: var(--dark-grey);
     
-}
+} */
 
+/*The css for the button is here pull this*/
 .intro__name .clickMe button{
     width: 101px;
     height: 62px;
