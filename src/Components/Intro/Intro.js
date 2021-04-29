@@ -95,7 +95,7 @@ const Intro = () => {
           </Link>
         </div>
       </div> */}
-      <Grid />
+      {/* <Grid /> */}
     </div>
   );
 };

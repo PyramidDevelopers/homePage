@@ -14,3 +14,11 @@ body{
   font-family: 'ISOCPEUR';
   src: local("ISOCPEUR"),url(./fonts/isocpeur.ttf) format("truetype");
 }
+@font-face {
+  font-family: 'JdScarabeoLightRegular';
+  src: local("JdScarabeoLightRegular-EZVl"),url(./fonts/JdScarabeoLightRegular-EZVl.ttf) format("truetype");
+}
+@font-face {
+  font-family: 'Scared';
+  src: local("Scared"),url(./fonts/jd_scarabeo_light.ttf) format("truetype");
+}

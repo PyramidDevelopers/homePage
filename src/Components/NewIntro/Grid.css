@@ -23,6 +23,13 @@
   justify-content: center;
   z-index: -1;
 }
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--grey);
+  border-radius: 15px;
+}
 .grid-item-color {
   /* padding: 0px 10px 5px; */
   align-items: center;
@@ -41,14 +48,23 @@
 .grid-item-clickme {
   cursor: pointer;
   display: flex;
-  align-items: bottom;
+  align-items: flex-end;
 }
 
 .grid-item-clickme > span {
-  font-size: 20px;
-  padding-top: 5rem;
-  font-weight: 500;
-  font-family: 'OCRAExtended';
+  padding-left: 10px;
+  padding-bottom: 10px;
+  width: 101px;
+  height: 62px;
+  font-family: OCRAExtended;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.03;
+  letter-spacing: -1.5px;
+  text-align: left;
+  color: var(--dark-grey);
 }
 .react-grid-layout {
   position: relative;
@@ -82,7 +98,36 @@
   -o-user-select: none;
   user-select: none;
 }
-
+.link {
+  display: flex;
+  align-items: center;
+}
+.giveUs {
+  height: 93px;
+  padding-left: 30px;
+  font-family: OCRAExtended;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.03;
+  letter-spacing: -1.5px;
+  text-align: left;
+  color: #adadad;
+}
+.join {
+  height: 93px;
+  padding-left: 30px;
+  font-family: OCRAExtended;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.03;
+  letter-spacing: -1.5px;
+  text-align: left;
+  color: #adadad;
+}
 /* .react-grid-item > .react-resizable-handle {
   position: absolute;
   width: 20px;

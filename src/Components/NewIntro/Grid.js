@@ -5,6 +5,7 @@ import { layouts } from './layouts';
 import { Responsive, WidthProvider } from 'react-grid-layout';
 import colors from './Colors';
 import { Link } from 'react-scroll';
+import Logo from './Logo';
 const ResponsiveReactGridLayout = WidthProvider(Responsive);
 
 const THEME = ['yellow', 'pink', 'green'];
@@ -20,7 +21,7 @@ const THEME_COLOR = [
 ];
 // const THEME = ['pink', 'green'];
 function Grid() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(1);
   const [color, setColor] = useState(THEME[0]);
   const changeLayout = () => {
     document.documentElement.style.setProperty(
@@ -44,13 +45,20 @@ function Grid() {
           </div>
         );
       }
+      if (item.i == '31') {
+        return (
+          <div key='31' className='logo'>
+            <Logo color={count}></Logo>
+          </div>
+        );
+      }
       if (item.i == '39') {
         return (
           <div
             key='39'
             className='grid-item-color grid-item-clickme'
             onClick={changeLayout}>
-            <span>CLICK ME &gt;</span>
+            <span>CLICK ME&gt;</span>
           </div>
         );
       }
@@ -92,11 +100,26 @@ function Grid() {
           </div>
         );
       }
-      return (
-        <div key={item.i} className='grid-item'>
-          <span>{item.i}</span>
-        </div>
-      );
+      if (item.i == '66') {
+        return (
+          <div key='66' className='link'>
+            <Link
+              activeClass='active'
+              to='reachUs'
+              spy={true}
+              smooth={true}
+              offset={-160}
+              duration={1000}>
+              <h3 className='join'>
+                Become A<br /> Part Of Us
+                <br />
+                &gt;&gt;&gt;
+              </h3>
+            </Link>
+          </div>
+        );
+      }
+      return <div key={item.i} className='grid-item'></div>;
     });
   };
   return (
