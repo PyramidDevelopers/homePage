@@ -1,10 +1,11 @@
-import React from 'react'
-import './Intro.css'
+import React from 'react';
+import Grid from './Grid';
+import './Intro.css';
 
 const Intro = () => {
-    return (
-        <div className="intro">
-            <div className="intro__title">
+  return (
+    <div className='intro'>
+      {/* <div className="intro__title">
                 <div className="intro__titleLetter">
                     <span>P</span>
                 </div>
@@ -52,9 +53,10 @@ const Intro = () => {
                     a student community of <br />
                     digital revolutionaries
                 </span>
-            </div>
-        </div>
-    )
-}
+            </div> */}
+      <Grid />
+    </div>
+  );
+};
 
-export default Intro
+export default Intro;
