@@ -182,7 +182,7 @@ width: 65px;
 }
 
 .show__bottom .rightMid__text h4{
-    width: 206px;
+    /* width: 206px; */
     height: 41px;
     margin: 7px 51px 7px 0;
     font-family: OCRAExtended;
