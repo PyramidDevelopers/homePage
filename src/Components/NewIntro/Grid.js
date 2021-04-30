@@ -8,7 +8,7 @@ import { Link } from 'react-scroll';
 import Logo from './Logo';
 const ResponsiveReactGridLayout = WidthProvider(Responsive);
 
-const THEME = ['yellow', 'pink', 'green'];
+const THEME = ['yellow', 'pink', 'green', 'peach', 'dark_green'];
 const THEME_COLOR = [
   '#ffca60',
   '#FF60BB',
@@ -28,7 +28,7 @@ function Grid() {
       '--general-color',
       THEME_COLOR[count]
     );
-    setCount((count + 1) % 3);
+    setCount((count + 1) % 5);
     console.log(count);
     setColor(THEME[count]);
   };

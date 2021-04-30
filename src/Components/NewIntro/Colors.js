@@ -116,5 +116,60 @@ const green = {
   name,
   letters,
 };
-const colors = { orange, yellow, pink, green };
+
+const peach = {
+  invisible: [
+    '1',
+    '5',
+    '9',
+    '10',
+    '14',
+    '16',
+    '17',
+    '20',
+    '21',
+    '23',
+    '25',
+    '26',
+    '29',
+    '42',
+    '46',
+    '48',
+    '49',
+    '54',
+    '55',
+    '57',
+    '58',
+  ],
+  name,
+  letters,
+};
+
+const dark_green = {
+  invisible: [
+    '1',
+    '5',
+    '9',
+    '10',
+    '14',
+    '16',
+    // '17',
+    '21',
+    '23',
+    '25',
+    '26',
+    '29',
+    '42',
+    '46',
+    '48',
+    '49',
+    '54',
+    '55',
+    '57',
+    '58',
+  ],
+  name,
+  letters,
+};
+const colors = { orange, yellow, pink, green, peach, dark_green };
 export default colors;
