@@ -1,12 +1,12 @@
 .reachUs {
-    margin-block: 100px;
+    /* margin-block: 100px; */
 }
 
-.reachUs .reachUs__top{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    height:200px;
+.reachUs .reachUs__top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
 }
 
 .reachUs__header {
@@ -35,21 +35,21 @@
     align-items: center;
 }
 
-.reachUs__bottomLeftTop{
-    display:flex;
-    justify-content:flex-end;
-    width:100%
+.reachUs__bottomLeftTop {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
 }
-.reachUs__bottomLeftTop p{
-    width: 584px;
-    height: 129px;
+.reachUs__bottomLeftTop p {
+    /* width: 584px;
+    height: 129px; */
     margin: 29px 40px 43px 7px;
     font-family: ISOCPEUR;
     font-size: 27px;
-    font-weight: normal;
+    /* font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    line-height: 1.22;
+    line-height: 1.22; */
     letter-spacing: normal;
     color: var(--general-color);
 }
@@ -63,16 +63,16 @@
     flex-direction: column;
 }
 
-.reachUs__formLeft .Input{
+.reachUs__formLeft .Input {
     width: 584px;
     height: 100px;
     margin: 10px 6px 10px 20px;
-    padding:19px;
+    padding: 19px;
     border-radius: 15px;
     background-color: var(--grey);
 }
 
-.reachUs__formLeft .Input p{
+.reachUs__formLeft .Input p {
     /* width: 111px; */
     height: 25px;
     font-family: OCRAExtended;
@@ -85,7 +85,7 @@
     /* text-align: left; */
     color: var(--general-color);
 }
-.reachUs__formLeft input[type="text"]{
+.reachUs__formLeft input[type='text'] {
     width: 584px;
     height: 50%;
     margin-block: 10px;
@@ -103,17 +103,17 @@
     color: var(--general-color);
 }
 
-.reachUs__formLeft .Inputtextarea{
+.reachUs__formLeft .Inputtextarea {
     height: 326px !important;
     width: 584px;
     height: 100px;
     margin: 10px 6px 10px 20px;
-    padding:19px;
+    padding: 19px;
     border-radius: 15px;
     background-color: var(--grey);
 }
 
-.reachUs textarea{
+.reachUs textarea {
     /* height: 326px !important; */
     width: 584px;
     height: 70%;
@@ -132,25 +132,25 @@
     color: var(--general-color);
 }
 
-.reachUs__formRight{
-    display:flex;
-    flex-flow:column;
-    justify-content:flex-end;
+.reachUs__formRight {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
 }
 
-.reachUs__formRight button{
+.reachUs__formRight button {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    background-color:var(--general-color);
-    width:100%;
-    height:100%;
+    background-color: var(--general-color);
+    width: 100%;
+    height: 100%;
     outline: none;
     border: none;
     border-radius: 15px;
-    cursor:pointer;
-    padding-block:20px;
+    cursor: pointer;
+    padding-block: 20px;
     font-family: OCRAExtended;
     font-size: 30px;
     font-weight: normal;
@@ -162,48 +162,45 @@
     color: var(--dark-grey);
 }
 
-
-
-
-.reachUs__bottomRight{
+.reachUs__bottomRight {
     display: flex;
     flex-direction: column;
-    justify-content:space-between;
+    justify-content: space-between;
     /* align-items: center; */
 }
 
-.reachUs__bottomRight .bottomRight__upper{
-    display:flex;
+.reachUs__bottomRight .bottomRight__upper {
+    display: flex;
 }
 
-.bottomRight__upper .left{
-    display:flex;
-    flex-flow:column;
-    justify-content:space-between;
+.bottomRight__upper .left {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
     width: 548px;
     height: 325px;
     margin: 20px 0px;
     padding: 21px 21px 12px 25px;
     border-radius: 15px;
-    background-color:var(--grey);
+    background-color: var(--grey);
 }
 
-.bottomRight__upper .left .left__topP{
+.bottomRight__upper .left .left__topP {
     width: 426px;
-  height: 31px;
-  margin: 0 76px 132px 0;
-  font-family: OCRAExtended;
-  font-size: 30px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.03;
-  letter-spacing: -3px;
-  text-align: left;
-  color: var(--general-color);
+    height: 31px;
+    margin: 0 76px 132px 0;
+    font-family: OCRAExtended;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.03;
+    letter-spacing: -3px;
+    text-align: left;
+    color: var(--general-color);
 }
 
-.bottomRight__upper .left .left__lowerP{
+.bottomRight__upper .left .left__lowerP {
     width: 502px;
     height: 129px;
     /* margin: 132px 0 0; */
@@ -218,26 +215,26 @@
     color: var(--light-grey);
 }
 
-.reachUs__bottomRight__lower{
-    display:flex;
-    flex-flow:column;
+.reachUs__bottomRight__lower {
+    display: flex;
+    flex-flow: column;
 }
 
-.bottomRight__lower .contact{
-    display:flex;
-    justify-content:center;
-    align-items:center;
+.bottomRight__lower .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.contact .contact__left{
-    background:var(--general-color) !important;
-    display:flex;
-    flex-flow:column;
-    justify-content:center;
-    align-items:center;
+.contact .contact__left {
+    background: var(--general-color) !important;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.contact .contact__left p{
+.contact .contact__left p {
     /* width: 79px;
     height: 31px; */
     margin: 13.6px 0 0;
@@ -252,30 +249,34 @@
     color: var(--dark-grey);
 }
 
-.contact .contact__right{
+.contact .contact__right {
     width: 548px;
     height: 153px;
     /* margin: 20px 12px 20px 11px;
     padding: 56px 35px 56px 25px; */
     border-radius: 15px;
     background-color: var(--grey);
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.contact .contact__right p{
+.contact .contact__right p {
     width: 488px;
-  height: 41px;
-  font-family: OCRAExtended;
-  font-size: 40px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.03;
-  letter-spacing: -4px;
-  text-align: left;
-  color: var(--general-color);
+    height: 41px;
+    font-family: OCRAExtended;
+    font-size: 40px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.03;
+    letter-spacing: -4px;
+    text-align: left;
+    color: var(--general-color);
+}
+
+.textarea {
+    resize: none;
 }
 
 /* 

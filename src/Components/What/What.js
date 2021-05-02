@@ -1,79 +1,83 @@
-import React from 'react';
-import './What.css';
-import UpperImage from '../../assets/what-upper.png';
-import LowerImage from '../../assets/what-lower.png';
-import LeftImage from '../../assets/what-left.png';
-import InfoBlock from '../InfoBlock/InfoBlock';
+import React from 'react'
+import './What.css'
+import UpperImage from '../../assets/what-upper.png'
+import LowerImage from '../../assets/what-lower.png'
+import LeftImage from '../../assets/what-left.png'
+import InfoBlock from '../InfoBlock/InfoBlock'
 
 const What = () => {
-return (
-	<div className='what'>
-		<div className="what__left">
-			<div className="top">
-				<div className="top__left">
-					<div className="upper">
-						<div className="greyRectangle"></div>
-					</div>
-					<div className="lower">
-						<div className="lower__left">
-							<div className="row1">
-								<div className="greyRectangle no-border"></div>
-								<div className="greyRectangle no-border curve-rectangle-right"></div>
-							</div>
-							<div className="darkRectangle"></div>
-							<div className="greyRectangle"></div>
-						</div>
-						<div className="lower__right">
-							<img src={LeftImage} alt=""/>
-						</div>
-					</div>
-				</div>
-				<div className="top__right">
-					<div className="upper">
-						<div className="upper__left">
-							<img src={UpperImage} alt=""/>
-						</div>
-						<div className="upper__right">
-							<div className="greyRectangle"></div>
-						</div>
-					</div>
-					<div className="lower">
-						<img src={LowerImage} alt=""/>
-					</div>
-				</div>
-				<div className="space">
-					<div className="darkRectangle"></div>
-				</div>
-			</div>
-			<div className="bottom">
-				<div className="greyFatRectangle"></div>
-			</div>
-		</div>
+    return (
+        <div className="what flex items-center justify-center">
+            <div className="what__left">
+                <div className="top">
+                    <div className="top__left">
+                        <div className="upper">
+                            <div className="greyRectangle"></div>
+                        </div>
+                        <div className="lower">
+                            <div className="lower__left">
+                                <div className="row1">
+                                    <div className="greyRectangle no-border"></div>
+                                    <div className="greyRectangle no-border curve-rectangle-right"></div>
+                                </div>
+                                <div className="darkRectangle"></div>
+                                <div className="greyRectangle"></div>
+                            </div>
+                            <div className="lower__right">
+                                <img src={LeftImage} alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="top__right">
+                        <div className="upper">
+                            <div className="upper__left">
+                                <img src={UpperImage} alt="" />
+                            </div>
+                            <div className="upper__right">
+                                <div className="greyRectangle"></div>
+                            </div>
+                        </div>
+                        <div className="lower">
+                            <img src={LowerImage} alt="" />
+                        </div>
+                    </div>
+                    <div className="space">
+                        <div className="darkRectangle"></div>
+                    </div>
+                </div>
+                <div className="bottom">
+                    <div className="greyFatRectangle"></div>
+                </div>
+            </div>
 
-	<div className='what__rightContent'>
-	<div className="space">
-		<div className="darkRectangle"></div>
-	</div>
-		<div className='what__rightContentTop'>
-		<InfoBlock 
-			title={"WHAT DO WE DO"}
-			p1={" We make highly customised mobile applicatons which are very efficient and scalable at low cost."}
-			p2={"We use Flutter for our front end which is the latest framework by Google and Firebase for our backend which is one of the world's leading Backend services used by companies like Alibaba, Accenture and Twitch."}
-		/>
-		</div>
-		<div className='what__rightContentBottom'>
-		<div className="greyRectangle"></div>
-		<div className="greyRectangle"></div>
-		</div>
-	</div>
-	</div>
-);
-};
+            <div className="what__rightContent">
+                <div className="space">
+                    <div className="darkRectangle"></div>
+                </div>
+                <div className="what__rightContentTop">
+                    <InfoBlock
+                        title={'WHAT DO WE DO'}
+                        p1={
+                            ' We make highly customised mobile applicatons which are very efficient and scalable at low cost.'
+                        }
+                        p2={
+                            "We use Flutter for our front end which is the latest framework by Google and Firebase for our backend which is one of the world's leading Backend services used by companies like Alibaba, Accenture and Twitch."
+                        }
+                    />
+                </div>
+                <div className="what__rightContentBottom">
+                    <div className="greyRectangle"></div>
+                    <div className="greyRectangle"></div>
+                </div>
+            </div>
+        </div>
+    )
+}
 
-export default What;
+export default What
 
-
-{/* <div className='what__leftContent'>
+{
+    /* <div className='what__leftContent'>
         <div className='what__left'>
           <div className='what__leftTop' />
           <div className='what__leftBottom' />
@@ -110,4 +114,5 @@ export default What;
             <div className='what__rightBottomRight' />
           </div>
         </div>
-      </div> */}
+      </div> */
+}
