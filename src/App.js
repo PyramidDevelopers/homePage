@@ -1,6 +1,5 @@
 import './App.css';
 import NewIntro from './Components/NewIntro/Intro';
-import Intro from './Components/Intro/Intro';
 import About from './Components/About/About';
 import What from './Components/What/What';
 import Show from './Components/Show/Show';
