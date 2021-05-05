@@ -67,7 +67,7 @@ const Show = () => {
 
                                 </div> */}
                             </div>
-                            <div className="leftMid__image">
+                            <div className="leftMid__image w-[200px]">
                                 <img src={nutriFamily} alt="" />
                             </div>
                         </div>
@@ -88,7 +88,7 @@ const Show = () => {
 
                                 </div> */}
                             </div>
-                            <div className="leftMid__image">
+                            <div className="leftMid__image w-[200px]">
                                 <img src={nearVibe} alt="" />
                             </div>
                         </div>
@@ -111,7 +111,7 @@ const Show = () => {
 
                                 </div> */}
                             </div>
-                            <div className="rightMid__image">
+                            <div className="rightMid__image w-[200px]">
                                 <img src={vitalMinds} alt="" />
                             </div>
                         </div>
@@ -133,7 +133,7 @@ const Show = () => {
 
                                 </div> */}
                             </div>
-                            <div className="rightMid__image">
+                            <div className="rightMid__image w-[200px]">
                                 <img src={enermanApp} alt="" />
                             </div>
                         </div>
@@ -151,7 +151,7 @@ const Show = () => {
 
                                 </div> */}
                             </div>
-                            <div className="rightMid__image">
+                            <div className="rightMid__image w-[200px]">
                                 <img src={takeYourTrip} alt="" />
                             </div>
                         </div>

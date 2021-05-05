@@ -22,7 +22,12 @@ const ReachUs = () => {
     return (
         <div className="reachUs flex flex-col items-center" id="reachUs">
             <div className="reachUs__top">
-                <h1 className="reachUs__header">REACH US</h1>
+                <h1
+                    className="reachUs__header text-7xl w-screen text-center"
+                    id="reach"
+                >
+                    REACH US
+                </h1>
             </div>
 
             <div className="reachUs__bottom">
