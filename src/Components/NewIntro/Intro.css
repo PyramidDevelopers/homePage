@@ -1,64 +1,64 @@
 .intro {
-  /* margin-top: 10%; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 7%;
+    /* margin-top: 10%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 10%; */
 }
 
 .intro__title {
-  display: flex;
+    display: flex;
 }
 
 .intro__titleLetter {
-  display: flex;
-  margin-right: 20px;
-  background-color: blue;
-  align-items: center;
-  justify-content: center;
-  width: 90px;
-  height: 131.9px;
-  padding: 0px 10px 5px;
-  background-color: #60ffba;
-  border-radius: 15px;
+    display: flex;
+    margin-right: 20px;
+    background-color: blue;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 131.9px;
+    padding: 0px 10px 5px;
+    background-color: #60ffba;
+    border-radius: 15px;
 }
 
 .intro__titleLetter > span {
-  color: #222629;
-  font-size: 150px;
-  font-weight: bold;
-  font-family: 'OCRAExtended';
+    color: #222629;
+    font-size: 150px;
+    font-weight: bold;
+    font-family: 'OCRAExtended';
 }
 
 .intro__click {
-  cursor: pointer;
-  display: flex;
-  align-items: bottom;
+    cursor: pointer;
+    display: flex;
+    align-items: bottom;
 }
 
 .intro__click > span {
-  font-size: 20px;
-  padding-top: 5rem;
-  font-weight: 500;
-  font-family: 'OCRAExtended';
+    font-size: 20px;
+    padding-top: 5rem;
+    font-weight: 500;
+    font-family: 'OCRAExtended';
 }
 
 .intro__subtitle {
-  /* margin-top: 10px;
+    /* margin-top: 10px;
   padding-left: 16rem;
   margin-left: 31rem; */
-  /* padding-bottom: 50px; */
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+    /* padding-bottom: 50px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 .intro__subtitle > span {
-  font-weight: 500;
-  color: var(--general-color);
-  font-size: 50px;
-  font-family: 'OCRAExtended';
+    font-weight: 500;
+    color: var(--general-color);
+    font-size: 50px;
+    font-family: 'OCRAExtended';
 }
 
 /* .intro__description {
@@ -67,9 +67,9 @@
 } */
 
 .intro__description > span {
-  color: #a6a6a6;
-  font-size: 35px;
-  display: inline-block;
-  padding-top: 10px;
-  font-family: 'OCRAExtended';
+    color: #a6a6a6;
+    font-size: 35px;
+    display: inline-block;
+    padding-top: 10px;
+    font-family: 'OCRAExtended';
 }
