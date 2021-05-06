@@ -1,3 +1,8 @@
+.about{
+    display:flex;
+    flex-flow:column;
+    justify-content:center;
+}
 .yellow{
     background-color:var(--general-color) !important;
 }
@@ -10,17 +15,12 @@
 .about__bottom{
     display:flex;
     justify-content:center;
-    margin-block:20px;
-}
-.about__bottom .whoAreWe{
-    display:flex;
 }
 
 .about__left{
     display:flex;
     justify-content:center;
 }
-
 
 .about__bottom .space{
     display:flex;
@@ -69,7 +69,8 @@
 .about__right .images__upper img{
     width: 396px;
     height: 334px;
-    margin: 20px 25px 24px 9px;
+    /* margin: 20px 25px 24px 9px; */
+    margin:10px 10px;
     object-fit: fill;
     border-radius: 15px;
 }
@@ -77,7 +78,8 @@
 .about__right .images__lower img{
     width: 396px;
     height: 331px;
-    margin: 24px 25px 20px 9px;
+    /* margin: 24px 25px 20px 9px; */
+    margin:10px 10px;
     object-fit: fill;
     border-radius: 15px;
 }

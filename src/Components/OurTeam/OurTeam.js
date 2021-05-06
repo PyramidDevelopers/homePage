@@ -35,8 +35,9 @@ const OurTeam = () => {
                        <Member image={pratheek} name="Pratheek SB" role="Core Developer"/> */}
                     </div>
                     <div className="col4">
-                        <div className="greyRectangle no-border curve-rectangle-left"></div>
-                        <div className="greyRectangle no-border"></div>
+                        {/* <div className="greyRectangle no-border curve-rectangle-left"></div>
+                        <div className="greyRectangle no-border"></div> */}
+                        <div className="greyFatRectangle"></div>
                     </div>
                 </div>
                 {/* <div className="bottom__lower">

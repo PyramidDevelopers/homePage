@@ -7,17 +7,19 @@
     display:flex;
     flex-flow:column;
 }
+
 .infoblock .title{
     display:flex;
     justify-content:flex-start;
     width: 670px;
-    height: 100px;
+    /* height: 100px; */
+    gap:40px;
 }
 .infoblock .title__text{
     display:flex;
     justify-content:flex-start;
     align-items:center;
-    margin-inline:30px;
+    /* margin-inline:30px; */
 }
 .infoblock .title__text p{
     

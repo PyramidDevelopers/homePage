@@ -1,5 +1,6 @@
 .what {
     display: flex;
+    justify-content:center;
 }
 
 .what__left{
