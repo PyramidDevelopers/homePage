@@ -7,7 +7,7 @@ import InfoBlock from '../InfoBlock/InfoBlock'
 
 const What = () => {
     return (
-        <div className="what flex items-center justify-center">
+        <div className="what flex items-center justify-center" id="what">
             <div className="what__left">
                 <div className="top">
                     <div className="top__left">
@@ -17,8 +17,8 @@ const What = () => {
                         <div className="lower">
                             <div className="lower__left">
                                 <div className="row1">
-                                    <div className="greyRectangle no-border"></div>
-                                    <div className="greyRectangle no-border curve-rectangle-right"></div>
+                                    <div className="greyFatRectangle"></div>
+                                    {/* <div className="greyRectangle no-border curve-rectangle-right"></div> */}
                                 </div>
                                 <div className="darkRectangle"></div>
                                 <div className="greyRectangle"></div>

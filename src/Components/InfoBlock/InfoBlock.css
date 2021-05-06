@@ -1,6 +1,7 @@
 .infoblock{
     display:flex;
     justify-content:center;
+    width: 41.875rem;
 }
 
 .infoblock .text{
@@ -11,9 +12,9 @@
 .infoblock .title{
     display:flex;
     justify-content:flex-start;
-    width: 670px;
+    /* width: 670px; */
     /* height: 100px; */
-    gap:40px;
+    gap:2.5rem;
 }
 .infoblock .title__text{
     display:flex;
@@ -24,7 +25,7 @@
 .infoblock .title__text p{
     
     font-family: OCRAExtended;
-    font-size: 80px;
+    font-size: 5rem;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -38,17 +39,17 @@
     display:flex;
     justify-content:center;
     align-items:center;
-    width: 69px;
-    height: 90px;
+    width: 4.375rem;
+    height: 5.625rem;
     border-radius: 15px;
     background-color: var(--general-color);
 }
 
 .infoblock .title__qmark p{
-    width: 36px;
-    height: 61px;
+    /* width: 36px;
+    height: 61px; */
     font-family: OCRAExtended;
-    font-size: 59px;
+    font-size: 4.063rem;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -61,15 +62,15 @@
 
 .infoblock .text .para1{
     display:flex;
-    justify-content:center;
+    justify-content:flex-start;
 }
 
 .infoblock .text .para1 p{
-    width: 584px;
-    /* height: 254px; */
-    margin: 106px 10px 23px 7px;
+    width: 36.5rem;
+    /* height: 10.875rem; */
+    margin-top: 7.5rem ;
     font-family: ISOCPEUR;
-    font-size: 27px;
+    font-size: 1.688rem;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -81,17 +82,17 @@
 
 .infoblock .text .para2{
     display:flex;
-    justify-content:center;
+    justify-content:flex-start;
 }
 
 .infoblock .text .para2 p{
     display:flex;
     justify-content:center;
-    width: 584px;
+    width: 36.5rem;
     /* height: 223px; */
-    margin: 38px 10px 50px 7px;
+    margin-top:3.125rem ;
     font-family: ISOCPEUR;
-    font-size: 27px;
+    font-size: 1.688rem;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;

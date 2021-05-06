@@ -11,7 +11,7 @@ import Member from '../Member/Member';
 
 const OurTeam = () => {
     return (
-        <div className="ourTeam">
+        <div className="ourTeam" id="ourTeam">
             <div className="ourTeam__top">
                 <div className="title">
                     <p>OUR TEAM</p>

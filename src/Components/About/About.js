@@ -1,5 +1,4 @@
 import React from 'react'
-import './About.css'
 import UpperImage from '../../assets/who-upper.png'
 import LowerImage from '../../assets/who-lower.png'
 import RightImage from '../../assets/who-right.png'
@@ -7,10 +6,11 @@ import InfoBlock from '../InfoBlock/InfoBlock'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import InstagramIcon from '@material-ui/icons/Instagram'
 import FacebookIcon from '@material-ui/icons/Facebook'
+import './About.css'
 
 const About = () => {
     return (
-        <div className="about flex flex-col">
+        <div className="about flex flex-col" id="about">
             {/* <div className="about__top">
                 <div className="greyRectangle"></div>
                 <div className="greyRectangle"></div>
@@ -20,7 +20,7 @@ const About = () => {
                     <InfoBlock
                         title={'WHO ARE WE'}
                         p1={
-                            'Simply put, college students looking to make it big.We develop apps, make website, design interfaces, create backend architecture and much more.'
+                            'Simply put, college students looking to make it big. We develop apps, make website, design interfaces, create backend architecture and much more.'
                         }
                         p2={
                             'We may still be in college but we bring a vast skillset to the table.We have made comprehensive and quality digital products from numerous clients.'
@@ -44,19 +44,25 @@ const About = () => {
                         </div>
                     </div>
                     <div className="images__right">
-                        <div className="about__top">
+                        {/* <div className="about__top">
                             <div className="greyRectangle"></div>
                             <div className="greyRectangle"></div>
-                        </div>
+                        </div> */}
                         <div className="socialMedia">
                             <div className="greyRectangle yellow">
-                                <LinkedInIcon style={{ fontSize: 75 }} />
+                                <a href="https://www.linkedin.com/company/pyramid-developers/">
+                                    <LinkedInIcon  />
+                                </a>
                             </div>
                             <div className="greyRectangle yellow">
-                                <InstagramIcon style={{ fontSize: 75 }} />
+                                <a href="http://www.instagram.com/pyramid_developers">
+                                    <InstagramIcon />
+                                </a>
                             </div>
                             <div className="greyRectangle yellow">
-                                <FacebookIcon style={{ fontSize: 75 }} />
+                                <a href="">
+                                    <FacebookIcon />
+                                </a>
                             </div>
                         </div>
                         <div className="images__inner">

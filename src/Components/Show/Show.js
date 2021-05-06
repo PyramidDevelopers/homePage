@@ -9,7 +9,7 @@ import takeYourTrip from '../../assets/take-your-trip.png'
 
 const Show = () => {
     return (
-        <div className="show flex flex-col items-center">
+        <div className="show flex flex-col items-center" id="show">
             <div className="show__top">
                 <div className="greyFatRectangle darkChange"></div>
                 <div className="greyRectangle"></div>

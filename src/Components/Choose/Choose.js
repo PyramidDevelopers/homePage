@@ -6,7 +6,7 @@ import InfoBlock from '../InfoBlock/InfoBlock';
 
 const Choose = () => {
     return (
-        <div className="choose">
+        <div className="choose" id="choose">
             <div className="choose__left">
                 <InfoBlock 
                     title={"WHY CHOOSE US"}

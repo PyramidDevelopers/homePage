@@ -41,9 +41,9 @@
     align-items:center;
 }
 .about__right .images__innerInnerLeftInside{
-    width: 262px;
-    height: 335px;
-    margin: 28px 17px 20px 14px;
+    width: 16.375rem;
+    height: 20.938rem;
+    margin: 0.625rem;
     object-fit: fill;
     border-radius: 15px;
 }
@@ -67,21 +67,22 @@
 
 
 .about__right .images__upper img{
-    width: 396px;
-    height: 334px;
-    /* margin: 20px 25px 24px 9px; */
-    margin:10px 10px;
+    width: 24.75rem;
+    height: 20.875rem;
+    margin:0.625rem;
     object-fit: fill;
     border-radius: 15px;
 }
 
 .about__right .images__lower img{
-    width: 396px;
-    height: 331px;
-    /* margin: 24px 25px 20px 9px; */
-    margin:10px 10px;
+    width: 24.75rem;
+    height: 20.875rem;
+    margin:0.625rem;
     object-fit: fill;
     border-radius: 15px;
 }
 
 
+.socialMedia .greyRectangle a :only-child{
+    font-size:4.688rem;
+}

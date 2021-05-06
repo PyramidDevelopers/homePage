@@ -1,8 +1,10 @@
-import React from 'react'
-import LinkedInIcon from '@material-ui/icons/LinkedIn'
-import InstagramIcon from '@material-ui/icons/Instagram'
-import FacebookIcon from '@material-ui/icons/Facebook'
-import './Footer.css'
+import React from 'react';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import FacebookIcon from '@material-ui/icons/Facebook';
+import './Footer.css';
+import { Link } from 'react-scroll';
+
 
 const Footer = () => {
     var colors = [
@@ -56,27 +58,77 @@ const Footer = () => {
                     USEFUL LINKS
                 </h1>
                 <div className="footer__middleContent text-center flex flex-col items-center">
-                    <p className="text-xl lg:text-2xl 2xl:text-3xl mb-4 ">
-                        Who are we?
-                    </p>
-                    <p className="text-xl lg:text-2xl 2xl:text-3xl mb-4 ">
-                        What do we do?
-                    </p>
-                    <p className="text-xl lg:text-2xl 2xl:text-3xl mb-4 ">
-                        Show me what you got
-                    </p>
-                    <p className="text-xl lg:text-2xl 2xl:text-3xl mb-4 ">
-                        Why choose us
-                    </p>
-                    <p className="text-xl lg:text-2xl 2xl:text-3xl mb-4 ">
-                        Our Team
-                    </p>
-                    <p className="text-xl lg:text-2xl 2xl:text-3xl mb-4 ">
-                        Reach Us
-                    </p>
-                    <p className="text-xl lg:text-2xl 2xl:text-3xl mb-4 ">
-                        Looking to work?
-                    </p>
+                    <Link
+                    activeClass='active'
+                    to='about'
+                    spy={true}
+                    smooth={true}
+                    offset={-160}
+                    duration={1000}>
+                        <p className="text-xl lg:text-2xl 2xl:text-3xl mb-4 ">
+                            Who are we?
+                        </p>
+                    </Link>
+                    <Link
+                    to='what'
+                    spy={true}
+                    smooth={true}
+                    offset={-30}
+                    duration={1000}>
+                        <p className="text-xl lg:text-2xl 2xl:text-3xl mb-4 ">
+                            What do we do?
+                        </p>
+                    </Link>
+                    <Link
+                    to='show'
+                    spy={true}
+                    smooth={true}
+                    offset={-20}
+                    duration={1000}>
+                        <p className="text-xl lg:text-2xl 2xl:text-3xl mb-4 ">
+                            Show me what you got
+                        </p>
+                    </Link>
+                    <Link
+                    to='choose'
+                    spy={true}
+                    smooth={true}
+                    offset={-160}
+                    duration={1000}>
+                        <p className="text-xl lg:text-2xl 2xl:text-3xl mb-4 ">
+                            Why choose us
+                        </p>
+                    </Link>
+                    <Link
+                    to='ourTeam'
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={1000}>
+                        <p className="text-xl lg:text-2xl 2xl:text-3xl mb-4 ">
+                            Our Team
+                        </p>
+                    </Link>
+                    <Link
+                    to='reachUs'
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={1000}>
+                        <p className="text-xl lg:text-2xl 2xl:text-3xl mb-4 ">
+                            Reach Us
+                        </p>
+                    </Link>
+                    <Link
+                    to='reachUs'
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={1000}>
+                        <p className="text-xl lg:text-2xl 2xl:text-3xl mb-4 ">
+                            Looking to work?
+                        </p>
+                    </Link>
                 </div>
             </div>
 

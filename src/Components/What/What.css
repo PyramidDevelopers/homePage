@@ -36,9 +36,10 @@
     display:flex;
 }
 .what__left .top__left .lower__right img{
-    width: 255px;
-    height: 511px;
-    margin: 4px 0 23px 21px;
+    width: 15.938rem;
+    height: 31.938rem;
+    /* margin: 4px 0 23px 21px; */
+    margin: 0.625rem;
     object-fit: fill;
     border-radius: 15px;
 }
@@ -54,9 +55,10 @@
 }
 
 .what__left .top__right .upper__left img{
-    width: 262px;
-    height: 335px;
-    margin: 20px 2px 17px 0px;
+    width: 16.375rem;
+    height: 20.938rem;
+    /* margin: 20px 2px 17px 0px; */
+    margin: 0.625rem;
     object-fit: fill;
     border-radius: 15px;
 }
@@ -68,9 +70,10 @@
 }
 
 .what__left .top__right .lower img{
-    width: 401px;
-    height: 331px;
-    margin: 0px 25px 25px 21px;
+    width: 25.063rem;
+    height: 20.688rem;
+    /* margin: 0px 25px 25px 21px; */
+    margin: 0.625rem;
     object-fit: fill;
     border-radius: 15px;
 }
