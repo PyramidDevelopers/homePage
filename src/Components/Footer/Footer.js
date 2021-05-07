@@ -28,7 +28,7 @@ const Footer = () => {
         counter = (counter + 1) % 8
     }
     return (
-        <div className="footer sm:flex flex-col md:grid md:grid-cols-3 5xl:flex 5xl:flex-row flex-wrap 5xl:space-x-20 justify-center">
+        <div className="footer sm:flex flex-col md:grid md:grid-cols-3 5xl:flex 5xl:flex-row flex-wrap 5xl:space-x-20">
             <div className="footer__left flex flex-col sm:flex-col sm:align-center md:flex md:flex-row">
                 <div className="leftButton">
                     <button
