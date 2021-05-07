@@ -5,7 +5,15 @@ import { Responsive, WidthProvider } from 'react-grid-layout'
 import GridItems from './GridItems'
 const ResponsiveReactGridLayout = WidthProvider(Responsive)
 
-const THEME = ['yellow', 'pink', 'green', 'peach', 'dark_green']
+// const THEME = ['yellow', 'pink', 'green', 'peach', 'dark_green']
+    const THEME = ['orange',
+        'yellow',
+        'pink',
+        'light_green',
+        'peach',
+        'green',
+        'purple',
+        'cyan',]
 const THEME_COLOR = [
     '#ffca60',
     '#FF60BB',

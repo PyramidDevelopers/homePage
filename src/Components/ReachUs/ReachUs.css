@@ -6,15 +6,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px;
+    height: 12.5rem;
 }
 
 .reachUs__header {
     /* width: 331px;
     height: 83px; */
-    margin-block: 80px;
+    /* margin-block: 80px; */
     font-family: OCRAExtended;
-    /* font-size: 80px; */
+    font-size: 5rem;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -43,9 +43,9 @@
 .reachUs__bottomLeftTop p {
     /* width: 584px;
     height: 129px; */
-    margin: 29px 40px 43px 7px;
+    /* margin: 29px 40px 43px 7px; */
     font-family: ISOCPEUR;
-    font-size: 27px;
+    font-size: 1.688rem;
     /* font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -61,11 +61,12 @@
 .reachUs__formLeft {
     display: flex;
     flex-direction: column;
+    align-items:flex-start;
 }
 
 .reachUs__formLeft .Input {
     width: 584px;
-    height: 100px;
+    height: 9.563rem;
     margin: 10px 6px 10px 20px;
     padding: 19px;
     border-radius: 15px;
@@ -74,7 +75,7 @@
 
 .reachUs__formLeft .Input p {
     /* width: 111px; */
-    height: 25px;
+    /* height: 25px; */
     font-family: OCRAExtended;
     font-size: 24px;
     font-weight: normal;

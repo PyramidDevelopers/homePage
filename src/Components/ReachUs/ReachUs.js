@@ -23,7 +23,7 @@ const ReachUs = () => {
         <div className="reachUs flex flex-col items-center" id="reachUs">
             <div className="reachUs__top">
                 <h1
-                    className="reachUs__header text-7xl w-screen text-center"
+                    className="reachUs__header text-center"
                     id="reach"
                 >
                     REACH US
@@ -37,9 +37,9 @@ const ReachUs = () => {
                 <div className="reachUs__bottomLeft">
                     <div className="reachUs__bottomLeftTop">
                         <p>
-                            Our eagerness to work with you will reflect in our{' '}
+                            Our eagerness to work with you will reflect in our
                             <br />
-                            promptness when you contact us. Do not hesitate to{' '}
+                            promptness when you contact us. Do not hesitate to
                             <br />
                             ask us anything :)
                         </p>
