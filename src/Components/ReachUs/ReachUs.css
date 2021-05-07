@@ -87,10 +87,11 @@
 }
 .reachUs__formLeft input[type='text'] {
     width: 584px;
-    height: 50%;
+    height: 70%;
     margin-block: 10px;
-    border-radius: 15px;
-    background-color: var(--grey);
+    border-radius: 5px;
+    /* background-color: var(--grey); */
+    background: transparent;
     border: none;
     outline: none;
     font-family: OCRAExtended;
@@ -119,7 +120,8 @@
     height: 70%;
     margin-block: 20px;
     border-radius: 15px;
-    background-color: var(--grey);
+    /* background-color: var(--grey); */
+    background: transparent;
     border: none;
     outline: none;
     font-family: OCRAExtended;

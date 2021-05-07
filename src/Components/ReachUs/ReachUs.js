@@ -101,7 +101,7 @@ const ReachUs = () => {
                     <div className="bottomRight__upper">
                         <div className="left">
                             <p className="left__topP">
-                                Looking to work us? &gt;&gt;&gt;
+                                Looking to work with us? &gt;&gt;&gt;
                             </p>
 
                             <p className="left__lowerP">
