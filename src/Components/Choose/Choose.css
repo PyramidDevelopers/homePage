@@ -125,9 +125,17 @@
     object-fit: fill;
     border-radius: 15px;
 }
+.choose__right .col3{
+    display:flex;
+    flex-flow:column;
+}
 .col3 .greyRectangle{
     /* margin:10px 12px 32px 10px; */
 }
 .col4 .greyRectangle{
     /* margin:10px; */
+}
+.choose__right .col4{
+    display:flex;
+    flex-flow:column;
 }

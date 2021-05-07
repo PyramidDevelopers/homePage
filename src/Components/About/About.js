@@ -20,10 +20,10 @@ const About = () => {
                     <InfoBlock
                         title={'WHO ARE WE'}
                         p1={
-                            'Simply put, college students looking to make it big. We develop apps, make website, design interfaces, create backend architecture and much more.'
+                            'Simply put, college students looking to make it big. \nWe develop apps, make website, design interfaces, \ncreate backend architecture and much more.'
                         }
                         p2={
-                            'We may still be in college but we bring a vast skillset to the table.We have made comprehensive and quality digital products from numerous clients.'
+                            'We may still be in college but we bring a vast \nskillset to the table. We have made comprehensive \nand quality digital products from numerous clients.'
                         }
                     />
 

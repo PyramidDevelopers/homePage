@@ -21,6 +21,7 @@ const OurTeam = () => {
                 <div className="bottom__upper">
                     
                     <div className="col1">
+                        <div className="darkRectangle"></div>
                         <div className="greyRectangle"></div>
                     </div>
                     <div className="col2">

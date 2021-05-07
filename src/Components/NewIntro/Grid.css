@@ -57,7 +57,7 @@
   width: 101px;
   height: 62px;
   font-family: OCRAExtended;
-  font-size: 30px;
+  font-size: 1.825rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -103,10 +103,10 @@
   align-items: center;
 }
 .giveUs {
-  height: 93px;
-  padding-left: 30px;
+  height: 5.813rem;
+  padding-left: 1.875rem;
   font-family: OCRAExtended;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -116,10 +116,10 @@
   color: #adadad;
 }
 .join {
-  height: 93px;
-  padding-left: 30px;
+  height: 5.813rem;
+  padding-left: 1.875rem;
   font-family: OCRAExtended;
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;

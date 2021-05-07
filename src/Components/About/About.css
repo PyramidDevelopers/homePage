@@ -2,6 +2,7 @@
     display:flex;
     flex-flow:column;
     justify-content:center;
+    /* margin-bottom:50px; */
 }
 .yellow{
     background-color:var(--general-color) !important;

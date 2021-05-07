@@ -1,7 +1,7 @@
 .ourTeam{
     display:flex;
     flex-flow:column;
-    margin-bottom:150px;
+    margin-block:8.125rem;
 }
 
 .ourTeam__top{
@@ -11,11 +11,13 @@
 }
 
 .ourTeam__top .title p{
-    width: 331px;
-    height: 83px;
-    margin: 125px 4px 96px 5px;;
+    /* width: 330px;
+    height: 80px; */
+    margin-bottom: 6.25rem;
+    padding:0.625rem;
+    /* margin:125px 4px 96px 5px;; */
     font-family: OCRAExtended;
-    font-size: 80px;
+    font-size: 5rem;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -33,7 +35,7 @@
 .ourTeam__bottom .bottom__upper .col1{
     display:flex;
     flex-flow:column;
-    justify-content:center;
+    /* justify-content:center; */
 }
 .ourTeam__bottom .bottom__upper .col2{
     display:flex;

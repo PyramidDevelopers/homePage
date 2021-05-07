@@ -5,9 +5,9 @@
 }
 
 .member .member__image img{
-    /* width: 324px; */
-  /* height: 326px; */
-  margin: 10px 10px;
+    max-width: 20.25rem;
+  height: auto;
+  margin: 0.625rem;
   object-fit: contain;
   border-radius: 15px;
 }
@@ -22,9 +22,9 @@
 .member .member__info h5{
     /* width: 203px; */
     /* height: 34px; */
-    margin:10px 8px 4px 10px;
+    margin:0.625rem;
     font-family: OCRAExtended;
-    font-size: 33px;
+    font-size: 2.063rem;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -37,9 +37,9 @@
 .member .member__info h6{
     /* width: 302px; */
     /* height: 18px; */
-    margin: 4px 0px 61px;
+    /* margin: 4px 0px 61px; */
     font-family: OCRAExtended;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
