@@ -14,14 +14,10 @@ const InfoBlock = ({title,p1,p2}) => {
                     </div>
                 </div>
                 <div className='para1'>
-                <p>
-                    {p1}
-                </p>
+                    <p>{p1}</p>
                 </div>
                 <div className='para2'>
-                <p>
-                    {p2}
-                </p>
+                    <p>{p2}</p>
                 </div>
           </div>
         </div>

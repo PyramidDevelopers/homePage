@@ -11,7 +11,7 @@ import Member from '../Member/Member';
 
 const OurTeam = () => {
     return (
-        <div className="ourTeam">
+        <div className="ourTeam" id="ourTeam">
             <div className="ourTeam__top">
                 <div className="title">
                     <p>OUR TEAM</p>
@@ -21,6 +21,7 @@ const OurTeam = () => {
                 <div className="bottom__upper">
                     
                     <div className="col1">
+                        <div className="darkRectangle"></div>
                         <div className="greyRectangle"></div>
                     </div>
                     <div className="col2">
@@ -35,8 +36,9 @@ const OurTeam = () => {
                        <Member image={pratheek} name="Pratheek SB" role="Core Developer"/> */}
                     </div>
                     <div className="col4">
-                        <div className="greyRectangle no-border curve-rectangle-left"></div>
-                        <div className="greyRectangle no-border"></div>
+                        {/* <div className="greyRectangle no-border curve-rectangle-left"></div>
+                        <div className="greyRectangle no-border"></div> */}
+                        <div className="greyFatRectangle"></div>
                     </div>
                 </div>
                 {/* <div className="bottom__lower">

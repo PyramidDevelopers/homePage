@@ -9,13 +9,15 @@ import takeYourTrip from '../../assets/take-your-trip.png'
 
 const Show = () => {
     return (
-        <div className="show flex flex-col items-center">
+        <div className="show flex flex-col items-center" id="show">
             <div className="show__top">
-                <div className="greyFatRectangle darkChange"></div>
+                {/* <div className="greyFatRectangle darkChange"></div> */}
+                <div className="darkRectangle"></div>
+                {/* <div className="darkRectangle"></div> */}
                 <div className="greyRectangle"></div>
                 <div className="greyRectangle"></div>
-                <div className="top__text">
-                    <h1>SHOW ME WHAT YOU GOT</h1>
+                <div className="top__text flex justify-center items-start">
+                    <h1 className="text-center">SHOW ME WHAT YOU GOT</h1>
                 </div>
                 <div className="darkRectangle"></div>
                 <div className="greyFatRectangle"></div>
@@ -60,14 +62,8 @@ const Show = () => {
                                     An innovative health-tech platform <br />
                                     where families get healthier, together!
                                 </h5>
-                                {/* <div className="title">
-
-                                </div> */}
-                                {/* <div className="subTitle">
-
-                                </div> */}
                             </div>
-                            <div className="leftMid__image w-[200px]">
+                            <div className="leftMid__image">
                                 <img src={nutriFamily} alt="" />
                             </div>
                         </div>
@@ -88,7 +84,7 @@ const Show = () => {
 
                                 </div> */}
                             </div>
-                            <div className="leftMid__image w-[200px]">
+                            <div className="leftMid__image">
                                 <img src={nearVibe} alt="" />
                             </div>
                         </div>
@@ -111,7 +107,7 @@ const Show = () => {
 
                                 </div> */}
                             </div>
-                            <div className="rightMid__image w-[200px]">
+                            <div className="rightMid__image">
                                 <img src={vitalMinds} alt="" />
                             </div>
                         </div>
@@ -133,7 +129,7 @@ const Show = () => {
 
                                 </div> */}
                             </div>
-                            <div className="rightMid__image w-[200px]">
+                            <div className="rightMid__image">
                                 <img src={enermanApp} alt="" />
                             </div>
                         </div>
@@ -151,15 +147,15 @@ const Show = () => {
 
                                 </div> */}
                             </div>
-                            <div className="rightMid__image w-[200px]">
+                            <div className="rightMid__image">
                                 <img src={takeYourTrip} alt="" />
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="bottom__right FlexColumn">
+                <div className="bottom__right FlexColumn gap-3">
                     <div className="greyRectangle"></div>
-                    <div className="darkRectangle"></div>
+                    <div className="darkRectangle "></div>
                     <div className="greyLongRectangle"></div>
                     <div className="greyLongRectangle darkChange"></div>
                     <div className="greyFatRectangle"></div>
@@ -167,7 +163,7 @@ const Show = () => {
                 </div>
             </div>
             <div className="bottomCrap">
-                <div className="darkRectangle"></div>
+                {/* <div className="darkRectangle"></div> */}
                 <div className="greyFatRectangle"></div>
             </div>
             {/* <div className="show__header">

@@ -6,12 +6,16 @@ import InfoBlock from '../InfoBlock/InfoBlock';
 
 const Choose = () => {
     return (
-        <div className="choose">
+        <div className="choose" id="choose">
             <div className="choose__left">
                 <InfoBlock 
                     title={"WHY CHOOSE US"}
-                    p1={"Our main focus is quality. We will give you the best looking, most user friendly products with a firm code base, for the right price."}
-                    p2={"If you partner with Pyramid, We will ensure that you receive an end product that exceeds expectations.We follow Agile Development practices to ensure we fulfil our promises."}
+                    p1={
+                        `Our main focus is quality. We will give you the best \nlooking, most user friendly products with a firm code \nbase, for the right price.`
+                        }
+                    p2={
+                        `If you partner with Pyramid, We will ensure that you \nreceive an end product that exceeds expectations.\nWe follow Agile Development practices to ensure we \nfulfil our promises.`
+                        }
                 />
             </div>
             <div className="choose__right">
@@ -30,9 +34,11 @@ const Choose = () => {
                 <div className="col3">
                     <div className="greyRectangle"></div>
                     <div className="greyRectangle"></div>
+                    <div className="darkRectangle"></div>
                     <div className="greyRectangle"></div>
                 </div>
                 <div className="col4">
+                    <div className="darkRectangle"></div>
                     <div className="greyRectangle"></div>
                 </div>
             </div>

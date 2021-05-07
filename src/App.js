@@ -10,7 +10,7 @@ import Footer from './Components/Footer/Footer'
 
 function App() {
     return (
-        <div className="app">
+        <div className="app xl:fontSize-7xl">
             <NewIntro />
             <About />
             <What />

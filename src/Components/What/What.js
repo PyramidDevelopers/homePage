@@ -7,7 +7,7 @@ import InfoBlock from '../InfoBlock/InfoBlock'
 
 const What = () => {
     return (
-        <div className="what flex items-center justify-center">
+        <div className="what flex items-center justify-start" id="what">
             <div className="what__left">
                 <div className="top">
                     <div className="top__left">
@@ -17,8 +17,8 @@ const What = () => {
                         <div className="lower">
                             <div className="lower__left">
                                 <div className="row1">
-                                    <div className="greyRectangle no-border"></div>
-                                    <div className="greyRectangle no-border curve-rectangle-right"></div>
+                                    <div className="greyFatRectangle"></div>
+                                    {/* <div className="greyRectangle no-border curve-rectangle-right"></div> */}
                                 </div>
                                 <div className="darkRectangle"></div>
                                 <div className="greyRectangle"></div>
@@ -58,18 +58,20 @@ const What = () => {
                     <InfoBlock
                         title={'WHAT DO WE DO'}
                         p1={
-                            ' We make highly customised mobile applicatons which are very efficient and scalable at low cost.'
+                             'We make highly customised mobile applicatons which are \nvery efficient and scalable at low cost.'
                         }
                         p2={
-                            "We use Flutter for our front end which is the latest framework by Google and Firebase for our backend which is one of the world's leading Backend services used by companies like Alibaba, Accenture and Twitch."
+                            "We use Flutter for our front end which is the latest \nframework by Google and Firebase for our backend which \nis one of the world's leading Backend services used by \ncompanies like Alibaba, Accenture and Twitch."
                         }
                     />
                 </div>
+                {/* <div class="h-6"></div> */}
                 <div className="what__rightContentBottom">
                     <div className="greyRectangle"></div>
                     <div className="greyRectangle"></div>
                 </div>
             </div>
+            <div className="darkRectangle"></div>
         </div>
     )
 }
