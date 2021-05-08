@@ -1,12 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import InstagramIcon from '@material-ui/icons/Instagram'
 import FacebookIcon from '@material-ui/icons/Facebook'
 import { Link } from 'react-scroll'
 import './Footer.css'
 import logo from '../../assets/Group-2.svg'
+import { actionTypes } from '../../reducer'
+import { useStateValue } from '../../StateProvider'
 
 const Footer = () => {
+    const [{ globalCount }, changeCount] = useStateValue()
+    const c = globalCount
+    const [counter, setCounter] = useState(c)
     var colors = [
         '#FF60BB',
         '#DBFF60',
@@ -17,16 +22,27 @@ const Footer = () => {
         '#FF7660',
         '#ffca60',
     ]
-    var counter = 0
+    // let counter = 0
 
     const onClick = (e) => {
         e.preventDefault()
+
         document.documentElement.style.setProperty(
             '--general-color',
             colors[counter]
         )
-        counter = (counter + 1) % 8
+        // counter = (counter + 1) % 8
+
+        setCounter((counter + 1) % 5)
+
+        changeCount({
+            type: actionTypes.CHANGE_COLOR,
+            counter: counter,
+        })
+        console.log(counter)
+        console.log(globalCount)
     }
+
     return (
         <div className="footer sm:flex flex-col md:grid md:grid-cols-3 5xl:flex 5xl:flex-row flex-wrap 5xl:space-x-20">
             <div className="footer__left flex flex-col sm:flex-col sm:align-center md:flex md:flex-row">

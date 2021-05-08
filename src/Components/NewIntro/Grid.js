@@ -3,6 +3,8 @@ import './Grid.css'
 import { layouts } from './layouts'
 import { Responsive, WidthProvider } from 'react-grid-layout'
 import GridItems from './GridItems'
+import { actionTypes } from '../../reducer'
+import { useStateValue } from '../../StateProvider'
 const ResponsiveReactGridLayout = WidthProvider(Responsive)
 
 const THEME = ['yellow', 'pink', 'green', 'peach', 'dark_green']
@@ -17,16 +19,33 @@ const THEME_COLOR = [
     '#FF7660',
 ]
 function Grid() {
-    const [count, setCount] = useState(1)
-    const [color, setColor] = useState(THEME[0])
+    const [{ globalCount }, setGlobalCounter] = useStateValue()
+    const c = globalCount
+    const [counter, setCounter] = useState(c + 1)
+    const [color, setColor] = useState(THEME[globalCount])
+    // const changeLayout = () => {
+    //     document.documentElement.style.setProperty(
+    //         '--general-color',
+    //         THEME_COLOR[count]
+    //     )
+    //     setCount((count + 1) % 5)
+    //     console.log(count)
+    //     setColor(THEME[count])
+    // }
+
     const changeLayout = () => {
         document.documentElement.style.setProperty(
             '--general-color',
-            THEME_COLOR[count]
+            THEME_COLOR[counter]
         )
-        setCount((count + 1) % 5)
-        console.log(count)
-        setColor(THEME[count])
+        setCounter((counter + 1) % 5)
+        setGlobalCounter({
+            type: actionTypes.CHANGE_COLOR,
+            counter: counter,
+        })
+        // console.log(count)
+        console.log(globalCount)
+        setColor(THEME[counter])
     }
 
     return (
@@ -44,7 +63,7 @@ function Grid() {
                 breakpoints={{ lg: 1200, md: 996, sm: 768, xs: 480, xxs: 0 }}
                 cols={{ lg: 84, md: 10, sm: 6, xs: 4, xxs: 2 }}
             >
-                {GridItems(layouts[color].lg, color, count, changeLayout)}
+                {GridItems(layouts[color].lg, color, counter, changeLayout)}
             </ResponsiveReactGridLayout>
         </div>
     )
