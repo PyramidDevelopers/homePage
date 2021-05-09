@@ -7,7 +7,7 @@ import InfoBlock from '../InfoBlock/InfoBlock'
 
 const What = () => {
     return (
-        <div className="what flex items-center justify-start" id="what">
+        <div className="what flex items-center" id="what">
             <div className="what__left">
                 <div className="top">
                     <div className="top__left">

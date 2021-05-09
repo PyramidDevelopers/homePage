@@ -76,6 +76,7 @@ const ReachUs = () => {
                         </div>
 
                         <div className="reachUs__formRight">
+                            <div className="darkRectangle"></div>
                             <div className="greyRectangle" />
                             <div className="greyLongRectangle">
                                 <button
@@ -83,10 +84,8 @@ const ReachUs = () => {
                                     type="submit"
                                     onClick={handleSubmit}
                                 >
-                                    <KeyboardReturnIcon
-                                        style={{ fontSize: 60 }}
-                                    />
-                                    <p>SUBMIT</p>
+                                    <KeyboardReturnIcon/>
+                                    <p className="size-down">SUBMIT</p>
                                 </button>
                             </div>
                         </div>
@@ -121,7 +120,7 @@ const ReachUs = () => {
                     <div className="bottomRight__lower">
                         <div className="contact">
                             <div className="contact__left greyRectangle">
-                                <MailOutlineIcon style={{ fontSize: 60 }} />
+                                <MailOutlineIcon />
                                 <p>MAIL</p>
                             </div>
                             <div className="contact__right">
@@ -130,7 +129,7 @@ const ReachUs = () => {
                         </div>
                         <div className="contact">
                             <div className="contact__left greyRectangle">
-                                <PhoneOutlinedIcon style={{ fontSize: 60 }} />
+                                <PhoneOutlinedIcon/>
                                 <p>PHONE</p>
                             </div>
                             <div className="contact__right">

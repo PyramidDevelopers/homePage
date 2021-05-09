@@ -1,6 +1,7 @@
 .choose{
     display:flex;
-    justify-content:center;
+    justify-content:flex-end;
+    margin-right:-2.5rem;
 }
 
 
@@ -12,8 +13,8 @@
     display:flex;
     flex-flow:column;
     align-items:center;
-    margin:0px 10px;
-    padding:0px 50px;
+    /* margin:0px 10px;
+    padding:0px 50px; */
     /* justify-content:center; */
 }
 
@@ -93,7 +94,7 @@
 
 .choose__right{
     display:flex;
-    margin:0px 10px;
+    margin:0px 0.625rem;
 }
 
 .choose__right .col1{

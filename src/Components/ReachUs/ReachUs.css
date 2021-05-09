@@ -61,14 +61,18 @@
 .reachUs__formLeft {
     display: flex;
     flex-direction: column;
-    align-items:flex-start;
+    align-items:center;
+    gap:0.5rem;
 }
 
 .reachUs__formLeft .Input {
-    width: 584px;
+    width: 36.5rem;
     height: 9.563rem;
-    margin: 10px 6px 10px 20px;
-    padding: 19px;
+    /* margin: 10px 6px 10px 20px; */
+    margin:0.625rem;
+    padding: 1.25rem;
+    /* display:flex;
+    flex-flow:column; */
     border-radius: 15px;
     background-color: var(--grey);
 }
@@ -77,7 +81,7 @@
     /* width: 111px; */
     /* height: 25px; */
     font-family: OCRAExtended;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -87,16 +91,16 @@
     color: var(--general-color);
 }
 .reachUs__formLeft input[type='text'] {
-    width: 584px;
+    max-width: 36.5rem;
     height: 70%;
-    margin-block: 10px;
+    /* margin-block: 10px; */
     border-radius: 5px;
     /* background-color: var(--grey); */
     background: transparent;
     border: none;
     outline: none;
     font-family: OCRAExtended;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -106,27 +110,27 @@
 }
 
 .reachUs__formLeft .Inputtextarea {
-    height: 326px !important;
-    width: 584px;
-    height: 100px;
-    margin: 10px 6px 10px 20px;
-    padding: 19px;
+    height: 20.375rem !important;
+    /* width: 584px; */
+    /* height: 100px; */
+    /* margin: 10px 6px 10px 20px; */
+    padding: 1.25rem;
     border-radius: 15px;
     background-color: var(--grey);
 }
 
 .reachUs textarea {
     /* height: 326px !important; */
-    width: 584px;
-    height: 70%;
-    margin-block: 20px;
+    max-width: 36.5rem;
+    height: 80%;
+    margin-inline: 1.25rem;
     border-radius: 15px;
     /* background-color: var(--grey); */
     background: transparent;
     border: none;
     outline: none;
     font-family: OCRAExtended;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -139,6 +143,7 @@
     display: flex;
     flex-flow: column;
     justify-content: flex-end;
+    gap:0.5rem
 }
 
 .reachUs__formRight button {
@@ -153,9 +158,9 @@
     border: none;
     border-radius: 15px;
     cursor: pointer;
-    padding-block: 20px;
+    padding-block: 1.25rem;
     font-family: OCRAExtended;
-    font-size: 30px;
+    /* font-size: 1.875rem; */
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -165,6 +170,12 @@
     color: var(--dark-grey);
 }
 
+.reachUs__formRight button > * {
+    font-size:3.75rem;
+}
+.reachUs__formRight button > p{
+    font-size:1.875rem !important;
+}
 .reachUs__bottomRight {
     display: flex;
     flex-direction: column;
@@ -180,20 +191,20 @@
     display: flex;
     flex-flow: column;
     justify-content: space-between;
-    width: 548px;
-    height: 325px;
-    margin: 20px 0px;
-    padding: 21px 21px 12px 25px;
+    width: 34.25rem;
+    height: 20.313rem;
+    margin: 0.625rem;
+    padding: 1.563rem 0 1.563rem 1.563rem;
     border-radius: 15px;
     background-color: var(--grey);
 }
 
 .bottomRight__upper .left .left__topP {
-    width: 426px;
-    height: 31px;
-    margin: 0 76px 132px 0;
+    width: 100%;
+    /* height: 30px; */
+    /* margin-bottom:132px; */
     font-family: OCRAExtended;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -204,11 +215,12 @@
 }
 
 .bottomRight__upper .left .left__lowerP {
-    width: 502px;
-    height: 129px;
-    /* margin: 132px 0 0; */
+    /* width: 502px; */
+    /* height: 129px; */
+    width:100%;
+    margin-bottom: 0.625rem;
     font-family: ISOCPEUR;
-    font-size: 27px;
+    font-size: 1.688rem;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -218,15 +230,19 @@
     color: var(--light-grey);
 }
 
-.reachUs__bottomRight__lower {
+.reachUs__bottomRight .bottomRight__lower {
     display: flex;
     flex-flow: column;
+    /* justify-content:flex-start; */
+    /* align-items:flex-start; */
+    /* gap:0.5rem; */
 }
 
 .bottomRight__lower .contact {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    gap:1rem;
 }
 
 .contact .contact__left {
@@ -237,12 +253,18 @@
     align-items: center;
 }
 
+.reachUs__bottomRight .bottomRight__lower .contact .contact__left > * {
+    font-size:3.75rem;
+}
+/* .reachUs__formRight button > p{
+    font-size:1.875rem !important;
+} */
 .contact .contact__left p {
     /* width: 79px;
     height: 31px; */
-    margin: 13.6px 0 0;
+    margin-top: 0.625rem;
     font-family: OCRAExtended;
-    font-size: 30px;
+    font-size: 1.875rem !important;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -253,8 +275,8 @@
 }
 
 .contact .contact__right {
-    width: 548px;
-    height: 153px;
+    width: 34.25rem;
+    height: 9.563rem;
     /* margin: 20px 12px 20px 11px;
     padding: 56px 35px 56px 25px; */
     border-radius: 15px;
@@ -265,10 +287,11 @@
 }
 
 .contact .contact__right p {
-    width: 488px;
-    height: 41px;
+    /* width: 488px; */
+    width:90%;
+    /* height: 41px; */
     font-family: OCRAExtended;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;

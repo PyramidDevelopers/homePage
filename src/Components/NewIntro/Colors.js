@@ -91,7 +91,7 @@ const pink = {
   letters,
 };
 
-const green = {
+const light_green = {
   invisible: [
     '1',
     '5',
@@ -146,7 +146,7 @@ const peach = {
   letters,
 };
 
-const dark_green = {
+const green = {
   invisible: [
     '1',
     '5',
@@ -228,5 +228,5 @@ const cyan = {
   name,
   letters,
 };
-const colors = { orange, yellow, pink, green, peach, dark_green, purple, cyan };
+const colors = { orange, yellow, pink, light_green, peach, green, purple, cyan };
 export default colors;

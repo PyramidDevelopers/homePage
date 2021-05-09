@@ -32,7 +32,7 @@ function Grid() {
             '--general-color',
             THEME_COLOR[count]
         )
-        setCount((count + 1) % 5)
+        setCount((count + 1) % 8)
         console.log(count)
         setColor(THEME[count])
     }
