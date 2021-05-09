@@ -18,7 +18,8 @@ function GridItems(layout, color, count, changeLayout) {
         if (item.i == '31') {
             return (
                 <div key="31" className="logo">
-                    <Logo color={count} />
+                    {/* <Logo color={count} /> */}
+                    <Logo />
                 </div>
             )
         }

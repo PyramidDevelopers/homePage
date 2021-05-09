@@ -7,11 +7,12 @@ export const actionTypes = {
 }
 
 const reducer = (state, action) => {
+    // console.log('global counter from reducer', action.countValue)
     switch (action.type) {
         case actionTypes.CHANGE_COLOR:
             return {
                 ...state,
-                globalCount: action.counter,
+                globalCount: action.countValue,
             }
 
         default:

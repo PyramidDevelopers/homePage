@@ -7,7 +7,17 @@ import { actionTypes } from '../../reducer'
 import { useStateValue } from '../../StateProvider'
 const ResponsiveReactGridLayout = WidthProvider(Responsive)
 
-const THEME = ['yellow', 'pink', 'green', 'peach', 'dark_green']
+const THEME = [
+    'yellow',
+    'pink',
+    'green',
+    'peach',
+    'dark_green',
+    'purple',
+    'cyan',
+    'orange',
+]
+
 const THEME_COLOR = [
     '#ffca60',
     '#FF60BB',
@@ -20,8 +30,7 @@ const THEME_COLOR = [
 ]
 function Grid() {
     const [{ globalCount }, setGlobalCounter] = useStateValue()
-    const c = globalCount
-    const [counter, setCounter] = useState(c + 1)
+    const [counter, setCounter] = useState(1)
     const [color, setColor] = useState(THEME[globalCount])
     // const changeLayout = () => {
     //     document.documentElement.style.setProperty(
@@ -38,13 +47,15 @@ function Grid() {
             '--general-color',
             THEME_COLOR[counter]
         )
-        setCounter((counter + 1) % 5)
+
         setGlobalCounter({
             type: actionTypes.CHANGE_COLOR,
-            counter: counter,
+            countValue: counter % 8,
         })
+
+        setCounter((counter + 1) % 8)
         // console.log(count)
-        console.log(globalCount)
+        console.log('Grid globalCount', globalCount)
         setColor(THEME[counter])
     }
 

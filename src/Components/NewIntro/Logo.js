@@ -1,4 +1,5 @@
 // import logo1 from '../../assets/Group 1.svg';
+import { useEffect } from 'react'
 import peach from '../../assets/Group-3.svg'
 import green from '../../assets/Group-4.svg'
 import purple from '../../assets/Group-5.svg'
@@ -8,10 +9,16 @@ import pink from '../../assets/Group-1.svg'
 import light_green from '../../assets/Group-2.svg'
 import yellow from '../../assets/Group-8.svg'
 import styles from './Logo.module.css'
+import { useStateValue } from '../../StateProvider'
 
-const Logo = ({ color }) => {
+const Logo = () => {
+    const [{ globalCount }] = useStateValue()
+
+    // useEffect(() => {
+    //     color = globalCount
+    // }, [globalCount])
+
     const colors = [
-        orange,
         yellow,
         pink,
         light_green,
@@ -19,11 +26,11 @@ const Logo = ({ color }) => {
         green,
         purple,
         cyan,
+        orange,
     ]
-    //   console.log(count, type);
     return (
         <div classname={styles.logo}>
-            <img src={colors[color]} alt="" />
+            <img src={colors[globalCount]} alt="" />
         </div>
     )
 }
