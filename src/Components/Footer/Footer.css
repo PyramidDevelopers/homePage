@@ -13,7 +13,10 @@
     width: 117px;
     height: 368px;
     margin: 0 59.4px 43px 0;
-    padding: 40px 8px 10px;
+    /* padding: 40px 8px 10px; */
+    justify-content:space-between;
+    padding-top:40px;
+    padding-bottom:10px;
     border-radius: 15px;
     background-color: var(--dark-grey);
     /* background-color:var(--general-color); */
@@ -25,7 +28,7 @@
 .footer .leftButton .leftButton__clickMe p {
     width: 101px;
     height: 62px;
-    margin: 220px 0 0;
+    /* margin: 220px 0 0; */
     font-family: OCRAExtended;
     font-size: 30px;
     font-weight: normal;

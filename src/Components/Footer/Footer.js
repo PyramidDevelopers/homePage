@@ -33,7 +33,7 @@ const Footer = () => {
                 <div className="leftButton">
                     <button
                         onClick={onClick}
-                        className="leftButton__clickMe flex flex-col"
+                        className="leftButton__clickMe flex flex-col items-center"
                     >
                         <img src={logo} alt="" />
                         <p className="pb-4">CLICK ME&gt;</p>
