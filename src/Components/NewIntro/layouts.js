@@ -528,7 +528,7 @@ export const layouts = {
     lg: scaleGrid(pink, 6),
     md: [],
   },
-  green: {
+  light_green: {
     lg: scaleGrid(green, 6),
     md: [],
   },
@@ -536,7 +536,7 @@ export const layouts = {
     lg: scaleGrid(peach, 6),
     md: [],
   },
-  dark_green: {
+  green: {
     lg: scaleGrid(green, 6),
     md: [],
   },

@@ -18,6 +18,7 @@ const Choose = () => {
                         }
                 />
             </div>
+            <div className="darkRectangle"></div>
             <div className="choose__right">
                 <div className="col1">
                     <div className="col1__image">
