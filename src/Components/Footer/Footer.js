@@ -1,13 +1,48 @@
-import React from 'react'
+import React, { useState } from 'react'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import InstagramIcon from '@material-ui/icons/Instagram'
 import FacebookIcon from '@material-ui/icons/Facebook'
 import { Link } from 'react-scroll'
 import './Footer.css'
-import logo from '../../assets/Group-2.svg'
+import { actionTypes } from '../../reducer'
+import { useStateValue } from '../../StateProvider'
+import peach from '../../assets/Group-3.svg'
+import green from '../../assets/Group-4.svg'
+import purple from '../../assets/Group-5.svg'
+import cyan from '../../assets/Group-6.svg'
+import orange from '../../assets/Group-7.svg'
+import pink from '../../assets/Group-1.svg'
+import light_green from '../../assets/Group-2.svg'
+import yellow from '../../assets/Group-8.svg'
 
 const Footer = () => {
-    var colors = [
+    const [{ globalCount }, changeCount] = useStateValue()
+    // const c = globalCount
+    const [counter, setCounter] = useState(1)
+    // var colors = [
+    //     '#FF60BB',
+    //     '#DBFF60',
+    //     '#FF6085',
+    //     '#60FFBA',
+    //     '#B460FF',
+    //     '#60EFFF',
+    //     '#FF7660',
+    //     '#ffca60',
+    // ]
+
+    const colors = [
+        yellow,
+        pink,
+        light_green,
+        peach,
+        green,
+        purple,
+        cyan,
+        orange,
+    ]
+
+    const THEME_COLOR = [
+        '#ffca60',
         '#FF60BB',
         '#DBFF60',
         '#FF6085',
@@ -15,18 +50,26 @@ const Footer = () => {
         '#B460FF',
         '#60EFFF',
         '#FF7660',
-        '#ffca60',
     ]
-    var counter = 0
+    // let counter = 0
 
     const onClick = (e) => {
         e.preventDefault()
+
         document.documentElement.style.setProperty(
             '--general-color',
-            colors[counter]
+            THEME_COLOR[counter]
         )
-        counter = (counter + 1) % 8
+        // counter = (counter + 1) % 8
+        setCounter((counter + 1) % 8)
+        changeCount({
+            type: actionTypes.CHANGE_COLOR,
+            countValue: counter % 8,
+        })
+
+        console.log('Footer globalCount', globalCount)
     }
+
     return (
         <div className="footer sm:flex flex-col md:grid md:grid-cols-3 5xl:flex 5xl:flex-row flex-wrap 5xl:space-x-20">
             <div className="footer__left flex flex-col sm:flex-col sm:align-center md:flex md:flex-row">
@@ -35,7 +78,7 @@ const Footer = () => {
                         onClick={onClick}
                         className="leftButton__clickMe flex flex-col"
                     >
-                        <img src={logo} alt="" />
+                        <img src={colors[globalCount]} alt="" />
                         <p className="pb-4">CLICK ME&gt;</p>
                     </button>
                 </div>
