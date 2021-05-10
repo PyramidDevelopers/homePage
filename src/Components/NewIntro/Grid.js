@@ -10,9 +10,9 @@ const ResponsiveReactGridLayout = WidthProvider(Responsive)
 const THEME = [
     'yellow',
     'pink',
-    'green',
+    'light_green',
     'peach',
-    'dark_green',
+    'green',
     'purple',
     'cyan',
     'orange',
