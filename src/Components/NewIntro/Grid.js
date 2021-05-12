@@ -71,8 +71,8 @@ function Grid() {
                 compactType={'vertical'}
                 margin={[20, 20]}
                 measureBeforeMount={false}
-                breakpoints={{ lg: 1200, md: 996, sm: 768, xs: 480, xxs: 0 }}
-                cols={{ lg: 84, md: 10, sm: 6, xs: 4, xxs: 2 }}
+                breakpoints={{ lg: 1024, md: 768, sm: 640, xs: 480, xxs: 0 }}
+                cols={{ lg: 84, md: 42, sm: 6, xs: 4, xxs: 2 }}
             >
                 {GridItems(layouts[color].lg, color, counter, changeLayout)}
             </ResponsiveReactGridLayout>

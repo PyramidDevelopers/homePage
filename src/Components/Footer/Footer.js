@@ -1,3 +1,4 @@
+// sm:flex flex-col md:grid md:grid-cols-3 5xl:flex 5xl:flex-row flex-wrap 5xl:space-x-20
 import React, { useState } from 'react'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import InstagramIcon from '@material-ui/icons/Instagram'
@@ -71,19 +72,16 @@ const Footer = () => {
     }
 
     return (
-        <div className="footer sm:flex flex-col md:grid md:grid-cols-3 5xl:flex 5xl:flex-row flex-wrap 5xl:space-x-20">
-            <div className="footer__left flex flex-col sm:flex-col sm:align-center md:flex md:flex-row">
-                <div className="leftButton">
-                    <button
-                        onClick={onClick}
-                        className="leftButton__clickMe flex flex-col"
-                    >
+        <div className="footer space-x-20">
+            <div className="footer__left  lg:ml-[-80px]">
+                <div className="leftButton ml-[20px]">
+                    <button onClick={onClick} className="leftButton__clickMe">
                         <img src={colors[globalCount]} alt="" />
                         <p className="pb-4">CLICK ME&gt;</p>
                     </button>
                 </div>
 
-                <div className="footer__left">
+                <div className="footer__left flex flex-col ml-[20px]">
                     <h1 className="text-4xl lg:text-5xl 2xl:text-5xl mb-4">
                         ABOUT US
                     </h1>
