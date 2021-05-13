@@ -25,6 +25,10 @@
     cursor: pointer;
 }
 
+.footer .leftButton .leftButton__clickMe img {
+    margin-inline: auto;
+}
+
 .footer .leftButton .leftButton__clickMe p {
     width: 101px;
     height: 62px;
@@ -42,7 +46,7 @@
 
 .footer__left {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     /* margin-bottom: 80px; */
     /* flex: 0.4; */
 }

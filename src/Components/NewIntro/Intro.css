@@ -4,6 +4,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 1900px;
+    /* margin-left: auto; */
+    margin-inline: auto;
     /* margin-bottom: 10%; */
 }
 
@@ -70,6 +73,6 @@
     color: #a6a6a6;
     font-size: 2.088rem;
     display: inline-block;
-    padding-top: 0.625rem;;
+    padding-top: 0.625rem;
     font-family: 'OCRAExtended';
 }
