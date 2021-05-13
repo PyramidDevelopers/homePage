@@ -61,8 +61,8 @@ function GridItems(layout, color, count, changeLayout) {
             offset={-160}
             duration={1000}>
             <h3 className='giveUs'>
-              Give Us
-              <br /> A Project
+              GIVE US
+              <br /> A PROJECT
               <br />
               &gt;&gt;&gt;
             </h3>
@@ -81,7 +81,7 @@ function GridItems(layout, color, count, changeLayout) {
             offset={-160}
             duration={1000}>
             <h3 className='join'>
-              Become A<br /> Part Of Us
+              BECOME A<br /> PART OF US
               <br />
               &gt;&gt;&gt;
             </h3>

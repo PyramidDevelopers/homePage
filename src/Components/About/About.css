@@ -7,10 +7,15 @@
 .yellow{
     background-color:var(--general-color) !important;
 }
-
+.about .top__spacer{
+    display:flex;
+    justify-content:center;
+    
+}
 .about__top{
     display:flex;
-    justify-content:flex-end;
+    justify-content:center;
+    /* width:92.75%; */
 }
 
 .about__bottom{
