@@ -406,8 +406,8 @@
     margin-left: 95px;
 } */
 
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 300px) and (max-width: 640px) {
     .reachUs__top .reachUs__header {
-        font-size: 8rem;
+        font-size: 6rem;
     }
 }
