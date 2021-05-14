@@ -48,7 +48,7 @@
 
 .what__left .top__right {
     display: flex;
-    flex-flow: column;
+    flex-flow: row;
 }
 
 .what__left .top__right .upper {
@@ -110,6 +110,14 @@
     .what__rightContentTop {
         padding-inline: 20px;
     }
+
+    .upper .upper__right .greyRectangle {
+        display: none;
+    }
+
+    .what .what__left .top .top__left .upper .greyRectangle {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 640px) {
@@ -138,5 +146,18 @@
 
     .what__rightContent {
         margin-inline: 5rem;
+    }
+
+    .upper .upper__right .greyRectangle {
+        display: inline-block;
+    }
+
+    .what__left .top__right {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .what .what__left .top .top__left .upper .greyRectangle {
+        display: inline-block;
     }
 }
