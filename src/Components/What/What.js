@@ -58,7 +58,7 @@ const What = () => {
                     <InfoBlock
                         title={'WHAT DO WE DO'}
                         p1={
-                             'We make highly customised mobile applicatons which are \nvery efficient and scalable at low cost.'
+                            'We make highly customised mobile applicatons which are \nvery efficient and scalable at low cost.'
                         }
                         p2={
                             "We use Flutter for our front end which is the latest \nframework by Google and Firebase for our backend which \nis one of the world's leading Backend services used by \ncompanies like Alibaba, Accenture and Twitch."
@@ -78,8 +78,7 @@ const What = () => {
 
 export default What
 
-{
-    /* <div className='what__leftContent'>
+/* <div className='what__leftContent'>
         <div className='what__left'>
           <div className='what__leftTop' />
           <div className='what__leftBottom' />
@@ -117,4 +116,3 @@ export default What
           </div>
         </div>
       </div> */
-}
