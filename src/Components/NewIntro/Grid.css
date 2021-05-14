@@ -1,132 +1,132 @@
 .Grid {
-  width: 100%;
+    width: 100%;
 }
 .grid-item {
-  background-color: var(--grey);
-  color: var(--general-color);
-  border-radius: 15px;
-  display: flex;
-  justify-content: center;
+    background-color: var(--grey);
+    color: var(--general-color);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
 }
 .link {
-  background-color: var(--grey);
-  /* color: var(--general-color); */
-  border-radius: 15px;
-  text-align: center;
-  cursor: pointer;
+    background-color: var(--grey);
+    /* color: var(--general-color); */
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
 }
 .grid-item-invisible {
-  background-color: var(--dark-grey);
-  color: var(--general-color);
-  border-radius: 15px;
-  display: flex;
-  justify-content: center;
-  z-index: -1;
+    background-color: var(--dark-grey);
+    color: var(--general-color);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
 }
 .logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--grey);
-  border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--grey);
+    border-radius: 15px;
 }
 .grid-item-color {
-  /* padding: 0px 10px 5px; */
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  background-color: var(--general-color);
-  /* background-color: #fd5fbb; */
-  border-radius: 15px;
+    /* padding: 0px 10px 5px; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: var(--general-color);
+    /* background-color: #fd5fbb; */
+    border-radius: 15px;
 }
 .grid-item-color > span {
-  color: #222629;
-  font-size: 150px;
-  font-weight: bold;
-  font-family: 'OCRAExtended';
+    color: #222629;
+    font-size: 150px;
+    font-weight: bold;
+    font-family: 'OCRAExtended';
 }
 .grid-item-clickme {
-  cursor: pointer;
-  display: flex;
-  align-items: flex-end;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-end;
 }
 
 .grid-item-clickme > span {
-  padding-left: 10px;
-  padding-bottom: 10px;
-  width: 101px;
-  height: 62px;
-  font-family: OCRAExtended;
-  font-size: 1.825rem;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.03;
-  letter-spacing: -1.5px;
-  text-align: left;
-  color: var(--dark-grey);
+    padding-left: 10px;
+    padding-bottom: 10px;
+    width: 101px;
+    height: 62px;
+    font-family: OCRAExtended;
+    font-size: 1.825rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.03;
+    letter-spacing: -1.5px;
+    text-align: left;
+    color: var(--dark-grey);
 }
 .react-grid-layout {
-  position: relative;
-  transition: height 200ms ease;
+    position: relative;
+    transition: height 200ms ease;
 }
 .react-grid-item {
-  transition: all 500ms ease;
-  transition-property: left, top;
+    transition: all 500ms ease;
+    transition-property: left, top;
 }
 .react-grid-item.cssTransforms {
-  transition-property: transform;
+    transition-property: transform;
 }
 .react-grid-item.resizing {
-  z-index: 1;
-  will-change: width, height;
+    z-index: 1;
+    will-change: width, height;
 }
 .react-grid-item.react-draggable-dragging {
-  transition: none;
-  z-index: 3;
-  will-change: transform;
+    transition: none;
+    z-index: 3;
+    will-change: transform;
 }
 
 .react-grid-item.react-grid-placeholder {
-  background: red;
-  opacity: 0.2;
-  transition-duration: 100ms;
-  z-index: 2;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -o-user-select: none;
-  user-select: none;
+    background: red;
+    opacity: 0.2;
+    transition-duration: 100ms;
+    z-index: 2;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
 }
 .link {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 .giveUs {
-  height: 5.813rem;
-  padding-left: 1.875rem;
-  font-family: OCRAExtended;
-  font-size: 1.875rem;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.03;
-  letter-spacing: -1.5px;
-  text-align: left;
-  color: #adadad;
+    height: 5.813rem;
+    padding-left: 1.875rem;
+    font-family: OCRAExtended;
+    font-size: 1.875rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.03;
+    letter-spacing: -1.5px;
+    text-align: left;
+    color: #adadad;
 }
 .join {
-  height: 5.813rem;
-  padding-left: 1.875rem;
-  font-family: OCRAExtended;
-  font-size: 1.875rem;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.03;
-  letter-spacing: -1.5px;
-  text-align: left;
-  color: #adadad;
+    height: 5.813rem;
+    padding-left: 1.875rem;
+    font-family: OCRAExtended;
+    font-size: 1.875rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.03;
+    letter-spacing: -1.5px;
+    text-align: left;
+    color: #adadad;
 }
 /* .react-grid-item > .react-resizable-handle {
   position: absolute;

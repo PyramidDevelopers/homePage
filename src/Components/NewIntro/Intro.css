@@ -76,3 +76,15 @@
     padding-top: 0.625rem;
     font-family: 'OCRAExtended';
 }
+
+@media screen and (max-width: 300px) {
+    .intro__description > span {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .intro__description > span {
+        font-size: 2.088rem;
+    }
+}

@@ -6,15 +6,18 @@ import PhoneOutlinedIcon from '@material-ui/icons/PhoneOutlined'
 
 const ReachUs = () => {
     const [name, setName] = useState('')
+    const [phone, setPhone] = useState('')
     const [email, setEmail] = useState('')
     const [query, setQuery] = useState('')
 
     const handleSubmit = (e) => {
         e.preventDefault()
         console.log(name)
+        console.log(phone)
         console.log(email)
         console.log(query)
         setName('')
+        setPhone('')
         setEmail('')
         setQuery('')
     }
@@ -59,6 +62,14 @@ const ReachUs = () => {
                                     type="text"
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
+                                />
+                            </div>
+                            <div className="Input">
+                                <p>Your Phone No</p>
+                                <input
+                                    type="text"
+                                    value={phone}
+                                    onChange={(e) => setPhone(e.target.value)}
                                 />
                             </div>
                             <div className="Input Inputtextarea">
