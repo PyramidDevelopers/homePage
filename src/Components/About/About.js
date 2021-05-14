@@ -15,7 +15,7 @@ const About = () => {
                 <div className="greyRectangle"></div>
                 <div className="greyRectangle"></div>
             </div> */}
-            <div className="about__bottom">
+            <div className="about__bottom flex flex-col md:flex-row">
                 <div className="about__left">
                     <InfoBlock
                         title={'WHO ARE WE'}
