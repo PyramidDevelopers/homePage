@@ -25,6 +25,12 @@
     }
 } */
 
+@media screen and (min-width: 300px) {
+    .app {
+        zoom: 25%;
+    }
+}
+
 @media screen and (min-width: 640px) {
     .app {
         zoom: 33%;
