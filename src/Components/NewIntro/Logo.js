@@ -1,5 +1,4 @@
 // import logo1 from '../../assets/Group 1.svg';
-import { useEffect } from 'react'
 import peach from '../../assets/Group-3.svg'
 import green from '../../assets/Group-4.svg'
 import purple from '../../assets/Group-5.svg'
@@ -13,10 +12,6 @@ import { useStateValue } from '../../StateProvider'
 
 const Logo = () => {
     const [{ globalCount }] = useStateValue()
-
-    // useEffect(() => {
-    //     color = globalCount
-    // }, [globalCount])
 
     const colors = [
         yellow,

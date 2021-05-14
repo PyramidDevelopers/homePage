@@ -15,7 +15,7 @@ const About = () => {
                 <div className="greyRectangle"></div>
                 <div className="greyRectangle"></div>
             </div> */}
-            <div className="about__bottom">
+            <div className="about__bottom flex flex-col md:flex-row">
                 <div className="about__left">
                     <InfoBlock
                         title={'WHO ARE WE'}
@@ -51,7 +51,7 @@ const About = () => {
                         <div className="socialMedia">
                             <div className="greyRectangle yellow">
                                 <a href="https://www.linkedin.com/company/pyramid-developers/">
-                                    <LinkedInIcon  />
+                                    <LinkedInIcon />
                                 </a>
                             </div>
                             <div className="greyRectangle yellow">
@@ -60,7 +60,7 @@ const About = () => {
                                 </a>
                             </div>
                             <div className="greyRectangle yellow">
-                                <a href="">
+                                <a href="/">
                                     <FacebookIcon />
                                 </a>
                             </div>
