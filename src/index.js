@@ -9,8 +9,13 @@ import './fonts/jd_scarabeo_light.ttf'
 import { StateProvider } from './StateProvider'
 import reducer, { initialState } from './reducer'
 import ReactGA from 'react-ga'
-
+import TagManager from 'react-gtm-module'
 import './index.css'
+
+const tagManagerArgs = {
+    gtmId: 'G-SSF026G0Y1',
+}
+TagManager.initialize(tagManagerArgs)
 
 const trackingId = 'UA-197018412-1' // Replace with your Google Analytics tracking ID
 ReactGA.initialize(trackingId)
