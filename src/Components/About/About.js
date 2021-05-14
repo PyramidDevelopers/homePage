@@ -23,7 +23,7 @@ const About = () => {
                             'Simply put, college students looking to make it big. \nWe develop apps, make website, design interfaces, \ncreate backend architecture and much more.'
                         }
                         p2={
-                            'We may still be in college but we bring a vast \nskillset to the table. We have made comprehensive \nand quality digital products from numerous clients.'
+                            'We may still be in college but we bring a vast \nskillset to the table. We have made comprehensive \nand quality digital products for numerous clients.'
                         }
                     />
 
