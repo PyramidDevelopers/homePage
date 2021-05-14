@@ -188,13 +188,22 @@ const Footer = () => {
                     <a
                         href="https://www.linkedin.com/company/pyramid-developers/"
                         target="_blank"
+                        rel="noreferrer"
                     >
                         <LinkedInIcon style={{ fontSize: 50 }} />
                     </a>
-                    <a href="http://www.instagram.com/pyramid_developers">
+                    <a
+                        href="http://www.instagram.com/pyramid_developers"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
                         <InstagramIcon style={{ fontSize: 50 }} />
                     </a>
-                    <a href="https://www.facebook.com/PyramidDeveloper">
+                    <a
+                        href="https://www.facebook.com/PyramidDeveloper"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
                         <FacebookIcon style={{ fontSize: 50 }} />
                     </a>
                 </div>

@@ -50,17 +50,29 @@ const About = () => {
                         </div> */}
                         <div className="socialMedia">
                             <div className="greyRectangle yellow">
-                                <a href="https://www.linkedin.com/company/pyramid-developers/">
+                                <a
+                                    href="https://www.linkedin.com/company/pyramid-developers/"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
                                     <LinkedInIcon />
                                 </a>
                             </div>
                             <div className="greyRectangle yellow">
-                                <a href="http://www.instagram.com/pyramid_developers">
+                                <a
+                                    href="http://www.instagram.com/pyramid_developers"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
                                     <InstagramIcon />
                                 </a>
                             </div>
                             <div className="greyRectangle yellow">
-                                <a href="https://www.facebook.com/PyramidDeveloper">
+                                <a
+                                    href="https://www.facebook.com/PyramidDeveloper"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
                                     <FacebookIcon />
                                 </a>
                             </div>
@@ -79,7 +91,7 @@ const About = () => {
                                 </div>
                             </div>
                             <div className="images__innerRight">
-                                <div className="greyRectangle"></div>
+                                <div className="greyRectangle hidden"></div>
                             </div>
                         </div>
                     </div>

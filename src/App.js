@@ -8,6 +8,7 @@ import Choose from './Components/Choose/Choose'
 import OurTeam from './Components/OurTeam/OurTeam'
 import ReachUs from './Components/ReachUs/ReachUs'
 import Footer from './Components/Footer/Footer'
+import ReactGA from 'react-ga'
 
 function App() {
     // useEffect(() => {
@@ -16,6 +17,9 @@ function App() {
     //     // console.log('zoom')
     //     document.body.style.zoom = '50%'
     // })
+
+    const trackingId = 'UA-197018412-1' // Replace with your Google Analytics tracking ID
+    ReactGA.initialize(trackingId)
 
     return (
         <div className="app xl:fontSize-7xl">
