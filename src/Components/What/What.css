@@ -98,13 +98,17 @@
     /* padding-top:70px; */
 }
 
+.mobile__remove {
+    display: none;
+}
+
 @media screen and (min-width: 300px) {
     .space {
         width: 0px;
     }
 
     .what__rightContent {
-        margin-top: -10rem;
+        margin-top: 2rem;
     }
 
     .what__rightContentTop {

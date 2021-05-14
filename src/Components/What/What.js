@@ -71,7 +71,7 @@ const What = () => {
                     <div className="greyRectangle"></div>
                 </div>
             </div>
-            <div className="darkRectangle"></div>
+            <div className="darkRectangle mobile__remove"></div>
         </div>
     )
 }

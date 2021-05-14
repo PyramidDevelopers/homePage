@@ -105,16 +105,39 @@
 }
 
 @media screen and (min-width: 300px) {
+    .infoblock .text .para1 {
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+    }
+
+    .infoblock .text .para2 {
+        display: flex;
+        justify-content: center;
+        max-width: 100%;
+    }
+
+    .title {
+        align-items: center;
+        justify-content: center;
+    }
+
     .title__text p {
-        font-size: 6rem;
+        font-size: 8rem;
     }
 
     .infoblock .text .para2 p {
-        font-size: 2.5rem;
+        white-space: pre-wrap;
+        font-size: 4rem;
+        text-align: center;
+        width: 100%;
     }
 
     .infoblock .text .para1 p {
-        font-size: 2.5rem;
+        white-space: pre-wrap;
+        font-size: 4rem;
+        text-align: center;
+        width: 100%;
     }
 }
 
@@ -129,5 +152,31 @@
 
     .title__text p {
         font-size: 5rem;
+    }
+
+    .infoblock .text .para1 {
+        display: flex;
+        /* justify-content: left; */
+        max-width: 100%;
+    }
+
+    .infoblock .text .para2 {
+        display: flex;
+        justify-content: left;
+        max-width: 100%;
+    }
+
+    .infoblock .text .para1 p {
+        white-space: pre-wrap;
+        font-size: 2.5rem;
+        text-align: left;
+        width: 100%;
+    }
+
+    .infoblock .text .para2 p {
+        white-space: pre-wrap;
+        font-size: 2.5rem;
+        text-align: left;
+        width: 100%;
     }
 }

@@ -60,7 +60,7 @@ const About = () => {
                                 </a>
                             </div>
                             <div className="greyRectangle yellow">
-                                <a href="/">
+                                <a href="https://www.facebook.com/PyramidDeveloper">
                                     <FacebookIcon />
                                 </a>
                             </div>

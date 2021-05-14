@@ -185,9 +185,18 @@ const Footer = () => {
                 </p>
 
                 <div className="flex text-center space-x-4 mt-4">
-                    <LinkedInIcon style={{ fontSize: 50 }} />
-                    <InstagramIcon style={{ fontSize: 50 }} />
-                    <FacebookIcon style={{ fontSize: 50 }} />
+                    <a
+                        href="https://www.linkedin.com/company/pyramid-developers/"
+                        target="_blank"
+                    >
+                        <LinkedInIcon style={{ fontSize: 50 }} />
+                    </a>
+                    <a href="http://www.instagram.com/pyramid_developers">
+                        <InstagramIcon style={{ fontSize: 50 }} />
+                    </a>
+                    <a href="https://www.facebook.com/PyramidDeveloper">
+                        <FacebookIcon style={{ fontSize: 50 }} />
+                    </a>
                 </div>
             </div>
         </div>
