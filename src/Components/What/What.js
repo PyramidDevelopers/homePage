@@ -52,7 +52,7 @@ const What = () => {
 
             <div className="what__rightContent">
                 <div className="space">
-                    <div className="darkRectangle"></div>
+                    {/* <div className="darkRectangle"></div> */}
                 </div>
                 <div className="what__rightContentTop">
                     <InfoBlock
