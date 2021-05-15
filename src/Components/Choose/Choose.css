@@ -68,82 +68,47 @@
     flex-flow:column;
 }
 
-/* .choose__left .whoAreWe{
-    display:flex;
-}
-.choose__left .whoAreWe__text p{
-    width: 600px;
-    height: 83px;
-    margin: 30px 14px 36px 7px;
-    font-family: OCRAExtended;
-    font-size: 80px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.04;
-    letter-spacing: -8px;
-    text-align: center;
-    color: #ffca60;
-} */
+@media screen and (min-width:300px) and (max-width:480px){
+    .web__hidden{
+        display:block;
+    }
+    .mobile__hidden{
+        display:none;
+    }
+    .choose{
+        justify-content:center;
+        flex-flow:column;
+    }
+    .choose .choose__right{
+        width:100%;
+        flex-flow:row-reverse;
+        justify-content:center;
+    }
+    .choose .choose__right .col1{
+        width:50%;
+    }
+    .choose .choose__right .col2{
+        display:flex;
+        justify-content:flex-end;
+    }
+    .choose .choose__right .col1__image{
+        width:100%;
+    }
+    .choose .choose__right .col1__image img{
+        height:500px !important;
+        max-width:100% !important;
+        width:100% !important;
+    }
+    .choose .choose__right .col2__image img{
+        height:500px !important;
+        /* max-width:100% !important; */
+        width:auto !important;
+    }
 
-/* .choose__left .whoAreWe__qmark{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    width: 69px;
-    height: 90px;
-    margin: 30px 15px 33px 3px;
 
-    border-radius: 15px;
-    background-color: #ffca60;
-}
-
-.choose__left .whoAreWe__qmark p{
-    width: 36px;
-    height: 61px;
-    font-family: OCRAExtended;
-    font-size: 59px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.03;
-    letter-spacing: -5.9px;
-    text-align: center;
-    color: var(--dark-grey);
 }
 
-.choose__left .para1{
-    width: 584px;
 
-    margin: 66px 10px 23px 7px;
-    font-family: ISOCPEUR;
-    font-size: 27px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.22;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffca60;
-}
-
-.choose__left .para2{
-    width: 584px;
-
-    margin: 28px 10px 84px 7px;
-    font-family: ISOCPEUR;
-    font-size: 27px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.22;
-    letter-spacing: normal;
-    text-align: left;
-    color: var(--light-grey);
-} */
-/* .hidden {
-    display: none;
-} */
 
 /* @media screen and (min-width: 300px) {
     .choose__right {

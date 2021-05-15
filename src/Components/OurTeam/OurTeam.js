@@ -19,11 +19,11 @@ const OurTeam = () => {
             </div>
             <div className="ourTeam__bottom">
                 <div className="bottom__upper">
-                    <div className="col1">
+                    <div className="col1 mobile__hidden">
                         <div className="darkRectangle"></div>
                         <div className="greyRectangle"></div>
                     </div>
-                    <div className="col2">
+                    <div className="col2 mobile__hidden">
                         <div className="greyLongRectangle"></div>
                     </div>
                     <div className="col3">
@@ -51,9 +51,7 @@ const OurTeam = () => {
                        <Member image={pratheek} name="Pratheek SB" role="Core Developer"/> */}
                     </div>
                     <div className="col4">
-                        {/* <div className="greyRectangle no-border curve-rectangle-left"></div>
-                        <div className="greyRectangle no-border"></div> */}
-                        <div className="greyFatRectangle"></div>
+                        <div className="greyFatRectangle mobile__hidden"></div>
                     </div>
                 </div>
                 {/* <div className="bottom__lower">

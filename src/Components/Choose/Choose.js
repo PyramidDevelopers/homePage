@@ -20,21 +20,21 @@ const Choose = () => {
                     <div className="col1__image">
                         <img src={LeftImage} alt="" />
                     </div>
-                    <div className="greyFatRectangle"></div>
+                    <div className="greyFatRectangle mobile__hidden"></div>
                 </div>
                 <div className="col2">
-                    <div className="greyFatRectangle"></div>
+                    <div className="greyFatRectangle mobile__hidden"></div>
                     <div className="col2__image">
                         <img src={RightImage} alt="" />
                     </div>
                 </div>
-                <div className="col3">
+                <div className="col3 mobile__hidden">
                     <div className="greyRectangle"></div>
                     <div className="greyRectangle"></div>
                     <div className="darkRectangle"></div>
                     <div className="greyRectangle"></div>
                 </div>
-                <div className="col4">
+                <div className="col4 mobile__hidden">
                     <div className="darkRectangle"></div>
                     <div className="greyRectangle"></div>
                 </div>
