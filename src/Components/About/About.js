@@ -11,13 +11,13 @@ import './About.css'
 const About = () => {
     return (
         <div className="about flex flex-col" id="about">
-            <div className="top__spacer">
+            {/* <div className="top__spacer">
                 <div className="about__top">
-                    {/* <div className="greyRectangle"></div>
-                    <div className="greyRectangle"></div> */}
+                    <div className="greyRectangle"></div>
+                    <div className="greyRectangle"></div>
                     <div className="darkRectangle"></div>
                 </div>
-            </div>
+            </div> */}
             <div className="about__bottom">
                 <div className="about__left">
                     <InfoBlock

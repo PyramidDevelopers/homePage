@@ -67,7 +67,8 @@
 
 .reachUs__formLeft .Input {
     width: 36.5rem;
-    height: 9.563rem;
+    /* height: 9.563rem; */
+    height:5.563rem;
     /* margin: 10px 6px 10px 20px; */
     margin:0.625rem;
     padding: 1.25rem;
@@ -92,7 +93,8 @@
 }
 .reachUs__formLeft input[type='text'] {
     max-width: 36.5rem;
-    height: 70%;
+    /* height: 70%; */
+    height:80%;
     /* margin-block: 10px; */
     border-radius: 5px;
     /* background-color: var(--grey); */
@@ -100,7 +102,8 @@
     border: none;
     outline: none;
     font-family: OCRAExtended;
-    font-size: 2.5rem;
+    /* font-size: 2.5rem; */
+    font-size:2rem;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -123,7 +126,7 @@
     /* height: 326px !important; */
     max-width: 36.5rem;
     height: 80%;
-    margin-inline: 1.25rem;
+    /* margin-inline: 1.25rem; */
     border-radius: 15px;
     /* background-color: var(--grey); */
     background: transparent;

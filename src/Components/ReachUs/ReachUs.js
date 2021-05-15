@@ -7,15 +7,18 @@ import PhoneOutlinedIcon from '@material-ui/icons/PhoneOutlined'
 const ReachUs = () => {
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
+    const [phone, setPhone] = useState('')
     const [query, setQuery] = useState('')
 
     const handleSubmit = (e) => {
         e.preventDefault()
         console.log(name)
         console.log(email)
+        console.log(phone)
         console.log(query)
         setName('')
         setEmail('')
+        setPhone('')
         setQuery('')
     }
 
@@ -51,6 +54,7 @@ const ReachUs = () => {
                             <div className="Input">
                                 <p>Your Name</p>
                                 <input
+                                    required
                                     type="text"
                                     value={name}
                                     onChange={(e) => setName(e.target.value)}
@@ -59,9 +63,19 @@ const ReachUs = () => {
                             <div className="Input">
                                 <p>Your Email ID</p>
                                 <input
+                                    required
                                     type="text"
                                     value={email}
                                     onChange={(e) => setEmail(e.target.value)}
+                                />
+                            </div>
+                            <div className="Input">
+                                <p>Your Phone No</p>
+                                <input
+                                    required
+                                    type="text"
+                                    value={phone}
+                                    onChange={(e) => setPhone(e.target.value)}
                                 />
                             </div>
                             <div className="Input Inputtextarea">
@@ -71,6 +85,7 @@ const ReachUs = () => {
                                     type="text"
                                     value={query}
                                     onChange={(e) => setQuery(e.target.value)}
+                                    required
                                 />
                             </div>
                         </div>
