@@ -17,6 +17,14 @@ const ReachUs = () => {
 
         axios.get(`https://script.google.com/macros/s/AKfycbxyaXIvYz03A4uCTRpdbXpN5h49vmr6C-7OEHtRdg/exec?name=${name}&emailID=${email}&phoneNo=${phone}&query=${query}`)
 
+
+        axios.post("https://mkqzdpmnm4.execute-api.ap-south-1.amazonaws.com/default/sendEmailPyramidContactUs",{
+            Name: name,
+            EmailID:email,
+            PhoneNumber:phone,
+            Query:query
+        })
+
         // console.log(name)
         // console.log(phone)
         // console.log(email)
@@ -29,15 +37,15 @@ const ReachUs = () => {
     }
 
     return (
-        <div className="reachUs flex flex-col items-center" id="reachUs">
+        <div className="reachUs" id="reachUs">
             <div className="reachUs__top">
-                <h1 className="reachUs__header text-center" id="reach">
+                <h1 className="reachUs__header" id="reach">
                     REACH US
                 </h1>
             </div>
 
             <div className="reachUs__bottom">
-                <div className="spacer">
+                <div className="spacer mobile__hidden">
                     <div className="darkRectangle"></div>
                 </div>
                 <div className="reachUs__bottomLeft">
@@ -110,7 +118,7 @@ const ReachUs = () => {
                     </form>
                 </div>
 
-                <div className="spacer">
+                <div className="spacer mobile__hidden">
                     <div className="darkRectangle"></div>
                 </div>
 
@@ -130,7 +138,7 @@ const ReachUs = () => {
                                 community, and unlock amazing new prospects.
                             </p>
                         </div>
-                        <div className="right">
+                        <div className="right mobile__hidden">
                             <div className="greyRectangle"></div>
                         </div>
                     </div>
@@ -159,7 +167,7 @@ const ReachUs = () => {
                     </div>
                 </div>
 
-                <div className="spacer">
+                <div className="spacer mobile__hidden">
                     <div className="darkRectangle"></div>
                     <div className="greyRectangle"></div>
                 </div>

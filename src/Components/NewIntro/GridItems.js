@@ -76,20 +76,15 @@ function GridItems(layout, color, count, changeLayout) {
         if (item.i === '66') {
             return (
                 <div key="66" className="link">
-                    <Link
-                        activeClass="active"
-                        to="reachUs"
-                        spy={true}
-                        smooth={true}
-                        offset={-160}
-                        duration={1000}
-                    >
-                        <h3 className="join">
-                            BECOME A<br /> PART OF US
-                            <br />
-                            &gt;&gt;&gt;
-                        </h3>
-                    </Link>
+                    
+                        <a href="https://bit.ly/PyramidDevelopersRecruitment" target="_blank">
+                            <h3 className="join">
+                                BECOME A<br /> PART OF US
+                                <br />
+                                &gt;&gt;&gt;
+                            </h3>
+                        </a>
+                    
                 </div>
             )
         }

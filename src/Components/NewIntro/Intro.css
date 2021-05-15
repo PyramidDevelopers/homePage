@@ -77,14 +77,45 @@
     font-family: 'OCRAExtended';
 }
 
-@media screen and (max-width: 300px) {
+.intro .giveUs {
+    height: 5.813rem;
+    padding-left: 1.875rem;
+    font-family: OCRAExtended;
+    font-size: 1.875rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.03;
+    letter-spacing: -1.5px;
+    text-align: left;
+    color: #adadad;
+}
+.intro .join {
+    height: 5.813rem;
+    padding-left: 1.875rem;
+    font-family: OCRAExtended;
+    font-size: 1.875rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.03;
+    letter-spacing: -1.5px;
+    text-align: left;
+    color: #adadad;
+}
+
+@media screen and (min-width:300px) and (max-width: 640px) {
     .intro__description > span {
-        font-size: 1.5rem;
+        font-size: 1.75rem;
+    }
+    .intro .join,.intro .giveUs{
+        padding-left:1rem;
+        font-size:1.75rem;
     }
 }
 
-@media screen and (max-width: 640px) {
+/* @media screen and (max-width: 640px) {
     .intro__description > span {
         font-size: 2.088rem;
     }
-}
+} */

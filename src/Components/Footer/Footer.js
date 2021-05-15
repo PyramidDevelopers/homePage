@@ -81,26 +81,27 @@ const Footer = () => {
                     </button>
                 </div>
 
-                <div className="footer__left flex flex-col ml-[20px]">
+                <div className="footer__left footer__about flex flex-col ml-[20px]">
                     <h1 className="text-4xl lg:text-5xl 2xl:text-5xl mb-4">
                         ABOUT US
                     </h1>
 
                     <p className="text-xl 2xl:text-2xl">
-                        Pyramid Developers are a student <br />
-                        based community of problem <br />
-                        solvers, specializing in providing <br />
-                        end-to-end solutions. Our <br />
-                        team can help you fulfill your <br />
-                        digital requirements such as <br />
-                        Android and iOS applications and <br />
+                        Pyramid Developers are a student
+                        based community of problem
+                        solvers, specializing in providing
+                        end-to-end solutions. Our
+                        team can help you fulfill your
+                        digital requirements such as
+                        Android and iOS applications and
                         websites.
                     </p>
                 </div>
             </div>
 
+            <div className = 'footer__mobileView'>
                 <div className="footer__middle ml-6">
-                    <h1 className="text-4xl lg:text-5xl 2xl:text-5xl mb-4 ml-4">
+                    <h1 className="footer__useful text-4xl lg:text-5xl 2xl:text-5xl mb-4 ml-4">
                         USEFUL LINKS
                     </h1>
                     <div className="footer__middleContent ml-4 text-left flex flex-col space-y-2">
@@ -207,8 +208,9 @@ const Footer = () => {
                             <FacebookIcon style={{ fontSize: 50 }} />
                         </a>
                     </div>
-                </div>
+                </div> 
             </div>
+        </div>
     )
 }
 

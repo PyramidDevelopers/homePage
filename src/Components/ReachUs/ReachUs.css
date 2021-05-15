@@ -1,5 +1,9 @@
 .reachUs {
-    /* margin-block: 100px; */
+    display:flex;
+    flex-flow:column;
+    align-items:center;
+    justify-content:center;
+
 }
 
 .reachUs .reachUs__top {
@@ -10,9 +14,7 @@
 }
 
 .reachUs__header {
-    /* width: 331px;
-    height: 83px; */
-    /* margin-block: 80px; */
+    text-align:center;
     font-family: OCRAExtended;
     font-size: 5rem;
     font-weight: normal;
@@ -20,7 +22,6 @@
     font-style: normal;
     line-height: 1.04;
     letter-spacing: -8px;
-    /* text-align: left; */
     color: var(--light-grey);
 }
 
@@ -31,7 +32,6 @@
 .reachUs__bottomLeft {
     display: flex;
     flex-direction: column;
-    /* flex: 0.6; */
     align-items: center;
 }
 
@@ -41,15 +41,8 @@
     width: 100%;
 }
 .reachUs__bottomLeftTop p {
-    /* width: 584px;
-    height: 129px; */
-    /* margin: 29px 40px 43px 7px; */
     font-family: ISOCPEUR;
     font-size: 1.688rem;
-    /* font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.22; */
     letter-spacing: normal;
     color: var(--general-color);
 }
@@ -62,26 +55,21 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content:space-between;
     gap: 0.5rem;
 }
 
 .reachUs__formLeft .Input {
     width: 36.5rem;
-    /* height: 9.563rem; */
     height: 5.563rem;
-    /* margin: 10px 6px 10px 20px; */
     margin: 0.625rem;
     padding-block: 0.625rem;
     padding-inline:1.25rem;
-    /* display:flex;
-    flex-flow:column; */
     border-radius: 0.938rem;
     background-color: var(--grey);
 }
 
 .reachUs__formLeft .Input p {
-    /* width: 111px; */
-    /* height: 25px; */
     font-family: OCRAExtended;
     font-size: 1.5rem;
     font-weight: normal;
@@ -89,21 +77,16 @@
     font-style: normal;
     line-height: 1.04;
     letter-spacing: -2.4px;
-    /* text-align: left; */
     color: var(--general-color);
 }
 .reachUs__formLeft input[type='text'] {
     max-width: 36.5rem;
-    height:70%;
     height: 80%;
-    /* margin-block: 10px; */
     border-radius: 5px;
-    /* background-color: var(--grey); */
     background: transparent;
     border: none;
     outline: none;
     font-family: OCRAExtended;
-    /* font-size: 2.5rem; */
     font-size: 2rem;
     font-weight: normal;
     font-stretch: normal;
@@ -115,26 +98,20 @@
 
 .reachUs__formLeft .Inputtextarea {
     height: 20.375rem !important;
-    /* width: 584px; */
-    /* height: 100px; */
-    /* margin: 10px 6px 10px 20px; */
-    padding: 1.25rem;
+    padding-inline:1.25rem;
+    padding-block: 0.625rem;
     border-radius: 15px;
     background-color: var(--grey);
 }
 
 .reachUs textarea {
-    /* height: 326px !important; */
     max-width: 36.5rem;
     height: 80%;
-    /* margin-inline: 1.25rem; */
     border-radius: 15px;
-    /* background-color: var(--grey); */
     background: transparent;
     border: none;
     outline: none;
     font-family: OCRAExtended;
-    /* font-size: 2.5rem; */
     font-size: 2rem;
     font-weight: normal;
     font-stretch: normal;
@@ -165,7 +142,6 @@
     cursor: pointer;
     padding-block: 1.25rem;
     font-family: OCRAExtended;
-    /* font-size: 1.875rem; */
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -185,7 +161,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* align-items: center; */
 }
 
 .reachUs__bottomRight .bottomRight__upper {
@@ -206,8 +181,6 @@
 
 .bottomRight__upper .left .left__topP {
     width: 100%;
-    /* height: 30px; */
-    /* margin-bottom:132px; */
     font-family: OCRAExtended;
     font-size: 1.875rem;
     font-weight: normal;
@@ -220,8 +193,6 @@
 }
 
 .bottomRight__upper .left .left__lowerP {
-    /* width: 502px; */
-    /* height: 129px; */
     width: 100%;
     margin-bottom: 0.625rem;
     font-family: ISOCPEUR;
@@ -238,9 +209,6 @@
 .reachUs__bottomRight .bottomRight__lower {
     display: flex;
     flex-flow: column;
-    /* justify-content:flex-start; */
-    /* align-items:flex-start; */
-    /* gap:0.5rem; */
 }
 
 .bottomRight__lower .contact {
@@ -261,12 +229,9 @@
 .reachUs__bottomRight .bottomRight__lower .contact .contact__left > * {
     font-size: 3.75rem;
 }
-/* .reachUs__formRight button > p{
-    font-size:1.875rem !important;
-} */
+
 .contact .contact__left p {
-    /* width: 79px;
-    height: 31px; */
+
     margin-top: 0.625rem;
     font-family: OCRAExtended;
     font-size: 1.875rem !important;
@@ -282,8 +247,6 @@
 .contact .contact__right {
     width: 34.25rem;
     height: 9.563rem;
-    /* margin: 20px 12px 20px 11px;
-    padding: 56px 35px 56px 25px; */
     border-radius: 15px;
     background-color: var(--grey);
     display: flex;
@@ -292,9 +255,7 @@
 }
 
 .contact .contact__right p {
-    /* width: 488px; */
     width: 90%;
-    /* height: 41px; */
     font-family: OCRAExtended;
     font-size: 2.5rem;
     font-weight: normal;
@@ -310,107 +271,53 @@
     resize: none;
 }
 
-
-/* @media screen and (min-width: 300px) and (max-width: 640px) {
-    .reachUs__top .reachUs__header {
-        font-size: 6rem;
+@media screen and (min-width:300px) and (max-width:480px){
+    .web__hidden{
+        display:block;
     }
-} */
-
-/* 
-.reachUs__bottomRight {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    .mobile__hidden{
+        display:none;
+    }
+    .reachUs__bottom{
+        flex-flow:column-reverse;
+        gap:5rem;
+    }
+    .reachUs__bottomRight{
+        flex-flow:row-reverse;
+        gap:2rem;
+    }
+    .reachUs__bottomLeft{
+        gap:3rem;
+    }
+    .reachUs__bottomLeftTop{
+        display:flex;
+        justify-content:center;
+    }
+    .reachUs__bottomLeftTop p{
+        font-size:2.5rem;
+    }
+    .reachUs__formLeft .Input {
+        width: 40.5rem;
+        height: 9.563rem;
+        padding-block: 1.25rem;
+    }
+    
+    .reachUs__formLeft .Input p {
+        font-size: 2.25rem;
+    }
+    .reachUs__formLeft input[type='text'] {
+        max-width: 40.5rem;
+        width:90%;
+        font-size: 2.5rem;
+    }
+    
+    .reachUs__formLeft .Inputtextarea {
+        padding-block: 1.25rem;
+    }
+    
+    .reachUs textarea {
+        max-width: 40.5rem;
+        width:90%;
+        font-size: 2.5rem;
+    }
 }
-.reachUs__bottomRightTop {
-    align-items: center;
-    display: flex;
-}
-
-.reachUs__bottomRightTopHeader {
-    padding: 15px;
-    background-color: var(--grey);
-    border-radius: 15px;
-    width: 25vw;
-}
-
-.reachUs__bottomRightTopHeaderP {
-    font-size: 18px;
-    color: #60ffba;
-    margin-top: 0px;
-}
-
-.reachUs__bottomRightTopHeaderp {
-    margin-top: 70px;
-    color: var(--light-grey);
-}
-
-.reachUs__bottomRightTopBlocks {
-    margin-left: 10px;
-}
-
-.reachUs__bottomRightTopBlockLeft {
-    width: 85px;
-    height: 100px;
-    background-color: var(--grey);
-    border-radius: 15px;
-}
-
-.reachUs__bottomRightTopBlockRight {
-    border-radius: 15px;
-    width: 85px;
-    height: 100px;
-    background-color: var(--grey);
-    margin-left: 95px;
-}
-
-.reachUs__bottomRightBottomTop {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-
-.reachUs__bottomRightBottom {
-    display: flex;
-    flex-direction: column;
-    margin-top: 150px;
-}
-
-.reachUs__bottomRightBottomTopIcon {
-    background-color: #60ffba;
-    border-radius: 15px;
-    width: 3vw;
-    text-align: center;
-    padding: 20px;
-}
-
-.reachUs__bottomRightBottomTopIcon > p {
-    margin-top: 5px;
-    color: black;
-}
-
-.reachUs__bottomRightBottomTopText {
-    background-color: var(--grey);
-    border-radius: 15px;
-    margin-left: 10px;
-    padding: 30px 20px;
-    width: 20vw;
-}
-
-.reachUs__bottomRightBottomTopText > p {
-    text-align: center;
-    color: #60ffba;
-    font-weight: bold;
-    margin-top: 0px;
-    font-size: 25px;
-}
-
-.reachUs__bottomRightBottomBlockRight {
-    border-radius: 15px;
-    width: 85px;
-    height: 100px;
-    background-color: #222629;
-    margin-left: 95px;
-} */

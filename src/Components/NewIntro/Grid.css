@@ -102,32 +102,7 @@
     display: flex;
     align-items: center;
 }
-.giveUs {
-    height: 5.813rem;
-    padding-left: 1.875rem;
-    font-family: OCRAExtended;
-    font-size: 1.875rem;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.03;
-    letter-spacing: -1.5px;
-    text-align: left;
-    color: #adadad;
-}
-.join {
-    height: 5.813rem;
-    padding-left: 1.875rem;
-    font-family: OCRAExtended;
-    font-size: 1.875rem;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.03;
-    letter-spacing: -1.5px;
-    text-align: left;
-    color: #adadad;
-}
+
 /* .react-grid-item > .react-resizable-handle {
   position: absolute;
   width: 20px;
