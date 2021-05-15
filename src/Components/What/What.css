@@ -107,6 +107,31 @@
     flex-flow:column;
     justify-content:flex-end;
 }
+
+@media screen and (min-width:300px) and (max-width:480px){
+    .web__hidden{
+        display:block;
+    }
+    .mobile__hidden{
+        display:none;
+    }
+    .what{
+        /* flex-flow:column; */
+        flex-direction:column-reverse;
+        margin-left:0px;
+    }
+    .what .what__right{
+        justify-content:center;
+    }
+    .what .what__rightContentTop{
+        display:flex;
+        justify-content:center;
+    }
+}
+
+
+
+
 /* .mobile__remove {
     display: none;
 } */

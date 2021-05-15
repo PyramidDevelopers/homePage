@@ -12,15 +12,12 @@
 .infoblock .title{
     display:flex;
     justify-content:flex-start;
-    /* width: 670px; */
-    /* height: 100px; */
     gap:2.5rem;
 }
 .infoblock .title__text{
     display:flex;
     justify-content:flex-start;
     align-items:center;
-    /* margin-inline:30px; */
 }
 .infoblock .title__text p{
     
@@ -31,7 +28,7 @@
     font-style: normal;
     line-height: 1.04;
     letter-spacing: -8px;
-    text-align: center;
+    /* text-align: center; */
     color: var(--general-color);
 }
 
@@ -46,16 +43,13 @@
 }
 
 .infoblock .title__qmark p{
-    /* width: 36px;
-    height: 61px; */
     font-family: OCRAExtended;
     font-size: 4.063rem;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.03;
-    /* letter-spacing: -4.9px; */
-    text-align: center;
+    /* text-align: center; */
     color: var(--dark-grey);
 }
 
@@ -67,8 +61,6 @@
 
 .infoblock .text .para1 p{
     width: 100%;
-    /* width: 38.5rem; */
-    /* height: 10.875rem; */
     white-space:pre-line;
     margin-top: 7.0rem ;
     font-family: ISOCPEUR;
@@ -89,10 +81,8 @@
 
 .infoblock .text .para2 p{
     display:flex;
-    /* width: 38.5rem; */
     white-space:pre-line;
     width:100%;
-    /* height: 223px; */
     margin-top:3.125rem ;
     font-family: ISOCPEUR;
     font-size: 1.688rem;
@@ -103,6 +93,47 @@
     letter-spacing: normal;
     text-align: left;
     color: var(--light-grey);
+}
+
+@media screen and (min-width:300px) and (max-width:480px){
+    .infoblock{
+        width:75%;
+    }
+    .infoblock .title{
+        justify-content:center;
+        /* width:100%; */
+    }
+    .infoblock .title__text{
+        justify-content:center;
+    }
+    .infoblock .title__text p{
+        font-size:6rem;
+    }
+    .infoblock .title__qmark p{
+        font-size:5rem;
+    }
+    .infoblock .text .para1{
+        justify-content:center;
+        max-width:100%;
+    }
+    .infoblock .text .para1 p{
+        white-space: normal;
+        font-size: 3rem;
+        text-align: center;
+        letter-spacing: 0.08rem;
+        width: 100%;
+    }
+    .infoblock .text .para2{
+        justify-content:center;
+        max-width:100%;
+    }
+    .infoblock .text .para2 p{
+        white-space: normal;
+        font-size: 3rem;
+        text-align: center;
+        letter-spacing: 0.08rem;
+        width: 100%;
+    }
 }
 
 /* @media screen and (min-width: 300px) and (max-width: 640px) {

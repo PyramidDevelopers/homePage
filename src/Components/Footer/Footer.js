@@ -73,7 +73,7 @@ const Footer = () => {
 
     return (
         <div className="footer space-x-20">
-            <div className="footer__left  lg:ml-[-80px]">
+            <div className="footer__left lg:ml-[-80px]">
                 <div className="leftButton ml-[20px]">
                     <button onClick={onClick} className="leftButton__clickMe">
                         <img src={colors[globalCount]} alt="" />
@@ -99,116 +99,116 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="footer__middle ml-6">
-                <h1 className="text-4xl lg:text-5xl 2xl:text-5xl mb-4 ml-4">
-                    USEFUL LINKS
-                </h1>
-                <div className="footer__middleContent ml-4 text-left flex flex-col space-y-2">
-                    <Link
-                        to="about"
-                        duration={1000}
-                        smooth={true}
-                        className="cursor-pointer"
-                    >
-                        <p className="text-2xl">Who are we?</p>
-                    </Link>
+                <div className="footer__middle ml-6">
+                    <h1 className="text-4xl lg:text-5xl 2xl:text-5xl mb-4 ml-4">
+                        USEFUL LINKS
+                    </h1>
+                    <div className="footer__middleContent ml-4 text-left flex flex-col space-y-2">
+                        <Link
+                            to="about"
+                            duration={1000}
+                            smooth={true}
+                            className="cursor-pointer"
+                        >
+                            <p className="text-2xl">Who are we?</p>
+                        </Link>
 
-                    <Link
-                        to="what"
-                        duration={1000}
-                        smooth={true}
-                        className="cursor-pointer"
-                    >
-                        <p className="text-2xl">What do we do?</p>
-                    </Link>
+                        <Link
+                            to="what"
+                            duration={1000}
+                            smooth={true}
+                            className="cursor-pointer"
+                        >
+                            <p className="text-2xl">What do we do?</p>
+                        </Link>
 
-                    <Link
-                        to="show"
-                        duration={1000}
-                        smooth={true}
-                        className="cursor-pointer"
-                    >
-                        <p className="text-2xl">Show me what you got</p>
-                    </Link>
+                        <Link
+                            to="show"
+                            duration={1000}
+                            smooth={true}
+                            className="cursor-pointer"
+                        >
+                            <p className="text-2xl">Show me what you got</p>
+                        </Link>
 
-                    <Link
-                        to="choose"
-                        duration={1000}
-                        smooth={true}
-                        className="cursor-pointer"
-                    >
-                        <p className="text-2xl">Why choose us</p>
-                    </Link>
+                        <Link
+                            to="choose"
+                            duration={1000}
+                            smooth={true}
+                            className="cursor-pointer"
+                        >
+                            <p className="text-2xl">Why choose us</p>
+                        </Link>
 
-                    <Link
-                        to="ourTeam"
-                        duration={1000}
-                        smooth={true}
-                        className="cursor-pointer"
-                    >
-                        <p className="text-2xl">Our Team</p>
-                    </Link>
+                        <Link
+                            to="ourTeam"
+                            duration={1000}
+                            smooth={true}
+                            className="cursor-pointer"
+                        >
+                            <p className="text-2xl">Our Team</p>
+                        </Link>
 
-                    <Link
-                        to="reachUs"
-                        duration={1000}
-                        smooth={true}
-                        className="cursor-pointer"
-                    >
-                        <p className="text-2xl">Reach Us</p>
-                    </Link>
+                        <Link
+                            to="reachUs"
+                            duration={1000}
+                            smooth={true}
+                            className="cursor-pointer"
+                        >
+                            <p className="text-2xl">Reach Us</p>
+                        </Link>
 
-                    <Link
-                        to="reachUs"
-                        duration={1000}
-                        smooth={true}
-                        className="cursor-pointer"
-                    >
-                        <p className="text-2xl">Looking to work?</p>
-                    </Link>
+                        <Link
+                            to="reachUs"
+                            duration={1000}
+                            smooth={true}
+                            className="cursor-pointer"
+                        >
+                            <p className="text-2xl">Looking to work?</p>
+                        </Link>
+                    </div>
+                </div>
+
+                <div className="footer__right flex flex-col">
+                    <h1 className="text-4xl lg:text-5xl 2xl:text-5xl mb-4">
+                        STAY CONNECTED
+                    </h1>
+                    <p className="text-2xl">
+                        Address: No.1, Vibha, Bhadrappa Layout <br />
+                        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Nagashettihalli,
+                        Bangalore - 560094 <br />
+                    </p>
+
+                    <p className="text-2xl">
+                        Phone: 9845309776 <br />
+                        Email: developpyramid@gmail.com
+                    </p>
+
+                    <div className="flex text-center space-x-4 mt-4">
+                        <a
+                            href="https://www.linkedin.com/company/pyramid-developers/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <LinkedInIcon style={{ fontSize: 50 }} />
+                        </a>
+                        <a
+                            href="http://www.instagram.com/pyramid_developers"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <InstagramIcon style={{ fontSize: 50 }} />
+                        </a>
+                        <a
+                            href="https://www.facebook.com/PyramidDeveloper"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <FacebookIcon style={{ fontSize: 50 }} />
+                        </a>
+                    </div>
                 </div>
             </div>
-
-            <div className="footer__right flex flex-col">
-                <h1 className="text-4xl lg:text-5xl 2xl:text-5xl mb-4">
-                    STAY CONNECTED
-                </h1>
-                <p className="text-2xl">
-                    Address: No.1, Vibha, Bhadrappa Layout <br />
-                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Nagashettihalli,
-                    Bangalore - 560094 <br />
-                </p>
-
-                <p className="text-2xl">
-                    Phone: 9845309776 <br />
-                    Email: developpyramid@gmail.com
-                </p>
-
-                <div className="flex text-center space-x-4 mt-4">
-                    <a
-                        href="https://www.linkedin.com/company/pyramid-developers/"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <LinkedInIcon style={{ fontSize: 50 }} />
-                    </a>
-                    <a
-                        href="http://www.instagram.com/pyramid_developers"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <InstagramIcon style={{ fontSize: 50 }} />
-                    </a>
-                    <a
-                        href="https://www.facebook.com/PyramidDeveloper"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <FacebookIcon style={{ fontSize: 50 }} />
-                    </a>
-                </div>
-            </div>
-        </div>
     )
 }
 

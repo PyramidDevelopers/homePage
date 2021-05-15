@@ -71,10 +71,11 @@
     height: 5.563rem;
     /* margin: 10px 6px 10px 20px; */
     margin: 0.625rem;
-    padding: 1.25rem;
+    padding-block: 0.625rem;
+    padding-inline:1.25rem;
     /* display:flex;
     flex-flow:column; */
-    border-radius: 15px;
+    border-radius: 0.938rem;
     background-color: var(--grey);
 }
 

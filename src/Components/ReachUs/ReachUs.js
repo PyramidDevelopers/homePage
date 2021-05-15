@@ -16,15 +16,15 @@ const ReachUs = () => {
         e.preventDefault()
 
         axios.get(`https://script.google.com/macros/s/AKfycbxyaXIvYz03A4uCTRpdbXpN5h49vmr6C-7OEHtRdg/exec?name=${name}&emailID=${email}&phoneNo=${phone}&query=${query}`)
-        console.log(name)
-        console.log(phone)
-        console.log(email)
+
+        // console.log(name)
         // console.log(phone)
-        console.log(query)
+        // console.log(email)
+        // console.log(query)
+
         setName('')
         setPhone('')
         setEmail('')
-        // setPhone('')
         setQuery('')
     }
 
@@ -52,7 +52,7 @@ const ReachUs = () => {
                         <div className="darkRectangle"></div>
                     </div>
 
-                    <form className="reachUs__form">
+                    <form className="reachUs__form" onSubmit={handleSubmit}>
                         <div className="reachUs__formLeft">
                             <div className="Input">
                                 <p>Your Name</p>
@@ -75,6 +75,7 @@ const ReachUs = () => {
                             <div className="Input">
                                 <p>Your Phone No</p>
                                 <input
+                                    required
                                     type="text"
                                     value={phone}
                                     onChange={(e) => setPhone(e.target.value)}
@@ -83,6 +84,7 @@ const ReachUs = () => {
                             <div className="Input Inputtextarea">
                                 <p>Your Query</p>
                                 <textarea
+                                    required
                                     className="textarea"
                                     type="text"
                                     value={query}
@@ -99,7 +101,6 @@ const ReachUs = () => {
                                 <button
                                     className="reachUs__formButton"
                                     type="submit"
-                                    onClick={handleSubmit}
                                 >
                                     <KeyboardReturnIcon />
                                     <p className="size-down">SUBMIT</p>

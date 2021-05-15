@@ -18,7 +18,8 @@ const About = () => {
                     <div className="darkRectangle"></div>
                 </div>
             </div> */}
-            <div className="about__bottom flex flex-col md:flex-row">
+            <div className="about__bottom ">
+                <div className="darkRectangle web__hidden"></div>
                 <div className="about__left">
                     <InfoBlock
                         title={'WHO ARE WE'}
@@ -31,26 +32,23 @@ const About = () => {
                     />
 
                     <div className="space">
-                        <div className="greyRectangle"></div>
+                        <div className="greyRectangle mobile__hidden"></div>
                     </div>
                 </div>
 
+                <div className="darkRectangle web__hidden"></div>
+
                 <div className="about__right">
                     <div className="images__left">
-                        <div className="images__innerLeft">
                             <div className="images__upper">
                                 <img src={UpperImage} alt="" />
                             </div>
                             <div className="images__lower">
                                 <img src={LowerImage} alt="" />
                             </div>
-                        </div>
                     </div>
+
                     <div className="images__right">
-                        {/* <div className="about__top">
-                            <div className="greyRectangle"></div>
-                            <div className="greyRectangle"></div>
-                        </div> */}
                         <div className="socialMedia">
                             <div className="greyRectangle yellow">
                                 <a
@@ -90,11 +88,11 @@ const About = () => {
                                     />
                                 </div>
                                 <div className="images__innerBox">
-                                    <div className="greyFatRectangle"></div>
+                                    <div className="greyFatRectangle mobile__hidden"></div>
                                 </div>
                             </div>
                             <div className="images__innerRight">
-                                <div className="greyRectangle hidden"></div>
+                                <div className="greyRectangle mobile__hidden"></div>
                             </div>
                         </div>
                     </div>

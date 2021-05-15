@@ -151,3 +151,6 @@
     border-top-right-radius: 15px !important;
     border-bottom-right-radius: 15px !important;
 } */
+.web__hidden{
+    display:none;
+}
