@@ -4,10 +4,10 @@ import './InfoBlock.css'
 const InfoBlock = ({ title, p1, p2 }) => {
     return (
         <div className="infoblock">
-            <div className="text flex flex-col">
-                <div className="title flex flex-col md:flex-col">
-                    <div className="flex items-center">
-                        <div className="title__text mr-6">
+            <div className="text">
+                {/* <div className="title flex flex-col md:flex-col"> */}
+                    <div className="title">
+                        <div className="title__text">
                             <p>{title}</p>
                         </div>
 
@@ -25,7 +25,7 @@ const InfoBlock = ({ title, p1, p2 }) => {
                             <p>{p2}</p>
                         </div>
                     </div>
-                </div>
+                {/* </div> */}
             </div>
         </div>
     )

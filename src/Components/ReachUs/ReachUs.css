@@ -309,6 +309,13 @@
     resize: none;
 }
 
+
+/* @media screen and (min-width: 300px) and (max-width: 640px) {
+    .reachUs__top .reachUs__header {
+        font-size: 6rem;
+    }
+} */
+
 /* 
 .reachUs__bottomRight {
     display: flex;
@@ -406,9 +413,3 @@
     background-color: #222629;
     margin-left: 95px;
 } */
-
-@media screen and (min-width: 300px) and (max-width: 640px) {
-    .reachUs__top .reachUs__header {
-        font-size: 6rem;
-    }
-}

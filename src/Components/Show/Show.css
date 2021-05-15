@@ -16,7 +16,7 @@
     align-items:center;
 } */
 .show__top .top__text h1 {
-    width: 53.75rem;
+    width: 55.85rem;
     /* height: 83px; */
     /* margin: 79px 14px 87px 8px; */
     margin-top: 1.25rem;
@@ -25,6 +25,7 @@
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
+    text-align:center;
     line-height: 1.04;
     letter-spacing: -8px;
     /* text-align: left; */
@@ -33,6 +34,7 @@
 
 .show .show__bottom {
     display: flex;
+    justify-content:center;
 }
 
 .show__bottom .FlexColumn {

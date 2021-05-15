@@ -74,8 +74,8 @@
     display:flex;
 } */
 
-@media screen and (min-width: 300px) and (max-width: 640px) {
+/* @media screen and (min-width: 300px) and (max-width: 640px) {
     .ourTeam .ourTeam__top .title p {
         font-size: 5rem;
     }
-}
+} */

@@ -77,7 +77,7 @@ const Footer = () => {
                 <div className="leftButton ml-[20px]">
                     <button onClick={onClick} className="leftButton__clickMe">
                         <img src={colors[globalCount]} alt="" />
-                        <p className="pb-4">CLICK ME&gt;</p>
+                        <p className="pl-1 pb-4">CLICK ME&gt;</p>
                     </button>
                 </div>
 

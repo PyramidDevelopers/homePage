@@ -30,9 +30,9 @@ const Choose = () => {
                 </div>
                 <div className="col3">
                     <div className="greyRectangle"></div>
-                    <div className="greyRectangle hidden"></div>
-                    <div className="darkRectangle hidden"></div>
-                    <div className="greyRectangle hidden"></div>
+                    <div className="greyRectangle"></div>
+                    <div className="darkRectangle"></div>
+                    <div className="greyRectangle"></div>
                 </div>
                 <div className="col4">
                     <div className="darkRectangle"></div>

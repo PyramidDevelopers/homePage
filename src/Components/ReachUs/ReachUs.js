@@ -3,25 +3,28 @@ import './ReachUs.css'
 import KeyboardReturnIcon from '@material-ui/icons/KeyboardReturn'
 import MailOutlineIcon from '@material-ui/icons/MailOutline'
 import PhoneOutlinedIcon from '@material-ui/icons/PhoneOutlined'
+import axios from 'axios';
 
 const ReachUs = () => {
     const [name, setName] = useState('')
     const [phone, setPhone] = useState('')
     const [email, setEmail] = useState('')
-    const [phone, setPhone] = useState('')
+    // const [phone, setPhone] = useState('')
     const [query, setQuery] = useState('')
 
     const handleSubmit = (e) => {
         e.preventDefault()
+
+        axios.get(`https://script.google.com/macros/s/AKfycbxyaXIvYz03A4uCTRpdbXpN5h49vmr6C-7OEHtRdg/exec?name=${name}&emailID=${email}&phoneNo=${phone}&query=${query}`)
         console.log(name)
         console.log(phone)
         console.log(email)
-        console.log(phone)
+        // console.log(phone)
         console.log(query)
         setName('')
         setPhone('')
         setEmail('')
-        setPhone('')
+        // setPhone('')
         setQuery('')
     }
 

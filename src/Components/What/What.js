@@ -52,7 +52,7 @@ const What = () => {
 
             <div className="what__rightContent">
                 <div className="space">
-                    {/* <div className="darkRectangle"></div> */}
+                    <div className="darkRectangle"></div>
                 </div>
                 <div className="what__rightContentTop">
                     <InfoBlock
@@ -67,11 +67,17 @@ const What = () => {
                 </div>
                 {/* <div class="h-6"></div> */}
                 <div className="what__rightContentBottom">
-                    <div className="greyRectangle"></div>
+                    {/* <div className="greyRectangle"></div> */}
                     <div className="greyRectangle"></div>
                 </div>
             </div>
-            <div className="darkRectangle mobile__remove"></div>
+            <div className="what__endRectangle ">
+                {/* <div className="darkRectangle"></div> */}
+                <div className="darkRectangle"></div>
+                <div className="darkRectangle"></div>
+                <div className="darkRectangle"></div>
+                <div className="greyRectangle "></div>
+            </div>
         </div>
     )
 }

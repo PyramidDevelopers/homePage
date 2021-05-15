@@ -10,7 +10,7 @@ import './About.css'
 
 const About = () => {
     return (
-        <div className="about flex flex-col" id="about">
+        <div className="about" id="about">
             {/* <div className="top__spacer">
                 <div className="about__top">
                     <div className="greyRectangle"></div>
