@@ -1,42 +1,43 @@
 .what {
     display: flex;
-    justify-content:center;
-    margin-left:-50px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin-left: -50px;
 }
 
-.what__left{
-    display:flex;
-    flex-flow:column;
+.what__left {
+    display: flex;
+    flex-flow: column;
 }
 
-.what__left .top{
-    display:flex;
+.what__left .top {
+    display: flex;
 }
 
-.what__left .top__left{
-    display:flex;
-    flex-flow:column;
+.what__left .top__left {
+    display: flex;
+    flex-flow: column;
 }
 
-.what__left .top__left .upper{
-    display:flex;
-    justify-content:flex-end;
+.what__left .top__left .upper {
+    display: flex;
+    justify-content: flex-end;
 }
 
-.what__left .top__left .lower{
-    display:flex;
+.what__left .top__left .lower {
+    display: flex;
 }
 
-.what__left .top__left .lower__left{
-    display:flex;
-    flex-flow:column;
-    align-items:flex-end;
+.what__left .top__left .lower__left {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
 }
 
-.what__left .top__left .lower__left .row1{
-    display:flex;
+.what__left .top__left .lower__left .row1 {
+    display: flex;
 }
-.what__left .top__left .lower__right img{
+.what__left .top__left .lower__right img {
     max-width: 15.938rem;
     height: 31.938rem;
     /* margin: 4px 0 23px 21px; */
@@ -45,17 +46,17 @@
     border-radius: 15px;
 }
 
-.what__left .top__right{
-    display:flex;
-    flex-flow:column;
+.what__left .top__right {
+    display: flex;
+    flex-flow: row;
 }
 
-.what__left .top__right .upper{
-    display:flex;
-    justify-content:flex-end;
+.what__left .top__right .upper {
+    display: flex;
+    justify-content: flex-end;
 }
 
-.what__left .top__right .upper__left img{
+.what__left .top__right .upper__left img {
     max-width: 16.375rem;
     height: 20.938rem;
     /* margin: 20px 2px 17px 0px; */
@@ -64,13 +65,13 @@
     border-radius: 15px;
 }
 
-.what__left .top__right .upper__right{
-    display:flex;
-    flex-flow:column;
-    justify-content:flex-end;
+.what__left .top__right .upper__right {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
 }
 
-.what__left .top__right .lower img{
+.what__left .top__right .lower img {
     max-width: 25.063rem;
     height: 20.688rem;
     /* margin: 0px 25px 25px 21px; */
@@ -78,140 +79,89 @@
     object-fit: fill;
     border-radius: 15px;
 }
-.what__left .bottom{
-    display:flex;
-    flex-flow:row;
-    justify-content:flex-end;
-}
-.what__rightContent{
-    height:100%;
-    display:flex;
-    flex-flow:column;
-    gap:3.3rem;
-    justify-content:flex-start;
-}
-
-.what__rightContentBottom{
-    display:flex;
-    justify-content:flex-end;
-    /* padding-top:70px; */
-}
-/* .what__leftContent {
+.what__left .bottom {
     display: flex;
-    flex: 0.6;
+    flex-flow: row;
+    justify-content: flex-end;
 }
-
-.what__left {
-    margin-right: 20px;
-}
-
-.what__leftTop {
-    margin-top: 200px;
-    width: 175px;
-    height: 125px;
-    background-color: var(--grey);
-    border-radius: 15px;
-}
-
-.what__leftBottom {
-    background-color: var(--grey);
-    margin-top: 120px;
-    width: 75px;
-    height: 100px;
-    margin-left: 100px;
-    border-radius: 15px;
-} */
-/* 
-.what__middle {
-    margin-top: 85px;
-    margin-right: 20px;
-}
-
-.what__middleTop {
-    background-color: var(--grey);
-    width: 80px;
-    height: 100px;
-    border-radius: 15px;
-    margin-bottom: 15px;
-    margin-left: 90px;
-}
-
-.what__middleImage > img {
-    height: 344px;
-    border-radius: 15px;
-}
-
-.what__rightTop {
+.what__rightContent {
+    height: 100%;
     display: flex;
-    margin-top: 85px;
-    margin-bottom: 15px;
-}
-
-.what__rightTopImage > img {
-    width: 150px;
-    border-radius: 15px;
-}
-
-.what__rightTopRight {
-    background-color: var(--grey);
-    width: 80px;
-    height: 100px;
-    border-radius: 15px;
-    margin-top: 125px;
-    margin-left: 15px;
-}
-
-.what__rightBottomImage > img {
-    height: 215px;
-    width: 245px;
-    border-radius: 15px;
-}
-
-.what__rightBottomRight {
-    margin-top: 15px;
-    margin-left: 150px;
-    border-radius: 15px;
-    background-color: var(--grey);
-    width: 200px;
-    height: 100px;
-}
-
-.what__rightContent {
-    display:flex;
-    flex-flow:column;
-} */
-
-/* .what__rightContentTop > h1 {
-    color: #60ffba;
-    font-size: 60px;
-}
-
-.what__rightContent {
-    
-} */
-
-/* .what__rightContentTop p{
-    margin-top: 50px;
-    color: var(--light-grey);
+    flex-flow: column;
+    /* gap: 3.3rem; */
+    justify-content: flex-start;
 }
 
 .what__rightContentBottom {
     display: flex;
-    margin-top: 77px;
-    margin-left: 290px;
+    justify-content: flex-end;
+    /* padding-top:70px; */
 }
 
-.what__rightContentBottomLeft {
-    background-color: var(--grey);
-    width: 75px;
-    height: 100px;
-    border-radius: 15px;
-    margin-right: 20px;
+.mobile__remove {
+    display: none;
 }
 
-.what__rightContentBottomRight {
-    border-radius: 15px;
-    background-color: var(--grey);
-    width: 75px;
-    height: 100px;
-} */
+@media screen and (min-width: 300px) {
+    .space {
+        width: 0px;
+    }
+
+    .what__rightContent {
+        margin-top: 2rem;
+    }
+
+    .what__rightContentTop {
+        padding-inline: 20px;
+    }
+
+    .upper .upper__right .greyRectangle {
+        display: none;
+    }
+
+    .what .what__left .top .top__left .upper .greyRectangle {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .space {
+        width: 0px;
+    }
+
+    .about__right {
+        margin-inline: auto;
+        margin-top: 5rem;
+    }
+
+    .what__rightContent {
+        margin-top: 0;
+    }
+
+    .what {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .what {
+        flex-direction: row;
+    }
+
+    .what__rightContent {
+        margin-inline: 5rem;
+    }
+
+    .upper .upper__right .greyRectangle {
+        display: inline-block;
+    }
+
+    .what__left .top__right {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .what .what__left .top .top__left .upper .greyRectangle {
+        display: inline-block;
+    }
+}

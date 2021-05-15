@@ -15,7 +15,7 @@ function GridItems(layout, color, count, changeLayout) {
                 </div>
             )
         }
-        if (item.i == '31') {
+        if (item.i === '31') {
             return (
                 <div key="31" className="logo">
                     {/* <Logo color={count} /> */}
@@ -23,7 +23,7 @@ function GridItems(layout, color, count, changeLayout) {
                 </div>
             )
         }
-        if (item.i == '39') {
+        if (item.i === '39') {
             return (
                 <div
                     key="39"
@@ -34,14 +34,14 @@ function GridItems(layout, color, count, changeLayout) {
                 </div>
             )
         }
-        if (item.i == '50') {
+        if (item.i === '50') {
             return (
                 <div key="50" className="intro__subtitle">
                     <span>developers</span>
                 </div>
             )
         }
-        if (item.i == '59') {
+        if (item.i === '59') {
             return (
                 <div key="59" className="intro__description">
                     <span>
@@ -52,7 +52,7 @@ function GridItems(layout, color, count, changeLayout) {
                 </div>
             )
         }
-        if (item.i == '64') {
+        if (item.i === '64') {
             return (
                 <div key="64" className="link">
                     <Link
@@ -73,7 +73,7 @@ function GridItems(layout, color, count, changeLayout) {
                 </div>
             )
         }
-        if (item.i == '66') {
+        if (item.i === '66') {
             return (
                 <div key="66" className="link">
                     <Link

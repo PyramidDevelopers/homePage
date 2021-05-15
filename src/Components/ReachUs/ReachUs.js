@@ -6,6 +6,7 @@ import PhoneOutlinedIcon from '@material-ui/icons/PhoneOutlined'
 
 const ReachUs = () => {
     const [name, setName] = useState('')
+    const [phone, setPhone] = useState('')
     const [email, setEmail] = useState('')
     const [phone, setPhone] = useState('')
     const [query, setQuery] = useState('')
@@ -13,10 +14,12 @@ const ReachUs = () => {
     const handleSubmit = (e) => {
         e.preventDefault()
         console.log(name)
+        console.log(phone)
         console.log(email)
         console.log(phone)
         console.log(query)
         setName('')
+        setPhone('')
         setEmail('')
         setPhone('')
         setQuery('')
@@ -25,10 +28,7 @@ const ReachUs = () => {
     return (
         <div className="reachUs flex flex-col items-center" id="reachUs">
             <div className="reachUs__top">
-                <h1
-                    className="reachUs__header text-center"
-                    id="reach"
-                >
+                <h1 className="reachUs__header text-center" id="reach">
                     REACH US
                 </h1>
             </div>
@@ -72,7 +72,6 @@ const ReachUs = () => {
                             <div className="Input">
                                 <p>Your Phone No</p>
                                 <input
-                                    required
                                     type="text"
                                     value={phone}
                                     onChange={(e) => setPhone(e.target.value)}
@@ -99,7 +98,7 @@ const ReachUs = () => {
                                     type="submit"
                                     onClick={handleSubmit}
                                 >
-                                    <KeyboardReturnIcon/>
+                                    <KeyboardReturnIcon />
                                     <p className="size-down">SUBMIT</p>
                                 </button>
                             </div>
@@ -114,9 +113,11 @@ const ReachUs = () => {
                 <div className="reachUs__bottomRight">
                     <div className="bottomRight__upper">
                         <div className="left">
-                            <p className="left__topP">
-                                Looking to work with us? &gt;&gt;&gt;
-                            </p>
+                            <a href="https://bit.ly/PyramidDevelopersRecruitment">
+                                <p className="left__topP">
+                                    Looking to work with us? &gt;&gt;&gt;
+                                </p>
+                            </a>
 
                             <p className="left__lowerP">
                                 Join us to take part in exciting projects <br />
@@ -144,7 +145,7 @@ const ReachUs = () => {
                         </div>
                         <div className="contact">
                             <div className="contact__left greyRectangle">
-                                <PhoneOutlinedIcon/>
+                                <PhoneOutlinedIcon />
                                 <p>PHONE</p>
                             </div>
                             <div className="contact__right">

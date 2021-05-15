@@ -54,8 +54,6 @@ function Grid() {
         })
 
         setCounter((counter + 1) % 8)
-        // console.log(count)
-        console.log('Grid globalCount', globalCount)
         setColor(THEME[counter])
     }
 

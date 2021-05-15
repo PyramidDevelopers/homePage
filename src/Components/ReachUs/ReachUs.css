@@ -61,16 +61,16 @@
 .reachUs__formLeft {
     display: flex;
     flex-direction: column;
-    align-items:center;
-    gap:0.5rem;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .reachUs__formLeft .Input {
     width: 36.5rem;
     /* height: 9.563rem; */
-    height:5.563rem;
+    height: 5.563rem;
     /* margin: 10px 6px 10px 20px; */
-    margin:0.625rem;
+    margin: 0.625rem;
     padding: 1.25rem;
     /* display:flex;
     flex-flow:column; */
@@ -93,8 +93,8 @@
 }
 .reachUs__formLeft input[type='text'] {
     max-width: 36.5rem;
-    /* height: 70%; */
-    height:80%;
+    height:70%;
+    height: 80%;
     /* margin-block: 10px; */
     border-radius: 5px;
     /* background-color: var(--grey); */
@@ -103,7 +103,7 @@
     outline: none;
     font-family: OCRAExtended;
     /* font-size: 2.5rem; */
-    font-size:2rem;
+    font-size: 2rem;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -133,7 +133,8 @@
     border: none;
     outline: none;
     font-family: OCRAExtended;
-    font-size: 2.5rem;
+    /* font-size: 2.5rem; */
+    font-size: 2rem;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -146,7 +147,7 @@
     display: flex;
     flex-flow: column;
     justify-content: flex-end;
-    gap:0.5rem
+    gap: 0.5rem;
 }
 
 .reachUs__formRight button {
@@ -174,10 +175,10 @@
 }
 
 .reachUs__formRight button > * {
-    font-size:3.75rem;
+    font-size: 3.75rem;
 }
-.reachUs__formRight button > p{
-    font-size:1.875rem !important;
+.reachUs__formRight button > p {
+    font-size: 1.875rem !important;
 }
 .reachUs__bottomRight {
     display: flex;
@@ -220,7 +221,7 @@
 .bottomRight__upper .left .left__lowerP {
     /* width: 502px; */
     /* height: 129px; */
-    width:100%;
+    width: 100%;
     margin-bottom: 0.625rem;
     font-family: ISOCPEUR;
     font-size: 1.688rem;
@@ -245,7 +246,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap:1rem;
+    gap: 1rem;
 }
 
 .contact .contact__left {
@@ -257,7 +258,7 @@
 }
 
 .reachUs__bottomRight .bottomRight__lower .contact .contact__left > * {
-    font-size:3.75rem;
+    font-size: 3.75rem;
 }
 /* .reachUs__formRight button > p{
     font-size:1.875rem !important;
@@ -291,7 +292,7 @@
 
 .contact .contact__right p {
     /* width: 488px; */
-    width:90%;
+    width: 90%;
     /* height: 41px; */
     font-family: OCRAExtended;
     font-size: 2.5rem;
@@ -405,3 +406,9 @@
     background-color: #222629;
     margin-left: 95px;
 } */
+
+@media screen and (min-width: 300px) and (max-width: 640px) {
+    .reachUs__top .reachUs__header {
+        font-size: 6rem;
+    }
+}
