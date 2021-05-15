@@ -11,11 +11,11 @@ const What = () => {
             <div className="what__left">
                 <div className="top">
                     <div className="top__left">
-                        <div className="upper">
+                        <div className="upper mobile__hidden">
                             <div className="greyRectangle"></div>
                         </div>
                         <div className="lower">
-                            <div className="lower__left">
+                            <div className="lower__left mobile__hidden">
                                 <div className="row1">
                                     <div className="greyFatRectangle"></div>
                                 </div>
@@ -27,12 +27,17 @@ const What = () => {
                             </div>
                         </div>
                     </div>
+                    <div className="mobile__spacer web__hidden">
+                        <div className="greyRectangle"></div>
+                        <div className="greyRectangle"></div>
+                        <div className="greyRectangle"></div>
+                    </div>
                     <div className="top__right">
                         <div className="upper">
                             <div className="upper__left">
                                 <img src={UpperImage} alt="" />
                             </div>
-                            <div className="upper__right">
+                            <div className="upper__right mobile__hidden">
                                 <div className="greyRectangle"></div>
                             </div>
                         </div>
@@ -40,15 +45,18 @@ const What = () => {
                             <img src={LowerImage} alt="" />
                         </div>
                     </div>
-                    <div className="space">
+                    <div className="space mobile__hidden">
                         <div className="darkRectangle"></div>
                     </div>
+                {/* <div className="rightSpacer">
+                    <div className="greyLongRectangle web__hidden"></div>
+                </div> */}
                 </div>
-                <div className="bottom">
+                <div className="bottom mobile__hidden">
                     <div className="greyFatRectangle"></div>
                 </div>
             </div>
-
+            <div className="darkRectangle web__hidden"></div>
             <div className="what__rightContent">
                 <div className="space mobile__hidden">
                     <div className="darkRectangle"></div>
