@@ -18,6 +18,7 @@
     /* margin:125px 4px 96px 5px;; */
     font-family: OCRAExtended;
     font-size: 5rem;
+    -webkit-text-size-adjust: none;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;

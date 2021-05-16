@@ -58,6 +58,7 @@
     height: 62px;
     font-family: OCRAExtended;
     font-size: 1.825rem;
+    -webkit-text-size-adjust: none;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;

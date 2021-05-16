@@ -76,15 +76,13 @@ function GridItems(layout, color, count, changeLayout) {
         if (item.i === '66') {
             return (
                 <div key="66" className="link">
-                    
-                        <a href="https://bit.ly/PyramidDevelopersRecruitment" target="_blank">
-                            <h3 className="join">
-                                BECOME A<br /> PART OF US
-                                <br />
-                                &gt;&gt;&gt;
-                            </h3>
-                        </a>
-                    
+                    <a href="https://bit.ly/PyramidDevelopersRecruitment">
+                        <h3 className="join">
+                            BECOME A<br /> PART OF US
+                            <br />
+                            &gt;&gt;&gt;
+                        </h3>
+                    </a>
                 </div>
             )
         }

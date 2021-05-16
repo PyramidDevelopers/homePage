@@ -1,26 +1,25 @@
-.infoblock{
-    display:flex;
-    justify-content:center;
+.infoblock {
+    display: flex;
+    justify-content: center;
     width: 41.875rem;
 }
 
-.infoblock .text{
-    display:flex;
-    flex-flow:column;
+.infoblock .text {
+    display: flex;
+    flex-flow: column;
 }
 
-.infoblock .title{
-    display:flex;
-    justify-content:flex-start;
-    gap:2.5rem;
+.infoblock .title {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2.5rem;
 }
-.infoblock .title__text{
-    display:flex;
-    justify-content:flex-start;
-    align-items:center;
+.infoblock .title__text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
-.infoblock .title__text p{
-    
+.infoblock .title__text p {
     font-family: OCRAExtended;
     font-size: 5rem;
     font-weight: normal;
@@ -32,17 +31,17 @@
     color: var(--general-color);
 }
 
-.infoblock .title__qmark{
-    display:flex;
-    justify-content:center;
-    align-items:center;
+.infoblock .title__qmark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 4.375rem;
     height: 5.625rem;
     border-radius: 15px;
     background-color: var(--general-color);
 }
 
-.infoblock .title__qmark p{
+.infoblock .title__qmark p {
     font-family: OCRAExtended;
     font-size: 4.063rem;
     font-weight: normal;
@@ -53,16 +52,15 @@
     color: var(--dark-grey);
 }
 
-
-.infoblock .text .para1{
-    display:flex;
-    justify-content:flex-start;
+.infoblock .text .para1 {
+    display: flex;
+    justify-content: flex-start;
 }
 
-.infoblock .text .para1 p{
+.infoblock .text .para1 p {
     width: 100%;
-    white-space:pre-line;
-    margin-top: 7.0rem ;
+    white-space: pre-line;
+    margin-top: 7rem;
     font-family: ISOCPEUR;
     font-size: 1.688rem;
     font-weight: normal;
@@ -74,16 +72,16 @@
     color: var(--general-color);
 }
 
-.infoblock .text .para2{
-    display:flex;
-    justify-content:flex-start;
+.infoblock .text .para2 {
+    display: flex;
+    justify-content: flex-start;
 }
 
-.infoblock .text .para2 p{
-    display:flex;
-    white-space:pre-line;
-    width:100%;
-    margin-top:3.125rem ;
+.infoblock .text .para2 p {
+    display: flex;
+    white-space: pre-line;
+    width: 100%;
+    margin-top: 3.125rem;
     font-family: ISOCPEUR;
     font-size: 1.688rem;
     font-weight: normal;
@@ -95,39 +93,42 @@
     color: var(--light-grey);
 }
 
-@media screen and (min-width:300px) and (max-width:480px){
-    .infoblock{
-        width:75%;
+@media screen and (min-width: 300px) and (max-width: 480px) {
+    .infoblock {
+        width: 75%;
     }
-    .infoblock .title{
-        justify-content:center;
+    .infoblock .title {
+        justify-content: center;
         /* width:100%; */
     }
-    .infoblock .title__text{
-        justify-content:center;
+    .infoblock .title__text {
+        justify-content: center;
     }
-    .infoblock .title__text p{
-        font-size:6rem;
+    .infoblock .title__text p {
+        font-size: 6rem;
+        -webkit-text-size-adjust: none;
     }
-    .infoblock .title__qmark p{
-        font-size:5rem;
+    .infoblock .title__qmark p {
+        font-size: 5rem;
+        -webkit-text-size-adjust: none;
     }
-    .infoblock .text .para1{
-        justify-content:center;
-        max-width:100%;
+    .infoblock .text .para1 {
+        justify-content: center;
+        max-width: 100%;
     }
-    .infoblock .text .para1 p{
+    .infoblock .text .para1 p {
         white-space: normal;
         font-size: 3rem;
+        -webkit-text-size-adjust: none;
         text-align: center;
         letter-spacing: 0.08rem;
         width: 100%;
     }
-    .infoblock .text .para2{
-        justify-content:center;
-        max-width:100%;
+    .infoblock .text .para2 {
+        justify-content: center;
+        max-width: 100%;
     }
-    .infoblock .text .para2 p{
+    .infoblock .text .para2 p {
         white-space: normal;
         font-size: 3rem;
         text-align: center;

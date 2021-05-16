@@ -7,7 +7,7 @@
 
 .show .show__top {
     display: flex;
-    justify-content:center;
+    justify-content: center;
 }
 
 /* .show__top .top__text{
@@ -22,10 +22,11 @@
     margin-top: 1.25rem;
     font-family: OCRAExtended;
     font-size: 5rem;
+    -webkit-text-size-adjust: none;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    text-align:center;
+    text-align: center;
     line-height: 1.04;
     letter-spacing: -8px;
     /* text-align: left; */
@@ -34,7 +35,7 @@
 
 .show .show__bottom {
     display: flex;
-    justify-content:center;
+    justify-content: center;
 }
 
 .show__bottom .FlexColumn {
@@ -60,7 +61,7 @@
     flex-flow: row;
     background-color: var(--grey);
     padding: 3.75rem 3.75rem 2.5rem 2.5rem;
-    width:55.625rem;
+    width: 55.625rem;
     border-radius: 15px;
     margin: 0.625rem;
 }
@@ -68,7 +69,7 @@
 .show__bottom .leftMid__text {
     display: flex;
     justify-content: flex-end;
-    width:29.625rem;
+    width: 29.625rem;
 }
 
 .show__bottom .leftMid__text .status {
@@ -85,12 +86,13 @@
     /* height: 25px; */
     /* padding-inline: 8px; */
     /* padding-block: 6px; */
-    height:100%;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: OCRAExtended;
     font-size: 1.5rem;
+    -webkit-text-size-adjust: none;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -103,10 +105,11 @@
 .show__bottom .leftMid__text h4 {
     /* width: 340px; */
     /* height: 57px; */
-    margin-block:0.625rem;
+    margin-block: 0.625rem;
     /* mergin: 7px 136px 7px 0; */
     font-family: OCRAExtended;
     font-size: 3.438rem;
+    -webkit-text-size-adjust: none;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -122,6 +125,7 @@
     /* margin: 7px 0 0; */
     font-family: OCRAExtended;
     font-size: 1.5rem;
+    -webkit-text-size-adjust: none;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -140,7 +144,7 @@
 .show__bottom .leftMid__image img {
     /* height:500px; */
     width: 18.75rem;
-    height:auto;
+    height: auto;
     border-radius: 15px;
     padding-bottom: 1.25rem;
 }
@@ -150,7 +154,7 @@
     flex-flow: row;
     background-color: var(--grey);
     padding: 3.25rem 2.75rem 2.5rem 2.5rem;
-    width:35.938rem;
+    width: 35.938rem;
     border-radius: 15px;
     margin: 0.625rem;
 }
@@ -158,7 +162,7 @@
 .show__bottom .rightMid__text {
     display: flex;
     justify-content: flex-end;
-    width:17.563rem;
+    width: 17.563rem;
 }
 
 .show__bottom .rightMid__text .status {
@@ -176,12 +180,13 @@
     padding-block: 6px; */
     /* width: 65px;
     height: 18px; */
-    height:100%;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: OCRAExtended;
     font-size: 1.125rem;
+    -webkit-text-size-adjust: none;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -197,6 +202,7 @@
     margin-block: 0.625rem;
     font-family: OCRAExtended;
     font-size: 2.5rem;
+    -webkit-text-size-adjust: none;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -212,6 +218,7 @@
     /* margin: 7px 0 0; */
     font-family: OCRAExtended;
     font-size: 1.375rem;
+    -webkit-text-size-adjust: none;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -232,10 +239,9 @@
     border-radius: 15px;
     padding-bottom: 1.25rem;
 }
-.show .bottomCrap{
-    display:flex;
-    width:95%
-
+.show .bottomCrap {
+    display: flex;
+    width: 95%;
 }
 /* .show__header {
     display: flex;

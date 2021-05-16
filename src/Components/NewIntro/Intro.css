@@ -104,13 +104,16 @@
     color: #adadad;
 }
 
-@media screen and (min-width:300px) and (max-width: 640px) {
+@media screen and (min-width: 300px) and (max-width: 640px) {
     .intro__description > span {
         font-size: 1.75rem;
+        -webkit-text-size-adjust: none;
     }
-    .intro .join,.intro .giveUs{
-        padding-left:1rem;
-        font-size:1.75rem;
+    .intro .join,
+    .intro .giveUs {
+        padding-left: 1rem;
+        font-size: 1.75rem;
+        -webkit-text-size-adjust: none;
     }
 }
 

@@ -3,7 +3,7 @@ import './ReachUs.css'
 import KeyboardReturnIcon from '@material-ui/icons/KeyboardReturn'
 import MailOutlineIcon from '@material-ui/icons/MailOutline'
 import PhoneOutlinedIcon from '@material-ui/icons/PhoneOutlined'
-import axios from 'axios';
+import axios from 'axios'
 
 const ReachUs = () => {
     const [name, setName] = useState('')
@@ -15,15 +15,19 @@ const ReachUs = () => {
     const handleSubmit = (e) => {
         e.preventDefault()
 
-        axios.get(`https://script.google.com/macros/s/AKfycbxyaXIvYz03A4uCTRpdbXpN5h49vmr6C-7OEHtRdg/exec?name=${name}&emailID=${email}&phoneNo=${phone}&query=${query}`)
+        axios.get(
+            `https://script.google.com/macros/s/AKfycbxyaXIvYz03A4uCTRpdbXpN5h49vmr6C-7OEHtRdg/exec?name=${name}&emailID=${email}&phoneNo=${phone}&query=${query}`
+        )
 
-
-        axios.post("https://mkqzdpmnm4.execute-api.ap-south-1.amazonaws.com/default/sendEmailPyramidContactUs",{
-            Name: name,
-            EmailID:email,
-            PhoneNumber:phone,
-            Query:query
-        })
+        axios.post(
+            'https://mkqzdpmnm4.execute-api.ap-south-1.amazonaws.com/default/sendEmailPyramidContactUs',
+            {
+                Name: name,
+                EmailID: email,
+                PhoneNumber: phone,
+                Query: query,
+            }
+        )
 
         // console.log(name)
         // console.log(phone)
@@ -92,7 +96,6 @@ const ReachUs = () => {
                             <div className="Input Inputtextarea">
                                 <p>Your Query</p>
                                 <textarea
-                                    required
                                     className="textarea"
                                     type="text"
                                     value={query}
