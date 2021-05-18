@@ -113,7 +113,18 @@
     .intro .giveUs {
         padding-left: 1rem;
         font-size: 1.75rem;
+    }
+}
+
+@media only screen and (min-device-width: 300px) and (max-device-width: 640px) {
+    .intro__description > span {
+        font-size: 1.75rem;
         -webkit-text-size-adjust: none;
+    }
+    .intro .join,
+    .intro .giveUs {
+        padding-left: 1rem;
+        font-size: 1.75rem;
     }
 }
 
