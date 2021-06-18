@@ -1,7 +1,8 @@
 .ourTeam {
     display: flex;
     flex-flow: column;
-    margin-block: 8.125rem;
+    margin-top: 8.125rem;
+    margin-bottom: 8.125rem;
 }
 
 .ourTeam__top {
@@ -22,7 +23,7 @@
     font-stretch: normal;
     font-style: normal;
     line-height: 1.04;
-    letter-spacing: -8px;
+    letter-spacing: -0.5rem;
     /* text-align: left; */
     color: var(--light-grey);
 }
@@ -67,7 +68,8 @@
     display: flex;
     flex-flow: column;
     justify-content: flex-start;
-    margin-inline: 10px;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
 }
 
 /* .ourTeam__bottom .bottom__lower .col5{

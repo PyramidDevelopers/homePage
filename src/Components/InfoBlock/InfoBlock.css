@@ -1,7 +1,7 @@
 .infoblock{
     display:flex;
     justify-content:center;
-    width: 41.875rem;
+    width: 42.875rem;
 }
 
 .infoblock .text{
@@ -22,13 +22,13 @@
 .infoblock .title__text p{
     
     font-family: OCRAExtended;
+    /* font-family: monospace; */
     font-size: 5rem;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.04;
-    letter-spacing: -8px;
-    /* text-align: center; */
+    letter-spacing: -0.3rem;
     color: var(--general-color);
 }
 
@@ -36,20 +36,21 @@
     display:flex;
     justify-content:center;
     align-items:center;
-    width: 4.375rem;
-    height: 5.625rem;
-    border-radius: 15px;
+    /* width: 4.375rem;
+    height: 5.625rem; */
+    padding:1rem;
+    border-radius: 0.938rem;
     background-color: var(--general-color);
 }
 
 .infoblock .title__qmark p{
     font-family: OCRAExtended;
+    /* font-family: monospace; */
     font-size: 4.063rem;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.03;
-    /* text-align: center; */
     color: var(--dark-grey);
 }
 
@@ -64,6 +65,7 @@
     white-space:pre-line;
     margin-top: 7.0rem ;
     font-family: ISOCPEUR;
+    /* font-family: monospace; */
     font-size: 1.688rem;
     font-weight: normal;
     font-stretch: normal;
@@ -85,6 +87,7 @@
     width:100%;
     margin-top:3.125rem ;
     font-family: ISOCPEUR;
+    /* font-family: monospace; */
     font-size: 1.688rem;
     font-weight: normal;
     font-stretch: normal;
@@ -108,15 +111,27 @@
     }
     .infoblock .title__text p{
         font-size:6rem;
+        /* font-family: monospace; */
     }
+    /* .infoblock .title__qmark{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        width: 4.375rem;
+        height: 5.625rem;
+        border-radius: 0.938rem;
+        background-color: var(--general-color);
+    } */
     .infoblock .title__qmark p{
-        font-size:5rem;
+        /* font-size:5rem; */
+        /* font-family: monospace; */
     }
     .infoblock .text .para1{
         justify-content:center;
         max-width:100%;
     }
     .infoblock .text .para1 p{
+        /* font-family: monospace; */
         white-space: normal;
         font-size: 3rem;
         text-align: center;
@@ -128,86 +143,12 @@
         max-width:100%;
     }
     .infoblock .text .para2 p{
+        /* font-family: monospace; */
         white-space: normal;
         font-size: 3rem;
         text-align: center;
         letter-spacing: 0.08rem;
         width: 100%;
     }
+
 }
-
-/* @media screen and (min-width: 300px) and (max-width: 640px) {
-    .infoblock .text .para1 {
-        display: flex;
-        justify-content: center;
-        max-width: 100%;
-    }
-
-    .infoblock .text .para2 {
-        display: flex;
-        justify-content: center;
-        max-width: 100%;
-    }
-
-    .title {
-        align-items: center;
-        justify-content: center;
-    }
-
-    .title__text p {
-        font-size: 8rem;
-    }
-
-    .infoblock .text .para2 p {
-        white-space: pre-wrap;
-        font-size: 4rem;
-        text-align: center;
-        width: 100%;
-    }
-
-    .infoblock .text .para1 p {
-        white-space: pre-wrap;
-        font-size: 4rem;
-        text-align: center;
-        width: 100%;
-    }
-}
-
-@media screen and (min-width: 640px) and (max-width: 768px) {
-    .infoblock .text .para2 p {
-        font-size: 1.688rem;
-    }
-
-    .infoblock .text .para1 p {
-        font-size: 1.688rem;
-    }
-
-    .title__text p {
-        font-size: 5rem;
-    }
-
-    .infoblock .text .para1 {
-        display: flex;
-        max-width: 100%;
-    }
-
-    .infoblock .text .para2 {
-        display: flex;
-        justify-content: left;
-        max-width: 100%;
-    }
-
-    .infoblock .text .para1 p {
-        white-space: pre-wrap;
-        font-size: 2.5rem;
-        text-align: left;
-        width: 100%;
-    }
-
-    .infoblock .text .para2 p {
-        white-space: pre-wrap;
-        font-size: 2.5rem;
-        text-align: left;
-        width: 100%;
-    }
-} */

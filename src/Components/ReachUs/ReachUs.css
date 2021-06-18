@@ -21,7 +21,7 @@
     font-stretch: normal;
     font-style: normal;
     line-height: 1.04;
-    letter-spacing: -8px;
+    letter-spacing: -0.5rem;
     color: var(--light-grey);
 }
 
@@ -63,7 +63,8 @@
     width: 36.5rem;
     height: 5.563rem;
     margin: 0.625rem;
-    padding-block: 0.625rem;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
     padding-inline:1.25rem;
     border-radius: 0.938rem;
     background-color: var(--grey);
@@ -76,13 +77,13 @@
     font-stretch: normal;
     font-style: normal;
     line-height: 1.04;
-    letter-spacing: -2.4px;
+    letter-spacing: -0.15rem;
     color: var(--general-color);
 }
 .reachUs__formLeft input[type='text'] {
     max-width: 36.5rem;
     height: 80%;
-    border-radius: 5px;
+    border-radius: 0.313rem;
     background: transparent;
     border: none;
     outline: none;
@@ -92,22 +93,23 @@
     font-stretch: normal;
     font-style: normal;
     line-height: 1.04;
-    letter-spacing: -2.4px;
+    letter-spacing: -0.15rem;
     color: var(--general-color);
 }
 
 .reachUs__formLeft .Inputtextarea {
     height: 20.375rem !important;
     padding-inline:1.25rem;
-    padding-block: 0.625rem;
-    border-radius: 15px;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    border-radius: 0.938rem;
     background-color: var(--grey);
 }
 
 .reachUs textarea {
     max-width: 36.5rem;
     height: 80%;
-    border-radius: 15px;
+    border-radius: 0.938rem;
     background: transparent;
     border: none;
     outline: none;
@@ -117,7 +119,7 @@
     font-stretch: normal;
     font-style: normal;
     line-height: 1.04;
-    letter-spacing: -2.4px;
+    letter-spacing: -0.15rem;
     color: var(--general-color);
 }
 
@@ -138,15 +140,16 @@
     height: 100%;
     outline: none;
     border: none;
-    border-radius: 15px;
+    border-radius: 0.938rem;
     cursor: pointer;
-    padding-block: 1.25rem;
+    padding-top: 1.25rem;
+padding-bottom: 1.25rem;
     font-family: OCRAExtended;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.03;
-    letter-spacing: -3px;
+    letter-spacing: -0.188rem;
     text-align: left;
     color: var(--dark-grey);
 }
@@ -175,7 +178,7 @@
     height: 20.313rem;
     margin: 0.625rem;
     padding: 1.563rem 0 1.563rem 1.563rem;
-    border-radius: 15px;
+    border-radius: 0.938rem;
     background-color: var(--grey);
 }
 
@@ -187,7 +190,7 @@
     font-stretch: normal;
     font-style: normal;
     line-height: 1.03;
-    letter-spacing: -3px;
+    letter-spacing: -0.188rem;
     text-align: left;
     color: var(--general-color);
 }
@@ -239,7 +242,7 @@
     font-stretch: normal;
     font-style: normal;
     line-height: 1.03;
-    letter-spacing: -3px;
+    letter-spacing: -0.188rem;
     text-align: left;
     color: var(--dark-grey);
 }
@@ -247,7 +250,7 @@
 .contact .contact__right {
     width: 34.25rem;
     height: 9.563rem;
-    border-radius: 15px;
+    border-radius: 0.938rem;
     background-color: var(--grey);
     display: flex;
     justify-content: center;
@@ -262,7 +265,7 @@
     font-stretch: normal;
     font-style: normal;
     line-height: 1.03;
-    letter-spacing: -4px;
+    letter-spacing: -0.25rem;
     text-align: left;
     color: var(--general-color);
 }
@@ -299,7 +302,8 @@
     .reachUs__formLeft .Input {
         width: 40.5rem;
         height: 9.563rem;
-        padding-block: 1.25rem;
+        padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
     }
     
     .reachUs__formLeft .Input p {
@@ -312,7 +316,8 @@
     }
     
     .reachUs__formLeft .Inputtextarea {
-        padding-block: 1.25rem;
+        padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
     }
     
     .reachUs textarea {

@@ -25,8 +25,9 @@
     }
 } */
 
-@media screen and (min-width: 300px) {
-    .app {
+/* md breakpoint */
+/* @media screen and (min-width: 300px) {
+    .app{
         zoom: 25%;
     }
 }
@@ -37,7 +38,6 @@
     }
 }
 
-/* md breakpoint */
 @media screen and (min-width: 768px) {
     .app {
         zoom: 50%;
@@ -63,38 +63,79 @@
     .app {
         zoom: 100%;
     }
-}
+} */
 
-@media screen and (min-width: 1024px) and (max-width: 1200px) {
-    :root {
-        font-size: 12px;
-    }
-}
 
-@media screen and (min-width: 1200px) and (max-width: 1350px) {
-    :root {
-        font-size: 12px;
-        /* color:green; */
-    }
-}
-
-@media screen and (min-width: 1350px) and (max-width: 1536px) {
-    :root {
-        font-size: 13px;
-    }
-}
-
-@media screen and (min-width: 1536px) and (max-width: 1700px) {
-    :root {
-        font-size: 13px;
-    }
-}
-
-@media only screen and (min-width: 1700px) and (max-width: 1950px) {
+@media screen and (min-width: 1640px) and (max-width: 1780px) {
     :root {
         font-size: 14px;
     }
 }
+@media screen and (min-width: 1536px) and (max-width: 1640px) {
+    :root {
+        font-size: 13px;
+    }
+}
+@media screen and (min-width: 1400px) and (max-width: 1536px) {
+    :root {
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 1280px) and (max-width: 1400px) {
+    :root {
+        font-size: 11px;
+        /* color:green; */
+    }
+}
+@media screen and (min-width: 1140px) and (max-width: 1280px) {
+    :root {
+        font-size: 10px;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1140px) {
+    :root {
+        font-size: 9px;
+    }
+}
+@media screen and (min-width: 880px) and (max-width: 1024px) {
+    :root {
+        font-size: 8px;
+    }
+}
+@media screen and (min-width: 764px) and (max-width: 880px) {
+    :root {
+        font-size: 7px;
+    }
+}
+@media screen and (min-width: 650px) and (max-width: 764px) {
+    :root {
+        font-size: 6px;
+    }
+}
+@media screen and (min-width: 560px) and (max-width: 650px) {
+    :root {
+        font-size: 5px;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 560px) {
+    :root {
+        font-size: 4px;
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 480px) {
+    :root {
+        font-size: 3px;
+    }
+}
+
+/* body {
+    -webkit-text-size-adjust: 25%;
+
+} */
+/* .mobile-phone .authenticated-page.authenticated.mobile-community.mobile-document .notification .notification-dialog.content-frame 
+{
+    -webkit-text-size-adjust: 100%;
+} */
 .app {
     width: 100%;
     height: 100%;
@@ -105,7 +146,7 @@
     height: 9.563rem;
     margin: 0.625rem;
     /* margin: 20px 10px; */
-    border-radius: 15px;
+    border-radius: 0.938rem;
     background-color: var(--dark-grey);
 }
 
@@ -116,7 +157,7 @@
     width: 7.5rem; /*120*/
     height: 9.563rem; /*153*/
     margin: 0.625rem;
-    border-radius: 15px;
+    border-radius: 0.938rem;
     background-color: var(--grey);
 }
 
@@ -125,7 +166,7 @@
     height: 9.563rem;
     /* margin: 20px 17px 20px 14px; */
     margin: 0.625rem;
-    border-radius: 15px;
+    border-radius: 0.938rem;
     background-color: var(--grey);
 }
 
@@ -134,7 +175,7 @@
     height: 20.375rem;
     /* margin: 20px 20px; */
     margin: 0.625rem;
-    border-radius: 15px;
+    border-radius: 0.938rem;
     background-color: var(--grey);
 }
 .no-border {

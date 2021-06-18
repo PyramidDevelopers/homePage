@@ -37,7 +37,7 @@ function GridItems(layout, color, count, changeLayout) {
         if (item.i === '50') {
             return (
                 <div key="50" className="intro__subtitle">
-                    <span>developers</span>
+                    <span className="developers">developers</span>
                 </div>
             )
         }

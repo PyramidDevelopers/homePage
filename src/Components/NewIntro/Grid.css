@@ -4,21 +4,21 @@
 .grid-item {
     background-color: var(--grey);
     color: var(--general-color);
-    border-radius: 15px;
+    border-radius: 0.938rem;
     display: flex;
     justify-content: center;
 }
 .link {
-    background-color: var(--grey);
     /* color: var(--general-color); */
-    border-radius: 15px;
+    background-color: var(--grey);
+    border-radius: 0.938rem;
     text-align: center;
     cursor: pointer;
 }
 .grid-item-invisible {
     background-color: var(--dark-grey);
     color: var(--general-color);
-    border-radius: 15px;
+    border-radius: 0.938rem;
     display: flex;
     justify-content: center;
     z-index: -1;
@@ -28,22 +28,24 @@
     justify-content: center;
     align-items: center;
     background-color: var(--grey);
-    border-radius: 15px;
+    border-radius: 0.938rem;
 }
 .grid-item-color {
     /* padding: 0px 10px 5px; */
+    /* background-color: #fd5fbb; */
     align-items: center;
     justify-content: center;
     display: flex;
     background-color: var(--general-color);
-    /* background-color: #fd5fbb; */
-    border-radius: 15px;
+    border-radius: 0.938rem;
 }
 .grid-item-color > span {
     color: #222629;
-    font-size: 150px;
+    font-size: 9.375rem;
+    /* font-size: 1.825rem; */
     font-weight: bold;
     font-family: 'OCRAExtended';
+    /* font-family: monospace; */
 }
 .grid-item-clickme {
     cursor: pointer;
@@ -52,17 +54,19 @@
 }
 
 .grid-item-clickme > span {
-    padding-left: 10px;
-    padding-bottom: 10px;
-    width: 101px;
-    height: 62px;
+    padding-left: 0.625rem;
+    padding-bottom: 0.625rem;
+    /* width: 101px;
+    height: 62px; */
     font-family: OCRAExtended;
-    font-size: 1.825rem;
+    /* font-family: monospace; */
+    font-size: 1.875rem;
+    /* font-size: 1.825rem; */
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.03;
-    letter-spacing: -1.5px;
+    letter-spacing: -0.094rem;
     text-align: left;
     color: var(--dark-grey);
 }
@@ -102,6 +106,26 @@
     display: flex;
     align-items: center;
 }
+
+@media screen and (min-width:300px) and (max-width: 640px) {
+    .grid-item-color > span {
+        /* font-size: 150px; */
+        font-size: 8.8rem;
+        /* font-family: 'OCRAExtended'; */
+        font-family: monospace;
+    }
+    .grid-item-clickme > span {
+        width:auto;
+        height:auto;
+        /* font-family: OCRAExtended; */
+        font-family: monospace;
+        font-size: 1.825rem;
+    }
+}
+
+
+
+
 
 /* .react-grid-item > .react-resizable-handle {
   position: absolute;

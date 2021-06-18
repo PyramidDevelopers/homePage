@@ -10,7 +10,6 @@ const InfoBlock = ({ title, p1, p2 }) => {
                         <div className="title__text">
                             <p>{title}</p>
                         </div>
-
                         <div className="title__qmark">
                             <p>?</p>
                         </div>

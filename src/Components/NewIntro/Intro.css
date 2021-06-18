@@ -7,14 +7,16 @@
     max-width: 1900px;
     /* margin-left: auto; */
     margin-inline: auto;
+    margin-bottom:6rem;
     /* margin-bottom: 10%; */
+    display:none;
 }
 
-.intro__title {
+/* .intro__title {
     display: flex;
-}
+} */
 
-.intro__titleLetter {
+/* .intro__titleLetter {
     display: flex;
     margin-right: 20px;
     background-color: blue;
@@ -24,45 +26,52 @@
     height: 131.9px;
     padding: 0px 10px 5px;
     background-color: #60ffba;
-    border-radius: 15px;
-}
+    border-radius: 0.938rem;
+} */
 
-.intro__titleLetter > span {
+/* .intro__titleLetter > span {
     color: #222629;
-    font-size: 150px;
+    font-size: 1.813rem;
     font-weight: bold;
     font-family: 'OCRAExtended';
-}
+    font-family: monospace;
+} */
 
-.intro__click {
+/* .intro__click {
     cursor: pointer;
     display: flex;
     align-items: bottom;
-}
+} */
 
-.intro__click > span {
+/* .intro__click > span {
     font-size: 1.25rem;
     padding-top: 5rem;
     font-weight: 500;
     font-family: 'OCRAExtended';
-}
+} */
 
 .intro__subtitle {
-    /* margin-top: 10px;
-  padding-left: 16rem;
-  margin-left: 31rem; */
-    /* padding-bottom: 50px; */
+    /* margin-top: 10px; */
+  /* padding-left: 16rem; */
+  /* margin-left: 31rem; */
+    padding-bottom: 3.125rem;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
 
-.intro__subtitle > span {
+.intro__subtitle .developers {
+    font-weight: 500;
+    color: var(--general-color);
+    font-size: 3.125rem;
+    font-family: 'OCRAExtended';
+}
+/* .intro__subtitle > span {
     font-weight: 500;
     color: var(--general-color);
     font-size: 50px;
     font-family: 'OCRAExtended';
-}
+} */
 
 /* .intro__description {
   margin-top: 1%;
@@ -86,7 +95,7 @@
     font-stretch: normal;
     font-style: normal;
     line-height: 1.03;
-    letter-spacing: -1.5px;
+    letter-spacing: -0.094rem;
     text-align: left;
     color: #adadad;
 }
@@ -99,18 +108,33 @@
     font-stretch: normal;
     font-style: normal;
     line-height: 1.03;
-    letter-spacing: -1.5px;
+    letter-spacing: -0.094rem;
     text-align: left;
     color: #adadad;
 }
 
 @media screen and (min-width:300px) and (max-width: 640px) {
+    /* .mobile__hidden{
+        display:none;
+    } */
     .intro__description > span {
         font-size: 1.75rem;
+        /* font-size:10px; */
+        /* color:green; */
     }
     .intro .join,.intro .giveUs{
         padding-left:1rem;
         font-size:1.75rem;
+        /* font-size:10px; */
+
+    }
+    .intro__subtitle .developers{
+        /* font-family:monospace; */
+        /* width:10rem; */
+        /* width:100%;
+        font-size:100%; */
+        /* font-size: 4rem; */
+        font-size:auto;
     }
 }
 
