@@ -32,3 +32,9 @@ body {
     font-family: 'Scared';
     src: local('Scared'), url(./fonts/jd_scarabeo_light.ttf) format('truetype');
 }
+
+@media screen and (min-width: 300px) and (max-width: 480px) {
+    html {
+        -webkit-text-size-adjust: none;
+    }
+}

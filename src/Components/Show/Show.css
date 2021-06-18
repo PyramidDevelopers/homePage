@@ -8,7 +8,7 @@
 
 .show .show__top {
     display: flex;
-    justify-content:center;
+    justify-content: center;
 }
 
 .show__top .top__text h1 {
@@ -17,10 +17,11 @@
     margin-top: 1.25rem;
     font-family: OCRAExtended;
     font-size: 5rem;
+    -webkit-text-size-adjust: none;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
-    text-align:center;
+    text-align: center;
     line-height: 1.04;
     letter-spacing: -0.5rem;
     color: var(--light-grey);
@@ -28,7 +29,7 @@
 
 .show .show__bottom {
     display: flex;
-    justify-content:center;
+    justify-content: center;
 }
 
 .show__bottom .FlexColumn {
@@ -63,7 +64,7 @@
 .show__bottom .leftMid__text {
     display: flex;
     justify-content: flex-end;
-    width:29.625rem;
+    width: 29.625rem;
 }
 
 .show__bottom .leftMid__text .status {
@@ -82,6 +83,7 @@
     align-items:center;
     font-family: OCRAExtended;
     font-size: 1.5rem;
+    -webkit-text-size-adjust: none;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -97,6 +99,7 @@
     margin-bottom: 0.625rem;
     font-family: OCRAExtended;
     font-size: 3.438rem;
+    -webkit-text-size-adjust: none;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -147,7 +150,7 @@
 .show__bottom .rightMid__text {
     display: flex;
     justify-content: flex-end;
-    width:17.563rem;
+    width: 17.563rem;
 }
 
 .show__bottom .rightMid__text .status {
@@ -163,12 +166,13 @@
 .show__bottom .rightMid__text .status p {
     /* width: 65px;
     height: 18px; */
-    height:100%;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: OCRAExtended;
     font-size: 1.125rem;
+    -webkit-text-size-adjust: none;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -185,6 +189,7 @@
     margin-bottom: 0.625rem;
     font-family: OCRAExtended;
     font-size: 2.5rem;
+    -webkit-text-size-adjust: none;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -200,6 +205,7 @@
     /* margin: 7px 0 0; */
     font-family: OCRAExtended;
     font-size: 1.375rem;
+    -webkit-text-size-adjust: none;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -220,8 +226,7 @@
     border-radius: 0.938rem;
     padding-bottom: 1.25rem;
 }
-.show .bottomCrap{
-    display:flex;
-    width:95%
-
+.show .bottomCrap {
+    display: flex;
+    width: 95%;
 }

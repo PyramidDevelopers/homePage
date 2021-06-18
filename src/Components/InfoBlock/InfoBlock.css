@@ -4,23 +4,22 @@
     width: 42.875rem;
 }
 
-.infoblock .text{
-    display:flex;
-    flex-flow:column;
+.infoblock .text {
+    display: flex;
+    flex-flow: column;
 }
 
-.infoblock .title{
-    display:flex;
-    justify-content:flex-start;
-    gap:2.5rem;
+.infoblock .title {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2.5rem;
 }
-.infoblock .title__text{
-    display:flex;
-    justify-content:flex-start;
-    align-items:center;
+.infoblock .title__text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
-.infoblock .title__text p{
-    
+.infoblock .title__text p {
     font-family: OCRAExtended;
     /* font-family: monospace; */
     font-size: 5rem;
@@ -43,7 +42,7 @@
     background-color: var(--general-color);
 }
 
-.infoblock .title__qmark p{
+.infoblock .title__qmark p {
     font-family: OCRAExtended;
     /* font-family: monospace; */
     font-size: 4.063rem;
@@ -54,16 +53,15 @@
     color: var(--dark-grey);
 }
 
-
-.infoblock .text .para1{
-    display:flex;
-    justify-content:flex-start;
+.infoblock .text .para1 {
+    display: flex;
+    justify-content: flex-start;
 }
 
-.infoblock .text .para1 p{
+.infoblock .text .para1 p {
     width: 100%;
-    white-space:pre-line;
-    margin-top: 7.0rem ;
+    white-space: pre-line;
+    margin-top: 7rem;
     font-family: ISOCPEUR;
     /* font-family: monospace; */
     font-size: 1.688rem;
@@ -76,16 +74,16 @@
     color: var(--general-color);
 }
 
-.infoblock .text .para2{
-    display:flex;
-    justify-content:flex-start;
+.infoblock .text .para2 {
+    display: flex;
+    justify-content: flex-start;
 }
 
-.infoblock .text .para2 p{
-    display:flex;
-    white-space:pre-line;
-    width:100%;
-    margin-top:3.125rem ;
+.infoblock .text .para2 p {
+    display: flex;
+    white-space: pre-line;
+    width: 100%;
+    margin-top: 3.125rem;
     font-family: ISOCPEUR;
     /* font-family: monospace; */
     font-size: 1.688rem;
@@ -98,16 +96,16 @@
     color: var(--light-grey);
 }
 
-@media screen and (min-width:300px) and (max-width:480px){
-    .infoblock{
-        width:75%;
+@media screen and (min-width: 300px) and (max-width: 480px) {
+    .infoblock {
+        width: 75%;
     }
-    .infoblock .title{
-        justify-content:center;
+    .infoblock .title {
+        justify-content: center;
         /* width:100%; */
     }
-    .infoblock .title__text{
-        justify-content:center;
+    .infoblock .title__text {
+        justify-content: center;
     }
     .infoblock .title__text p{
         font-size:6rem;
@@ -126,21 +124,22 @@
         /* font-size:5rem; */
         /* font-family: monospace; */
     }
-    .infoblock .text .para1{
-        justify-content:center;
-        max-width:100%;
+    .infoblock .text .para1 {
+        justify-content: center;
+        max-width: 100%;
     }
     .infoblock .text .para1 p{
         /* font-family: monospace; */
         white-space: normal;
         font-size: 3rem;
+        -webkit-text-size-adjust: none;
         text-align: center;
         letter-spacing: 0.08rem;
         width: 100%;
     }
-    .infoblock .text .para2{
-        justify-content:center;
-        max-width:100%;
+    .infoblock .text .para2 {
+        justify-content: center;
+        max-width: 100%;
     }
     .infoblock .text .para2 p{
         /* font-family: monospace; */
