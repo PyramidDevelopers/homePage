@@ -42,6 +42,7 @@
 .grid-item-color > span {
     color: #222629;
     font-size: 9.375rem;
+    /* font-size: 150px; */
     /* font-size: 1.825rem; */
     font-weight: bold;
     font-family: 'OCRAExtended';
@@ -60,8 +61,8 @@
     height: 62px; */
     font-family: OCRAExtended;
     /* font-family: monospace; */
-    font-size: 1.875rem;
-    /* font-size: 1.825rem; */
+    /* font-size: 30px; */
+    font-size: 1.825rem;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -111,14 +112,14 @@
     .grid-item-color > span {
         /* font-size: 150px; */
         font-size: 8.8rem;
-        /* font-family: 'OCRAExtended'; */
-        font-family: monospace;
+        font-family: 'OCRAExtended';
+        /* font-family: monospace; */
     }
     .grid-item-clickme > span {
         width:auto;
         height:auto;
-        /* font-family: OCRAExtended; */
-        font-family: monospace;
+        font-family: OCRAExtended;
+        /* font-family: monospace; */
         font-size: 1.825rem;
     }
 }

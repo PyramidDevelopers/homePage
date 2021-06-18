@@ -27,40 +27,40 @@
 
 /* md breakpoint */
 /* @media screen and (min-width: 300px) {
-    .app{
+    .intro {
         zoom: 25%;
     }
 }
 
 @media screen and (min-width: 640px) {
-    .app {
+    .intro {
         zoom: 33%;
     }
 }
 
 @media screen and (min-width: 768px) {
-    .app {
+    .intro {
         zoom: 50%;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .app {
+    .intro {
         zoom: 70%;
     }
 }
 @media screen and (min-width: 1200px) {
-    .app {
+    .intro {
         zoom: 80%;
     }
 }
 @media screen and (min-width: 1400px) {
-    .app {
+    .intro {
         zoom: 90%;
     }
 }
 @media screen and (min-width: 1536px) {
-    .app {
+    .intro {
         zoom: 100%;
     }
 } */
