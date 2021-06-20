@@ -63,7 +63,8 @@
 .intro__subtitle .developers {
     font-weight: 500;
     color: var(--general-color);
-    font-size: 3.125rem;
+    /* font-size: 3.125rem; */
+    font-size:50px;
     font-family: 'OCRAExtended';
 }
 /* .intro__subtitle > span {
@@ -80,17 +81,20 @@
 
 .intro__description > span {
     color: #a6a6a6;
-    font-size: 2.088rem;
+    /* font-size: 2.088rem; */
+    font-size: 33px;
     display: inline-block;
-    padding-top: 0.625rem;
+    padding-top: 10px;
     font-family: 'OCRAExtended';
 }
 
 .intro .giveUs {
-    height: 5.813rem;
-    padding-left: 1.875rem;
+    /* height: 5.813rem; */
+    /* padding-left: 1.875rem; */
+    padding-left: 30px;
     font-family: OCRAExtended;
-    font-size: 1.875rem;
+    /* font-size: 1.875rem; */
+    font-size: 30px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -100,10 +104,12 @@
     color: #adadad;
 }
 .intro .join {
-    height: 5.813rem;
-    padding-left: 1.875rem;
+    /* height: 5.813rem; */
+    /* padding-left: 1.875rem; */
+    padding-left: 30px;
     font-family: OCRAExtended;
-    font-size: 1.875rem;
+    /* font-size: 1.875rem; */
+    font-size: 30px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -118,13 +124,13 @@
         display:none;
     } */
     .intro__description > span {
-        font-size: 1.75rem;
+        /* font-size: 1.75rem; */
         /* font-size:10px; */
         /* color:green; */
     }
     .intro .join,.intro .giveUs{
         padding-left:1rem;
-        font-size:1.75rem;
+        /* font-size:1.75rem; */
         /* font-size:10px; */
 
     }

@@ -25,8 +25,7 @@
     }
 } */
 
-/* md breakpoint */
-/* @media screen and (min-width: 300px) {
+@media screen and (min-width: 300px) {
     .intro {
         zoom: 25%;
     }
@@ -63,7 +62,7 @@
     .intro {
         zoom: 100%;
     }
-} */
+}
 
 
 @media screen and (min-width: 1640px) and (max-width: 1780px) {

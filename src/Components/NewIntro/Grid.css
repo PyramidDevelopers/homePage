@@ -4,21 +4,24 @@
 .grid-item {
     background-color: var(--grey);
     color: var(--general-color);
-    border-radius: 0.938rem;
+    /* border-radius: 0.938rem; */
+    border-radius: 15px;
     display: flex;
     justify-content: center;
 }
 .link {
     /* color: var(--general-color); */
     background-color: var(--grey);
-    border-radius: 0.938rem;
+    /* border-radius: 0.938rem; */
+    border-radius: 15px;
     text-align: center;
     cursor: pointer;
 }
 .grid-item-invisible {
     background-color: var(--dark-grey);
     color: var(--general-color);
-    border-radius: 0.938rem;
+    /* border-radius: 0.938rem; */
+    border-radius: 15px;
     display: flex;
     justify-content: center;
     z-index: -1;
@@ -28,7 +31,8 @@
     justify-content: center;
     align-items: center;
     background-color: var(--grey);
-    border-radius: 0.938rem;
+    /* border-radius: 0.938rem; */
+    border-radius: 15px;
 }
 .grid-item-color {
     /* padding: 0px 10px 5px; */
@@ -37,12 +41,13 @@
     justify-content: center;
     display: flex;
     background-color: var(--general-color);
-    border-radius: 0.938rem;
+    /* border-radius: 0.938rem; */
+    border-radius: 15px;
 }
 .grid-item-color > span {
     color: #222629;
-    font-size: 9.375rem;
-    /* font-size: 150px; */
+    /* font-size: 9.375rem; */
+    font-size: 150px;
     /* font-size: 1.825rem; */
     font-weight: bold;
     font-family: 'OCRAExtended';
@@ -61,8 +66,8 @@
     height: 62px; */
     font-family: OCRAExtended;
     /* font-family: monospace; */
-    /* font-size: 30px; */
-    font-size: 1.825rem;
+    font-size: 30px;
+    /* font-size: 1.825rem; */
     -webkit-text-size-adjust: none;
     font-weight: normal;
     font-stretch: normal;
@@ -112,7 +117,7 @@
 @media screen and (min-width:300px) and (max-width: 640px) {
     .grid-item-color > span {
         /* font-size: 150px; */
-        font-size: 8.8rem;
+        /* font-size: 8.8rem; */
         font-family: 'OCRAExtended';
         /* font-family: monospace; */
     }
@@ -121,7 +126,7 @@
         height:auto;
         font-family: OCRAExtended;
         /* font-family: monospace; */
-        font-size: 1.825rem;
+        /* font-size: 1.825rem; */
     }
 }
 
