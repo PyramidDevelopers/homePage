@@ -25,9 +25,24 @@
     }
 } */
 
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 300px){
     .intro {
-        zoom: 25%;
+        zoom: 20%;
+    }
+}
+@media screen and (min-width: 370px){
+    .intro {
+        zoom: 24%;
+    }
+}
+@media screen and (min-width: 480px) {
+    .intro {
+        zoom: 28%;
+    }
+}
+@media screen and (min-width: 565px) {
+    .intro {
+        zoom: 30%;
     }
 }
 
