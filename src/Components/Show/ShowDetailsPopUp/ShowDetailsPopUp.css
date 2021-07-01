@@ -1,0 +1,40 @@
+.showdetails {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left__Index > button {
+    background-color: var(--general-color);
+    margin-top: 2rem;
+    margin-right: 1em;
+    padding: 0.4em;
+    border-radius: 0.35rem;
+    border: none;
+    outline: none;
+    font-family: 'OCRAExtended', sans-serif;
+    font-size: 1.5rem;
+}
+
+.left__Index > button:focus {
+    outline: none;
+}
+
+.left__Image {
+    background-color: var(--grey);
+    border-radius: 0.938rem;
+    padding: 5rem;
+    width: 90%;
+    border-radius: 0.938rem;
+}
+
+.right__Info {
+    width: 90%;
+    font-family: 'OCRAExtended', sans-serif;
+}
+
+.right__title {
+    color: var(--general-color);
+    font-size: 3rem;
+}
