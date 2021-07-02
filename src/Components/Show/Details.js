@@ -38,7 +38,7 @@ export const DetailedInformation = [
         client: 'Enerman Technologies Ltd.',
         info: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam aperiam amet repellat vel labore commodi, consequatur, voluptatem nisi dolor obcaecati ut esse ullam suscipit consequuntur distinctio alias voluptatum ipsum accusamus.',
         scope: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum facilis saepe porro minus dolore impedit similique obcaecati fugit nesciunt deserunt itaque, autem amet velit tenetur voluptas temporibus recusandae fugiat commodi?',
-        links: 'ios link\n play store link',
+        links: 'ios link\nplay store link',
     },
     {
         title: 'NearVibe',
@@ -46,7 +46,7 @@ export const DetailedInformation = [
         client: 'Enerman Technologies Ltd.',
         info: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam aperiam amet repellat vel labore commodi, consequatur, voluptatem nisi dolor obcaecati ut esse ullam suscipit consequuntur distinctio alias voluptatum ipsum accusamus.',
         scope: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum facilis saepe porro minus dolore impedit similique obcaecati fugit nesciunt deserunt itaque, autem amet velit tenetur voluptas temporibus recusandae fugiat commodi?',
-        links: 'ios link\n play store link',
+        links: 'ios link\nplay store link',
     },
     {
         title: 'VitalMinds',
@@ -54,7 +54,7 @@ export const DetailedInformation = [
         client: 'Enerman Technologies Ltd.',
         info: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam aperiam amet repellat vel labore commodi, consequatur, voluptatem nisi dolor obcaecati ut esse ullam suscipit consequuntur distinctio alias voluptatum ipsum accusamus.',
         scope: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum facilis saepe porro minus dolore impedit similique obcaecati fugit nesciunt deserunt itaque, autem amet velit tenetur voluptas temporibus recusandae fugiat commodi?',
-        links: 'ios link\n play store link',
+        links: 'ios link\nplay store link',
     },
     {
         title: 'Enerman Solar App',
@@ -62,7 +62,7 @@ export const DetailedInformation = [
         client: 'Enerman Technologies Ltd.',
         info: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam aperiam amet repellat vel labore commodi, consequatur, voluptatem nisi dolor obcaecati ut esse ullam suscipit consequuntur distinctio alias voluptatum ipsum accusamus.',
         scope: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum facilis saepe porro minus dolore impedit similique obcaecati fugit nesciunt deserunt itaque, autem amet velit tenetur voluptas temporibus recusandae fugiat commodi?',
-        links: 'ios link\n play store link',
+        links: 'ios link\nplay store link',
     },
     {
         title: 'TakeYourTrip',
@@ -70,6 +70,6 @@ export const DetailedInformation = [
         client: 'Enerman Technologies Ltd.',
         info: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam aperiam amet repellat vel labore commodi, consequatur, voluptatem nisi dolor obcaecati ut esse ullam suscipit consequuntur distinctio alias voluptatum ipsum accusamus.',
         scope: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum facilis saepe porro minus dolore impedit similique obcaecati fugit nesciunt deserunt itaque, autem amet velit tenetur voluptas temporibus recusandae fugiat commodi?',
-        links: 'ios link\n play store link',
+        links: 'ios link\nplay store link',
     },
 ];
