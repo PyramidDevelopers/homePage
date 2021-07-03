@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './ShowDetailsPopUp.css'
 import { DetailedInformation } from '../Details'
+import DetailsTile from '../ProjectDetails/DetailsTile'
 import enermanApp from '../../../assets/enerman-app.png'
 import vitalMinds from '../../../assets/vital-minds.png'
 import nearVibe from '../../../assets/near-vibe.png'
@@ -45,9 +46,7 @@ function ShowDetailsPopUp({index, onClose}) {
                 </div>
             </div>
             <div className="right__Info">
-                <div className="right__title">
-                    <h2>{DetailedInformation[index].title}</h2>
-                </div>
+                <DetailsTile index = {index} onClose = {onClose} />
             </div>
         </div>
     )
