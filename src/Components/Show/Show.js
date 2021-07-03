@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react'
+import React, { useEffect } from 'react'
 import './Show.css'
 import nutrifamily from '../../assets/nutri-family.png'
 import nearvibe from '../../assets/near-vibe.png'
@@ -10,24 +10,57 @@ import $ from 'jquery'
 window.jquery = window.$ = $
 
 const Show = () => {
-  useEffect(() => {
-    if($){
-      $('#left-button').click(function(event) {
-        event.preventDefault();
-        $('.grid-list').animate({
-          scrollLeft: "+=400"
-        }, 1000);
+    useEffect(() => {
+        if ($) {
+            $('#left-button').click(function (event) {
+                event.preventDefault()
+                $('.grid-list').animate(
+                    {
+                        scrollLeft: '+=400',
+                    },
+                    1000
+                )
+            })
 
-     });
-  
-       $('#right-button').click(function(event) {
-         event.preventDefault();
-        $('.grid-list').animate({
-          scrollLeft: "-=400"
-        }, 1000);
-     });
-     }
-   },[$])
+            $('#right-button').click(function (event) {
+                event.preventDefault()
+                $('.grid-list').animate(
+                    {
+                        scrollLeft: '-=400',
+                    },
+                    1000
+                )
+            })
+
+            const slider = document.querySelector('.grid-list');
+            let isDown = false;
+            let startX;
+            let scrollLeft;
+            
+            slider.addEventListener('mousedown', (e) => {
+              isDown = true;
+              slider.classList.add('active');
+              startX = e.pageX - slider.offsetLeft;
+              scrollLeft = slider.scrollLeft;
+            });
+            slider.addEventListener('mouseleave', () => {
+              isDown = false;
+              slider.classList.remove('active');
+            });
+            slider.addEventListener('mouseup', () => {
+              isDown = false;
+              slider.classList.remove('active');
+            });
+            slider.addEventListener('mousemove', (e) => {
+              if(!isDown) return;
+              e.preventDefault();
+              const x = e.pageX - slider.offsetLeft;
+              const walk = (x - startX) * 1; //scroll-fast
+              slider.scrollLeft = scrollLeft - walk;
+              console.log(walk);
+            });
+        }
+    }, [$])
 
     return (
         <div className="showcase">

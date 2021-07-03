@@ -1,6 +1,7 @@
 :root{
     width: 100%;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
+  
 }
 .showcase {
     display: flex;
@@ -9,6 +10,12 @@
     margin-bottom: 10.75rem;
     margin-left: 10rem;
     margin-right: 10rem;
+}
+.grid-list{
+    overflow-x: scroll;
+}
+.grid-list.active{
+    cursor: grabbing;
 }
 
 .showcase .showcase-title {
