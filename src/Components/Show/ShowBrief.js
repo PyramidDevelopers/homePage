@@ -63,7 +63,7 @@ const ShowBrief = ({onOpen}) => {
     }
   }, [$])
 
-  const images = [nutrifamily, nearvibe, vitalminds, enermanapp, takeyourtrip];
+  const images = [nearvibe, vitalminds, enermanapp, takeyourtrip, nutrifamily];
 
   return (
     <div className="showcase">

@@ -37,7 +37,14 @@ function DetailsTile({ index, onClose }) {
             <div className="info-scope-links-section">
                 <div className="color-rect-for-label">LINKS</div>
                 <div className="details-text-container">
-                    <p>{DetailedInformation[index].links}</p>
+                    {DetailedInformation[index].linksTrue && DetailedInformation[index].links.map((link, index)=>(
+                        <div key={index}>
+                            {!link.inProgress && <><a href={link.link} target="_blank">{link.title}</a><br/></>}
+                            {link.inProgress && <>{link.title}: In Progress<br/></>}
+                        </div>
+                    ))
+                    }
+                    {!DetailedInformation[index].linksTrue &&<>{DetailedInformation[index].linkWriteUp}<br/></>}
                 </div>
             </div>
         </div>

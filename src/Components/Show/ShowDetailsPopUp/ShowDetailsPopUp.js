@@ -18,11 +18,11 @@ function ShowDetailsPopUp({index, onClose}) {
     }
 
     const images = [
-        [nutriFamily, nearVibe, vitalMinds, enermanApp, takeYourTrip],
         [nearVibe, nutriFamily, vitalMinds, enermanApp, takeYourTrip],
         [vitalMinds, nutriFamily, nearVibe, enermanApp, takeYourTrip],
         [enermanApp, nutriFamily, nearVibe, vitalMinds, takeYourTrip],
         [takeYourTrip, nutriFamily, nearVibe, vitalMinds, enermanApp],
+        [nutriFamily, nearVibe, vitalMinds, enermanApp, takeYourTrip],
     ]
 
     return (
