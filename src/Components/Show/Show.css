@@ -1,14 +1,8 @@
 :root{
     width: 100%;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
+  
 }
-/* .detailedPopup{
-    /* width: 100px;
-    height: 100px;
-    background: red;
-    position: relative; 
-    animation: mymove 5s 1;
-} */
 .show{
     margin-bottom: 10.75rem;
 }
@@ -23,6 +17,12 @@
     margin-bottom: 3.75rem;
     margin-left: 10rem;
     margin-right: 10rem;
+}
+.grid-list{
+    overflow-x: scroll;
+}
+.grid-list.active{
+    cursor: grabbing;
 }
 
 .showcase .showcase-title {
@@ -44,6 +44,68 @@
     color: var(--general-color);
 }
 
+.showcase-title .buttons {
+    display: flex;
+    flex-flow: row;
+    margin-left: 30rem;
+    justify-content: right;
+}
+.showcase-title .title-text1{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 4.375rem;
+    height: 5.625rem;
+    padding:1rem;
+    margin-right: 1rem;
+    border-radius: 0.938rem;
+    background-color: var(--general-color);
+}
+.showcase-title .title-text1 button{
+    font-family: OCRAExtended;
+    /* font-family: monospace; */
+    font-size: 4.063rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.03;
+    color: var(--dark-grey);
+}
+
+.showcase-title .title-text2{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 4.375rem;
+    height: 5.625rem;
+    padding:1rem;
+    border-radius: 0.938rem;
+    background-color: var(--general-color);
+}
+
+.showcase-title .title-text2 button{
+    font-family: OCRAExtended;
+    /* font-family: monospace; */
+    font-size: 4.063rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.03;
+    color: var(--dark-grey);
+}
+
+.showcase-title .title-text1 h1 {
+    width: 55.85rem;
+    margin-top: 1.25rem;
+    font-family: OCRAExtended;
+    font-size: 5rem;
+    font-weight: normal;
+    text-align: center;
+    justify-content: center;
+    line-height: 1.04;
+    letter-spacing: -0.5rem;
+    color: #ffca60;
+}
 .showcase .main {
     display: flex;
     justify-content: center; 
