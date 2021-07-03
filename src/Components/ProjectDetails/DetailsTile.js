@@ -8,31 +8,37 @@ function DetailsTile({ index, onClose }) {
         <div className="project-details-container">
             <div className="project-details-header">
                 <div className="details-tile-title">{DetailedInformation[index].title}</div>
-                <button className="color-rect-close-icon" onClick = {onClose}>
-                    <CloseIcon className = "tile-close-icon"/>
+                <button className="color-rect-close-icon" onClick={onClose}>
+                    <CloseIcon />
                 </button>
             </div>
             <div className="status-and-client-section">
                 <div className="status-section">
-                    <div className="color-rect-for-label">STATUS</div>
-                    <div className="project-details-text">{DetailedInformation[index].status}</div>
+                    <div className="color-rect-status-client">STATUS</div>
+                    <div className="status-client-text">{DetailedInformation[index].status}</div>
                 </div>
                 <div className="client-section">
-                    <div className="color-rect-for-label">CLIENT</div>
-                    <div className="project-details-text">{DetailedInformation[index].client}</div>
+                    <div className="color-rect-status-client">CLIENT</div>
+                    <div className="status-client-text">{DetailedInformation[index].client}</div>
                 </div>
             </div>
-            <div className="info-section">
+            <div className="info-scope-links-section">
                 <div className="color-rect-for-label">INFO</div>
-                <div className="project-details-text">{DetailedInformation[index].info}</div>
+                <div className="details-text-container">
+                    <p>{DetailedInformation[index].info}</p>
+                </div>
             </div>
-            <div className="scope-section">
+            <div className="info-scope-links-section">
                 <div className="color-rect-for-label">SCOPE</div>
-                <div className="project-details-text">{DetailedInformation[index].scope}</div>
+                <div className="details-text-container">
+                    <p>{DetailedInformation[index].scope}</p>
+                </div>
             </div>
-            <div className="links-section">
+            <div className="info-scope-links-section">
                 <div className="color-rect-for-label">LINKS</div>
-                <div className="project-details-text">{DetailedInformation[index].links}</div>
+                <div className="details-text-container">
+                    <p>{DetailedInformation[index].links}</p>
+                </div>
             </div>
         </div>
     )

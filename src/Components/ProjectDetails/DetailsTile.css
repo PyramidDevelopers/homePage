@@ -28,19 +28,7 @@
     flex-flow: row;
 }
 
-.info-section {
-    display: flex;
-    flex-flow: row;
-    margin: 0.625rem 0.625rem 2.5rem;
-}
-
-.scope-section {
-    display: flex;
-    flex-flow: row;
-    margin: 0.625rem 0.625rem 2.5rem;
-}
-
-.links-section {
+.info-scope-links-section {
     display: flex;
     flex-flow: row;
     margin: 0.625rem 0.625rem 2.5rem;
@@ -52,28 +40,48 @@
 }
 
 .color-rect-for-label {
-    width: 5rem;
-    height: fit-content;
+    width: 6.570rem;
+    height: 2rem;
     border-radius: 0.25rem;
     background-color: var(--general-color);
     letter-spacing: -0.03125rem;
     text-align: center;
     font-size: 1.30rem;
+    margin-right: 0.3rem;
+    flex-basis: none;
+}
+
+.color-rect-status-client {
+    width: 6.5rem;
+    height: 2rem;
+    border-radius: 0.25rem;
+    background-color: var(--general-color);
+    letter-spacing: -0.03125rem;
+    text-align: center;
+    font-size: 1.30rem;
+    margin-right: 0.3rem;
+    flex-basis: none;
 }
 
 .color-rect-close-icon {
     width: 2.3rem;
     height: 3rem;
     border-radius: 0.380rem;
+    padding: 0.53125rem 0.4375rem 0.53125rem;
     background-color: var(--general-color);
 }
 
-.tile-close-icon {
-    font-size: large;
-    margin: 0.53125rem 0.4375rem 0.53125rem;
+.details-text-container {
+    width: 87%;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+    color: var(--light-grey);
+    font-size: 1.30rem;
+    letter-spacing: -0.09375rem;
+    white-space: pre-wrap;
 }
 
-.project-details-text {
+.status-client-text {
     margin-left: 0.625rem;
     margin-right: 0.625rem;
     color: var(--light-grey);
