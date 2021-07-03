@@ -38,3 +38,8 @@
     color: var(--general-color);
     font-size: 3rem;
 }
+.left__Image img {
+    width: 45rem;
+    height: 49.063rem;
+    border-radius: 0.9rem;
+}
