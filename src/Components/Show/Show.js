@@ -1,6 +1,8 @@
 import { useState } from "react";
 import ShowBrief from "./ShowBrief";
 import ShowDetailsPopUp from "./ShowDetailsPopUp/ShowDetailsPopUp";
+import "./Show.css"
+import { scroller } from "react-scroll";
 
 const Show = () => {
     const [openDeatil, setOpenDetail] = useState(false);
@@ -9,6 +11,11 @@ const Show = () => {
     const onOpen = (key) => {
         setOpenKey(key);
         setOpenDetail(true);
+        scroller.scrollTo("detailedPopup", {
+            duration: 1000,
+            delay: 0,
+            smooth: "easeInOutQuart",
+        });
     };
 
     const onClose = () => {
@@ -18,7 +25,11 @@ const Show = () => {
     return (
         <div className="show">
             <ShowBrief onOpen = {onOpen}/>
-            {openDeatil && <ShowDetailsPopUp index={openKey} onClose={onClose}/>}
+            <div className="detailedPopup">
+            {openDeatil && 
+                <ShowDetailsPopUp index={openKey} onClose={onClose}/>
+            }
+            </div>
         </div>
     );
 }
