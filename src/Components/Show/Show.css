@@ -20,6 +20,7 @@
 }
 .grid-list{
     overflow-x: scroll;
+    overflow-y: hidden;
 }
 .grid-list.active{
     cursor: grabbing;
@@ -119,7 +120,7 @@
     margin-bottom: 30rem;
     width: 60rem;
     margin-left: 10rem;
-    height: 30rem;
+    height: 25rem;
 }
 
 .main .col {
@@ -128,14 +129,20 @@
     background-color: var(--grey);
     padding: 3.25rem 0.75rem 4.5rem 2.5rem;
     width:39.938rem;
-    height:33.9rem;
+    height:30.9rem;
     border-radius: 0.938rem;
     margin: 0.625rem;
     
 }
 
 .tile .col:hover{
-    border-bottom: solid var(--general-color) 2px;
+    border-bottom: solid var(--general-color) 2px;    
+}
+/* .tile .col:focus{
+    border-bottom: solid var(--general-color) 2px;   
+} */
+.col.selected{
+     border-bottom: solid var(--general-color) 2px;   
 }
 
 .main .col-text {
@@ -182,6 +189,7 @@
     letter-spacing: -0.25rem;
     text-align: left;
     color: var(--general-color);
+    width: 20rem;
 }
 
 .main .col-text h5 {
@@ -196,7 +204,9 @@
     text-align: left;
     color: var(--light-grey);
     white-space: pre-line;
+    width: 18rem;
 }
+
 
 .main .col-image {
     display: flex;
@@ -205,8 +215,30 @@
     width: 100rem;
 }
 .main .col-image img {
-    width: 13.438rem;
-    height: auto;
+    width: 11.438rem;
+    height: 24.274rem;
     border-radius: 0.938rem;
     margin-bottom: -2rem;
+}
+@-ms-viewport {
+	width: device-width;
+}
+@media screen and (max-width: 1280px) and  (min-width:320px) {
+    .main .tile{
+        width: 58rem; 
+    }
+    /* .tile .col:active{
+        border-bottom: solid var(--general-color) 2px;
+        -webkit-text-size-adjust: none;
+    } */
+    .main .col-text h4 {
+        width: 20rem;
+        text-align: left;
+    }
+    
+    .main .col-text h5 {
+        width: 19rem;
+        text-align: left;
+    }
+
 }

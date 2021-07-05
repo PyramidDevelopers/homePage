@@ -33,6 +33,10 @@ const ShowBrief = ({onOpen}) => {
             )
         })
 
+        $('.col').on('click', function(){
+          $('.col').removeClass('selected');
+          $(this).addClass('selected');
+      });
         const slider = document.querySelector('.grid-list');
         let isDown = false;
         let startX;
@@ -82,7 +86,7 @@ const ShowBrief = ({onOpen}) => {
       </div>
       <GridList className="grid-list">
         <div className="main">
-          <div className="tile">
+          <div className="tile" >
             {BreifInformations.map(information => (
               <div className="col"  onClick = {e => onOpen(information.key)} key={information.key}>
                 <div className="col-text">

@@ -1,15 +1,28 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { DetailedInformation } from '../Details'
 import CloseIcon from '@material-ui/icons/Close';
 import './DetailsTile.css'
+import "../Show.css"
+import $ from 'jquery'
+window.jquery = window.$ = $
 
 function DetailsTile({ index, onClose }) {
+    
+useEffect(() => {
+    if ($) {
+        $('.close').on('click', function(){
+            $('.col').removeClass('selected');
+            $(this).removeClass('selected');
+        }); 
+    }
+    }, [$])
+
     return (
         <div className="project-details-container">
             <div className="project-details-header">
                 <div className="details-tile-title">{DetailedInformation[index].title}</div>
                 <button className="color-rect-close-icon" onClick={onClose}>
-                    <CloseIcon />
+                    <CloseIcon className="close"/>
                 </button>
             </div>
             <div className="status-and-client-section">

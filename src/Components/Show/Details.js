@@ -2,19 +2,19 @@ export const BreifInformations = [
     {
         ongoing: false,
         title: "NearVibe",
-        text: "A platform to share, react & discover\nhow people are feeling in your area",
+        text: "A platform to share, react & discover how people are feeling in your area",
         key: 0
     },
     {
         ongoing: true,
         title: "My Vital Mind",
-        text: "Personal mental health\nassistant",
+        text: "Personal mental health assistant",
         key: 1
     },
     {
         ongoing: false,
         title: "Enerman",
-        text: "Solar Panel information\ndashboard",
+        text: "Solar Panel information dashboard",
         key: 2
     },
     {

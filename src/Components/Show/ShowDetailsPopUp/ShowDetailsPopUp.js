@@ -8,6 +8,7 @@ import nearVibe from '../../../assets/near-vibe.png'
 import nutriFamily from '../../../assets/nutri-family.png'
 import takeYourTrip from '../../../assets/take-your-trip.png'
 
+
 function ShowDetailsPopUp({index, onClose}) {
     const [demoIndex, setDemoIndex] = useState(0);
 
