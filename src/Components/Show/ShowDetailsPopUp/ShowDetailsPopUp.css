@@ -5,8 +5,17 @@
     justify-content: space-between;
 }
 
-.left__Index > button {
+.inactive {
+    background-color: var(--grey);
+    color: var(--general-color);
+}
+
+.active {
     background-color: var(--general-color);
+    color: var(--grey);
+}
+
+.left__Index > button {
     margin-top: 2rem;
     margin-right: 1em;
     padding: 0.4em;
@@ -38,8 +47,9 @@
     color: var(--general-color);
     font-size: 3rem;
 }
+
 .left__Image img {
-    width: 45rem;
-    height: 49.063rem;
+    width: 35rem;
+    height: 39.063rem;
     border-radius: 0.9rem;
 }
