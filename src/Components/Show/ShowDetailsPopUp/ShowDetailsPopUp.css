@@ -18,12 +18,12 @@
 .left__Index > button {
     margin-top: 2rem;
     margin-right: 1em;
-    padding: 0.4em;
-    border-radius: 0.35rem;
+    padding: 0.3em 0.6rem;
+    border-radius: 0.5rem;
     border: none;
     outline: none;
     font-family: 'OCRAExtended', sans-serif;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 
 .left__Index > button:focus {
