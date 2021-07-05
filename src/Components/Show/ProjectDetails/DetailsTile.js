@@ -10,7 +10,7 @@ function DetailsTile({ index, onClose }) {
     
 useEffect(() => {
     if ($) {
-        $('.close').on('click', function(){
+        $('.color-rect-close-icon').on('click', function(){
             $('.col').removeClass('selected');
             $(this).removeClass('selected');
         }); 
@@ -22,7 +22,7 @@ useEffect(() => {
             <div className="project-details-header">
                 <div className="details-tile-title">{DetailedInformation[index].title}</div>
                 <button className="color-rect-close-icon" onClick={onClose}>
-                    <CloseIcon className="close"/>
+                    <CloseIcon />
                 </button>
             </div>
             <div className="status-and-client-section">
