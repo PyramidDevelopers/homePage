@@ -1,0 +1,43 @@
+.testimonials{
+    display: flex;
+}
+.testimonials__text{
+    display: flex;
+    flex-direction: column;
+    width: 75em;
+    height: 20em;
+    padding: 3.3em;
+    margin-left: 8em;
+    border-radius: 20px;
+    background-color: #2b2f32;
+    font-family: OCRAExtended;
+    color: #adadad;
+    font-size: larger;
+    position: relative;
+    text-align: end;
+}
+
+.testimonials__text > p{
+    margin-bottom: 1em;
+}
+
+.client{
+    background-color:var(--general-color);
+    color: #2b2f32;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    padding: 0.5em;
+    margin-right: 2.75em;
+    margin-bottom: 7.5em;
+    border-radius: 0.5em;
+}
+
+.company{
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  padding: 0.5em;
+  margin-right: 2.5em;
+  margin-bottom: 4.5em;
+}
