@@ -96,8 +96,8 @@
     color: var(--dark-grey);
 }
 .main{
-    width: 50% !important;
-    height: 500px !important;
+    width: 52% !important;
+    height: 37rem !important;
     padding:2px !important;
     margin-bottom: 5px;
 }
@@ -150,7 +150,7 @@
     border-bottom: solid var(--general-color) 2px;   
 } */
 .col.selected{
-     border-bottom: solid var(--general-color) 2px;   
+    border-bottom: solid var(--general-color) 2px;   
 }
 
 .main .col-text {
@@ -164,7 +164,7 @@
     width: 5rem;
     height: 1.875rem;
     border-radius: 0.375rem;
-    color: var(--general-color);
+    background-color: var(--general-color);
 }
 
 .main .col-text .content p {
