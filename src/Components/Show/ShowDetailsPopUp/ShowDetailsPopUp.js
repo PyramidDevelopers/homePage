@@ -8,14 +8,13 @@ import nearVibe from '../../../assets/near-vibe.png'
 import nutriFamily from '../../../assets/nutri-family.png'
 import takeYourTrip from '../../../assets/take-your-trip.png'
 
-
-function ShowDetailsPopUp({index, onClose}) {
-    const [demoIndex, setDemoIndex] = useState(0);
+function ShowDetailsPopUp({ index, onClose }) {
+    const [demoIndex, setDemoIndex] = useState(0)
 
     function handleIndexClick(e) {
         const value = e.target.innerText
-        console.log(value-1)
-        setDemoIndex(value-1)
+        console.log(value - 1)
+        setDemoIndex(value - 1)
     }
 
     const images = [
@@ -30,24 +29,32 @@ function ShowDetailsPopUp({index, onClose}) {
         <div className="showdetails ">
             <div className="left">
                 <div className="left__Image">
-                    <img src={images[index][demoIndex]} alt={DetailedInformation[index].title} />
+                    <img
+                        src={images[index][demoIndex]}
+                        alt={DetailedInformation[index].title}
+                    />
                 </div>
                 <div className="left__Index">
                     {images.map((_work, workIdx) => {
                         console.log(workIdx)
+                        let classes = 'inactive'
+                        if (demoIndex === workIdx) {
+                            classes = 'active'
+                        }
                         return (
                             <button
                                 onClick={handleIndexClick}
                                 key={workIdx}
+                                className={classes}
                             >
-                                {workIdx+1}
+                                {workIdx + 1}
                             </button>
                         )
                     })}
                 </div>
             </div>
             <div className="right__Info">
-                <DetailsTile index = {index} onClose = {onClose} />
+                <DetailsTile index={index} onClose={onClose} />
             </div>
         </div>
     )
