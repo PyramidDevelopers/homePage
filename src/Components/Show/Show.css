@@ -4,7 +4,7 @@
 }
 
 .show{
-    margin-bottom: 10.75rem;
+    margin-bottom: 8.75rem;
 }
 @keyframes mymove {
     from {top: 0px;}
@@ -96,8 +96,8 @@
     color: var(--dark-grey);
 }
 .main{
-    width: 45% !important;
-    height: 500px !important;
+    width: 50% !important;
+    height: 37rem !important;
     padding:2px !important;
     margin-bottom: 5px;
 }
