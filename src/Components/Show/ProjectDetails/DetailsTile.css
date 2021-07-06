@@ -39,7 +39,7 @@
 
 .details-tile-title {
     color: var(--general-color);
-    margin: 1.375rem 1.125rem 5.188rem 0;
+    margin: 1.375rem 1.125rem 3.188rem 0;
     font-size: 3.063rem;
     line-height: 1.04;
     letter-spacing: -0.306rem;
@@ -64,7 +64,7 @@
     background-color: var(--general-color);
     width: 4.313rem;
     height: 4.563rem;
-    margin: 0 0 5.188rem 0;
+    margin: 0 0 3.188rem 0;
     padding: 0.125rem 1rem 0.625rem 1.063rem;
     border-radius: 0.938rem;
 }
