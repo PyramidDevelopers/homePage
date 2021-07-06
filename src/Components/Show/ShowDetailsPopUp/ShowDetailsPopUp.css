@@ -17,9 +17,9 @@
 
 .left__Index > button {
     margin-top: 2rem;
-    margin-right: 1em;
-    padding: 0.3em 0.6rem;
-    border-radius: 0.5rem;
+    margin-right: 1rem;
+    padding: 0em 0.7rem;
+    border-radius: 0.8rem;
     border: none;
     outline: none;
     font-family: 'OCRAExtended', sans-serif;
@@ -33,7 +33,7 @@
 .left__Image {
     background-color: var(--grey);
     border-radius: 0.938rem;
-    padding: 5rem;
+    padding: 4rem;
     width: 90%;
     border-radius: 0.938rem;
 }
@@ -49,7 +49,7 @@
 }
 
 .left__Image img {
-    width: 35rem;
-    height: 39.063rem;
+    width: 30rem;
+    height: 35.5rem;
     border-radius: 0.9rem;
 }
