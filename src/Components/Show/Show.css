@@ -96,9 +96,10 @@
     color: var(--dark-grey);
 }
 .main{
-    width: 50% !important;
-    height: 320px !important;
+    width: 45% !important;
+    height: 500px !important;
     padding:2px !important;
+    margin-bottom: 5px;
 }
 
 .showcase-title .title-text1 h1 {
@@ -231,7 +232,7 @@
 	width: device-width;
 }
 @media screen and (max-width: 1280px) and  (min-width:720px) {
-   
+ 
     .main .tile{
         width: 58rem; 
     }
@@ -270,7 +271,7 @@
         text-align: left;
     }
     .title-text{
-        margin-left: 5rem;
+        margin-left: -6rem;
     }
 }
 
