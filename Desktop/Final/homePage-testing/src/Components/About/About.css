@@ -1,0 +1,117 @@
+.about {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    /* margin-bottom:50px; */
+}
+.yellow {
+    background-color: var(--general-color) !important;
+}
+.about .top__spacer {
+    display: flex;
+    justify-content: center;
+}
+.about__top {
+    display: flex;
+    justify-content: center;
+    /* width:92.75%; */
+}
+
+.about__bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.about__left {
+    display: flex;
+    justify-content: center;
+}
+
+.about__bottom .space {
+    display: flex;
+    align-items: flex-end;
+}
+.about__right {
+    display: flex;
+    flex-flow: row;
+}
+.about__right .images__left {
+    display: flex;
+    flex-flow: column;
+}
+
+.about__right .images__upper img {
+    width: 24.75rem;
+    height: 20.875rem;
+    margin: 0.625rem;
+    object-fit: fill;
+    border-radius: 0.938rem;
+}
+
+.about__right .images__lower img {
+    width: 24.75rem;
+    height: 20.875rem;
+    margin: 0.625rem;
+    object-fit: fill;
+    border-radius: 0.938rem;
+}
+.about__right .images__inner {
+    display: flex;
+}
+
+.about__right .images__right .socialMedia .greyRectangle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about__right .images__innerInnerLeftInside {
+    width: 16.375rem;
+    height: 20.938rem;
+    margin: 0.625rem;
+    object-fit: fill;
+    border-radius: 0.938rem;
+}
+
+.about__right .socialMedia {
+    display: flex;
+}
+
+.about__right .images__innerRight {
+    display: flex;
+    align-items: center;
+}
+
+.socialMedia .greyRectangle a :only-child {
+    font-size: 4.688rem;
+}
+
+@media screen and (min-width: 300px) and (max-width: 480px) {
+    .web__hidden {
+        display: block;
+    }
+    .mobile__hidden {
+        display: none;
+    }
+    .about__bottom {
+        flex-flow: column;
+    }
+    .about__bottom .about__right {
+        justify-content: center;
+    }
+    .about__bottom .about__right .images__left {
+        flex-flow: row;
+    }
+    .about__bottom .about__right .images__right {
+        display: flex;
+        flex-flow: row;
+    }
+    .about__bottom .about__right .images__right .socialMedia {
+        flex-flow: column;
+    }
+    .about__bottom .about__right img{
+        margin-right:0.625rem;
+        height: 31.25rem;
+        width:auto;
+    }
+}
+

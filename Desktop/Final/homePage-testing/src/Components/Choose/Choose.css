@@ -1,0 +1,110 @@
+.choose{
+    display:flex;
+    justify-content:flex-end;
+    margin-right:-2rem;
+}
+
+
+.choose__top{
+    height: 9.563rem;
+}
+
+.choose__left{
+    display:flex;
+    flex-flow:column;
+    align-items:center;
+    /* margin:0px 10px;
+    padding:0px 50px; */
+    /* justify-content:center; */
+}
+
+
+.choose__right{
+    display:flex;
+    margin:0px 0.625rem;
+}
+
+.choose__right .col1{
+    display:flex;
+    flex-flow:column;
+    justify-content:flex-end;
+    align-items:flex-end;
+}
+
+.choose__right .col1 .col1__image img{
+    max-width: 24.75rem;
+    height: 31.063rem;
+    /* margin: 20.5px 24.5px 19.5px 9.5px; */
+    margin:0.625rem;
+    object-fit:fill;
+    border-radius: 0.938rem;
+}
+
+.choose__right .col2{
+    display:flex;
+    flex-flow:column;
+}
+
+.choose__right .col2 .col2__image img{
+    width: 16.375rem;
+    height: 20.25rem;
+    /* margin: 20px 17px 20px 14px; */
+    margin:0.625rem;
+    object-fit: fill;
+    border-radius: 0.938rem;
+}
+.choose__right .col3{
+    display:flex;
+    flex-flow:column;
+}
+.col3 .greyRectangle{
+    /* margin:10px 12px 32px 10px; */
+}
+.col4 .greyRectangle{
+    /* margin:10px; */
+}
+.choose__right .col4{
+    display:flex;
+    flex-flow:column;
+}
+
+@media screen and (min-width:300px) and (max-width:480px){
+    .web__hidden{
+        display:block;
+    }
+    .mobile__hidden{
+        display:none;
+    }
+    .choose{
+        justify-content:center;
+        flex-flow:column;
+    }
+    .choose .choose__right{
+        width:100%;
+        flex-flow:row-reverse;
+        justify-content:center;
+    }
+    .choose .choose__right .col1{
+        width:50%;
+    }
+    .choose .choose__right .col2{
+        display:flex;
+        justify-content:flex-end;
+    }
+    .choose .choose__right .col1__image{
+        width:100%;
+    }
+    .choose .choose__right .col1__image img{
+        height:31.25rem !important;
+        max-width:100% !important;
+        width:100% !important;
+    }
+    .choose .choose__right .col2__image img{
+        height:31.25rem !important;
+        /* max-width:100% !important; */
+        width:auto !important;
+    }
+
+
+}
+

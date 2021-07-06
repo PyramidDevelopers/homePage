@@ -1,0 +1,55 @@
+.showdetails {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inactive1 {
+    background-color: var(--grey);
+    color: var(--general-color);
+}
+
+.active1 {
+    background-color: var(--general-color);
+    color: var(--grey);
+}
+
+.left__Index > button {
+    margin-top: 2rem;
+    margin-right: 1rem;
+    padding: 0em 0.7rem;
+    border-radius: 0.8rem;
+    border: none;
+    outline: none;
+    font-family: 'OCRAExtended', sans-serif;
+    font-size: 2.5rem;
+}
+
+.left__Index > button:focus {
+    outline: none;
+}
+
+.left__Image {
+    background-color: var(--grey);
+    border-radius: 0.938rem;
+    padding: 4rem;
+    width: 90%;
+    border-radius: 0.938rem;
+}
+
+.right__Info {
+    width: 90%;
+    font-family: 'OCRAExtended', sans-serif;
+}
+/*added by raashi*/
+.right__title {
+    color: var(--general-color);
+    font-size: 3rem;
+}
+
+.left__Image img {
+    width: 45rem;
+    height: 51rem;
+    border-radius: 0.9rem;
+}
