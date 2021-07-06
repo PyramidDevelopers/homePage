@@ -39,13 +39,7 @@
 }
 
 .right__Info {
-    width: 90%;
-    font-family: 'OCRAExtended', sans-serif;
-}
-/*added by raashi*/
-.right__title {
-    color: var(--general-color);
-    font-size: 3rem;
+    font-family: 'OCRAExtended';
 }
 
 .left__Image img {
