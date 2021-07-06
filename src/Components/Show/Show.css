@@ -112,7 +112,7 @@
     justify-content: center;
     line-height: 1.04;
     letter-spacing: -0.5rem;
-    color: #ffca60;
+    color: var(--general-color);
 }
 .showcase .main {
     display: flex;
