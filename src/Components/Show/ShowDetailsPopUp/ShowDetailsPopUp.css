@@ -5,12 +5,12 @@
     justify-content: space-between;
 }
 
-.inactive {
+.inactive1 {
     background-color: var(--grey);
     color: var(--general-color);
 }
 
-.active {
+.active1 {
     background-color: var(--general-color);
     color: var(--grey);
 }

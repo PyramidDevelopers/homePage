@@ -37,9 +37,9 @@ function ShowDetailsPopUp({ index, onClose }) {
                 <div className="left__Index">
                     {images.map((_work, workIdx) => {
                         console.log(workIdx)
-                        let classes = 'inactive'
+                        let classes = 'inactive1'
                         if (demoIndex === workIdx) {
-                            classes = 'active'
+                            classes = 'active1'
                         }
                         return (
                             <button
