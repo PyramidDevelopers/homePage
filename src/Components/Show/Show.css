@@ -32,7 +32,10 @@
     justify-content: flex-start;
     margin-bottom: 5rem;
 }
-
+.align
+{
+    display: flex;
+}
 .showcase-title .title-text h1 {
     width: 55.85rem;
     margin-top: 1.25rem;
