@@ -27,8 +27,8 @@
 }
 
 .footer__button button img{
-    margin:2rem;
-    width:4.688rem;
+    margin:2.25rem auto;
+    width:4rem;
     height:auto;
 }
 
@@ -103,7 +103,7 @@
 }
 
 .footer__links .links__text{
-    margin-bottom:0.4rem;
+    margin-bottom:0.2rem;
     font-size: 1.688rem;
     font-family: ISOCPEUR;
     font-weight: normal;
@@ -141,7 +141,7 @@
 }
 
 .footer__stay .stay__socials a :only-child{
-    font-size: 4.688rem;
+    font-size: 3rem;
 }
 .footer__stay .stay__socials > *{
     margin-right:1rem;

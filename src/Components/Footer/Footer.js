@@ -182,14 +182,14 @@ const Footer = () => {
                             target="_blank"
                             rel="noreferrer"
                         >
-                            <InstagramIcon/>
+                            <InstagramIcon />
                         </a>
                         <a
                             href="https://www.facebook.com/PyramidDeveloper"
                             target="_blank"
                             rel="noreferrer"
                         >
-                            <FacebookIcon/>
+                            <FacebookIcon />
                         </a>
                         </div>
                     </div>
