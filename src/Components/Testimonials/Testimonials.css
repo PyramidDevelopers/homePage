@@ -1,5 +1,7 @@
 .head{
     overflow-y: hidden;
+    margin: 10rem 5rem;
+    height: 38rem;
 }
 
 .wrapper {
