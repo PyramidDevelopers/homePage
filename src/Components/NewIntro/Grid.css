@@ -1,5 +1,16 @@
 .Grid {
     width: 100%;
+    z-index: 1;
+    opacity:0%;
+    animation:fade 5s 5s ease forwards;
+}
+@keyframes fade{
+    0%{
+        opacity:0%;
+    }
+    100%{
+        opacity:100%;
+    }
 }
 .grid-item {
     background-color: var(--grey);

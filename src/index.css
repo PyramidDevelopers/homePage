@@ -24,13 +24,13 @@ body {
     src: local('ISOCPEUR'), url(./fonts/isocpeur.ttf) format('truetype');
 }
 @font-face {
-    font-family: 'JdScarabeoLightRegular';
+    font-family: 'JdScarabeoLightRegular-EZVl';
     src: local('JdScarabeoLightRegular-EZVl'),
         url(./fonts/JdScarabeoLightRegular-EZVl.ttf) format('truetype');
 }
 @font-face {
-    font-family: 'Scared';
-    src: local('Scared'), url(./fonts/jd_scarabeo_light.ttf) format('truetype');
+    font-family: 'jd_scarabeo_light';
+    src: local('jd_scarabeo_light'), url(./fonts/jd_scarabeo_light.ttf) format('truetype');
 }
 
 @media screen and (min-width: 300px) and (max-width: 480px) {
