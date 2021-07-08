@@ -7,27 +7,27 @@ window.jquery = window.$ = $
 const Testimonials = () => {
     useEffect(() => {
         if ($) {
-            $('#left__btn').click(function (event) {
+            $('#right__btn').click(function (event) {
                 event.preventDefault()
-                $('.grid-list').animate(
+                $('.grid-list1').animate(
                     {
-                        scrollLeft: '+=700',
+                        scrollLeft: '+=400',
                     },
                     1000
                 )
             })
 
-            $('#right__btn').click(function (event) {
+            $('#left__btn').click(function (event) {
                 event.preventDefault()
-                $('.grid-list').animate(
+                $('.grid-list1').animate(
                     {
-                        scrollLeft: '-=700',
+                        scrollLeft: '-=400',
                     },
                     1000
                 )
             })
         }
-        const slider = document.querySelector('.grid-list')
+        const slider = document.querySelector('.grid-list1')
         let isDown = false
         let startX
         let scrollLeft
@@ -47,7 +47,7 @@ const Testimonials = () => {
             if (!isDown) return
             e.preventDefault()
             const x = e.pageX - slider.offsetLeft
-            const walk = (x - startX) * 1 //scroll-fast
+            const walk = (x - startX) * 3 //scroll-fast
             slider.scrollLeft = scrollLeft - walk
             console.log(walk)
         })
@@ -57,18 +57,18 @@ const Testimonials = () => {
         <div className="head">
             <div className="wrapper">
                 <h1>TESTIMONIALS</h1>
-                <div className="buttons">
-                    <div className="button" id="left__btn">
+                <div className="buttons1">
+                    <div className="button1" id="left__btn">
                         <button>&lt;</button>
                     </div>
-                    <div className="button" id="right__btn">
+                    <div className="button1" id="right__btn">
                         <button>&gt;</button>
                     </div>
                 </div>
             </div>
-            <GridList className="grid-list">
+            <GridList className="grid-list1">
                 <div className="testimonials">
-                    <div className="col">
+                    <div className="col1">
                         <div className="testimonials-text">
                             <div className="description">
                                 <p>
@@ -90,7 +90,7 @@ const Testimonials = () => {
                         </div>
                     </div>
 
-                    <div className="col">
+                    <div className="col1">
                         <div className="testimonials-text">
                             <div className="description">
                                 <p>
@@ -107,7 +107,7 @@ const Testimonials = () => {
                                     mollit anim id est laborum
                                 </p>
                             </div>
-                            <h4 className="client">Client Name</h4>
+                            <h4 className="client">CLIENT NAME</h4>
                             <h4 className="company">Company Name</h4>
                         </div>
                     </div>
