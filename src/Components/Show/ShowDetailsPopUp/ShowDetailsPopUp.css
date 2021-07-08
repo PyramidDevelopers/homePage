@@ -52,4 +52,20 @@
     width: 45rem;
     height: 51rem;
     border-radius: 0.9rem;
+    animation: imageAnimation 2s ease-in;
+    transition: animation 3s ease;
+}
+
+@keyframes imageAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 50%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
 }
