@@ -11,13 +11,13 @@ import './About.css'
 const About = () => {
     return (
         <div className="about" id="about">
-            {/* <div className="top__spacer">
+            <div className="top__spacer">
                 <div className="about__top">
-                    <div className="greyRectangle"></div>
-                    <div className="greyRectangle"></div>
-                    <div className="darkRectangle"></div>
+                    <div className="greyRectangle mobile__hidden"></div>
+                    <div className="greyFatRectangle mobile__hidden"></div>
+                    {/* <div className="darkRectangle"></div> */}
                 </div>
-            </div> */}
+            </div>
             <div className="about__bottom ">
                 <div className="darkRectangle web__hidden"></div>
                 <div className="about__left">

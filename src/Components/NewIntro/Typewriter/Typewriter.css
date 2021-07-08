@@ -8,7 +8,7 @@
     position:absolute;
     z-index: 999;
     opacity:100%;
-    animation:fade-out 0.5s 8s linear forwards;
+    animation:fade-out 0.5s 7s linear forwards;
 }
 .typewriter__intro{
     display:flex;

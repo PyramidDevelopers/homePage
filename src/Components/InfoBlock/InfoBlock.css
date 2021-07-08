@@ -39,7 +39,7 @@
     align-items:center;
     /* width: 4.375rem;
     height: 5.625rem; */
-    padding:1rem;
+    padding:0.8rem 1rem;
     border-radius: 0.938rem;
     background-color: var(--general-color);
 }
@@ -47,7 +47,7 @@
 .infoblock .title__qmark p {
     font-family: OCRAExtended;
     /* font-family: monospace; */
-    font-size: 4.063rem;
+    font-size: 3.75rem;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;

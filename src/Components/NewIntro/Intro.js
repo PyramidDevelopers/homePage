@@ -15,7 +15,7 @@ const Intro = () => {
     return (
         <div className="intro ">
             <Grid />
-            <Typewriter/>
+            {/* <Typewriter/> */}
         </div>
     )
 }

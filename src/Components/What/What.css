@@ -87,7 +87,7 @@
     height:100%;
     display:flex;
     flex-flow:column;
-    gap:3.3rem;
+    gap:1.75rem;
     justify-content:flex-start;
 }
 

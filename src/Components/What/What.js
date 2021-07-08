@@ -72,16 +72,16 @@ const What = () => {
                         }
                     />
                 </div>
-                <div className="what__rightContentBottom mobile__hidden">
-                    <div className="greyRectangle"></div>
-                </div>
+                {/* <div className="what__rightContentBottom mobile__hidden">
+                    <div className="darkRectangle"></div>
+                </div> */}
             </div>
             <div className="darkRectangle web__hidden"></div>
             <div className="what__endRectangle mobile__hidden">
                 <div className="darkRectangle"></div>
-                <div className="darkRectangle"></div>
-                <div className="darkRectangle"></div>
-                <div className="greyRectangle "></div>
+                {/* <div className="darkRectangle"></div> */}
+                {/* <div className="darkRectangle"></div> */}
+                {/* <div className="greyRectangle "></div> */}
             </div>
         </div>
     )

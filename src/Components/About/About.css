@@ -9,7 +9,8 @@
 }
 .about .top__spacer {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    width:100%;
 }
 .about__top {
     display: flex;
