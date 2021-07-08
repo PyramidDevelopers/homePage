@@ -1,7 +1,9 @@
 .choose{
     display:flex;
     justify-content:flex-end;
-    margin-right:-2rem;
+    flex-flow:row-reverse;
+    margin-bottom:10rem;
+    /* margin-right:-2rem; */
 }
 
 
@@ -22,6 +24,7 @@
 .choose__right{
     display:flex;
     margin:0px 0.625rem;
+    flex-flow:row-reverse;
 }
 
 .choose__right .col1{
@@ -39,7 +42,10 @@
     object-fit:fill;
     border-radius: 0.938rem;
 }
-
+.choose__right .col1 .col1__blocks{
+    display:flex;
+    flex-flow:row;
+}
 .choose__right .col2{
     display:flex;
     flex-flow:column;
