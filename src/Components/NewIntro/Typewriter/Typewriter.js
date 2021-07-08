@@ -3,15 +3,15 @@ import './Typewriter.css';
 import Typist from 'react-typist';
 
 const Typewriter = () => {
-    const intro_letters = {
-        32: 'P',
-        33: 'Y',
-        34: 'R',
-        35: 'A',
-        36: 'M',
-        37: 'I',
-        38: 'D',
-      };
+    // const intro_letters = {
+    //     32: 'P',
+    //     33: 'Y',
+    //     34: 'R',
+    //     35: 'A',
+    //     36: 'M',
+    //     37: 'I',
+    //     38: 'D',
+    //   };
     return (
         <div className='typewriter'>
             <Typist 

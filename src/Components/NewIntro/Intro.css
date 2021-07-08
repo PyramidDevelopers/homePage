@@ -74,10 +74,11 @@
     font-family: 'OCRAExtended';
 } */
 
-/* .intro__description {
-  margin-top: 1%;
-  margin-left: -45rem;
-} */
+.intro__description {
+  display:flex;
+  justify-content:flex-start;
+  align-items:center;
+}
 
 .intro__description > span {
     color: #a6a6a6;
