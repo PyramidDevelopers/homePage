@@ -8,7 +8,7 @@ import Choose from './Components/Choose/Choose'
 import OurTeam from './Components/OurTeam/OurTeam'
 import ReachUs from './Components/ReachUs/ReachUs'
 import Footer from './Components/Footer/Footer'
-
+import Testimonial from './Components/Testimonials/Testimonials'
 function App() {
     // useEffect(() => {
     //     // browser.tabs.setZoom()
@@ -24,6 +24,7 @@ function App() {
             <What />
             <Show />
             <Choose />
+            <Testimonial/>
             <OurTeam />
             <ReachUs />
             <Footer />
