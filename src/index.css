@@ -11,9 +11,9 @@ body {
     /* overflow-y: hidden; */
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     display: none;
-}
+} */
 
 @font-face {
     font-family: 'OCRAExtended';

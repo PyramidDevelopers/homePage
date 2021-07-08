@@ -112,6 +112,9 @@
     letter-spacing: normal;
     color: var(--dark-grey);
 }
+.footer__links .links__text:hover{
+    text-decoration:underline;
+}
 
 .footer__stay .stay__title{
     margin-bottom:1rem;
