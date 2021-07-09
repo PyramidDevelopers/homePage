@@ -55,6 +55,10 @@
     animation: imageAnimation 2s ease-in;
     transition: animation 3s ease;
 }
+.left__Image.animate
+{
+    animation: imageAnimation 1s ease-in;
+}
 
 @keyframes imageAnimation {
     0% {
