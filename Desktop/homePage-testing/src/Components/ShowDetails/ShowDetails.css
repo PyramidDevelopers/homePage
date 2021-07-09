@@ -1,0 +1,36 @@
+.showDetails {
+    margin-bottom: 20px;
+    padding: 20px;
+    height: 73vh;
+    border-radius: 15px;
+    background-color: #2b2f32;
+}
+
+.showDetails__text {
+    width: 70%;
+}
+
+.showDetails__textStatus {
+    width: 28%;
+    text-align: center;
+    color: #2b2f32;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #60ffba;
+    margin-bottom: 2%;
+}
+
+.showDetails__text > h2 {
+    color: #60ffba;
+}
+
+.showDetails__text > p {
+    margin-top: 2%;
+}
+
+.showDetails__image > img {
+    width: 10vw;
+    border-radius: 15px;
+    margin-bottom: 10%;
+    margin-left: 20vw;
+}

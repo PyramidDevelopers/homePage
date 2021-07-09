@@ -1,0 +1,337 @@
+.reachUs {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:9rem;
+}
+
+.reachUs .reachUs__top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12.5rem;
+}
+
+.reachUs__header {
+    text-align: center;
+    font-family: OCRAExtended;
+    font-size: 5rem;
+    -webkit-text-size-adjust: none;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.04;
+    letter-spacing: -0.5rem;
+    color: var(--light-grey);
+}
+
+.reachUs__bottom {
+    display: flex;
+}
+
+.reachUs__bottomLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reachUs__bottomLeftTop {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.reachUs__bottomLeftTop p {
+    font-family: ISOCPEUR;
+    font-size: 1.688rem;
+    -webkit-text-size-adjust: none;
+    letter-spacing: normal;
+    color: var(--general-color);
+}
+
+.reachUs__form {
+    display: flex;
+}
+
+.reachUs__formLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.reachUs__formLeft .Input {
+    width: 36.5rem;
+    height: 5.563rem;
+    margin: 0.625rem;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    padding-inline:1.25rem;
+    border-radius: 0.938rem;
+    background-color: var(--grey);
+}
+
+.reachUs__formLeft .Input p {
+    font-family: OCRAExtended;
+    font-size: 1.5rem;
+    -webkit-text-size-adjust: none;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.04;
+    letter-spacing: -0.15rem;
+    color: var(--general-color);
+}
+.reachUs__formLeft input[type='text'] {
+    max-width: 36.5rem;
+    height: 80%;
+    border-radius: 0.313rem;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: OCRAExtended;
+    font-size: 2rem;
+    -webkit-text-size-adjust: none;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.04;
+    letter-spacing: -0.15rem;
+    color: var(--general-color);
+}
+
+.reachUs__formLeft .Inputtextarea {
+    height: 20.375rem !important;
+    padding-inline:1.25rem;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    border-radius: 0.938rem;
+    background-color: var(--grey);
+}
+
+.reachUs textarea {
+    max-width: 36.5rem;
+    height: 80%;
+    border-radius: 0.938rem;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: OCRAExtended;
+    font-size: 2rem;
+    -webkit-text-size-adjust: none;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.04;
+    letter-spacing: -0.15rem;
+    color: var(--general-color);
+}
+
+.reachUs__formRight {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    gap: 0.5rem;
+}
+
+.reachUs__formRight button {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: var(--general-color);
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    border-radius: 0.938rem;
+    cursor: pointer;
+    padding-top: 1.25rem;
+padding-bottom: 1.25rem;
+    font-family: OCRAExtended;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.03;
+    letter-spacing: -0.188rem;
+    text-align: left;
+    color: var(--dark-grey);
+}
+
+.reachUs__formRight button > * {
+    font-size: 3.75rem;
+}
+.reachUs__formRight button > p {
+    font-size: 1.875rem !important;
+    -webkit-text-size-adjust: none;
+}
+.reachUs__bottomRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.reachUs__bottomRight .bottomRight__upper {
+    display: flex;
+}
+
+.bottomRight__upper .left {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    width: 34.25rem;
+    height: 20.313rem;
+    margin: 0.625rem;
+    padding: 1.563rem 0 1.563rem 1.563rem;
+    border-radius: 0.938rem;
+    background-color: var(--grey);
+}
+
+.bottomRight__upper .left .left__topP {
+    width: 100%;
+    font-family: OCRAExtended;
+    font-size: 1.875rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.03;
+    letter-spacing: -0.188rem;
+    text-align: left;
+    color: var(--general-color);
+}
+
+.bottomRight__upper .left .left__lowerP {
+    width: 100%;
+    margin-bottom: 0.625rem;
+    font-family: ISOCPEUR;
+    font-size: 1.688rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--light-grey);
+}
+
+.reachUs__bottomRight .bottomRight__lower {
+    display: flex;
+    flex-flow: column;
+}
+
+.bottomRight__lower .contact {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contact .contact__left {
+    background: var(--general-color) !important;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reachUs__bottomRight .bottomRight__lower .contact .contact__left > * {
+    font-size: 3.75rem;
+}
+
+.contact .contact__left p {
+    margin-top: 0.625rem;
+    font-family: OCRAExtended;
+    font-size: 1.875rem !important;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.03;
+    letter-spacing: -0.188rem;
+    text-align: left;
+    color: var(--dark-grey);
+}
+
+.contact .contact__right {
+    width: 34.25rem;
+    height: 9.563rem;
+    border-radius: 0.938rem;
+    background-color: var(--grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .contact__right p {
+    width: 90%;
+    font-family: OCRAExtended;
+    font-size: 2.5rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.03;
+    letter-spacing: -0.25rem;
+    text-align: left;
+    color: var(--general-color);
+}
+
+.textarea {
+    resize: none;
+}
+
+@media screen and (min-width: 300px) and (max-width: 480px) {
+    .web__hidden {
+        display: block;
+    }
+    .mobile__hidden {
+        display: none;
+    }
+    .reachUs__bottom {
+        flex-flow: column-reverse;
+        gap: 5rem;
+    }
+    .reachUs__bottomRight {
+        flex-flow: row-reverse;
+        gap: 2rem;
+    }
+    .reachUs__bottomLeft {
+        gap: 3rem;
+    }
+    .reachUs__bottomLeftTop {
+        display: flex;
+        justify-content: center;
+    }
+    .reachUs__bottomLeftTop p {
+        font-size: 2.5rem;
+        -webkit-text-size-adjust: none;
+    }
+    .reachUs__formLeft .Input {
+        width: 40.5rem;
+        height: 9.563rem;
+        padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    }
+
+    .reachUs__formLeft .Input p {
+        font-size: 2.25rem;
+        -webkit-text-size-adjust: none;
+    }
+    .reachUs__formLeft input[type='text'] {
+        max-width: 40.5rem;
+        width: 90%;
+        font-size: 2.5rem;
+        -webkit-text-size-adjust: none;
+    }
+
+    .reachUs__formLeft .Inputtextarea {
+        padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    }
+
+    .reachUs textarea {
+        max-width: 40.5rem;
+        width: 90%;
+        font-size: 2.5rem;
+        -webkit-text-size-adjust: none;
+    }
+}
