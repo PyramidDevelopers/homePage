@@ -50,7 +50,7 @@ useEffect(() => {
                             <div key={index}>
                                 {!link.inProgress && (
                                     <>
-                                        <a href={link.link} target="_blank">
+                                        <a href={link.link} target="_blank" rel="noreferrer">
                                             {link.title}
                                         </a>
                                         <br />
