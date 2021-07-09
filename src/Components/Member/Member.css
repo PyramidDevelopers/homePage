@@ -6,10 +6,10 @@
 
 .member .member__image img{
     max-width: 20.25rem;
-  height: auto;
-  margin: 0.625rem;
-  object-fit: contain;
-  border-radius: 0.938rem;
+    height: auto;
+    margin: 0.625rem;
+    object-fit: contain;
+    border-radius: 0.938rem;
 }
 
 .member .member__info{

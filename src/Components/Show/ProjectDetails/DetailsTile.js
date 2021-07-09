@@ -9,7 +9,7 @@ function DetailsTile({ index, onClose }) {
     
 useEffect(() => {
     if ($) {
-        $('.color-rect-close-icon').on('click', function(){
+        $('.color-rect-close').on('click', function(){
             $('.col').removeClass('selected');
             $(this).removeClass('selected');
         }); 

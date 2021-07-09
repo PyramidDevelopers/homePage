@@ -1,3 +1,9 @@
+.head{
+    overflow-y: hidden;
+    margin: 10rem 5rem;
+    height: 38rem;
+}
+
 .wrapper {
     display: flex;
 }
@@ -8,7 +14,7 @@
     margin-left: 1.75em;
 }
 
-.buttons {
+.buttons1 {
     display: flex;
     flex-flow: row;
     margin-left: 50rem;
@@ -17,7 +23,7 @@
     height: 5.625rem;
 }
 
-.button {
+.button1 {
     display: flex;
     padding: 1rem;
     border-radius: 0.938rem;
@@ -32,12 +38,12 @@
     color: var(--dark-grey);
 }
 
-.grid-list {
+.grid-list1 {
     overflow-x: scroll;
     overflow-y: scroll;
     height: 27.375rem;
 }
-.col.selected {
+.col1.selected {
     border-bottom: none;
 }
 .testimonials {
@@ -49,8 +55,8 @@
     flex-direction: column;
     width: 76.375rem;
     height: 27.375rem;
-    padding: 4.063rem 6.438rem 2.938rem 4.063rem;
-    margin: 0 1.563rem 0rem 5rem;
+    padding: 4.063rem 1.438rem 1.938rem 2.063rem;
+    margin: 0 -3.563rem 0rem 5rem;
     border-radius: 20px;
     background-color: #2b2f32;
     font-family: OCRAExtended;
@@ -65,6 +71,9 @@
 
 .client {
     background-color: var(--general-color);
+    font-family: OCRAExtended;
+    text-transform: uppercase;
+    font-weight: 600;
     color: #2b2f32;
     bottom: 0;
     right: 0;
@@ -72,14 +81,19 @@
     padding: 0.5em;
     margin-right: 2.75em;
     border-radius: 0.5em;
-    margin: 2.438rem 2rem 5rem 55rem;
+    margin: 2.438rem 6rem 5rem 55rem;
 }
-
+.description{
+    padding-left: 2rem;
+   
+}
 .company {
+    color: var(--general-color);
+    font-family: OCRAExtended;
     width: 9.625rem;
     height: 1.563rem;
     bottom: 0;
     right: 0;
     position: absolute;
-    margin: 0.625rem 1.313rem 2em 54.938rem;
+    margin: 0.625rem 5.313rem 2em 54.938rem;
 }

@@ -4,7 +4,7 @@
 }
 
 .show{
-    margin-bottom: 10.75rem;
+    margin-bottom: 8.75rem;
 }
 @keyframes mymove {
     from {top: 0px;}
@@ -32,7 +32,10 @@
     justify-content: flex-start;
     margin-bottom: 5rem;
 }
-
+.align
+{
+    display: flex;
+}
 .showcase-title .title-text h1 {
     width: 55.85rem;
     margin-top: 1.25rem;
