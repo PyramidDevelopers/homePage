@@ -11,7 +11,7 @@ const Testimonials = () => {
                 event.preventDefault()
                 $('.grid-list1').animate(
                     {
-                        scrollLeft: '+=400',
+                        scrollLeft: '+=645',
                     },
                     1000
                 )
@@ -21,7 +21,7 @@ const Testimonials = () => {
                 event.preventDefault()
                 $('.grid-list1').animate(
                     {
-                        scrollLeft: '-=400',
+                        scrollLeft: '-=645',
                     },
                     1000
                 )
@@ -111,6 +111,29 @@ const Testimonials = () => {
                             <h4 className="company">Company Name</h4>
                         </div>
                     </div>
+
+                    <div className="col1">
+                        <div className="testimonials-text">
+                            <div className="description">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip
+                                    ex ea commodo consequat. Duis aute irure
+                                    dolor in reprehenderit in voluptate velit
+                                    esse cillum dolore eu fugiat nulla pariatur.
+                                    Excepteur sint occaecat cupidatat non
+                                    proident, sunt in culpa qui officia deserunt
+                                    mollit anim id est laborum
+                                </p>
+                            </div>
+                            <h4 className="client">CLIENT NAME</h4>
+                            <h4 className="company">Company Name</h4>
+                        </div>
+                    </div>
+
                 </div>
             </GridList>
         </div>
