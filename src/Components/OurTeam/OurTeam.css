@@ -28,6 +28,7 @@
 .ourTeam__bottom{
     display:flex;
     flex-flow:row;
+    justify-content:center;
 }
 
 .ourTeam__bottom .bottom__col1,

@@ -96,6 +96,45 @@
     .about__bottom {
         flex-flow: column;
     }
+    .about__bottom .about__mobileTop{
+        display:flex;
+        flex-flow:row;
+        justify-content:space-between;
+    }
+    .about__bottom .about__mobileBottom{
+        display:flex;
+        flex-flow:row;
+        justify-content:space-between;
+    }
+    .about__mobileTop .mobile__left{
+        display:flex;
+        flex-flow:row;
+    }
+    .about__mobileTop .mobile__right{
+        display:flex;
+        flex-flow:row;
+    }
+    .about__mobileBottom .mobile__left{
+        display:flex;
+        flex-flow:row;
+    }
+    .about__mobileBottom .mobile__right{
+        display:flex;
+        flex-flow:row;
+    }
+    .about__left{
+        justify-content:space-between;
+    }
+    .about__left .mobile__left{
+        display:flex;
+        flex-flow:column;
+        align-items:flex-start;
+    }
+    .about__left .mobile__right{
+        display:flex;
+        flex-flow:column;
+        align-items:flex-end;
+    }
     .about__bottom .about__right {
         justify-content: center;
     }

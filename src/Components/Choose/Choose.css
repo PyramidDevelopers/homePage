@@ -85,10 +85,30 @@
         justify-content:center;
         flex-flow:column;
     }
+    .choose .choose__mobileTop{
+        display:flex;
+        flex-flow:row;
+        justify-content:flex-end;
+    }
+    .choose__mobileTop .mobile__left{
+        display:flex;
+        flex-flow:row;
+    }
+    .choose__mobileTop .mobile__right{
+        display:flex;
+        flex-flow:row;
+    }
+    .choose__left{
+        flex-flow:row;
+        justify-content:space-between;
+    }
+
+
     .choose .choose__right{
         width:100%;
         flex-flow:row-reverse;
         justify-content:center;
+        margin-top:5rem;
     }
     .choose .choose__right .col1{
         width:50%;

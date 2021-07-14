@@ -17,16 +17,16 @@ const Typewriter = () => {
             <Typist 
             className='typewriter__typist'
             startDelay={1000} 
-            avgTypingDelay={200}>
+            avgTypingDelay={0}>
                     <div className="typewriter__intro">
-                        <div>P</div>
-                        <div>Y</div>
-                        <div>R</div>
-                        <div>A</div>
-                        <div>M</div>
-                        <div>I</div>
-                        <div>D</div>
-                        <div> </div>
+                        <div className="typewriter__letter">P</div>
+                        <div className="typewriter__letter">Y</div>
+                        <div className="typewriter__letter">R</div>
+                        <div className="typewriter__letter">A</div>
+                        <div className="typewriter__letter">M</div>
+                        <div className="typewriter__letter">I</div>
+                        <div className="typewriter__letter">D</div>
+                        <div className="typewriter__letter"> </div>
                     </div>
                     <div className="typewriter__subtitle">
                         <p>developers</p>

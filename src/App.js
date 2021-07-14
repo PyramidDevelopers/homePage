@@ -27,6 +27,7 @@ function App() {
             <OurTeam />
             <ReachUs />
             <Footer />
+            {/* <text style={{fontFamily:"JD Scarabeo Light", fontSize:'10rem', color:'var(--general-color)'}}>P</text> */}
         </div>
     )
 }

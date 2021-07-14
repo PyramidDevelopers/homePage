@@ -7,11 +7,11 @@ import $ from "jquery";
 //alternative width: 1900px
 
 const Intro = () => {
-    $(window).on('load',function(){//from  w w w. j ava 2 s  .  co  m
-        $(".typewriter").delay(9000).queue(function() {
-            $(this).remove();
-        });
-            });
+    // $(window).on('load',function(){//from  w w w. j ava 2 s  .  co  m
+    //     $(".typewriter").delay(9000).queue(function() {
+    //         $(this).remove();
+    //     });
+    //         });
     return (
         <div className="intro ">
             <Grid />

@@ -1,7 +1,7 @@
 .what {
     display: flex;
     justify-content:center;
-    margin-left:-3.125rem;
+    /* margin-left:-3.125rem; */
 }
 
 .what__left{
@@ -87,7 +87,7 @@
     height:100%;
     display:flex;
     flex-flow:column;
-    gap:1.75rem;
+    /* gap:1.75rem; */
     justify-content:flex-start;
 }
 
@@ -116,16 +116,53 @@
         display:none !important;
     }
     .what{
-        /* flex-flow:column; */
         flex-direction:column-reverse;
         margin-left:0px;
     }
-    .what .what__right{
-        justify-content:center;
-    }
-    .what .what__rightContentTop{
+
+    .what .what__mobileTop{
         display:flex;
-        justify-content:center;
+        flex-flow:row;
+        justify-content:space-between;
+    }
+    .what .what__mobileBottom{
+        display:flex;
+        flex-flow:row;
+        justify-content:space-between;
+    }
+    .what__mobileTop .mobile__left{
+        display:flex;
+        flex-flow:row;
+    }
+    .what__mobileTop .mobile__right{
+        display:flex;
+        flex-flow:row;
+    }
+    .what__mobileBottom .mobile__left{
+        display:flex;
+        flex-flow:row;
+    }
+    .what__mobileBottom .mobile__right{
+        display:flex;
+        flex-flow:row;
+    }
+    .what__rightContent .mobile__left{
+        display:flex;
+        flex-flow:column;
+        align-items:flex-start;
+    }
+    .what__rightContent .mobile__right{
+        display:flex;
+        flex-flow:column;
+        align-items:flex-end;
+    }
+    .what .mobile__leftBottom{
+        display:flex;
+        flex-flow:row;
+    }
+    .what .what__rightContent{
+        justify-content:space-between;
+        flex-flow:row;
     }
     .what .top .top__right{
         flex-flow:row;
@@ -138,15 +175,8 @@
     .what .what__left .top{
         justify-content:center;
     }
-    /* .what .what__left .rightSpacer{
-        display:flex;
-        align-items:flex-end;
-        width:7%;
-    } */
-    /* .what .what__left .rightSpacer .greyLongRectangle{
-        display:flex;
-        align-items:flex-end;
-    } */
-    
+    .what .infoblock{
+        margin-top:5rem;
+    }
 }
 

@@ -22,13 +22,13 @@ const OurTeam = () => {
                 </div>
             </div>
             <div className="ourTeam__bottom">
-                <div className="bottom__col1">
+                <div className="bottom__col1 mobile__hidden">
                     <div className="darkRectangle"></div>
                     <div className="greyRectangle"></div>
                     <div className="greyRectangle"></div>
                     <div className="darkRectangle"></div>
                 </div>
-                <div className="bottom__col2">
+                <div className="bottom__col2 mobile__hidden">
                     <div className="greyLongRectangle"></div>
                     <div className="darkRectangle"></div>
                     <div className="greyRectangle"></div>
@@ -79,7 +79,7 @@ const OurTeam = () => {
                         />
                     </div>
                 </div>
-                <div className="bottom__col4">
+                <div className="bottom__col4 mobile__hidden">
                     <div className="greyFatRectangle"></div>
                     <div className="darkRectangle"></div>
                     <div className="greyRectangle"></div>

@@ -100,7 +100,7 @@
 
 @media screen and (min-width: 300px) and (max-width: 480px) {
     .infoblock {
-        width: 75%;
+        width: 60%;
     }
     .infoblock .title {
         justify-content: center;

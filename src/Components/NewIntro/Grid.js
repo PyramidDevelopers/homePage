@@ -41,6 +41,7 @@ function Grid() {
             '--general-color',
             THEME_COLOR[counter]
         )
+        
 
         setGlobalCounter({
             type: actionTypes.CHANGE_COLOR,
@@ -52,9 +53,66 @@ function Grid() {
     }
     useEffect(() => {
         let width = window.innerWidth;
-        if(width > 1024){
+        console.log(width);
+        if(width > 1900){
             setRow(150)
             setMargin([20,20])
+            document.documentElement.style.setProperty(
+                '--intro-height',
+                '150px'
+            )
+            document.documentElement.style.setProperty(
+                '--intro-margin',
+                '10px'
+            )
+            document.documentElement.style.setProperty(
+                '--intro-margin-top',
+                '700px'
+            )
+        }
+        else if(width > 1800){
+            setRow(140)
+            setMargin([19.5,19.5])
+            document.documentElement.style.setProperty(
+                '--intro-height',
+                '140px'
+            )
+            document.documentElement.style.setProperty(
+                '--intro-margin',
+                '9.4px'
+            )
+            document.documentElement.style.setProperty(
+                '--intro-margin-top',
+                '653px'
+            )
+        }
+        else if(width > 1700){
+            setRow(130)
+            setMargin([19,19])
+        }
+        else if(width > 1600){
+            setRow(120)
+            setMargin([18.5,18.5])
+        }
+        else if(width > 1500){
+            setRow(110)
+            setMargin([18,18])
+        }
+        else if(width > 1400){
+            setRow(100)
+            setMargin([17.5,17.5])
+        }
+        else if(width > 1300){
+            setRow(90)
+            setMargin([17,17])
+        }
+        else if(width > 768){
+            setRow(100)
+            setMargin([10,10])
+        }
+        else if(width > 768){
+            setRow(100)
+            setMargin([10,10])
         }
         else if(width > 768){
             setRow(100)
@@ -68,7 +126,20 @@ function Grid() {
             setRow(30)
             setMargin([5,5])
         }
+        
     }, [window.innerWidth])
+
+    useEffect(() => {
+        if(document.querySelector('grid-item-color')){
+
+        let letterWidth = document.querySelector('grid-item-color').clientWidth;
+        console.log(letterWidth);
+        document.documentElement.style.setProperty(
+            '--intro-width',
+            letterWidth
+        )
+        }
+    }, [])
 
     return (
         <div className="Grid">
