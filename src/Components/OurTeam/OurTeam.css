@@ -22,7 +22,7 @@
     font-style: normal;
     line-height: 1.04;
     letter-spacing: -0.5rem;
-    color: var(--light-grey);
+    color: var(--general-color);
 }
 
 .ourTeam__bottom{
