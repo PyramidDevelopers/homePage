@@ -8,6 +8,15 @@ import InfoBlock from '../InfoBlock/InfoBlock'
 const What = () => {
     return (
         <div className="what" id="what">
+            <div className="what__blocksBottom web__hidden">
+                <div className="darkRectangle"></div>
+                <div className="greyFatRectangle"></div>
+                <div className="greyFatRectangle"></div>
+                <div className="darkRectangle"></div>
+                <div className="greyRectangle"></div>
+                <div className="greyFatRectangle darkChange"></div>
+                <div className="greyFatRectangle"></div>
+            </div>
             <div className="what__left">
                 <div className="top">
                     <div className="top__left">

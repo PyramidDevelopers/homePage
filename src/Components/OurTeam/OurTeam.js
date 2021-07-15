@@ -17,8 +17,21 @@ const OurTeam = () => {
     return (
         <div className="ourTeam" id="ourTeam">
             <div className="ourTeam__top">
+                <div className="ourTeam__mobileTopLeft web__hidden">
+                    <div className="greyFatRectangle"></div>
+                    <div className="darkRectangle"></div>
+                    <div className="greyRectangle"></div>
+                </div>
                 <div className="title">
-                    <p>OUR TEAM</p>
+                    <div>
+                        <p>OUR TEAM</p>
+                    </div>
+                </div>
+                <div className="ourTeam__mobileTopRight web__hidden">
+                    <div className="darkRectangle"></div>
+                    <div className="greyRectangle"></div>
+                    <div className="darkRectangle"></div>
+                    <div className="greyRectangle"></div>
                 </div>
             </div>
             <div className="ourTeam__bottom">
@@ -85,29 +98,17 @@ const OurTeam = () => {
                     <div className="greyRectangle"></div>
                     <div className="greyFatRectangle"></div>
                 </div>
-                {/* <div className="col3">
-                        <Member
-                            image={dhruv}
-                            name="Dhruv Shetty"
-                            role="Business Analyst & Core Developer"
-                        />
-                        <Member
-                            image={samarth}
-                            name="Samarth Kashyap"
-                            role="Business & Strategy"
-                        />
-                        <Member
-                            image={ayush}
-                            name="Ayush Kiran"
-                            role="Lead Designer"
-                        />
-                        <Member
-                            image={ankit}
-                            name="Ankit Mallya"
-                            role="Legal"
-                        />
-                    </div>*/}
             </div>
+            <div className="ourTeam__mobileBottom web__hidden">
+                    <div className="darkRectangle"></div>
+                    <div className="greyFatRectangle"></div>
+                    <div className="darkRectangle"></div>
+                    <div className="darkRectangle"></div>
+                    <div className="greyRectangle"></div>
+                    <div className="greyRectangle"></div>
+                    <div className="greyFatRectangle"></div>
+                    <div className="greyFatRectangle"></div>
+                </div>
         </div>
     )
 }

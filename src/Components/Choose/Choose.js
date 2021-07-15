@@ -27,7 +27,16 @@ const Choose = () => {
                     <div className="greyLongRectangle"></div>
                 </div>
             </div>
-            {/* <div className="darkRectangle"></div> */}
+            <div className="choose__mobileBottom web__hidden">
+                <div className="mobileBottom__left">
+                    <div className="greyFatRectangle"></div>
+                    <div className="greyRectangle"></div>
+                </div>
+                <div className="mobileBottom__right">
+                    <div className="greyRectangle"></div>
+                    <div className="greyRectangle"></div>
+                </div>
+            </div>
             <div className="choose__right">
                 <div className="col1">
                     <div className="col1__image mobile__hidden">
@@ -57,6 +66,15 @@ const Choose = () => {
                     <div className="darkRectangle"></div>
                     <div className="greyRectangle"></div>
                 </div>
+            </div>
+            <div className="choose__blocksBottom web__hidden">
+                <div className="darkRectangle"></div>
+                <div className="greyFatRectangle"></div>
+                <div className="greyFatRectangle"></div>
+                <div className="darkRectangle"></div>
+                <div className="greyRectangle"></div>
+                <div className="greyFatRectangle darkChange"></div>
+                <div className="greyFatRectangle"></div>
             </div>
         </div>
     )

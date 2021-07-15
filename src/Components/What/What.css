@@ -164,13 +164,28 @@
         justify-content:space-between;
         flex-flow:row;
     }
+    .what__blocksBottom.web__hidden{
+        display:flex;
+        flex-flow:row; 
+    }
     .what .top .top__right{
         flex-flow:row;
     }
+    .what .top .top__left img{
+        max-width:100%;
+        height:35.25rem;
+        width:auto;
+    }
     .what .top .top__right img{
         max-width:100%;
-        height:31.25rem;
+        height:35.25rem;
         width:auto;
+    }
+    .what .top .mobile__spacer.web__hidden{
+        display:flex;
+        flex-flow:column;
+        justify-content:center;
+        gap:1rem;
     }
     .what .what__left .top{
         justify-content:center;
