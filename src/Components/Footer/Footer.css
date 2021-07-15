@@ -103,7 +103,7 @@
 }
 
 .footer__links .links__text{
-    margin-bottom:0.2rem;
+    margin-bottom:1rem;
     font-size: 1.688rem;
     font-family: ISOCPEUR;
     font-weight: normal;
@@ -136,6 +136,7 @@
     font-stretch: normal;
     font-style: normal;
     letter-spacing: normal;
+    line-height:1.34;
     color: var(--dark-grey);
 }
 
@@ -148,6 +149,9 @@
 }
 .footer__stay .stay__socials > *{
     margin-right:1rem;
+    text-decoration:none;
+    color:black;
+    
 }
 
 @media screen and (min-width: 300px) and (max-width: 480px) {

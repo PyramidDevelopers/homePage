@@ -84,6 +84,8 @@
 
 .socialMedia .greyRectangle a :only-child {
     font-size: 4.688rem;
+    text-decoration:none;
+    color:black;
 }
 
 @media screen and (min-width: 300px) and (max-width: 480px) {

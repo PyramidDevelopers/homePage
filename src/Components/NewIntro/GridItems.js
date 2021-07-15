@@ -78,7 +78,8 @@ function GridItems(layout, color, count, changeLayout) {
                 <div key="66" className="link">
                     <a 
                     href="https://bit.ly/PyramidDevelopersRecruitment" 
-                    target="_blank">
+                    target="_blank"
+                    style={{textDecoration:"none"}}>
                         <h3 className="join">
                             BECOME A<br /> PART OF US
                             <br />

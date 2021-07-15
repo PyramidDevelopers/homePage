@@ -37,6 +37,7 @@ const Choose = () => {
                     <div className="greyRectangle"></div>
                 </div>
             </div>
+            <div className="darkRectangle mobile__hidden"></div>
             <div className="choose__right">
                 <div className="col1">
                     <div className="col1__image mobile__hidden">

@@ -45,6 +45,9 @@
 .reachUs__bottomLeftTop p {
     font-family: ISOCPEUR;
     font-size: 1.688rem;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.34;
     -webkit-text-size-adjust: none;
     letter-spacing: normal;
     color: var(--light-grey);
@@ -106,13 +109,15 @@
 
 .reachUs__formLeft .Inputtextarea {
     height: 20.375rem !important;
-    padding-inline:1.25rem;
-    padding-top: 0.625rem;
-    padding-bottom: 0.625rem;
+    padding:0rem 1.25rem;
+    /* padding-inline:1.25rem; */
+    /* padding-top: 0.625rem; */
+    /* padding-bottom: 0.625rem; */
     border-radius: 0.938rem;
     background-color: var(--grey);
 }
 .reachUs__formLeft .Inputtextarea p{
+    margin-top:1.25rem;
     margin-bottom:0.625rem;
 }
 
@@ -194,6 +199,9 @@ padding-bottom: 1.25rem;
     padding: 1.563rem 0 1.563rem 1.563rem;
     border-radius: 0.938rem;
     background-color: var(--grey);
+}
+.bottomRight__upper .left a{
+    text-decoration: none;
 }
 
 .bottomRight__upper .left .left__topP {
