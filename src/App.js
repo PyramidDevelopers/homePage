@@ -18,7 +18,7 @@ function App() {
     // })
 
     return (
-        <div className="app xl:fontSize-7xl">
+        <div className="app">
             <NewIntro />
             <About />
             <What />
