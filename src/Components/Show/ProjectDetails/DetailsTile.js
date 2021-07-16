@@ -44,7 +44,7 @@ useEffect(() => {
             </div>
             <div className="info-scope-links-section">
                 <div className="color-rect-for-label">LINKS</div>
-                <div className="details-text-container details-text">
+                <div className="details-text">
                     {DetailedInformation[index].linksTrue &&
                         DetailedInformation[index].links.map((link, index) => (
                             <div key={index}>
