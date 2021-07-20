@@ -100,10 +100,7 @@ button {
     line-height: 1;
     letter-spacing: 0.156rem;
     border-radius: 0.313rem;
-    /* margin: 2.438rem 2.438rem 0.625rem 54.5rem; */
-    margin-left: 55rem;
-    margin-top: -2rem;
-    margin-bottom: 0.75rem;
+    margin: -2rem 2.438rem 0.625rem 55rem;
     text-align: center;
 }
 
@@ -115,4 +112,81 @@ button {
     height: 1.563rem;
     /* margin: -4rem 0 5rem 70rem; */
     margin-left: 55rem;
+}
+
+@media screen and (max-width:2000px) and (min-width:1900px){
+    .testimonials-text{
+        width: 93rem !important;
+        height: 25rem !important;
+    }
+    .client{
+        margin-left: 70rem;
+    }
+    .company{
+        margin-left: 70rem;
+    }
+}
+
+@media screen and (max-width:1900px) and (min-width:1851px) {
+
+    .testimonials-text{
+        width: 93rem !important;
+        height: 25rem !important;
+    }
+
+    .client{
+        margin-left: 73rem;
+    }
+    .company{
+        margin-left: 73rem;
+    }
+
+}
+
+@media screen and (max-width:1850px) and (min-width:1650px) {
+
+    .testimonials-text{
+        width: 93rem !important;
+        height: 25rem !important;
+    }
+
+    .client{
+        margin-left: 73rem;
+    }
+    .company{
+        margin-left: 73rem;
+    }
+    
+}
+
+@media (max-width:1398px) {
+    .client{
+        margin-left: 60rem;
+    }
+    .company{
+        margin-left: 60rem;
+    }
+}
+
+@media (max-width:1346px) {
+    .client{
+        margin-left: 55rem;
+    }
+    .company{
+        margin-left: 55rem;
+    }
+}
+
+@media (max-width:300px)
+{
+    .testimonials-text{
+        width: 95rem !important;
+        height: 25rem !important;
+    }
+    .client{
+        margin-left: 40rem;
+    }
+    .company{
+        margin-left: 40rem;
+    }
 }
