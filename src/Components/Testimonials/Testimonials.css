@@ -53,10 +53,16 @@
     background-color: var(--general-color);
 }
 
+.glide__arrow{
+    cursor: pointer !important;
+}
+
 button {
     font-family: OCRAExtended;
     font-size: 4.063rem;
     color: var(--dark-grey);
+    background-color: var(--general-color);
+    border: none;
 }
 
 .testimonials-wrapper {
@@ -184,10 +190,10 @@ button {
 
 @media screen and (min-width:1300px) and (max-width:1400px){
     .client{
-        margin-left: 75rem;
+        margin-left: 55rem;
     }
     .company{
-        margin-left: 75rem;
+        margin-left: 55rem;
     }
 }
 

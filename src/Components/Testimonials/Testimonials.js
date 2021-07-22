@@ -11,6 +11,7 @@ const Testimonials = () => {
                 2000: { peek: 250 },
                 1899: { peek: 225 },
                 1850: { peek: { before: 75, after: 60 } },
+                1500:{peek:140},
                 1800: {
                     peek: { before: 40, after: 60 },
                 },
