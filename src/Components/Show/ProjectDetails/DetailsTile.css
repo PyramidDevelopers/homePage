@@ -1,8 +1,8 @@
 .project-details-container {
     background-color: var(--grey);
     width: 68.375rem;
-    height: 65rem;
-    margin: 0 0.625rem 23.625rem 0;
+    height: 60.655rem;
+    margin: 0 0.625rem 10.625rem 0;
     padding: 2.063rem 2.063rem 4.938rem 3.438rem;
     border-radius: 1.25rem;
 }
@@ -80,7 +80,7 @@
 
 .details-text {
     width: 87%;
-    margin-left: 1.25rem;
+    margin-left: 1rem;
     color: var(--light-grey);
     font-size: 1.625rem;
     letter-spacing: -0.09375rem;
