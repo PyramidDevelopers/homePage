@@ -10,18 +10,20 @@ const Testimonials = () => {
             breakpoints: {
                 2000: { peek: 250 },
                 1899: { peek: 225 },
-                1850: { peek: { before: 75, after: 60 } },
-                1500:{peek:140},
-                1800: {
-                    peek: { before: 40, after: 60 },
-                },
+                1850: { peek: { before: 90, after: 50 } },
+                1835: { peek: { before: 100, after: 10 } },
+                1800: { peek: { before: 70, after: 30 } },
                 1780: { peek: 90 },
-                1750: { peek: { before: 55, after: 90 } },
+                1750: { peek: { before: 75, after: 90 } },
                 1720: { peek: 60 },
+                1690: { peek: { before: 40, after: 65 } },
                 1680: {
-                    peek: { before: 35, after: 50 },
+                    peek: { before: 45, after: 50 },
                 },
                 1650: { peek: { before: 50, after: 15 } },
+                1400: { peek: { before: 75, after: 70 } },
+                1350: { peek: { before: 100, after: -15 } },
+                1300: { peek: { before: 40, after: 50 } },
                 400: {
                     peek: { before: 20, after: 20 },
                 },
