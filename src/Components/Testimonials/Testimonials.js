@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import Glide from '@glidejs/glide'
-import '@glidejs/glide/src/assets/sass/glide.core.scss'
+import '../../../node_modules/@glidejs/glide/dist/css/glide.core.min.css'
 import './Testimonials.css'
 
 const Testimonials = () => {
@@ -18,7 +18,7 @@ const Testimonials = () => {
                 1720: { peek: 60 },
                 1690: { peek: { before: 40, after: 65 } },
                 1680: {
-                    peek: { before: 45, after: 50 },
+                    peek: { before: 30, after: 50 },
                 },
                 1650: { peek: { before: 50, after: 15 } },
                 1400: { peek: { before: 75, after: 70 } },
@@ -27,7 +27,8 @@ const Testimonials = () => {
                 400: {
                     peek: { before: 20, after: 20 },
                 },
-                299: { peek: { before: -200, after: 10 } },
+                320: {peek:5},
+                300: { peek: { before: 0, after: 0 } },
             },
         }).mount()
     })

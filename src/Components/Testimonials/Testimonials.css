@@ -53,7 +53,7 @@
     background-color: var(--general-color);
 }
 
-.glide__arrow{
+.glide__arrow {
     cursor: pointer !important;
 }
 
@@ -161,71 +161,34 @@ button {
     }
 }
 
-@media screen and (min-width:1600px) and (max-width:1649px){
-    .client{
+@media screen and (min-width: 1600px) and (max-width: 1649px) {
+    .client {
         margin-left: 75rem;
     }
-    .company{
+    .company {
         margin-left: 75rem;
     }
 }
 
-@media screen and (min-width:1500px) and (max-width:1600px){
-    .client{
+@media screen and (min-width: 1500px) and (max-width: 1600px) {
+    .client {
         margin-left: 73rem;
     }
-    .company{
+    .company {
         margin-left: 73rem;
     }
 }
 
-@media screen and (min-width:1400px) and (max-width:1500px){
-    .client{
+@media screen and (min-width: 1400px) and (max-width: 1500px) {
+    .client {
         margin-left: 72rem;
     }
-    .company{
+    .company {
         margin-left: 72rem;
     }
 }
 
-@media screen and (min-width:1300px) and (max-width:1350px){
-    .client{
-        margin-left: 55rem;
-    }
-    .company{
-        margin-left: 55rem;
-    }
-}
-
-@media screen and (min-width:1350px) and (max-width:1400px){
-    .client{
-        margin-left: 70rem;
-    }
-    .company{
-        margin-left: 70rem;
-    }
-}
-
-
-@media screen and (min-width: 1100px) and (max-width: 1300px) {
-    .client{
-        margin-left: 65rem;
-    }
-    .company{
-        margin-left: 65rem;
-    }
-}
-
-@media screen and (min-width:940px) and (max-width:1050px) {
-    .client{
-        margin-left: 65rem;
-    }
-    .company{
-        margin-left: 65rem;
-    }
-}
-
-@media screen and (min-width: 901px) and (max-width: 1050px) {
+@media screen and (min-width: 1300px) and (max-width: 1350px) {
     .client {
         margin-left: 55rem;
     }
@@ -234,11 +197,57 @@ button {
     }
 }
 
-@media screen and (min-width:866px) and (max-width:900px){
+@media screen and (min-width: 1350px) and (max-width: 1400px) {
+    .client {
+        margin-left: 70rem;
+    }
+    .company {
+        margin-left: 70rem;
+    }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1300px) {
+    .client {
+        margin-left: 65rem;
+    }
+    .company {
+        margin-left: 65rem;
+    }
+}
+
+
+@media screen and (min-width:1024px) and (max-width:1050px) {
     .client{
         margin-left: 65rem;
     }
     .company{
+        margin-left: 65rem;
+    }
+}
+
+@media screen and (min-width: 940px) and (max-width: 1023px) {
+    .client {
+        margin-left: 65rem;
+    }
+    .company {
+        margin-left: 65rem;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 939px) {
+    .client {
+        margin-left: 55rem;
+    }
+    .company {
+        margin-left: 55rem;
+    }
+}
+
+@media screen and (min-width: 866px) and (max-width: 900px) {
+    .client {
+        margin-left: 65rem;
+    }
+    .company {
         margin-left: 65rem;
     }
 }
@@ -255,6 +264,15 @@ button {
 @media screen and (min-width: 771px) and (max-width: 800px) {
     .testimonials-buttons {
         margin-left: 45rem;
+    }
+}
+
+@media screen and (min-width:751px) and (max-width:770px){
+    .client{
+        margin-left: 70rem;
+    }
+    .company{
+        margin-left: 70rem;
     }
 }
 
@@ -290,29 +308,59 @@ button {
     }
 }
 
-@media screen and (min-width: 300px) and (max-width: 400px) {
+@media screen and (min-width: 375px) and (max-width: 415px) {
+    .testimonials-buttons {
+        margin-left: 60rem;
+    }
+    .client {
+        margin-left: 65rem;
+        width: 13rem;
+        height: 2rem;
+        font-size: 1.7rem;
+    }
+
+    .company {
+        margin-left: 65rem;
+    }
+}
+
+@media screen and (min-width: 325px) and (max-width: 374px) {
+    .testimonials-buttons {
+        margin-left: 40rem;
+    }
+    .client {
+        margin-left: 55rem;
+        width: 13rem;
+        height: 2rem;
+        font-size: 1.7rem;
+    }
+
+    .company {
+        margin-left: 55rem;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 320px) {
     .testimonials {
         margin-bottom: 5rem;
     }
     .testimonials-buttons {
-        margin-left: 20rem;
+        margin-left: 40rem;
     }
     .testimonials-text {
         width: 105rem !important;
         height: 30rem !important;
     }
     .client {
-        margin-left: 40rem;
-    }
-    .company {
-        margin-left: 40rem;
-    }
-    .description > p {
-        font-size: 2rem;
-    }
-    .client {
+        margin-left: 50rem;
         width: 13rem;
         height: 2rem;
         font-size: 1.7rem;
+    }
+    .company {
+        margin-left: 50rem;
+    }
+    .description > p {
+        font-size: 2rem;
     }
 }
