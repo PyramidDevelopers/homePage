@@ -14,15 +14,16 @@ const ShowBrief = ({ onOpen }) => {
     const left = "<";
     const right = ">";
     const config = {
+        // peek: {
+        //     before:0,
+        //     after:30
+        // },
         perView: 3,
-        // breakpoints: {
-        //     1000: {
-        //         perView: 2
-        //     },
-        //     300: {
-        //         perView: 1
-        //     }
-        // }
+        breakpoints: {
+            300: {
+                perView: 2
+            }
+        }
     };
     useEffect(() => {
         new Glide('.glide', config).mount()
