@@ -48,7 +48,7 @@
 
 .color-rect-for-label {
     width: 5.813rem;
-    height: 2.375rem;
+    height: max-content;
     padding: 0.438rem 0.438rem 0.375rem 0.5rem;
     border-radius: 0.375rem;
     background-color: var(--general-color);
