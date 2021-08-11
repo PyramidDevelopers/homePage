@@ -1,141 +1,172 @@
 import React, { useEffect } from 'react'
+import Glide from '@glidejs/glide'
+import '../../../node_modules/@glidejs/glide/dist/css/glide.core.min.css'
 import './Testimonials.css'
-import $ from 'jquery'
-import GridList from '@material-ui/core/GridList'
-window.jquery = window.$ = $
 
 const Testimonials = () => {
     useEffect(() => {
-        if ($) {
-            $('#right__btn').click(function (event) {
-                event.preventDefault()
-                $('.grid-list1').animate(
-                    {
-                        scrollLeft: '+=645',
-                    },
-                    1000
-                )
-            })
-
-            $('#left__btn').click(function (event) {
-                event.preventDefault()
-                $('.grid-list1').animate(
-                    {
-                        scrollLeft: '-=645',
-                    },
-                    1000
-                )
-            })
-        }
-        const slider = document.querySelector('.grid-list1')
-        let isDown = false
-        let startX
-        let scrollLeft
-
-        slider.addEventListener('mousedown', (e) => {
-            isDown = true
-            startX = e.pageX - slider.offsetLeft
-            scrollLeft = slider.scrollLeft
-        })
-        slider.addEventListener('mouseleave', () => {
-            isDown = false
-        })
-        slider.addEventListener('mouseup', () => {
-            isDown = false
-        })
-        slider.addEventListener('mousemove', (e) => {
-            if (!isDown) return
-            e.preventDefault()
-            const x = e.pageX - slider.offsetLeft
-            const walk = (x - startX) * 3 //scroll-fast
-            slider.scrollLeft = scrollLeft - walk
-            console.log(walk)
-        })
+        new Glide('.glide', {
+            peek: 300,
+            breakpoints: {
+                2000: { peek: 250 },
+                1899: { peek: 225 },
+                1850: { peek: { before: 90, after: 50 } },
+                1835: { peek: { before: 100, after: 10 } },
+                1800: { peek: { before: 70, after: 30 } },
+                1780: { peek: 90 },
+                1750: { peek: { before: 75, after: 90 } },
+                1720: { peek: 60 },
+                1690: { peek: { before: 40, after: 65 } },
+                1680: {
+                    peek: { before: 30, after: 50 },
+                },
+                1650: { peek: { before: 50, after: 15 } },
+                1400: { peek: { before: 75, after: 70 } },
+                1350: { peek: { before: 100, after: -15 } },
+                1300: { peek: { before: 40, after: 50 } },
+                400: {
+                    peek: { before: 20, after: 20 },
+                },
+                320: {peek:5},
+                300: { peek: { before: 0, after: 0 } },
+            },
+        }).mount()
     })
 
     return (
-        <div className="head">
-            <div className="wrapper">
-                <h1>TESTIMONIALS</h1>
-                <div className="buttons1">
-                    <div className="button1" id="left__btn">
-                        <button>&lt;</button>
+        <div className="testimonials">
+            <div className="glide">
+                <div className="wrapper">
+                    <h1>TESTIMONIALS</h1>
+                    <div className="testimonials-buttons">
+                        <div
+                            className="glide__arrows left-button"
+                            data-glide-el="controls"
+                        >
+                            <button
+                                className="glide__arrow glide__arrow--left"
+                                data-glide-dir="<"
+                            >
+                                &lt;
+                            </button>
+                        </div>
+                        <div
+                            className="glide__arrows right-button"
+                            data-glide-el="controls"
+                        >
+                            <button
+                                className="glide__arrow glide__arrow--right"
+                                data-glide-dir=">"
+                            >
+                                &gt;
+                            </button>
+                        </div>
                     </div>
-                    <div className="button1" id="right__btn">
-                        <button>&gt;</button>
-                    </div>
+                </div>
+                <div className="glide__track" data-glide-el="track">
+                    <ul className="glide__slides testimonials-wrapper">
+                        <div className="testimonials-text">
+                            <div className="glide__slide description">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip
+                                    ex ea commodo consequat. Duis aute irure
+                                    dolor in reprehenderit in voluptate velit
+                                    esse cillum dolore eu fugiat nulla pariatur.
+                                    Excepteur sint occaecat cupidatat non
+                                    proident, sunt in culpa qui officia deserunt
+                                    mollit anim id est laborum
+                                </p>
+                            </div>
+                            <div className="client">Client Name</div>
+                            <div className="company">Company Name</div>
+                        </div>
+
+                        <div className="testimonials-text">
+                            <div className="glide__slide description">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip
+                                    ex ea commodo consequat. Duis aute irure
+                                    dolor in reprehenderit in voluptate velit
+                                    esse cillum dolore eu fugiat nulla pariatur.
+                                    Excepteur sint occaecat cupidatat non
+                                    proident, sunt in culpa qui officia deserunt
+                                    mollit anim id est laborum
+                                </p>
+                            </div>
+                            <div className="client">Client Name</div>
+                            <div className="company">Company Name</div>
+                        </div>
+
+                        <div className="testimonials-text">
+                            <div className="glide__slide description">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip
+                                    ex ea commodo consequat. Duis aute irure
+                                    dolor in reprehenderit in voluptate velit
+                                    esse cillum dolore eu fugiat nulla pariatur.
+                                    Excepteur sint occaecat cupidatat non
+                                    proident, sunt in culpa qui officia deserunt
+                                    mollit anim id est laborum
+                                </p>
+                            </div>
+                            <div className="client">Client Name</div>
+                            <div className="company">Company Name</div>
+                        </div>
+
+                        <div className="testimonials-text">
+                            <div className="glide__slide description">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip
+                                    ex ea commodo consequat. Duis aute irure
+                                    dolor in reprehenderit in voluptate velit
+                                    esse cillum dolore eu fugiat nulla pariatur.
+                                    Excepteur sint occaecat cupidatat non
+                                    proident, sunt in culpa qui officia deserunt
+                                    mollit anim id est laborum
+                                </p>
+                            </div>
+                            <div className="client">Client Name</div>
+                            <div className="company">Company Name</div>
+                        </div>
+
+                        <div className="testimonials-text">
+                            <div className="glide__slide description">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip
+                                    ex ea commodo consequat. Duis aute irure
+                                    dolor in reprehenderit in voluptate velit
+                                    esse cillum dolore eu fugiat nulla pariatur.
+                                    Excepteur sint occaecat cupidatat non
+                                    proident, sunt in culpa qui officia deserunt
+                                    mollit anim id est laborum
+                                </p>
+                            </div>
+                            <div className="client">Client Name</div>
+                            <div className="company">Company Name</div>
+                        </div>
+                    </ul>
                 </div>
             </div>
-            <GridList className="grid-list1">
-                <div className="testimonials">
-                    <div className="col1">
-                        <div className="testimonials-text">
-                            <div className="description">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua.
-                                    Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip
-                                    ex ea commodo consequat. Duis aute irure
-                                    dolor in reprehenderit in voluptate velit
-                                    esse cillum dolore eu fugiat nulla pariatur.
-                                    Excepteur sint occaecat cupidatat non
-                                    proident, sunt in culpa qui officia deserunt
-                                    mollit anim id est laborum
-                                </p>
-                            </div>
-                            <h4 className="client">Client Name</h4>
-                            <h4 className="company">Company Name</h4>
-                        </div>
-                    </div>
-
-                    <div className="col1">
-                        <div className="testimonials-text">
-                            <div className="description">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua.
-                                    Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip
-                                    ex ea commodo consequat. Duis aute irure
-                                    dolor in reprehenderit in voluptate velit
-                                    esse cillum dolore eu fugiat nulla pariatur.
-                                    Excepteur sint occaecat cupidatat non
-                                    proident, sunt in culpa qui officia deserunt
-                                    mollit anim id est laborum
-                                </p>
-                            </div>
-                            <h4 className="client">CLIENT NAME</h4>
-                            <h4 className="company">Company Name</h4>
-                        </div>
-                    </div>
-
-                    <div className="col1">
-                        <div className="testimonials-text">
-                            <div className="description">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua.
-                                    Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip
-                                    ex ea commodo consequat. Duis aute irure
-                                    dolor in reprehenderit in voluptate velit
-                                    esse cillum dolore eu fugiat nulla pariatur.
-                                    Excepteur sint occaecat cupidatat non
-                                    proident, sunt in culpa qui officia deserunt
-                                    mollit anim id est laborum
-                                </p>
-                            </div>
-                            <h4 className="client">CLIENT NAME</h4>
-                            <h4 className="company">Company Name</h4>
-                        </div>
-                    </div>
-
-                </div>
-            </GridList>
         </div>
     )
 }
