@@ -1,4 +1,4 @@
-import React, { useState,  useEffect  } from 'react'
+import React, { useState, useRef } from 'react'
 import './ShowDetailsPopUp.css'
 import { DetailedInformation } from '../Details'
 import DetailsTile from '../ProjectDetails/DetailsTile'
@@ -7,28 +7,18 @@ import vitalMinds from '../../../assets/vital-minds.png'
 import nearVibe from '../../../assets/near-vibe.png'
 import nutriFamily from '../../../assets/nutri-family.png'
 import takeYourTrip from '../../../assets/take-your-trip.png'
-import $ from 'jquery'
-window.jquery = window.$ = $
 
 function ShowDetailsPopUp({ index, onClose }) {
-    useEffect(() => {
-        if ($) {
-            $(function() {
-                $('button').click(function () {
-                    $('.left__Image').addClass('animate').delay(1000).queue(function(){
-                      $('.left__Image').removeClass('animate').dequeue(); 
-                    });
-                  });
-              });
-        }
-    }, [$])
-
     const [demoIndex, setDemoIndex] = useState(0)
+    const imgRef = useRef(null)
 
     function handleIndexClick(e) {
         const value = e.target.innerText
         console.log(value - 1)
         setDemoIndex(value - 1)
+        // imgRef.current.style.animation = 'imageAnimation'
+        imgRef.current.classList.add('animate')
+        console.log(imgRef.current.classList)
     }
 
     const images = [
@@ -44,6 +34,7 @@ function ShowDetailsPopUp({ index, onClose }) {
             <div className="left">
                 <div className="left__Image">
                     <img
+                        ref={imgRef}
                         src={images[index][demoIndex]}
                         alt={DetailedInformation[index].title}
                     />
