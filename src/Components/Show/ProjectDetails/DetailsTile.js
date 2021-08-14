@@ -1,25 +1,15 @@
 import React, { useEffect } from 'react'
 import { DetailedInformation } from '../Details'
 import './DetailsTile.css'
-import "../Show.css"
-import $ from 'jquery'
-window.jquery = window.$ = $
+import '../Show.css'
 
 function DetailsTile({ index, onClose }) {
-    
-useEffect(() => {
-    if ($) {
-        $('.color-rect-close').on('click', function(){
-            $('.col').removeClass('selected');
-            $(this).removeClass('selected');
-        }); 
-    }
-    }, [$])
-
     return (
         <div className="project-details-container">
             <div className="project-details-header">
-                <div className="details-tile-title">{DetailedInformation[index].title}</div>
+                <div className="details-tile-title">
+                    {DetailedInformation[index].title}
+                </div>
                 <button className="color-rect-close" onClick={onClose}>
                     <div className="close-tile">x</div>
                 </button>
@@ -27,20 +17,28 @@ useEffect(() => {
             <div className="status-and-client-section">
                 <div className="status-section">
                     <div className="color-rect-for-label">STATUS</div>
-                    <div className="details-text">{DetailedInformation[index].status}</div>
+                    <div className="details-text">
+                        {DetailedInformation[index].status}
+                    </div>
                 </div>
                 <div className="client-section">
                     <div className="color-rect-for-label">CLIENT</div>
-                    <div className="details-text">{DetailedInformation[index].client}</div>
+                    <div className="details-text">
+                        {DetailedInformation[index].client}
+                    </div>
                 </div>
             </div>
             <div className="info-scope-links-section">
                 <div className="color-rect-for-label">INFO</div>
-                <div className="details-text">{DetailedInformation[index].info}</div>
+                <div className="details-text">
+                    {DetailedInformation[index].info}
+                </div>
             </div>
             <div className="info-scope-links-section">
                 <div className="color-rect-for-label">SCOPE</div>
-                <div className="details-text">{DetailedInformation[index].scope}</div>
+                <div className="details-text">
+                    {DetailedInformation[index].scope}
+                </div>
             </div>
             <div className="info-scope-links-section">
                 <div className="color-rect-for-label">LINKS</div>
@@ -50,7 +48,11 @@ useEffect(() => {
                             <div key={index}>
                                 {!link.inProgress && (
                                     <>
-                                        <a href={link.link} target="_blank" rel="noreferrer">
+                                        <a
+                                            href={link.link}
+                                            target="_blank"
+                                            rel="noreferrer"
+                                        >
                                             {link.title}
                                         </a>
                                         <br />
