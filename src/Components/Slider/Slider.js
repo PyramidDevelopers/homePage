@@ -22,8 +22,8 @@ const Slider = ({
         }
     })
 
-    const showHeading = 'SHOW ME WHAT YOU GOT';
-    const testimonialHeading = 'TESTIMONIALS';
+    const showHeading = 'SHOW ME WHAT YOU GOT'
+    const testimonialHeading = 'TESTIMONIALS'
 
     const showInfo = (images, onOpen) => {
         return BreifInformations.map((information) => (
@@ -58,15 +58,15 @@ const Slider = ({
                 <li className="glide__slide description">
                     <p>{testimonials.description}</p>
                 </li>
-                <div className='client'>{testimonials.clientName}</div>
-                <div className='company'>{ testimonials.companyName}</div>
+                <div className="client">{testimonials.clientName}</div>
+                <div className="company">{testimonials.companyName}</div>
             </div>
         ))
     }
 
     const showHeader = () => {
         return (
-            <div className='showcase-title'>
+            <div className="showcase-title">
                 <h1>{showHeading}</h1>
             </div>
         )
@@ -82,8 +82,16 @@ const Slider = ({
                 }
             >
                 <div className={isTestimonial ? 'wrapper' : 'showcase-header'}>
-                    {isTestimonial ? <h1>{testimonialHeading}</h1> : showHeader()}
-                    <div className={isTestimonial?'testimonial-buttons':'buttons'}>
+                    {isTestimonial ? (
+                        <h1>{testimonialHeading}</h1>
+                    ) : (
+                        showHeader()
+                    )}
+                    <div
+                        className={
+                            isTestimonial ? 'testimonials-buttons' : 'buttons'
+                        }
+                    >
                         <div
                             className="glide__arrows left-button"
                             data-glide-el="controls"
@@ -107,11 +115,26 @@ const Slider = ({
                             </button>
                         </div>
                     </div>
-                    <div className={isTestimonial ? "glide__track" : "glide__track showcase-slider"} data-glide-el="track">
-                        <ul className={isTestimonial ? 'glide__slides testimonial_wrapper' : 'glide__slides'}>
-                            { isTestimonial? testimonialInfo() : showInfo(showImages, onOpen)}
-                        </ul>
-                    </div>
+                </div>
+                <div
+                    className={
+                        isTestimonial
+                            ? 'glide__track'
+                            : 'glide__track showcase-slider'
+                    }
+                    data-glide-el="track"
+                >
+                    <ul
+                        className={
+                            isTestimonial
+                                ? 'glide__slides testimonial_wrapper'
+                                : 'glide__slides'
+                        }
+                    >
+                        {isTestimonial
+                            ? testimonialInfo()
+                            : showInfo(showImages, onOpen)}
+                    </ul>
                 </div>
             </div>
         </div>
