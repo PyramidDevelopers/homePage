@@ -5,7 +5,7 @@ import './Testimonials.css'
 
 const Testimonials = () => {
     useEffect(() => {
-        new Glide('.glide', {
+        new Glide('.testimonial__glide', {
             peek: 300,
             breakpoints: {
                 2000: { peek: 250 },
@@ -35,7 +35,7 @@ const Testimonials = () => {
 
     return (
         <div className="testimonials">
-            <div className="glide">
+            <div className="testimonial__glide glide">
                 <div className="wrapper">
                     <h1>TESTIMONIALS</h1>
                     <div className="testimonials-buttons">
