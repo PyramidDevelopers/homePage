@@ -4,10 +4,12 @@ import nearvibe from "../../assets/near-vibe.png";
 import vitalminds from "../../assets/vital-minds.png";
 import enermanapp from "../../assets/enerman-app.png";
 import takeyourtrip from "../../assets/take-your-trip.png";
+import trash2cash1 from '../../assets/trash2cash1.png'
+import khushi from '../../assets/khushi.png'
 import Slider from '../Slider/Slider'
 
 const ShowBrief = ({ onOpen }) => {
-    const images = [nearvibe, vitalminds, enermanapp, takeyourtrip, nutrifamily];
+    const images = [nearvibe, vitalminds, enermanapp, takeyourtrip, trash2cash1, khushi];
     const config = {
         // peek: {
         //     before:0,
