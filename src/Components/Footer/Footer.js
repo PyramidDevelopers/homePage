@@ -166,7 +166,7 @@ const Footer = () => {
                         </p>
                         <p className="stay__text">    
                             Phone: 9845309776 <br />
-                            Email: developpyramid@gmail.com
+                            Email: build@pyramiddeveloper.com
                         </p>
                         </div>
                         <div className="stay__socials">

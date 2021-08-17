@@ -49,13 +49,21 @@ function ShowDetailsPopUp({ index, onClose }) {
     }
 
     const images = [
-        [nearvibe1, nearvibe2, nearvibe3, nearvibe4, nearvibe5, nearvibe6, nearvibe7],
-        [vitalMinds, vitalminds1, vitalminds2, vitalminds3, vitalminds4, vitalminds5],
+        [nearvibe1, nearvibe2, nearvibe3, nearvibe4, nearvibe5],
+        [vitalMinds, vitalminds1, vitalminds2, vitalminds3, vitalminds4],
+        [trash2cash1, trash2cash2, trash2cash3, trash2cash4, trash2cash5],
         [enermanApp, enerman1, enerman2, enerman3],
         [takeYourTrip, takeyourtrip1, takeyourtrip2],
-        [trash2cash1, trash2cash2, trash2cash3, trash2cash4, trash2cash5],
         [khushi1, khushi2, khushi3, khushi4, khushi5],
     ]
+    // const images = [
+    //     [nearvibe1, nearvibe2, nearvibe3, nearvibe4, nearvibe5, nearvibe6, nearvibe7],
+    //     [vitalMinds, vitalminds1, vitalminds2, vitalminds3, vitalminds4, vitalminds5],
+    //     [enermanApp, enerman1, enerman2, enerman3],
+    //     [takeYourTrip, takeyourtrip1, takeyourtrip2],
+    //     [trash2cash1, trash2cash2, trash2cash3, trash2cash4, trash2cash5],
+    //     [khushi1, khushi2, khushi3, khushi4, khushi5],
+    // ]
 
     return (
         <div className="showdetails">
@@ -68,8 +76,9 @@ function ShowDetailsPopUp({ index, onClose }) {
                     />
                 </div>
                 <div className="left__Index">
-                    {images.map((_work, workIdx) => {
-                        console.log(workIdx)
+                    {images[index].map((_work, workIdx) => {
+                        console.log(_work, workIdx)
+                        {/* console.log(_) */}
                         let classes = 'inactive1'
                         if (demoIndex === workIdx) {
                             classes = 'active1'

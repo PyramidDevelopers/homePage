@@ -4,10 +4,14 @@ import Slider from '../Slider/Slider'
 const Testimonials = () => {
     
     const config  = {
-            peek: 300,
+            peek: 0,
             breakpoints: {
-                2000: { peek: 250 },
-                1899: { peek: 225 },
+                // 2000: { peek: 250 },
+                // 1899: { peek: 225 },
+                2100: { peek: 0 },
+                2050: { peek: 0 },
+                2000: { peek: 0 },
+                1899: { peek: 0 },
                 1850: { peek: { before: 90, after: 50 } },
                 1835: { peek: { before: 100, after: 10 } },
                 1800: { peek: { before: 70, after: 30 } },

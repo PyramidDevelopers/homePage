@@ -9,7 +9,7 @@ import khushi from '../../assets/khushi.png'
 import Slider from '../Slider/Slider'
 
 const ShowBrief = ({ onOpen }) => {
-    const images = [nearvibe, vitalminds, enermanapp, takeyourtrip, trash2cash1, khushi];
+    const images = [nearvibe, vitalminds, trash2cash1, enermanapp, takeyourtrip, khushi];
     const config = {
         // peek: {
         //     before:0,

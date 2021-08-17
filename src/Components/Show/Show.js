@@ -11,20 +11,20 @@ const Show = () => {
     const onOpen = (key) => {
         setOpenKey(key);
         setOpenDetail(true);
-        scroller.scrollTo("detailedPopup", {
-            duration: 1000,
-            delay: 0,
-            smooth: "easeInOutQuart",
-        });
+        // scroller.scrollTo("show", {
+        //     duration: 1000,
+        //     delay: 0,
+        //     smooth: "easeInOutQuart",
+        // });
     };
 
     const onClose = () => {
         setOpenDetail(false);
-        scroller.scrollTo("show", {
-            duration: 800,
-            delay: 0,
-            smooth: "easeInOutQuart",
-        });
+        // scroller.scrollTo("show", {
+        //     duration: 800,
+        //     delay: 0,
+        //     smooth: "easeInOutQuart",
+        // });
     }
 
     return (

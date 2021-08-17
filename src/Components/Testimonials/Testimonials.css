@@ -34,8 +34,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 6.375rem;
-    height: 7.625rem;
+    /* width: 6.375rem; */
+    /* height: 7.625rem; */
     padding: 1rem;
     margin-right: 1rem;
     margin-left: 1rem;
@@ -46,8 +46,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 6.375rem;
-    height: 7.625rem;
+    /* width: 6.375rem; */
+    /* height: 7.625rem; */
     padding: 1rem;
     border-radius: 0.938rem;
     background-color: var(--general-color);
@@ -92,9 +92,22 @@ button {
     color: #adadad;
 }
 
+/* new */
+.testimonial__client{
+    display:flex;
+    flex-flow:column;
+    align-items:flex-end;
+    justify-content:flex-start;
+}
+
 .client {
-    width: 12.5rem;
-    height: 1.75rem;
+    /* new */
+    min-width: 12.5rem;
+    padding:0.3rem 0.4rem;
+    /* width:auto; */
+    /* width:21rem; */
+    /* white-space: pre-wrap; */
+    /* height: 1.75rem; */
     background-color: var(--general-color);
     font-family: OCRAExtended;
     text-transform: uppercase;
@@ -106,21 +119,26 @@ button {
     line-height: 1;
     letter-spacing: 0.156rem;
     border-radius: 0.313rem;
-    margin: -2rem 2.438rem 0.625rem 55rem;
+    /* new */
+    margin: -3rem 2.438rem 0.625rem 0rem;
     text-align: center;
 }
 
+
+
 .company {
+    /* new */
+    min-width: 15.5rem; 
     font-size: 1.25rem;
     color: var(--general-color);
     font-family: OCRAExtended;
     width: 9.625rem;
     height: 1.563rem;
     /* margin: -4rem 0 5rem 70rem; */
-    margin-left: 55rem;
+    /* margin-left: 55rem; */
 }
 
-@media screen and (max-width: 2000px) and (min-width: 1900px) {
+/* @media screen and (max-width: 2000px) and (min-width: 1900px) {
     .testimonials-text {
         width: 93rem !important;
         height: 25rem !important;
@@ -363,4 +381,4 @@ button {
     .description > p {
         font-size: 2rem;
     }
-}
+} */

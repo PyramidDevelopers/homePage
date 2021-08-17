@@ -1,36 +1,8 @@
 export const Testimonials = [
     {
         description:
-            'Qui magna reprehenderit consequat ea ut sunt non nulla Lorem in in. Ex nostrud nisi fugiat consequat deserunt aliquip sunt adipisicing enim consectetur nulla commodo irure do. Sunt elit deserunt ut eiusmod minim sit ad aliqua ipsum magna aute sit ex ex. Duis eiusmod quis excepteur minim sunt tempor aliqua elit tempor incididunt. Mollit voluptate amet ut sint eiusmod in nisi. Ex culpa aliqua adipisicing quis.',
-        companyName: 'Company Name',
-        clientName: 'Client Name',
+            '“We’ve been working with Pyramid Developers for over a year now. When we first engaged with them, looking at Dhruv and his young squad, we were sceptical about them providing us with exactly what we wanted.\nTo our surprise they demonstrated a high level of professionalism, they were up to date with the latest technology and executed our projects as per schedule. We’re extremely happy with their work and have now given them our phase 2 projects as well.\nI would highly recommend Pyramid Developers for any Software or Mobile app development activities.”',
+        companyName: 'EnerMAN Technologies',
+        clientName: 'Somashekar Hariappa',
     },
-
-    {
-        description:
-            'Qui magna reprehenderit consequat ea ut sunt non nulla Lorem in in. Ex nostrud nisi fugiat consequat deserunt aliquip sunt adipisicing enim consectetur nulla commodo irure do. Sunt elit deserunt ut eiusmod minim sit ad aliqua ipsum magna aute sit ex ex. Duis eiusmod quis excepteur minim sunt tempor aliqua elit tempor incididunt. Mollit voluptate amet ut sint eiusmod in nisi. Ex culpa aliqua adipisicing quis.',
-        companyName: 'Company Name',
-        clientName: 'Client Name',
-    },
-
-    {
-        description:
-            'Qui magna reprehenderit consequat ea ut sunt non nulla Lorem in in. Ex nostrud nisi fugiat consequat deserunt aliquip sunt adipisicing enim consectetur nulla commodo irure do. Sunt elit deserunt ut eiusmod minim sit ad aliqua ipsum magna aute sit ex ex. Duis eiusmod quis excepteur minim sunt tempor aliqua elit tempor incididunt. Mollit voluptate amet ut sint eiusmod in nisi. Ex culpa aliqua adipisicing quis.',
-        companyName: 'Company Name',
-        clientName: 'Client Name',
-    },
-
-    {
-        description:
-            'Qui magna reprehenderit consequat ea ut sunt non nulla Lorem in in. Ex nostrud nisi fugiat consequat deserunt aliquip sunt adipisicing enim consectetur nulla commodo irure do. Sunt elit deserunt ut eiusmod minim sit ad aliqua ipsum magna aute sit ex ex. Duis eiusmod quis excepteur minim sunt tempor aliqua elit tempor incididunt. Mollit voluptate amet ut sint eiusmod in nisi. Ex culpa aliqua adipisicing quis.',
-        companyName: 'Company Name',
-        clientName: 'Client Name',
-    },
-
-    {
-        description:
-            'Qui magna reprehenderit consequat ea ut sunt non nulla Lorem in in. Ex nostrud nisi fugiat consequat deserunt aliquip sunt adipisicing enim consectetur nulla commodo irure do. Sunt elit deserunt ut eiusmod minim sit ad aliqua ipsum magna aute sit ex ex. Duis eiusmod quis excepteur minim sunt tempor aliqua elit tempor incididunt. Mollit voluptate amet ut sint eiusmod in nisi. Ex culpa aliqua adipisicing quis.',
-        companyName: 'Company Name',
-        clientName: 'Client Name',
-    }
 ]

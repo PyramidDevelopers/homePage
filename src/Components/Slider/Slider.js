@@ -27,7 +27,7 @@ const Slider = ({
 
     const showInfo = (images, onOpen) => {
         return BreifInformations.map((information) => (
-            <li className="glide__slide">
+            <li className="glide__slide showcase_wrapper">
                 <div className="projects-slider-tile">
                     <div
                         className="col"
@@ -58,8 +58,10 @@ const Slider = ({
                 <li className="glide__slide description">
                     <p>{testimonials.description}</p>
                 </li>
-                <div className="client">{testimonials.clientName}</div>
-                <div className="company">{testimonials.companyName}</div>
+                <div className="testimonial__client">
+                    <div className="client">{testimonials.clientName}</div>
+                    <div className="company">{testimonials.companyName}</div>
+                </div>
             </div>
         ))
     }
@@ -128,7 +130,7 @@ const Slider = ({
                         className={
                             isTestimonial
                                 ? 'glide__slides testimonial_wrapper'
-                                : 'glide__slides'
+                                : 'glide__slides showcase_overall_wrapper'
                         }
                     >
                         {isTestimonial

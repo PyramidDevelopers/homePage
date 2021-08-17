@@ -12,12 +12,13 @@
 .infoblock .title {
     display: flex;
     justify-content: flex-start;
-    gap: 2.5rem;
+    /* gap: 2.5rem; */
 }
 .infoblock .title__text {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    margin-right:2.5rem;
 }
 .infoblock .title__text p {
     /* font-family: JdScarabeoLightRegular-EZVl; */
