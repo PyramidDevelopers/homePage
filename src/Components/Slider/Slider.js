@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState, useRef } from 'react'
 import '@glidejs/glide'
 import { BreifInformations } from '../Show/Details'
 import { Testimonials } from '../Testimonials/Details'
@@ -14,11 +14,31 @@ const Slider = ({
     showConfig,
     onOpen,
 }) => {
+
+    const ref = useRef();
+    const [y,sety]=useState(0)
+    const [z,setz]=useState(0)
+    const [ x, setx ] = useState(0)
+
+    const styles = {
+        transform: `translate3d(${x}px, ${y}px, ${ z }px)`,
+    }
+
+    const handleChange = () => {
+        const matches = ref.current.style.transform.match(/[+-]?([0-9]*[.])?[0-9]+/g)
+        console.log(matches)
+        setx(matches[1])
+        sety(matches[2])
+        setz(matches[3])
+        console.log(ref.current.style.transform)
+    }
+
     useEffect(() => {
         if (isTestimonial) {
             new Glide('.testimonial__glide', testimonialConfig).mount()
         } else {
             new Glide('.show__glide', showConfig).mount()
+            ref.current.style.transform = `translate3d(${x}px, ${y}px, ${z}px)`
         }
     })
 
@@ -31,7 +51,7 @@ const Slider = ({
                 <div className="projects-slider-tile">
                     <div
                         className="col"
-                        onClick={(e) => onOpen(information.key)}
+                        onClick={(e) => { onOpen(information.key); handleChange()}}
                         key={information.key}
                     >
                         <div className="col-text">
@@ -132,6 +152,8 @@ const Slider = ({
                                 ? 'glide__slides testimonial_wrapper'
                                 : 'glide__slides showcase_overall_wrapper'
                         }
+                        ref={ref}
+                        // style={{styles}}
                     >
                         {isTestimonial
                             ? testimonialInfo()

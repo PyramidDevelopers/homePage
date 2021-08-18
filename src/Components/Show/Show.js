@@ -6,7 +6,7 @@ import { scroller } from "react-scroll";
 
 const Show = () => {
     const [openDeatil, setOpenDetail] = useState(false);
-    const [openKey, setOpenKey] = useState(0);
+    const [ openKey, setOpenKey ] = useState(0);
 
     const onOpen = (key) => {
         setOpenKey(key);
