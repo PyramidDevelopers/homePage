@@ -39,7 +39,7 @@
 .left__Image {
     background-color: var(--grey);
     border-radius: 0.938rem;
-    padding: 4rem;
+    padding: 1rem 4rem;
     width: 90%;
     border-radius: 0.938rem;
     display: flex;
@@ -62,7 +62,7 @@
 
 .left__Image > img {
     width: 27rem;
-    height: 51rem;
+    height: 47rem;
     border-radius: 0.9rem;
     animation: imageAnimation 2s ease-in;
     transition: animation 3s ease;
@@ -86,5 +86,11 @@
 
     100% {
         opacity: 100%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .left__Image > Img {
+        height: 40rem;
     }
 }
