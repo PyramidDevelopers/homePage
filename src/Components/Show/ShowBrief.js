@@ -15,7 +15,7 @@ const ShowBrief = ({ onOpen }) => {
         //     before:0,
         //     after:30
         // },
-        perView: 3,
+        perView: 3.5,
         breakpoints: {
             300: {
                 perView: 2

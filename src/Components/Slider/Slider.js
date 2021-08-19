@@ -15,7 +15,7 @@ const Slider = ({
     onOpen,
 }) => {
 
-    const ref = useRef();
+    const ref = useRef(); 
     const [y,sety]=useState(0)
     const [z,setz]=useState(0)
     const [ x, setx ] = useState(0)
@@ -26,11 +26,12 @@ const Slider = ({
 
     const handleChange = () => {
         const matches = ref.current.style.transform.match(/[+-]?([0-9]*[.])?[0-9]+/g)
-        console.log(matches)
+        // console.log(matches)
         setx(matches[1])
         sety(matches[2])
         setz(matches[3])
-        console.log(ref.current.style.transform)
+        // console.log(ref.current.style.transform)
+        // console.log(ref.current.style.transition)
     }
 
     useEffect(() => {
@@ -38,7 +39,8 @@ const Slider = ({
             new Glide('.testimonial__glide', testimonialConfig).mount()
         } else {
             new Glide('.show__glide', showConfig).mount()
-            ref.current.style.transform = `translate3d(${x}px, ${y}px, ${z}px)`
+            ref.current.style.transform = `translate3d(${ x }px, ${ y }px, ${ z }px)`
+            // ref.current.style.transition = `transform 800ms cubic-bezier(0.165, 0.84, 0.44, 1) 1s`
         }
     })
 
@@ -51,7 +53,7 @@ const Slider = ({
                 <div className="projects-slider-tile">
                     <div
                         className="col"
-                        onClick={(e) => { onOpen(information.key); handleChange()}}
+                        onClick={(e) => { onOpen(information.key)}}
                         key={information.key}
                     >
                         <div className="col-text">
@@ -121,6 +123,7 @@ const Slider = ({
                             <button
                                 className="glide__arrow glide__arrow--left"
                                 data-glide-dir="<"
+                                onClick={handleChange}
                             >
                                 &lt;
                             </button>
@@ -132,6 +135,7 @@ const Slider = ({
                             <button
                                 className="glide__arrow glide__arrow--right"
                                 data-glide-dir=">"
+                                onClick={handleChange}
                             >
                                 &gt;
                             </button>
