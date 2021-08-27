@@ -132,6 +132,7 @@ const Slider = ({
                                 ? 'glide__slides testimonial_wrapper'
                                 : 'glide__slides showcase_overall_wrapper'
                         }
+                        // style = {{transform: 'translate3d(100px, 0px, 0px) !important'}} 
                     >
                         {isTestimonial
                             ? testimonialInfo()

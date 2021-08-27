@@ -1,16 +1,26 @@
-import { useState } from "react";
+// import { useState } from "react";
 import ShowBrief from "./ShowBrief";
 import ShowDetailsPopUp from "./ShowDetailsPopUp/ShowDetailsPopUp";
 import "./Show.css"
 import { scroller } from "react-scroll";
+import {actionTypes} from '../../reducer'
+import {useStateValue} from '../../StateProvider'
 
 const Show = () => {
-    const [openDeatil, setOpenDetail] = useState(false);
-    const [openKey, setOpenKey] = useState(0);
+    // const [openDeatil, setOpenDetail] = useState(false);
+    // const [openKey, setOpenKey] = useState(0);
+
+    const [{openKey}, changeOpenKey] = useStateValue()
+    const [{openDetail}, changeOpenDetail] = useStateValue()
 
     const onOpen = (key) => {
-        setOpenKey(key);
-        setOpenDetail(true);
+        // setOpenKey(key);
+        // setOpenDetail(true);
+        changeOpenKey({
+            type: actionTypes.CHANGE_OPEN_KEY,
+            key
+        })
+
         // scroller.scrollTo("show", {
         //     duration: 1000,
         //     delay: 0,
@@ -19,7 +29,10 @@ const Show = () => {
     };
 
     const onClose = () => {
-        setOpenDetail(false);
+        // setOpenDetail(false);
+        changeOpenDetail({
+            type: actionTypes.CHANGE_OPEN_DETAIL
+        })
         // scroller.scrollTo("show", {
         //     duration: 800,
         //     delay: 0,
@@ -31,7 +44,7 @@ const Show = () => {
         <div className="show">
             <ShowBrief onOpen = {onOpen}/>
             <div className="detailedPopup">
-            {openDeatil && 
+            {openDetail && 
                 <ShowDetailsPopUp index={openKey} onClose={onClose}/>
             }
             </div>
