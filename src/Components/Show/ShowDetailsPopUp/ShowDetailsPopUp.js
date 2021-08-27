@@ -41,11 +41,9 @@ function ShowDetailsPopUp({ index, onClose }) {
 
     function handleIndexClick(e) {
         const value = e.target.innerText
-        console.log(value - 1)
         setDemoIndex(value - 1)
         // imgRef.current.style.animation = 'imageAnimation'
         imgRef.current.classList.add('animate')
-        console.log(imgRef.current.classList)
     }
 
     const images = [
@@ -77,8 +75,6 @@ function ShowDetailsPopUp({ index, onClose }) {
                 </div>
                 <div className="left__Index">
                     {images[index].map((_work, workIdx) => {
-                        console.log(_work, workIdx)
-                        {/* console.log(_) */}
                         let classes = 'inactive1'
                         if (demoIndex === workIdx) {
                             classes = 'active1'
