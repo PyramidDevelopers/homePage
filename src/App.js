@@ -8,7 +8,7 @@ import Choose from './Components/Choose/Choose'
 import OurTeam from './Components/OurTeam/OurTeam'
 import ReachUs from './Components/ReachUs/ReachUs'
 import Footer from './Components/Footer/Footer'
-
+import Testimonial from './Components/Testimonials/Testimonials'
 function App() {
     // useEffect(() => {
     //     // browser.tabs.setZoom()
@@ -18,15 +18,17 @@ function App() {
     // })
 
     return (
-        <div className="app xl:fontSize-7xl">
+        <div className="app">
             <NewIntro />
             <About />
             <What />
             <Show />
             <Choose />
+            <Testimonial/>
             <OurTeam />
             <ReachUs />
             <Footer />
+            {/* <text style={{fontFamily:"JD Scarabeo Light", fontSize:'10rem', color:'var(--general-color)'}}>P</text> */}
         </div>
     )
 }

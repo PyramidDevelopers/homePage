@@ -9,7 +9,8 @@
 }
 .about .top__spacer {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    width:100%;
 }
 .about__top {
     display: flex;
@@ -83,6 +84,8 @@
 
 .socialMedia .greyRectangle a :only-child {
     font-size: 4.688rem;
+    text-decoration:none;
+    color:black;
 }
 
 @media screen and (min-width: 300px) and (max-width: 480px) {
@@ -94,6 +97,45 @@
     }
     .about__bottom {
         flex-flow: column;
+    }
+    .about__bottom .about__mobileTop{
+        display:flex;
+        flex-flow:row;
+        justify-content:space-between;
+    }
+    .about__bottom .about__mobileBottom{
+        display:flex;
+        flex-flow:row;
+        justify-content:space-between;
+    }
+    .about__mobileTop .mobile__left{
+        display:flex;
+        flex-flow:row;
+    }
+    .about__mobileTop .mobile__right{
+        display:flex;
+        flex-flow:row;
+    }
+    .about__mobileBottom .mobile__left{
+        display:flex;
+        flex-flow:row;
+    }
+    .about__mobileBottom .mobile__right{
+        display:flex;
+        flex-flow:row;
+    }
+    .about__left{
+        justify-content:space-between;
+    }
+    .about__left .mobile__left{
+        display:flex;
+        flex-flow:column;
+        align-items:flex-start;
+    }
+    .about__left .mobile__right{
+        display:flex;
+        flex-flow:column;
+        align-items:flex-end;
     }
     .about__bottom .about__right {
         justify-content: center;

@@ -12,16 +12,19 @@
 .infoblock .title {
     display: flex;
     justify-content: flex-start;
-    gap: 2.5rem;
+    /* gap: 2.5rem; */
 }
 .infoblock .title__text {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    margin-right:2.5rem;
 }
 .infoblock .title__text p {
-    font-family: OCRAExtended;
+    /* font-family: JdScarabeoLightRegular-EZVl; */
+    /* font-family: 'jd_scarabeo_light'; */
     /* font-family: monospace; */
+    font-family: OCRAExtended;
     font-size: 5rem;
     font-weight: normal;
     font-stretch: normal;
@@ -37,7 +40,7 @@
     align-items:center;
     /* width: 4.375rem;
     height: 5.625rem; */
-    padding:1rem;
+    padding:0.8rem 1rem;
     border-radius: 0.938rem;
     background-color: var(--general-color);
 }
@@ -45,7 +48,7 @@
 .infoblock .title__qmark p {
     font-family: OCRAExtended;
     /* font-family: monospace; */
-    font-size: 4.063rem;
+    font-size: 3.75rem;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -98,7 +101,7 @@
 
 @media screen and (min-width: 300px) and (max-width: 480px) {
     .infoblock {
-        width: 75%;
+        width: 60%;
     }
     .infoblock .title {
         justify-content: center;

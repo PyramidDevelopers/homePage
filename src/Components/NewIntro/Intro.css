@@ -7,7 +7,7 @@
     max-width: 1900px;
     /* margin-left: auto; */
     margin-inline: auto;
-    margin-bottom:6rem;
+    margin-bottom:8rem;
     /* margin-bottom: 10%; */
     /* display:none; */
 }
@@ -63,7 +63,7 @@
 .intro__subtitle .developers {
     font-weight: 500;
     color: var(--general-color);
-    font-size: 3.125rem;
+    font-size: 4.5rem;
     /* font-size:50px; */
     font-family: 'OCRAExtended';
 }
@@ -74,17 +74,18 @@
     font-family: 'OCRAExtended';
 } */
 
-/* .intro__description {
-  margin-top: 1%;
-  margin-left: -45rem;
-} */
+.intro__description {
+  display:flex;
+  justify-content:flex-start;
+  align-items:center;
+}
 
 .intro__description > span {
     color: #a6a6a6;
     font-size: 2.088rem;
     /* font-size: 33px; */
     display: inline-block;
-    padding-top: 10px;
+    padding-top: 0.625rem;
     font-family: 'OCRAExtended';
 }
 
@@ -117,6 +118,8 @@
     letter-spacing: -0.094rem;
     text-align: left;
     color: #adadad;
+    text-decoration:none;
+
 }
 
 @media screen and (min-width:300px) and (max-width: 640px) {

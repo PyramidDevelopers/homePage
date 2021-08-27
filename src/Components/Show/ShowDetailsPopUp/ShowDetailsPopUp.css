@@ -1,0 +1,90 @@
+.showdetails {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10rem;
+}
+
+.left {
+    width: 29%;
+}
+
+.inactive1 {
+    background-color: var(--grey);
+    color: var(--general-color);
+}
+
+.active1 {
+    background-color: var(--general-color);
+    color: var(--grey);
+}
+
+.left__Index > button {
+    margin-top: 2rem;
+    margin-right: 1rem;
+    padding: 0.3em 0.7rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    font-family: 'OCRAExtended', sans-serif;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.left__Index > button:focus {
+    outline: none;
+}
+
+.left__Image {
+    background-color: var(--grey);
+    border-radius: 0.938rem;
+    padding: 4rem;
+    width: 90%;
+    border-radius: 0.938rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right__Info {
+    width: 60%;
+    font-family: 'OCRAExtended', sans-serif;
+    background-color: var(--grey);
+    padding: 2.063rem 2.063rem 4.938rem 3.438rem;
+    border-radius: 1.25rem;
+}
+/*added by raashi*/
+.right__title {
+    color: var(--general-color);
+    font-size: 3rem;
+}
+
+.left__Image > img {
+    width: 27rem;
+    height: 51rem;
+    border-radius: 0.9rem;
+    animation: imageAnimation 2s ease-in;
+    transition: animation 3s ease;
+    animation: imageAnimation 3s ease-in;
+    transition: animation 1s ease;
+}
+
+.animate {
+    animation: imageAnimation 3s ease-in;
+    transition: animation 1s ease;
+}
+
+@keyframes imageAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 50%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}

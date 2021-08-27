@@ -11,16 +11,30 @@ import './About.css'
 const About = () => {
     return (
         <div className="about" id="about">
-            {/* <div className="top__spacer">
+            <div className="top__spacer">
                 <div className="about__top">
-                    <div className="greyRectangle"></div>
-                    <div className="greyRectangle"></div>
-                    <div className="darkRectangle"></div>
+                    <div className="greyRectangle mobile__hidden"></div>
+                    <div className="greyFatRectangle mobile__hidden"></div>
+                    {/* <div className="darkRectangle"></div> */}
                 </div>
-            </div> */}
+            </div>
             <div className="about__bottom ">
-                <div className="darkRectangle web__hidden"></div>
+                <div className="about__mobileTop web__hidden">
+                    <div className="mobile__left">
+                        <div className="darkRectangle"></div>
+                        <div className="greyRectangle"></div>
+                        <div className="greyRectangle"></div>
+                    </div>
+                    <div className="mobile__right">
+                        <div className="greyRectangle"></div>
+                        <div className="darkRectangle"></div>
+                    </div>
+                </div>
                 <div className="about__left">
+                    <div className="mobile__left web__hidden">
+                        <div className="greyFatRectangle"></div>
+                        <div className="greyLongRectangle"></div>
+                    </div>
                     <InfoBlock
                         title={'WHO ARE WE'}
                         p1={
@@ -30,14 +44,24 @@ const About = () => {
                             'We may still be in college but we bring a vast \nskillset to the table. We have made comprehensive \nand quality digital products for numerous clients.'
                         }
                     />
-
                     <div className="space">
                         <div className="greyRectangle mobile__hidden"></div>
                     </div>
+                    <div className="mobile__right web__hidden">
+                        <div className="greyLongRectangle darkChange"></div>
+                        <div className="greyRectangle"></div>
+                    </div>
                 </div>
-
-                <div className="darkRectangle web__hidden"></div>
-
+                <div className="about__mobileBottom web__hidden">
+                    <div className="mobile__left">
+                        <div className="darkRectangle"></div>
+                        <div className="greyRectangle"></div>
+                    </div>
+                    <div className="mobile__right">
+                        <div className="greyRectangle"></div>
+                        <div className="greyRectangle"></div>
+                    </div>
+                </div>
                 <div className="about__right">
                     <div className="images__left">
                             <div className="images__upper">

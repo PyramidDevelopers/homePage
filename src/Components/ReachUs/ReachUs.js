@@ -155,7 +155,7 @@ const ReachUs = () => {
                                 <p>MAIL</p>
                             </div>
                             <div className="contact__right">
-                                <p>developpyramid@gmail.com</p>
+                                <p>build@pyramiddeveloper.com</p>
                             </div>
                         </div>
                         <div className="contact">

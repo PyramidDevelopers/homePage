@@ -60,7 +60,7 @@ function GridItems(layout, color, count, changeLayout) {
                         to="reachUs"
                         spy={true}
                         smooth={true}
-                        offset={-160}
+                        offset={0}
                         duration={1000}
                     >
                         <h3 className="giveUs">
@@ -76,7 +76,10 @@ function GridItems(layout, color, count, changeLayout) {
         if (item.i === '66') {
             return (
                 <div key="66" className="link">
-                    <a href="https://bit.ly/PyramidDevelopersRecruitment">
+                    <a 
+                    href="https://bit.ly/PyramidDevelopersRecruitment" 
+                    target="_blank"
+                    style={{textDecoration:"none"}}>
                         <h3 className="join">
                             BECOME A<br /> PART OF US
                             <br />

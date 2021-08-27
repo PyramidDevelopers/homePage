@@ -3,6 +3,10 @@
     --grey: #2b2f32;
     --light-grey: #adadad;
     --general-color: #ffca60;
+    --intro-height:9.375rem;
+    --intro-margin:0.625rem;
+    --intro-width:7.125rem;
+    --intro-margin-top:700px;
     /* font-size:10px; */
 }
 
@@ -13,6 +17,139 @@
     max-width: 1900px;
 }
 
+
+
+@media screen and (min-width: 1780px) and (max-width: 1850px) {
+    :root {
+        font-size: 15px;
+    }
+}
+@media screen and (min-width: 1640px) and (max-width: 1780px) {
+    :root {
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 1536px) and (max-width: 1640px) {
+    :root {
+        font-size: 13px;
+    }
+}
+@media screen and (min-width: 1400px) and (max-width: 1536px) {
+    :root {
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 1250px) and (max-width: 1400px) {
+    :root {
+        font-size: 11px;
+        /* color:green; */
+    }
+}
+@media screen and (min-width: 1140px) and (max-width: 1250px) {
+    :root {
+        font-size: 10px;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1140px) {
+    :root {
+        font-size: 9px;
+    }
+}
+@media screen and (min-width: 900px) and (max-width: 1024px) {
+    :root {
+        font-size: 8px;
+    }
+}
+@media screen and (min-width: 770px) and (max-width: 900px) {
+    :root {
+        font-size: 7px;
+    }
+}
+@media screen and (min-width: 670px) and (max-width: 770px) {
+    :root {
+        font-size: 6px;
+    }
+}
+@media screen and (min-width: 560px) and (max-width: 670px) {
+    :root {
+        font-size: 5px;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 560px) {
+    :root {
+        font-size: 4px;
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 480px) {
+    :root {
+        font-size: 3px;
+    }
+}
+
+/* body {
+    -webkit-text-size-adjust: 25%;
+    
+} */
+/* .mobile-phone .authenticated-page.authenticated.mobile-community.mobile-document .notification .notification-dialog.content-frame 
+{
+    -webkit-text-size-adjust: 100%;
+} */
+.app {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.darkRectangle {
+    width: 7.5rem;
+    height: 9.563rem;
+    margin: 0.625rem;
+    border-radius: 0.938rem;
+    background-color: var(--dark-grey);
+}
+
+.darkChange {
+    background-color: var(--dark-grey) !important;
+}
+.greyRectangle {
+    width: 7.5rem; /*120*/
+    height: 9.563rem; /*153*/
+    margin: 0.625rem;
+    border-radius: 0.938rem;
+    background-color: var(--grey);
+}
+
+.greyFatRectangle {
+    width: 16.375rem;
+    height: 9.563rem;
+    margin: 0.625rem;
+    border-radius: 0.938rem;
+    background-color: var(--grey);
+}
+
+.greyLongRectangle {
+    width: 7.5rem;
+    height: 20.375rem;
+    margin: 0.625rem;
+    border-radius: 0.938rem;
+    background-color: var(--grey);
+}
+.no-border {
+    border-radius: 0px !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.web__hidden{
+    display:none;
+}
+/* .curve-rectangle-left{
+    border-top-left-radius: 15px !important;
+    border-bottom-left-radius: 15px !important;
+} */
+
+/* .curve-rectangle-right{
+    border-top-right-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
+} */
 /* @media screen and (min-device-aspect-ratio: 16/9) {
     .app {
         zoom: 100%;
@@ -78,134 +215,3 @@
         zoom: 100%;
     }
 } */
-
-
-@media screen and (min-width: 1640px) and (max-width: 1780px) {
-    :root {
-        font-size: 14px;
-    }
-}
-@media screen and (min-width: 1536px) and (max-width: 1640px) {
-    :root {
-        font-size: 13px;
-    }
-}
-@media screen and (min-width: 1400px) and (max-width: 1536px) {
-    :root {
-        font-size: 12px;
-    }
-}
-@media screen and (min-width: 1280px) and (max-width: 1400px) {
-    :root {
-        font-size: 11px;
-        /* color:green; */
-    }
-}
-@media screen and (min-width: 1140px) and (max-width: 1280px) {
-    :root {
-        font-size: 10px;
-    }
-}
-@media screen and (min-width: 1024px) and (max-width: 1140px) {
-    :root {
-        font-size: 9px;
-    }
-}
-@media screen and (min-width: 880px) and (max-width: 1024px) {
-    :root {
-        font-size: 8px;
-    }
-}
-@media screen and (min-width: 764px) and (max-width: 880px) {
-    :root {
-        font-size: 7px;
-    }
-}
-@media screen and (min-width: 650px) and (max-width: 764px) {
-    :root {
-        font-size: 6px;
-    }
-}
-@media screen and (min-width: 560px) and (max-width: 650px) {
-    :root {
-        font-size: 5px;
-    }
-}
-@media screen and (min-width: 480px) and (max-width: 560px) {
-    :root {
-        font-size: 4px;
-    }
-}
-@media screen and (min-width: 300px) and (max-width: 480px) {
-    :root {
-        font-size: 3px;
-    }
-}
-
-/* body {
-    -webkit-text-size-adjust: 25%;
-
-} */
-/* .mobile-phone .authenticated-page.authenticated.mobile-community.mobile-document .notification .notification-dialog.content-frame 
-{
-    -webkit-text-size-adjust: 100%;
-} */
-.app {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-.darkRectangle {
-    width: 7.5rem;
-    height: 9.563rem;
-    margin: 0.625rem;
-    /* margin: 20px 10px; */
-    border-radius: 0.938rem;
-    background-color: var(--dark-grey);
-}
-
-.darkChange {
-    background-color: var(--dark-grey) !important;
-}
-.greyRectangle {
-    width: 7.5rem; /*120*/
-    height: 9.563rem; /*153*/
-    margin: 0.625rem;
-    border-radius: 0.938rem;
-    background-color: var(--grey);
-}
-
-.greyFatRectangle {
-    width: 16.375rem;
-    height: 9.563rem;
-    /* margin: 20px 17px 20px 14px; */
-    margin: 0.625rem;
-    border-radius: 0.938rem;
-    background-color: var(--grey);
-}
-
-.greyLongRectangle {
-    width: 7.5rem;
-    height: 20.375rem;
-    /* margin: 20px 20px; */
-    margin: 0.625rem;
-    border-radius: 0.938rem;
-    background-color: var(--grey);
-}
-.no-border {
-    border-radius: 0px !important;
-    margin: 0px !important;
-    padding: 0px !important;
-}
-/* .curve-rectangle-left{
-    border-top-left-radius: 15px !important;
-    border-bottom-left-radius: 15px !important;
-} */
-
-/* .curve-rectangle-right{
-    border-top-right-radius: 15px !important;
-    border-bottom-right-radius: 15px !important;
-} */
-.web__hidden{
-    display:none;
-}

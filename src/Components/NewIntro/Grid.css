@@ -1,5 +1,17 @@
 .Grid {
     width: 100%;
+    /* z-index: 1; */
+    /* opacity:0%; */
+    /* animation:fade 5s 5s ease forwards; */
+    /* animation:fade 1s ease forwards; */
+}
+@keyframes fade{
+    0%{
+        opacity:0%;
+    }
+    100%{
+        opacity:100%;
+    }
 }
 .grid-item {
     background-color: var(--grey);
@@ -32,25 +44,22 @@
     align-items: center;
     background-color: var(--grey);
     border-radius: 0.938rem;
-    /* border-radius: 15px; */
 }
 .grid-item-color {
-    /* padding: 0px 10px 5px; */
-    /* background-color: #fd5fbb; */
     align-items: center;
     justify-content: center;
     display: flex;
     background-color: var(--general-color);
+    /* background-color: var(--grey); */
     border-radius: 0.938rem;
-    /* border-radius: 15px; */
 }
 .grid-item-color > span {
     color: #222629;
+    /* color:var(--general-color); */
     font-size: 9.375rem;
-    /* font-size: 150px; */
-    font-weight: bold;
+    font-weight: 900;
     font-family: 'OCRAExtended';
-    /* font-family: monospace; */
+    /* font-family: "JD Scarabeo Light"; */
 }
 .grid-item-clickme {
     cursor: pointer;
@@ -62,8 +71,6 @@
     padding-left: 0.625rem;
     padding-bottom: 0.625rem;
     font-family: OCRAExtended;
-    /* font-family: monospace; */
-    /* font-size: 30px; */
     font-size: 1.825rem;
     -webkit-text-size-adjust: none;
     font-weight: normal;
@@ -113,15 +120,12 @@
 
 @media screen and (min-width:300px) and (max-width: 640px) {
     .grid-item-color > span {
-        /* font-size: 150px; */
-        /* font-size: 8.8rem; */
         font-family: 'OCRAExtended';
     }
     .grid-item-clickme > span {
         width:auto;
         height:auto;
         font-family: OCRAExtended;
-        /* font-size: 1.825rem; */
     }
 }
 

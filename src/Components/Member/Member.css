@@ -6,10 +6,10 @@
 
 .member .member__image img{
     max-width: 20.25rem;
-  height: auto;
-  margin: 0.625rem;
-  object-fit: contain;
-  border-radius: 0.938rem;
+    height: auto;
+    margin: 0.725rem;
+    object-fit: contain;
+    border-radius: 0.938rem;
 }
 
 .member .member__info{
@@ -47,4 +47,15 @@
     letter-spacing: -0.113rem;;
     text-align: center;
     color: var(--general-color);
+}
+@media screen and (min-width:300px) and (max-width:480px){
+    .web__hidden{
+        display:block;
+    }
+    .mobile__hidden{
+        display:none;
+    }
+    .member .member__image img{
+        max-width: 23.25rem;
+    }
 }

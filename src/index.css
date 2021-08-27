@@ -1,7 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 * {
     margin: 0;
     padding: 0;
@@ -11,9 +7,9 @@ body {
     /* overflow-y: hidden; */
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     display: none;
-}
+} */
 
 @font-face {
     font-family: 'OCRAExtended';
@@ -23,16 +19,17 @@ body {
     font-family: 'ISOCPEUR';
     src: local('ISOCPEUR'), url(./fonts/isocpeur.ttf) format('truetype');
 }
-@font-face {
-    font-family: 'JdScarabeoLightRegular';
+/* @font-face {
+    font-family: 'JdScarabeoLightRegular-EZVl';
     src: local('JdScarabeoLightRegular-EZVl'),
         url(./fonts/JdScarabeoLightRegular-EZVl.ttf) format('truetype');
 }
 @font-face {
-    font-family: 'Scared';
-    src: local('Scared'), url(./fonts/jd_scarabeo_light.ttf) format('truetype');
-}
+    font-family: 'jd_scarabeo_light';
+    src: local('jd_scarabeo_light'), url(./fonts/jd_scarabeo_light.ttf) format('truetype');
+} */
 
+/* @font-face {font-family: "JD Scarabeo Light"; src: url("//db.onlinewebfonts.com/t/dc37b04e3388df132832c89c8828ca5f.eot"); src: url("//db.onlinewebfonts.com/t/dc37b04e3388df132832c89c8828ca5f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/dc37b04e3388df132832c89c8828ca5f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/dc37b04e3388df132832c89c8828ca5f.woff") format("woff"), url("//db.onlinewebfonts.com/t/dc37b04e3388df132832c89c8828ca5f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/dc37b04e3388df132832c89c8828ca5f.svg#JD Scarabeo Light") format("svg"); } */
 @media screen and (min-width: 300px) and (max-width: 480px) {
     html {
         -webkit-text-size-adjust: none;

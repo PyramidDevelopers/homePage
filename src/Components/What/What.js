@@ -8,6 +8,15 @@ import InfoBlock from '../InfoBlock/InfoBlock'
 const What = () => {
     return (
         <div className="what" id="what">
+            <div className="what__blocksBottom web__hidden">
+                <div className="darkRectangle"></div>
+                <div className="greyFatRectangle"></div>
+                <div className="greyFatRectangle"></div>
+                <div className="darkRectangle"></div>
+                <div className="greyRectangle"></div>
+                <div className="greyFatRectangle darkChange"></div>
+                <div className="greyFatRectangle"></div>
+            </div>
             <div className="what__left">
                 <div className="top">
                     <div className="top__left">
@@ -56,32 +65,60 @@ const What = () => {
                     <div className="greyFatRectangle"></div>
                 </div>
             </div>
-            <div className="darkRectangle web__hidden"></div>
-            <div className="what__rightContent">
-                <div className="space mobile__hidden">
-                    <div className="darkRectangle"></div>
+            <div className="what__mobileBottom web__hidden">
+                <div className="mobile__left">
+                    <div className="greyFatRectangle"></div>
                 </div>
-                <div className="what__rightContentTop">
-                    <InfoBlock
-                        title={'WHAT DO WE DO'}
-                        p1={
-                            'We make highly customised mobile applications which are \nvery efficient and scalable at low cost.'
-                        }
-                        p2={
-                            "We use Flutter for our front end which is the latest \nframework by Google and Firebase for our backend which \nis one of the world's leading Backend services used by \ncompanies like Alibaba, Accenture and Twitch."
-                        }
-                    />
-                </div>
-                <div className="what__rightContentBottom mobile__hidden">
+                <div className="mobile__right">
+                    <div className="greyRectangle"></div>
                     <div className="greyRectangle"></div>
                 </div>
             </div>
-            <div className="darkRectangle web__hidden"></div>
+            <div className="what__rightContent">
+                <div className="mobile__left web__hidden">
+                    <div className="greyFatRectangle"></div>
+                    <div className="darkRectangle"></div>
+                    <div className="greyRectangle"></div>
+                    <div className="mobile__leftBottom">
+                        <div className="greyRectangle"></div>
+                        <div className="greyRectangle"></div>
+                    </div>
+                </div>
+                <div className="space mobile__hidden">
+                    <div className="darkRectangle"></div>
+                </div>
+                <InfoBlock
+                    title={'WHAT DO WE DO'}
+                    p1={
+                        'We make highly customised mobile applications which are \nvery efficient and scalable at low cost.'
+                    }
+                    p2={
+                        "We use Flutter for our front end which is the latest \nframework by Google and Firebase for our backend which \nis one of the world's leading Backend services used by \ncompanies like Alibaba, Accenture and Twitch."
+                    }
+                    className="what__infoblock"
+                />
+                <div className="mobile__right web__hidden">
+                    <div className="greyRectangle"></div>
+                    <div className="greyFatRectangle darkChange"></div>
+                    <div className="greyLongRectangle darkChange"></div>
+                </div>
+            </div>
+            <div className="what__mobileTop web__hidden">
+                <div className="mobile__left">
+                    <div className="darkRectangle"></div>
+                    <div className="greyRectangle"></div>
+                    <div className="greyRectangle"></div>
+                    <div className="darkRectangle"></div>
+                    <div className="greyFatRectangle"></div>
+                </div>
+                <div className="mobile__right">
+                    <div className="greyRectangle"></div>
+                    <div className="greyFatRectangle"></div>
+                    <div className="greyRectangle"></div>
+                </div>
+            </div>
             <div className="what__endRectangle mobile__hidden">
                 <div className="darkRectangle"></div>
-                <div className="darkRectangle"></div>
-                <div className="darkRectangle"></div>
-                <div className="greyRectangle "></div>
             </div>
         </div>
     )

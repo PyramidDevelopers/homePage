@@ -166,31 +166,31 @@ const Footer = () => {
                         </p>
                         <p className="stay__text">    
                             Phone: 9845309776 <br />
-                            Email: developpyramid@gmail.com
+                            Email: build@pyramiddeveloper.com
                         </p>
                         </div>
                         <div className="stay__socials">
-                        <a
-                            href="https://www.linkedin.com/company/pyramid-developers/"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <LinkedInIcon />
-                        </a>
-                        <a
-                            href="http://www.instagram.com/pyramid_developers"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <InstagramIcon/>
-                        </a>
-                        <a
-                            href="https://www.facebook.com/PyramidDeveloper"
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <FacebookIcon/>
-                        </a>
+                            <a
+                                href="https://www.linkedin.com/company/pyramid-developers/"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <LinkedInIcon />
+                            </a>
+                            <a
+                                href="http://www.instagram.com/pyramid_developers"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <InstagramIcon />
+                            </a>
+                            <a
+                                href="https://www.facebook.com/PyramidDeveloper"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <FacebookIcon />
+                            </a>
                         </div>
                     </div>
                 </div>

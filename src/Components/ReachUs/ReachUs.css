@@ -16,6 +16,7 @@
 .reachUs__header {
     text-align: center;
     font-family: OCRAExtended;
+    /* font-family: 'JdScarabeoLightRegular-EZVl'; */
     font-size: 5rem;
     -webkit-text-size-adjust: none;
     font-weight: normal;
@@ -23,7 +24,7 @@
     font-style: normal;
     line-height: 1.04;
     letter-spacing: -0.5rem;
-    color: var(--light-grey);
+    color: var(--general-color);
 }
 
 .reachUs__bottom {
@@ -44,9 +45,12 @@
 .reachUs__bottomLeftTop p {
     font-family: ISOCPEUR;
     font-size: 1.688rem;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.34;
     -webkit-text-size-adjust: none;
     letter-spacing: normal;
-    color: var(--general-color);
+    color: var(--light-grey);
 }
 
 .reachUs__form {
@@ -58,14 +62,16 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    gap: 0.5rem;
+    /* gap: 0.5rem; */
 }
 
 .reachUs__formLeft .Input {
     width: 36.5rem;
-    height: 5.563rem;
+    /* height: 5.563rem; */
+    height: 6.5rem;
     margin: 0.625rem;
-    padding-top: 0.625rem;
+    /* padding-top: 0.625rem; */
+    padding-top: 1rem;
     padding-bottom: 0.625rem;
     padding-inline:1.25rem;
     border-radius: 0.938rem;
@@ -74,7 +80,7 @@
 
 .reachUs__formLeft .Input p {
     font-family: OCRAExtended;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     -webkit-text-size-adjust: none;
     font-weight: normal;
     font-stretch: normal;
@@ -103,15 +109,22 @@
 
 .reachUs__formLeft .Inputtextarea {
     height: 20.375rem !important;
-    padding-inline:1.25rem;
-    padding-top: 0.625rem;
-    padding-bottom: 0.625rem;
+    padding:0rem 1.25rem;
+    /* padding-inline:1.25rem; */
+    /* padding-top: 0.625rem; */
+    /* padding-bottom: 0.625rem; */
     border-radius: 0.938rem;
     background-color: var(--grey);
 }
+.reachUs__formLeft .Inputtextarea p{
+    margin-top:1.25rem;
+    margin-bottom:0.625rem;
+}
 
 .reachUs textarea {
+    /* margin-top:1rem; */
     max-width: 36.5rem;
+    width:90%;
     height: 80%;
     border-radius: 0.938rem;
     background: transparent;
@@ -132,7 +145,7 @@
     display: flex;
     flex-flow: column;
     justify-content: flex-end;
-    gap: 0.5rem;
+    /* gap: 0.5rem; */
 }
 
 .reachUs__formRight button {
@@ -186,6 +199,9 @@ padding-bottom: 1.25rem;
     padding: 1.563rem 0 1.563rem 1.563rem;
     border-radius: 0.938rem;
     background-color: var(--grey);
+}
+.bottomRight__upper .left a{
+    text-decoration: none;
 }
 
 .bottomRight__upper .left .left__topP {
@@ -253,7 +269,7 @@ padding-bottom: 1.25rem;
 }
 
 .contact .contact__right {
-    width: 34.25rem;
+    width: 36.25rem;
     height: 9.563rem;
     border-radius: 0.938rem;
     background-color: var(--grey);
