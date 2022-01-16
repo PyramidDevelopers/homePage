@@ -28,6 +28,13 @@
     /* border-radius: 15px; */
     text-align: center;
     cursor: pointer;
+    border:var(--general-color) solid 0.08rem;
+    /* border-color:var(--general-color);
+    border-width: 0.5rem; */
+}
+
+.link:hover{
+    box-shadow: 0 0 0.8rem var(--general-color); 
 }
 .grid-item-invisible {
     background-color: var(--dark-grey);

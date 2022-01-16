@@ -14,6 +14,7 @@ const ReachUs = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault()
+        // const url = 'https://script.google.com/macros/s/AKfycbxyaXIvYz03A4uCTRpdbXpN5h49vmr6C-7OEHtRdg/exec'
 
         axios.get(
             `https://script.google.com/macros/s/AKfycbxyaXIvYz03A4uCTRpdbXpN5h49vmr6C-7OEHtRdg/exec?name=${name}&emailID=${email}&phoneNo=${phone}&query=${query}`
@@ -29,6 +30,7 @@ const ReachUs = () => {
             }
         )
 
+        // fetch(url,{method:'POST', body:{new FormData(form)}})
         // console.log(name)
         // console.log(phone)
         // console.log(email)

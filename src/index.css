@@ -15,10 +15,12 @@ body {
     font-family: 'OCRAExtended';
     src: local('OCRAExtended'), url(./fonts/OCRAEXT.TTF) format('truetype');
 }
+
 @font-face {
     font-family: 'ISOCPEUR';
     src: local('ISOCPEUR'), url(./fonts/isocpeur.ttf) format('truetype');
 }
+
 /* @font-face {
     font-family: 'JdScarabeoLightRegular-EZVl';
     src: local('JdScarabeoLightRegular-EZVl'),
