@@ -1,13 +1,13 @@
 import React from 'react'
 import './OurTeam.css'
-import dhruv from '../../assets/dhruv-shetty.png'
+import dhruv from '../../assets/dhruv-shetty2.png'
 import ankit from '../../assets/ankit-mallya.png'
 import ayush from '../../assets/ayush-kiran-new.png'
 import samarth from '../../assets/samarth-kashyap.png'
 import pratheek from '../../assets/pratheek-sb.png';
-import stuti from '../../assets/stuti-mohanty.png';
-import srujit from '../../assets/srujit-naina.png';
-import ritesh from '../../assets/ritesh-sapata.png';
+import samyukta from '../../assets/samyukta-mahesh.png';
+import anusheel from '../../assets/anusheel.png';
+import akshay from '../../assets/akshay.png';
 // import ayush from '../../assets/ayush-kiran.png'
 // import adithya from '../../assets/adithya-aravind.png';
 // import rishi from '../../assets/rishi-pachipulusu.png';
@@ -51,12 +51,7 @@ const OurTeam = () => {
                         <Member
                             image={dhruv}
                             name="Dhruv Shetty"
-                            role="Business Analyst & Core Developer"
-                        />
-                        <Member
-                            image={ankit}
-                            name="Ankit Mallya"
-                            role="Legal"
+                            role="Founder & CEO"
                         />
                         <Member
                             image={ayush}
@@ -68,6 +63,11 @@ const OurTeam = () => {
                             name="Samarth Kashyap"
                             role="Business & Strategy"
                         />
+                        <Member
+                            image={ankit}
+                            name="Ankit Mallya"
+                            role="Legal"
+                        />
                     </div>
                     <div className="col3__lower">
                         <Member
@@ -76,19 +76,19 @@ const OurTeam = () => {
                             role="Core Developer"
                         />
                         <Member
-                            image={stuti}
-                            name="Stuti Mohanty"
-                            role="Lead App Developer"
+                            image={samyukta}
+                            name="Samyukta Mahesh"
+                            role="Operations Head"
                         />
                         <Member
-                            image={srujit}
-                            name="Srujit Naina"
-                            role="Lead App Developer"
+                            image={anusheel}
+                            name="Anusheel"
+                            role="Senior Developer"
                         />
                         <Member
-                            image={ritesh}
-                            name="Ritesh Sapata"
-                            role="Lead Web Developer"
+                            image={akshay}
+                            name="Akshay"
+                            role="Senior Developer"
                         />
                     </div>
                 </div>

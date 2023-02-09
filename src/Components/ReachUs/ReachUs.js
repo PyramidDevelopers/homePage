@@ -3,6 +3,7 @@ import './ReachUs.css'
 import KeyboardReturnIcon from '@material-ui/icons/KeyboardReturn'
 import MailOutlineIcon from '@material-ui/icons/MailOutline'
 import PhoneOutlinedIcon from '@material-ui/icons/PhoneOutlined'
+import WhatsAppIcon from '@material-ui/icons/WhatsApp';
 import axios from 'axios'
 
 const ReachUs = () => {
@@ -156,18 +157,32 @@ const ReachUs = () => {
                                 <MailOutlineIcon />
                                 <p>MAIL</p>
                             </div>
+                            <a href="mailto:build@pyramiddeveloper.com">
                             <div className="contact__right">
                                 <p>build@pyramiddeveloper.com</p>
                             </div>
+                            </a>
                         </div>
                         <div className="contact">
                             <div className="contact__left greyRectangle">
                                 <PhoneOutlinedIcon />
                                 <p>PHONE</p>
                             </div>
+                            <a href="tel:9567948158"></a>
+                            <div className="contact__right">
+                                <p>9567948158</p>
+                            </div>
+                        </div>
+                        <div className="contact">
+                            <div className="contact__left greyRectangle">
+                                <WhatsAppIcon />
+                                <p>WHATSAPP</p>
+                            </div>
+                            <a href="https://wa.me/+919845309776">
                             <div className="contact__right">
                                 <p>9845309776</p>
                             </div>
+                            </a>
                         </div>
                     </div>
                 </div>

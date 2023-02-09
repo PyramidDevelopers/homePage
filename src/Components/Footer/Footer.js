@@ -160,12 +160,12 @@ const Footer = () => {
                         <h1 className="stay__title">STAY CONNECTED</h1>
                         <div className="stay__details">
                         <p className="stay__text">
-                            Address: No.1, Vibha, Bhadrappa Layout <br />
-                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Nagashettihalli,
+                            Address: No.9, Krishna Kasthuri, Sanjay Nagar Main Road <br />
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Aswath Nagar,
                             Bangalore - 560094 <br />
                         </p>
                         <p className="stay__text">    
-                            Phone: 9845309776 <br />
+                            Phone: +1(470)9021657 <br />
                             Email: build@pyramiddeveloper.com
                         </p>
                         </div>
