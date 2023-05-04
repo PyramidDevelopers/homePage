@@ -74,7 +74,7 @@ function ShowDetailsPopUp({ index, onClose }) {
     ]
 
     return (
-        <div className="showdetails">
+        <div className="showdetails" id="showdetails" name="showdetails">
             <div className="left">
                 <div className="left__Image">
                     <img

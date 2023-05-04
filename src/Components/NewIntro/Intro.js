@@ -1,6 +1,7 @@
 import React from 'react'
 import Grid from './Grid'
 import './Intro.css';
+import ScrollIndicator from './ScrollIndicator';
 import Typewriter from './Typewriter/Typewriter'
 import $ from "jquery";
 
@@ -15,6 +16,7 @@ const Intro = () => {
     return (
         <div className="intro ">
             <Grid />
+            <ScrollIndicator />
             {/* <Typewriter/> */}
         </div>
     )
