@@ -40,10 +40,11 @@ function DetailsTile({ index, onClose }) {
                     {DetailedInformation[index].scope}
                 </div>
             </div>
+            { DetailedInformation[index].linksTrue &&
             <div className="info-scope-links-section">
                 <div className="color-rect-for-label">LINKS</div>
                 <div className="details-text">
-                    {DetailedInformation[index].linksTrue &&
+                    {
                         DetailedInformation[index].links.map((link, index) => (
                             <div key={index}>
                                 {!link.inProgress && (
@@ -73,7 +74,7 @@ function DetailsTile({ index, onClose }) {
                         </>
                     )}
                 </div>
-            </div>
+            </div>}
         </div>
     )
 }

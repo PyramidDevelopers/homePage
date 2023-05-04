@@ -6,10 +6,13 @@ import enermanapp from "../../assets/enerman-app.png";
 import takeyourtrip from "../../assets/take-your-trip.png";
 import trash2cash1 from '../../assets/trash2cash1.png'
 import khushi from '../../assets/khushi.png'
+import poolpay from '../../assets/poolpay/2.svg'
+import campx from '../../assets/campx/1.svg'
+import altfit from '../../assets/altfit/1.svg'
 import Slider from '../Slider/Slider'
 
 const ShowBrief = ({ onOpen }) => {
-    const images = [nearvibe, vitalminds, trash2cash1, enermanapp, takeyourtrip, khushi];
+    const images = [nearvibe, vitalminds, trash2cash1, enermanapp, takeyourtrip, khushi, poolpay, campx, altfit];
     const config = {
         // peek: {
         //     before:0,
