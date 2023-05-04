@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import '@glidejs/glide'
 import { BreifInformations } from '../Show/Details'
 import { Testimonials } from '../Testimonials/Details'
@@ -14,16 +14,40 @@ const Slider = ({
     showConfig,
     onOpen,
 }) => {
+    const sliderRef = useRef(null);
+    const [currentIndex, setCurrentIndex] = useState(0);
+    let glideInstance;
     useEffect(() => {
-        if (isTestimonial) {
-            new Glide('.testimonial__glide', testimonialConfig).mount()
-        } else {
-            new Glide('.show__glide', showConfig).mount()
-        }
-    })
+        
+    
+        const initGlide = () => {
+            if (isTestimonial) {
+                glideInstance = new Glide('.testimonial__glide', testimonialConfig);
+            } else {
+                glideInstance = new Glide('.show__glide', showConfig);
+            }
+    
+            glideInstance.on('mount.after', () => {
+                setCurrentIndex(glideInstance.index);
+            });
+    
+            glideInstance.mount();
+        };
+    
+        initGlide();
+    
+        return () => {
+            if (glideInstance) {
+                glideInstance.destroy();
+            }
+        };
+    }, []);
+    
 
     const showHeading = 'SHOW ME WHAT YOU GOT'
     const testimonialHeading = 'TESTIMONIALS'
+    
+
 
     const showInfo = (images, onOpen) => {
         return BreifInformations.map((information) => (
@@ -31,7 +55,13 @@ const Slider = ({
                 <div className="projects-slider-tile">
                     <div
                         className="col"
-                        onClick={(e) => onOpen(information.key)}
+                        onClick={(e) => {
+                            onOpen(information.key);
+                            if (glideInstance && glideInstance.go) {
+                                glideInstance.go(`=${currentIndex}`);
+                            }
+                        }}
+                        
                         key={information.key}
                     >
                         <div className="col-text">
