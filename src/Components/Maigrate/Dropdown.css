@@ -1,0 +1,18 @@
+#dropdown {
+    position: fixed;
+    bottom: 30px;
+    right: 100px;
+    z-index: 1000;
+    background-color: var(--general-color) !important;
+  }
+  
+  #content {
+    position: fixed;
+    bottom: 30px;
+    right: 100px;
+    z-index: 1001;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
