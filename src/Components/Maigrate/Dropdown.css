@@ -1,18 +1,37 @@
-#dropdown {
-    position: fixed;
-    bottom: 30px;
-    right: 100px;
-    z-index: 1000;
-    background-color: var(--general-color) !important;
-  }
-  
-  #content {
-    position: fixed;
-    bottom: 30px;
-    right: 100px;
-    z-index: 1001;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
+#m-search-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  cursor: pointer;
+  font-size: 24px;
+  background: var(--general-color) !important;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 1s;
+}
+
+#m-popup {
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  z-index: 1000;
+  opacity: 0;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+  visibility: hidden;
+}
+
+#m-popup.m-show {
+  opacity: 1;
+  visibility: visible;
+}
+
+#m-search-btn.m-active {
+  transform: rotate(180deg);
+}
