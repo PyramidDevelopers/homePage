@@ -4,7 +4,7 @@
   right: 20px;
   z-index: 1000;
   cursor: pointer;
-  font-size: 24px;
+  font-size: 24px !important;
   background: var(--general-color) !important;
   width: 50px;
   height: 50px;
@@ -35,3 +35,8 @@
 #m-search-btn.m-active {
   transform: rotate(180deg);
 }
+
+.icon-large {
+  font-size: 30px !important; /* Adjust the size as needed */
+}
+
