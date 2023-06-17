@@ -1,5 +1,6 @@
 // transform scale-15 md:scale-30 lg:scale-50 xl:scale-100
 import './App.css'
+
 import NewIntro from './Components/NewIntro/Intro'
 import About from './Components/About/About'
 import What from './Components/What/What'
@@ -9,6 +10,7 @@ import OurTeam from './Components/OurTeam/OurTeam'
 import ReachUs from './Components/ReachUs/ReachUs'
 import Footer from './Components/Footer/Footer'
 import Testimonial from './Components/Testimonials/Testimonials'
+import Dropdown from './Components/Maigrate/Dropdown'
 function App() {
     // useEffect(() => {
     //     // browser.tabs.setZoom()
@@ -20,6 +22,7 @@ function App() {
     return (
         <div className="app">
             <NewIntro />
+            <Dropdown /> 
             <About />
             <What />
             <Show />

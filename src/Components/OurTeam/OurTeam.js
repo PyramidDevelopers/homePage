@@ -8,6 +8,7 @@ import pratheek from '../../assets/pratheek-sb.png';
 import samyukta from '../../assets/samyukta-mahesh.png';
 import anusheel from '../../assets/anusheel.png';
 import akshay from '../../assets/akshay.png';
+import adnan from '../../assets/adnan.png';
 // import ayush from '../../assets/ayush-kiran.png'
 // import adithya from '../../assets/adithya-aravind.png';
 // import rishi from '../../assets/rishi-pachipulusu.png';
@@ -86,8 +87,8 @@ const OurTeam = () => {
                             role="Senior Developer"
                         />
                         <Member
-                            image={akshay}
-                            name="Akshay"
+                            image={adnan}
+                            name="Adnan"
                             role="Senior Developer"
                         />
                     </div>
