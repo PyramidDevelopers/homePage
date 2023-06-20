@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import CloseOutlined from '@material-ui/icons/CloseOutlined';
-import SearchOutlined from '@material-ui/icons/SearchOutlined';
+import ChatBubbleOutline from '@material-ui/icons/ChatBubbleOutline';
 import './Dropdown.css';
 import { IconButton } from '@material-ui/core';
 
@@ -33,7 +33,6 @@ const Dropdown = () => {
   }, []);
 
   const toggleOpen = () => setIsOpen(!isOpen);
-  const iconClass = isMobile ? 'icon-large' : '';
 
   return (
     <div>
@@ -43,14 +42,14 @@ const Dropdown = () => {
         onClick={toggleOpen}
       >
         {isOpen ? (
-          <CloseOutlined className={iconClass} />
+          <CloseOutlined className='icon-custom' />
         ) : (
-          <SearchOutlined className={iconClass} />
+          <ChatBubbleOutline className='icon-custom' />
         )}
       </IconButton>
       <div id="m-popup" className={isOpen ? 'm-show' : ''}>
         <iframe
-          src="https://dev.d3nbl0ydl3osud.amplifyapp.com/?webbot_id=31"
+          src="https://prod.d3nbl0ydl3osud.amplifyapp.com/?webbot_id=31"
           width={isMobile ? "320" : "400"}
           height={isMobile ? "600" : "700"}
           frameBorder="0"
