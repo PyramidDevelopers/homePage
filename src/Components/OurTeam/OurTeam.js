@@ -5,7 +5,8 @@ import ankit from '../../assets/ankit-mallya.png'
 import ayush from '../../assets/ayush-kiran-new.png'
 import samarth from '../../assets/samarth-kashyap.png'
 import pratheek from '../../assets/pratheek-sb.png';
-import samyukta from '../../assets/samyukta-mahesh.png';
+import mathangi from '../../assets/mathangi-krishnamurthy.png';
+import nandish from '../../assets/nandish.png';
 import anusheel from '../../assets/anusheel.png';
 import akshay from '../../assets/akshay.png';
 import adnan from '../../assets/adnan.png';
@@ -77,13 +78,13 @@ const OurTeam = () => {
                             role="Core Developer"
                         />
                         <Member
-                            image={samyukta}
-                            name="Samyukta Mahesh"
+                            image={mathangi}
+                            name="Mathangi K"
                             role="Operations Head"
                         />
                         <Member
-                            image={anusheel}
-                            name="Anusheel"
+                            image={nandish}
+                            name="Nandish"
                             role="Senior Developer"
                         />
                         <Member
