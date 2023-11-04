@@ -36,6 +36,24 @@ const Dropdown = () => {
 
   return (
     <div>
+    <iframe
+      title="Embedded Component"
+      src="https://app.maigrate.com/CustomChat/53/21344"
+      sandbox="allow-same-origin allow-scripts"
+      style={{
+        height: window.innerHeight - 50,
+        color: 'var(--general-color) !important',
+        border: 'none',
+        width: isMobile ? "100%" : '450px',
+        position: 'fixed',
+        bottom: 0,
+        right:  0,
+        zIndex: 999999
+      }}
+    ></iframe>
+</div>
+  );
+    {/* <div>
       <IconButton
         id="m-search-btn"
         className={isOpen ? 'm-active' : ''}
@@ -56,8 +74,10 @@ const Dropdown = () => {
           style={{ display: isOpen ? 'block' : 'none' }}
         ></iframe>
       </div>
-    </div>
-  );
-};
+    </div> */}
+    
+
+      
+    };
 
 export default Dropdown;

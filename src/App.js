@@ -22,7 +22,7 @@ function App() {
     return (
         <div className="app">
             <NewIntro />
-            {/* <Dropdown />  */}
+            <Dropdown /> 
             <About />
             <What />
             <Show />
