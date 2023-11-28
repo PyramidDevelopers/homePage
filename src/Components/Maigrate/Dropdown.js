@@ -3,6 +3,7 @@ import CloseOutlined from '@material-ui/icons/CloseOutlined';
 import ChatBubbleOutline from '@material-ui/icons/ChatBubbleOutline';
 import './Dropdown.css';
 import { IconButton } from '@material-ui/core';
+import { set } from 'lodash';
 
 const Dropdown = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,6 +21,27 @@ const Dropdown = () => {
   }, []);
 
   useEffect(() => {
+    // Handler to receive messages from the iframe
+    const handleMessage = (event) => {
+      // Always check the origin here and ensure it matches what you expect.
+      if (event.origin !== 'https://app.maigrate.com') return;
+      if (event.data.type === 'MODAL_OPENED') {
+        setIsOpen(true);
+      } else if (event.data.type === 'MODAL_CLOSED') {
+        setIsOpen(false);
+      }
+    };
+
+    window.addEventListener('message', handleMessage);
+
+    // Cleanup listener when component unmounts
+    return () => {
+      window.removeEventListener('message', handleMessage);
+    };
+  }, []);
+
+
+  useEffect(() => {
     const handleKeyDown = (event) => {
       if ((event.metaKey || event.ctrlKey) && event.key === 'k') {
         setIsOpen((prev) => !prev);
@@ -32,20 +54,19 @@ const Dropdown = () => {
     };
   }, []);
 
-  const toggleOpen = () => setIsOpen(!isOpen);
 
   return (
     <div>
     <iframe
-      title="Embedded Component"
-      src="https://app.maigrate.com/CustomChat/53/21344"
+      title="Maigrate Chatbot"
+      src="http://localhost:3000/CustomChat/169/0"
       sandbox="allow-same-origin allow-scripts"
       style={{
-        height: window.innerHeight - 50,
         color: 'var(--general-color) !important',
         border: 'none',
-        width: isMobile ? "100%" : '450px',
         position: 'fixed',
+        width: isOpen ? isMobile ? "100%" : '450px' : null,
+        height: isOpen ? window.innerHeight - 50 : null,
         bottom: 0,
         right:  0,
         zIndex: 999999
