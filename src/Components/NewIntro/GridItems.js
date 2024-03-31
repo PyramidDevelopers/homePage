@@ -64,8 +64,8 @@ function GridItems(layout, color, count, changeLayout) {
                         duration={1000}
                     >
                         <h3 className="giveUs">
-                            GIVE US
-                            <br /> A PROJECT
+                            BUILD IDEAS
+                            <br /> WITH US
                             <br />
                             &gt;&gt;&gt;
                         </h3>
