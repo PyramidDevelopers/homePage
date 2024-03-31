@@ -85,7 +85,7 @@ const Footer = () => {
                 <div className="footer__about">
                     <h1 className="about__title">ABOUT US</h1>
                     <p className="about__text">
-                    Pyramid Developers are a student based community of problem solvers, specializing in providing end-to-end solutions to you. Our team can help you fulfill your digital requirements such as Android and iOS applications and websites.
+                    Pyramid Developers are a community of problem solvers, specializing in providing end-to-end solutions to you. Our team can help you fulfill your digital requirements such as Android and iOS applications and websites.
                     </p>
                 </div>
                 <div className="footer__content">

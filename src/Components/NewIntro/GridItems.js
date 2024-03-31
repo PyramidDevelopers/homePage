@@ -45,9 +45,9 @@ function GridItems(layout, color, count, changeLayout) {
             return (
                 <div key="59" className="intro__description">
                     <span>
-                        a student community of
+                        a developer community of
                         <br />
-                        digital revolutionaries
+                        digital innovators
                     </span>
                 </div>
             )

@@ -139,7 +139,7 @@ const ReachUs = () => {
 
                             <p className="left__lowerP">
                                 Join us to take part in exciting projects <br />
-                                and gain experience along with the student{' '}
+                                and gain experience along with the {' '}
                                 <br />
                                 community, and unlock amazing new prospects.
                             </p>
@@ -178,9 +178,9 @@ const ReachUs = () => {
                                 <WhatsAppIcon />
                                 <p>WHATSAPP</p>
                             </div>
-                            <a href="https://wa.me/+919845309776">
+                            <a href="https://wa.me/+14709021657">
                             <div className="contact__right">
-                                <p>9845309776</p>
+                                <p>(470)902-1657</p>
                             </div>
                             </a>
                         </div>
