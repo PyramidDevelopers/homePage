@@ -49,6 +49,29 @@ import altfit2 from '../../../assets/altfit/2.svg'
 import altfit3 from '../../../assets/altfit/3.svg'
 import altfit4 from '../../../assets/altfit/4.svg'
 import altfit5 from '../../../assets/altfit/5.svg'
+import copper1 from '../../../assets/copper/1.jpg'
+import copper2 from '../../../assets/copper/2.png'
+import copper3 from '../../../assets/copper/3.png'
+import copper4 from '../../../assets/copper/4.jpg'
+import copper5 from '../../../assets/copper/5.png'
+import copper6 from '../../../assets/copper/6.png'
+import sportifan1 from '../../../assets/sportifan/1.jpg'
+import sportifan2 from '../../../assets/sportifan/2.jpg'
+import sportifan3 from '../../../assets/sportifan/3.jpg'
+import sportifan4 from '../../../assets/sportifan/4.jpg'
+import sportifan5 from '../../../assets/sportifan/5.jpg'
+import sportifan6 from '../../../assets/sportifan/6.jpg'
+import sportifan7 from '../../../assets/sportifan/7.jpg'
+import sportifan8 from '../../../assets/sportifan/8.jpg'
+import sportifan9 from '../../../assets/sportifan/9.jpg'
+import snacc0 from '../../../assets/snacc/0.png'
+import snacc00 from '../../../assets/snacc/00.png'
+import snacc000 from '../../../assets/snacc/000.png'
+import snacc1 from '../../../assets/snacc/1.png'
+import snacc2 from '../../../assets/snacc/2.png'
+import snacc3 from '../../../assets/snacc/3.png'
+import snacc4 from '../../../assets/snacc/4.png'
+
 
 function ShowDetailsPopUp({ index, onClose }) {
     const [demoIndex, setDemoIndex] = useState(0)
@@ -61,6 +84,7 @@ function ShowDetailsPopUp({ index, onClose }) {
         imgRef.current.classList.add('animate')
     }
 
+    // Use index from Details.js to order the list correctly
     const images = [
         [nearvibe1, nearvibe2, nearvibe3, nearvibe4, nearvibe5],
         [vitalMinds, vitalminds1, vitalminds2, vitalminds3, vitalminds4],
@@ -71,6 +95,12 @@ function ShowDetailsPopUp({ index, onClose }) {
         [poolpay1, poolpay2, poolpay3, poolpay4, poolpay5],
         [campx1, campx2, campx3, campx4, campx5],
         [altfit1, altfit2, altfit3, altfit4, altfit5],
+        [copper1, copper2, copper3, copper4, copper5, copper6],
+        [], //AthenaGen AI
+        [], //Anemix
+        [snacc0, snacc00, snacc000, snacc1, snacc4, snacc2, snacc3, ], //Snacc
+        [sportifan1, sportifan2, sportifan3, sportifan4, sportifan5, sportifan6, sportifan7, sportifan8, sportifan9],
+        [], //LexPal
     ]
 
     return (

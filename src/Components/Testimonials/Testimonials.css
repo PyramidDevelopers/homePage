@@ -72,7 +72,7 @@ button {
 
 .testimonials-text {
     width: 125rem;
-    height: 27.375rem;
+    height: 37.375rem;
     margin: 0 1.563rem 0 0;
     padding: 4.063rem 6.438rem 2.938rem 5.063rem;
     border-radius: 1.25rem;
@@ -100,6 +100,12 @@ button {
     justify-content:flex-start;
 }
 
+.testimonial__client > a {
+    text-decoration: none;
+}
+
+
+
 .client {
     /* new */
     min-width: 12.5rem;
@@ -120,7 +126,7 @@ button {
     letter-spacing: 0.156rem;
     border-radius: 0.313rem;
     /* new */
-    margin: -3rem 2.438rem 0.625rem 0rem;
+    margin: -3rem 0.438rem 0.625rem 0rem;
     text-align: center;
 }
 

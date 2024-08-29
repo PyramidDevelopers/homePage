@@ -53,7 +53,7 @@ const OurTeam = () => {
                         <Member
                             image={dhruv}
                             name="Dhruv Shetty"
-                            role="Founder & CEO"
+                            role="Lead Product Manager"
                         />
                         <Member
                             image={ayush}
@@ -72,16 +72,16 @@ const OurTeam = () => {
                         />
                     </div>
                     <div className="col3__lower">
-                        <Member
+                        {/* <Member
                             image={pratheek}
                             name="Pratheek SB"
                             role="Core Developer"
-                        />
-                        <Member
+                        /> */}
+                        {/* <Member
                             image={mathangi}
                             name="Mathangi K"
                             role="Operations Head"
-                        />
+                        /> */}
                         <Member
                             image={nandish}
                             name="Nandish"

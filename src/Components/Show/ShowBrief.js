@@ -8,11 +8,16 @@ import trash2cash1 from '../../assets/trash2cash1.png'
 import khushi from '../../assets/khushi.png'
 import poolpay from '../../assets/poolpay/2.svg'
 import campx from '../../assets/campx/1.svg'
-import altfit from '../../assets/altfit/1.svg'
+import altfit from '../../assets/altfit/3.svg'
+import copper from '../../assets/copper/1.jpg'
+// import anemix from '../../assets/anemix/1.jpg'
+import snacc from '../../assets/snacc/1.png'
+import sportifan from '../../assets/sportifan/1.jpg'
+// import lexpal from '../../assets/lexpal/1.jpg'
 import Slider from '../Slider/Slider'
 
 const ShowBrief = ({ onOpen }) => {
-    const images = [nearvibe, vitalminds, trash2cash1, enermanapp, takeyourtrip, khushi, poolpay, campx, altfit];
+    const images = [nearvibe, vitalminds, trash2cash1, enermanapp, takeyourtrip, khushi, poolpay, campx, altfit, copper,,,snacc , sportifan ];
     const config = {
         // peek: {
         //     before:0,

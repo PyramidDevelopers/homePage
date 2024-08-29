@@ -89,7 +89,10 @@ const Slider = ({
                     <p>{testimonials.description}</p>
                 </li>
                 <div className="testimonial__client">
-                    <div className="client">{testimonials.clientName}</div>
+                    <a href={testimonials.clientLink} target="_blank" rel="noopener noreferrer">
+                        <div className="client">{testimonials.clientName}</div>
+                    </a>
+                    
                     <div className="company">{testimonials.companyName}</div>
                 </div>
             </div>
