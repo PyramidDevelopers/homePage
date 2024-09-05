@@ -12,6 +12,7 @@
         "@testing-library/user-event": "^12.8.3",
         "aws-sdk": "^2.907.0",
         "axios": "^0.21.1",
+        "caniuse-lite": "1.0.30001632",
         "chokidar": "^2.1.8",
         "gh-pages": "^3.1.0",
         "jquery": "^3.6.0",
@@ -64,5 +65,4 @@
     "overrides": {
         "caniuse-lite": "1.0.30001632"
       }
-    
 }
