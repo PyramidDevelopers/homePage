@@ -1,6 +1,6 @@
 import React from 'react';
 import './Typewriter.css';
-import Typist from 'react-typist';
+import Typist from 'react-typist-component';
 
 const Typewriter = () => {
     // const intro_letters = {

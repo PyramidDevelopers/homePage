@@ -1,8 +1,8 @@
 // sm:flex flex-col md:grid md:grid-cols-3 5xl:flex 5xl:flex-row flex-wrap 5xl:space-x-20
 import React, { useState } from 'react'
-import LinkedInIcon from '@material-ui/icons/LinkedIn'
-import InstagramIcon from '@material-ui/icons/Instagram'
-import FacebookIcon from '@material-ui/icons/Facebook'
+import LinkedInIcon from '@mui/icons-material/LinkedIn'
+import InstagramIcon from '@mui/icons-material/Instagram'
+import FacebookIcon from '@mui/icons-material/Facebook'
 import { Link } from 'react-scroll'
 import './Footer.css'
 import { actionTypes } from '../../reducer'

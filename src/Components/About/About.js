@@ -3,9 +3,9 @@ import UpperImage from '../../assets/who-upper.png'
 import LowerImage from '../../assets/who-lower.png'
 import RightImage from '../../assets/who-right.png'
 import InfoBlock from '../InfoBlock/InfoBlock'
-import LinkedInIcon from '@material-ui/icons/LinkedIn'
-import InstagramIcon from '@material-ui/icons/Instagram'
-import FacebookIcon from '@material-ui/icons/Facebook'
+import LinkedInIcon from '@mui/icons-material/LinkedIn'
+import InstagramIcon from '@mui/icons-material/Instagram'
+import FacebookIcon from '@mui/icons-material/Facebook'
 import './About.css'
 
 const About = () => {

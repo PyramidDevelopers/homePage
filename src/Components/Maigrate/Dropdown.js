@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import CloseOutlined from '@material-ui/icons/CloseOutlined';
-import ChatBubbleOutline from '@material-ui/icons/ChatBubbleOutline';
+import CloseOutlined from '@mui/icons-material/CloseOutlined';
+import ChatBubbleOutline from '@mui/icons-material/ChatBubbleOutline';
 import './Dropdown.css';
-import { IconButton } from '@material-ui/core';
+import { IconButton } from '@mui/material';
 import { set } from 'lodash';
 
 const Dropdown = () => {

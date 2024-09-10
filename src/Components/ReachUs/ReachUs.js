@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import './ReachUs.css'
-import KeyboardReturnIcon from '@material-ui/icons/KeyboardReturn'
-import MailOutlineIcon from '@material-ui/icons/MailOutline'
-import PhoneOutlinedIcon from '@material-ui/icons/PhoneOutlined'
-import WhatsAppIcon from '@material-ui/icons/WhatsApp';
+import KeyboardReturnIcon from '@mui/icons-material/KeyboardReturn'
+import MailOutlineIcon from '@mui/icons-material/MailOutline'
+import PhoneOutlinedIcon from '@mui/icons-material/PhoneOutlined'
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import axios from 'axios'
 
 const ReachUs = () => {
