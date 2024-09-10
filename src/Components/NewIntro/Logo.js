@@ -24,7 +24,7 @@ const Logo = () => {
         orange,
     ]
     return (
-        <div classname={styles.logo}>
+        <div className={styles.logo}>
             <img style={{width:'4.688rem', height:'auto', margin:'auto'}} src={colors[globalCount]} alt="" />
         </div>
     )
